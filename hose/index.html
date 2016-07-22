@@ -1,0 +1,1633 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="no-js ie6"><![endif]-->
+<!--[if IE 7 ]><html class="no-js ie7"><![endif]-->
+<!--[if IE 8 ]><html class="no-js ie8"><![endif]-->
+<!--[if IE 9 ]><html class="no-js ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head >
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
+    <title>Hôsê - Bible online</title>
+
+    
+    <link rel="canonical" href=""> 
+
+    <meta property="og:url" content=""> 
+    <meta property="og:title" content="Bible online"> 
+    <meta name="apple-mobile-web-app-title" content="Bible online">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://bible-online.github.io/images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="https://bible-online.github.io/images/favicon.ico">
+
+    <style>
+        @font-face {
+            font-family: 'Icon';
+            src: url('https://bible-online.github.io/fonts/icon.eot?52m981');
+            src: url('https://bible-online.github.io/fonts/icon.eot?#iefix52m981') format('embedded-opentype'),
+            url('https://bible-online.github.io/fonts/icon.woff?52m981') format('woff'),
+            url('https://bible-online.github.io/fonts/icon.ttf?52m981') format('truetype'),
+            url('https://bible-online.github.io/fonts/icon.svg?52m981#icon') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+
+    <link rel="stylesheet" href="https://bible-online.github.io/stylesheets/application.css">
+    <link rel="stylesheet" href="https://bible-online.github.io/stylesheets/temporary.css">
+    <link rel="stylesheet" href="https://bible-online.github.io/stylesheets/palettes.css">
+    <link rel="stylesheet" href="https://bible-online.github.io/stylesheets/highlight/highlight.css">
+
+    <script src="https://bible-online.github.io/javascripts/modernizr.js"></script>
+</head>
+
+<body class=" ">
+
+<div class="backdrop">
+    <div class="backdrop-paper"></div>
+</div>
+
+<input class="toggle" type="checkbox" id="toggle-drawer">
+<input class="toggle" type="checkbox" id="toggle-search">
+<label class="toggle-button overlay" for="toggle-drawer"></label>
+
+<header class="header">
+    <nav aria-label="Header">
+  <div class="bar default">
+    <div class="button button-menu" role="button" aria-label="Menu">
+      <label class="toggle-button icon icon-menu" for="toggle-drawer">
+        <span></span>
+      </label>
+    </div>
+    <div class="stretch">
+      <div class="title">
+        Hôsê
+      </div>
+    </div>
+
+    
+
+    
+    
+    <!-- TODO: disabled until Hugo supports the generation of a content index natively 
+    <div class="button button-search" role="button" aria-label="Search">
+      <label class="toggle-button icon icon-search" title="Search" for="toggle-search"></label>
+    </div>
+    -->    
+  </div>
+  <div class="bar search">
+    <div class="button button-close" role="button" aria-label="Close">
+      <label class="toggle-button icon icon-back" for="toggle-search"></label>
+    </div>
+    <div class="stretch">
+      <div class="field">
+        <input class="query" type="text" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck>
+      </div>
+    </div>
+    <div class="button button-reset" role="button" aria-label="Search">
+      <button class="toggle-button icon icon-close" id="reset-search"></button>
+    </div>
+  </div>
+</nav>
+</header>
+
+<main class="main">
+    <div class="drawer">
+        <nav aria-label="Navigation">
+  <!--<a href="https://bible-online.github.io/" class="project">
+    <div class="banner">
+      
+      <div class="name">
+        <strong>Bible online </strong>
+      </div>
+    </div>
+  </a>-->
+
+  <div class="scrollable">
+    <div class="wrapper">
+      <div class="toc">
+        <ul>
+          
+          <li>
+            <a href="https://bible-online.github.io/sang-the-ky">Sáng Thế Ký</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/xuat-hanh">Xuất Hành</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/le-vi">Lê Vi</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/dan-so">Dân Số</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/de-nhi-luat">Đệ Nhị Luật</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/gio-sue">Giô-suê</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-lanh">Thủ Lãnh</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/rut">Rút</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/samuel-i">Samuel I</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/samuel-ii">Samuel II</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/cac-vua-i">Các Vua I</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/cac-vua-ii">Các Vua II</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/su-bien-nien-i">Sử Biên Niên I</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/su-bien-nien-ii">Sử Biên Niên II</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/etra">Étra</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/nokhemia">Nơkhemia</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/tobia">Tôbia</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/giuditha">Giuđitha</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/ette">Étte</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/macabe-i">Macabê I</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/macabe-ii">Macabê II</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/giop">Gióp</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thanh-vinh">Thánh Vịnh</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/cham-ngon">Châm Ngôn</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/giang-vien">Giảng Viên</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/diem-ca">Diễm Ca</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/khon-ngoan">Khôn Ngoan</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/huan-ca">Huấn Ca</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/isaia">Isaia</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/gieremia">Giêrêmia</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/ai-ca">Ai Ca</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/baruc">Baruc</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/edekien">Êdêkien</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/danien">Đanien</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/hose">Hôsê</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/gioen">Giôen</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/amot">Amốt</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/ovadia">Ôvađia</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/giona">Giôna</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/mikha">Mikha</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/nakhum">Nakhum</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/khabacuc">Khabacúc</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/xophonia">Xôphônia</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/khacgai">Khácgai</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/dacaria">Dacaria</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/malakhi">Malakhi</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/mat-theu">Mát-thêu</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/mac-co">Mác-cô</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/luca">Luca</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/gioan">Gioan</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/tong-do-cong-vu">Tông Đồ Công Vụ</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-roma">Thư Rôma</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-corinto-1">Thư Côrintô 1</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-corinto-2">Thư Côrintô 2</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-galat">Thư Galát</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-epheso">Thư Êphêsô</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-philipphe">Thư Philípphê</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-coloxe">Thư Côlôxê</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-thexalonica-1">Thư Thêxalônica 1</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-thexalonica-2">Thư Thêxalônica 2</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-timothe-1">Thư Timôthê 1</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-timothe-2">Thư Timôthê 2</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-tito">Thư Titô</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-philemon">Thư Philêmon</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-do-thai">Thư Do Thái</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-giacobe">Thư Giacôbê</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-phero-1">Thư Phêrô 1</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-phero-2">Thư Phêrô 2</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-gioan-1">Thư Gioan 1</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-gioan-2">Thư Gioan 2</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-gioan-3">Thư Gioan 3</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-giuda">Thư Giuđa</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/khai-huyen">Khải Huyền</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+    </div>
+
+    <article class="article">
+        <div class="wrapper">
+            
+<section>
+    <a href="#c1"><span class="chapter-title" id="c1">Chương 1</span></a>
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Lời ĐỨC CHÚA phán với ông Hô-sê, con ông Bơ-ê-ri, dưới thời các vua Út-di-gia, Giô-tham, A-khát và Khít-ki-gia trị vì Giu-đa, và dưới thời vua Gia-róp-am con vua Giô-át trị vì Ít-ra-en.</span>
+            <br />
+        
+    
+        
+            <h1>I. HÔN NHÂN CỦA ÔNG HÔ-SÊ: MỘT BIỂU TƯỢNG</h1>
+        
+    
+        
+            <h5>Ông Hô-sê kết hôn và sinh con</h5>
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Khởi đầu, lời ĐỨC CHÚA thể hiện trong cuộc đời ông Hô-sê. ĐỨC CHÚA phán với ông Hô-sê: "Hãy đi cưới một người đàn bà làm điếm để sinh những đứa con đàng điếm, vì cả xứ đều bỏ ĐỨC CHÚA mà đi làm điếm."</span>
+            <br />
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Ông đã đi cưới bà Gô-me, con gái ông Đíp-la-gim. Bà đã có thai và sinh cho ông một người con trai.</span>
+            
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>ĐỨC CHÚA phán với ông: "Hãy đặt tên cho nó là Gít-rơ-en, vì chẳng bao lâu nữa Ta sẽ đến trừng phạt nhà Giê-hu vì tội đổ máu tại Gít-rơ-en, và Ta sẽ dẹp bỏ vương quốc Ít-ra-en.</span>
+            
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Trong ngày đó, Ta sẽ bẻ gãy cung nỏ của Ít-ra-en trong thung lũng Gít-rơ-en."</span>
+            <br />
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Bà lại có thai và sinh một người con gái. ĐỨC CHÚA phán với ông: "Hãy đặt tên nó là Lô Ru-kha-ma ("không-được-thương") vì Ta không còn chạnh thương nhà Ít-ra-en, không xử khoan hồng với chúng nữa.</span>
+            
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Nhưng nhà Giu-đa thì Ta sẽ chạnh thương và sẽ cứu chúng nhờ ĐỨC CHÚA, Thiên Chúa của chúng; Ta sẽ không dùng cung nỏ, gươm đao và chinh chiến mà cứu chúng, cũng chẳng dùng chiến mã và kỵ binh."</span>
+            <br />
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Bà cai sữa cho Lô Ru-kha-ma, rồi lại có thai và sinh một con trai.</span>
+            
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>ĐỨC CHÚA phán: "Đặt tên cho nó là Lô Am-mi ("không-phải-dân-Ta"), vì các ngươi không phải là dân của Ta, và đối với các ngươi, Ta kể như không có."</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c2"><span class="chapter-title" id="c2">Chương 2</span></a>
+    
+        
+            <h5>Viễn ảnh tương lai</h5>
+        
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Con cái Ít-ra-en sẽ nhiều như cát biển, đong không xuể, đếm không hết.Tại chính nơi chúng đã được gọi: "Không-phải-dân-Ta",chúng sẽ được gọi: "Con cái của Thiên Chúa hằng sống."</span>
+            <br />
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Con cái Giu-đa và con cái Ít-ra-ensẽ cùng nhau đoàn kết lại, và sẽ vươn lên, tràn ra ngoài xứ sở;vì ngày đó tại Gít-rơ-en sẽ thật là trọng đại.</span>
+            <br />
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Hãy gọi anh em các ngươi là: "Am-mi" ("Dân-Ta")và gọi chị em các ngươi là: "Ru-kha-ma" ("Được-thương").ĐỨC CHÚA và hôn thê thất tín của Người</span>
+            <br />
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Hãy đưa mẹ các ngươi ra toà, đưa nó ra toà đi!Vì nó không phải là vợ của Ta, và Ta không phải là chồng của nó.Những vật đĩ thoã trên mặt nó,và những dấu ngoại tình trên ngực, nó đều phải vứt bỏ.</span>
+            <br />
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Nếu không, Ta sẽ lột trần nó ra,và để nó như ngày mới lọt lòng mẹ.Ta sẽ biến nó thành sa mạc hoang vu,cho nó trở nên đất khô khan cằn cỗi, và làm cho nó chết khát.</span>
+            <br />
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Con cái nó, Ta sẽ không thương,vì chúng là những đứa con sinh ra do đĩ điếm.</span>
+            <br />
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Mẹ chúng quả thật đã làm điếm,kẻ mang thai chúng đã thất tiết rồi,vì nó đã nói: "Tôi đi theo các tình nhân của tôi,chính họ cho tôi bánh và nước,cho len, cho vải, cho dầu ăn, cho thức uống."</span>
+            <br />
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Bởi thế, này Ta sẽ lấy gai góc chặn đường nó lại,sẽ dựng một bức tường để nó không thấy được lối đi.</span>
+            <br />
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Nó sẽ chạy theo các tình nhân của nó mà không gặp,sẽ tìm kiếm chúng mà chẳng thấy.Bấy giờ nó mới nói: "Tôi phải trở vềvới người chồng đầu tiên cuả tôi,vì hồi ấy tôi sướng hơn bây giờ."</span>
+            <br />
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Nó đâu biết rằng chính Ta đã ban cho nólúa mì, rượu mới với dầu tươi,cũng chính Ta đã tặng cho nó bạc vàng nhiều vô kể,vậy mà chúng lại đem chế tạo đồ dâng kính Ba-an!</span>
+            <br />
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Bởi thế, vào mùa gặt, Ta sẽ đòi lại lúa mì của Ta.Vào thời cất rượu, Ta sẽ lấy lại rượu mới của Ta.Len và vải của Ta, Ta sẽ đòi lại hết:nó sẽ chẳng còn gì để che tấm thân trần truồng của nó nữa.</span>
+            <br />
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>Giờ đây, trước mặt các tình nhân của nó,Ta sẽ phơi bày ra cái đáng hổ thẹn của nó,và không ai giựt được nó khỏi tay Ta.</span>
+            <br />
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>Ta sẽ chấm dứt mọi thú vui,mọi ngày sóc, ngày hưu, ngày lễ, và mọi cuộc hội hè của nó.</span>
+            <br />
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>Ta sẽ phá tan vườn nho nương vả,những thứ làm cho nó khoe khoang:"Công tôi đi khách đó: các tình nhân đã trả cho tôi! "Ta sẽ biến chúng thành bụi rậm, mặc cho dã thú gặm tan hoang.</span>
+            <br />
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>Ta sẽ trừng phạt nó vì những ngày của Ba-an,những ngày nó đốt hương thờ kính chúng,những ngày nó đeo nhẫn, đeo kiềngchạy theo đám tình nhân của nó,còn Ta thì nó nỡ bỏ quên - sấm ngôn của ĐỨC CHÚA.</span>
+            <br />
+        
+    
+        
+            <span id="s16"><sup><a href="#s16">16</a></sup>Bởi thế, này Ta sẽ quyến rũ nó,đưa nó vào sa mạc, để cùng nó thổ lộ tâm tình.</span>
+            <br />
+        
+    
+        
+            <span id="s17"><sup><a href="#s17">17</a></sup>Từ nơi đó, Ta sẽ trả lại vườn nho của nó,biến thung lũng A-kho thành cửa khẩu hy vọng.Ở đó, nó sẽ đáp lại như buổi thanh xuân,như ngày nó đi lên từ Ai-cập.</span>
+            <br />
+        
+    
+        
+            <span id="s18"><sup><a href="#s18">18</a></sup>Vào ngày đó - sấm ngôn của ĐỨC CHÚA -ngươi sẽ gọi Ta: "Mình ơi", chứ không còn gọi "Ông chủ ơi" nữa.</span>
+            <br />
+        
+    
+        
+            <span id="s19"><sup><a href="#s19">19</a></sup>Ta sẽ không cho nó mở miệng gọi tên thần Ba-an,chẳng còn ai nhớ đến các thần này mà gọi tên chúng nữa.</span>
+            <br />
+        
+    
+        
+            <span id="s20"><sup><a href="#s20">20</a></sup>Trong ngày đó, vì dân Ta,Ta sẽ thiết lập một giao ước với thú vật đồng hoang,với chim chóc trên trời, với loài bò sát dưới đất:Ta sẽ bẻ gãy cung nỏ gươm đao,chấm dứt chiến tranh trên toàn xứ sở,và Ta sẽ cho chúng được sống yên hàn.</span>
+            <br />
+        
+    
+        
+            <span id="s21"><sup><a href="#s21">21</a></sup>Ta sẽ lập với ngươi một hôn ước vĩnh cửu,Ta sẽ lập hôn ước với ngươi trong công minh và chính trực,trong ân tình và xót thương;</span>
+            <br />
+        
+    
+        
+            <span id="s22"><sup><a href="#s22">22</a></sup>Ta sẽ lập hôn ước với ngươi trong tín thành,và ngươi sẽ được biết ĐỨC CHÚA.</span>
+            <br />
+        
+    
+        
+            <span id="s23"><sup><a href="#s23">23</a></sup>Vào ngày đó, Ta sẽ đáp lại, - sấm ngôn của ĐỨC CHÚA -Ta sẽ đáp lại trời, và trời sẽ đáp lại đất.</span>
+            <br />
+        
+    
+        
+            <span id="s24"><sup><a href="#s24">24</a></sup>Đất sẽ đáp lại lúa mì, rượu mới và dầu tươi,và những thứ đó sẽ đáp lại Gít-rơ-en.</span>
+            <br />
+        
+    
+        
+            <span id="s25"><sup><a href="#s25">25</a></sup>Ta sẽ gieo trồng nó làm của riêng Ta trong xứ sở,sẽ chạnh thương con bé Lô Ru-kha-ma("Không-được-thương"),sẽ nói với thằng Lô Am-mi("Không-phải-dân-Ta"):"Ngươi là Am-mi" ("Dân-Ta").Còn nó sẽ thưa: "Thiên Chúa của con! "</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c3"><span class="chapter-title" id="c3">Chương 3</span></a>
+    
+        
+            <h5>Ông Hô-sê nhận lại người vợ thất tín và sửa trị bà. Ý nghĩa của biểu tượng.</h5>
+        
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>ĐỨC CHÚA phán với tôi: "Một lần nữa, ngươi cứ đi yêu người đàn bà đang có tình nhân và đang ngoại tình, cũng như ĐỨC CHÚA yêu thương con cái Ít-ra-en, trong khi chúng lại quay lưng đi theo các thần khác và thích bánh nho."</span>
+            
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Thế là tôi đã bỏ ra mười lăm đồng bạc, ba mươi thùng lúa mạch, để mua nàng về.</span>
+            
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Tôi bảo nàng: "Trong một thời gian dài, mình cứ ở yên cho tôi, không được đi khách, không được theo người đàn ông nào cả; phần tôi, tôi cũng xử với mình như thế."</span>
+            <br />
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Vì quả thật, trong một thời gian dài, con cái Ít-ra-en sẽ không có vua, không thủ lãnh, không hy lễ cũng chẳng có trụ thần, chẳng có ê-phốt và tơ-ra-phim.</span>
+            
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Sau đó, con cái Ít-ra-en sẽ trở lại tìm kiếm ĐỨC CHÚA, Thiên Chúa của chúng, và tìm Đa-vít, vua của chúng. Ngày lại ngày chúng sẽ đem lòng kính sợ mà hướng về ĐỨC CHÚA và chờ mong ân huệ của Người.</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c4"><span class="chapter-title" id="c4">Chương 4</span></a>
+    
+        
+            <h1>II. ÍT-RA-EN PHẠM TỘI VÀ BỊ TRỪNG PHẠT</h1>
+        
+    
+        
+            <h5>Tình trạng đồi bại chung</h5>
+        
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Hỡi con cái Ít-ra-en, hãy nghe lời ĐỨC CHÚA,vì ĐỨC CHÚA sẽ kiện dân cư xứ này: Quả thật trong xứ này,chẳng có tín thành, chẳng có ân nghĩa,cũng chẳng có sự hiểu biết Thiên Chúa.</span>
+            <br />
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Chỉ có bội thề, dối trá, sát nhân và trộm cướp,áp bức với ngoại tình, các cuộc đổ máu cứ nối tiếp nhau.</span>
+            <br />
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Chính vì thế mà xứ sở tang thương, dân cư tàn tạ,ngay thú vật ngoài đồng, cũng như chim trời cá biển,tất cả đều chết hết.</span>
+            <br />
+        
+    
+        
+            <h5>Lên án hàng tư tế</h5>
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Thế mà chẳng có ai kiện tụng, chẳng có ai trách mắng!Nhưng hỡi tư tế, chính Ta sẽ đưa ngươi ra toà.</span>
+            <br />
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Giữa ban ngày, chính ngươi sẽ vấp ngã,ban đêm, cả ngôn sứ cũng vấp ngã như ngươi.Ta sẽ bắt mẹ ngươi phải chết.</span>
+            <br />
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Vì thiếu hiểu biết mà dân Ta bị tiêu vong.Bởi chính ngươi đã gạt bỏ sự hiểu biết,nên Ta sẽ gạt bỏ ngươi, không cho làm tư tế của Ta nữa;ngươi đã quên luật của Thiên Chúa ngươi thờ,thì Ta, Ta cũng sẽ quên con cái ngươi.</span>
+            <br />
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Tất cả đám đông chúng nó đều xúc phạm đến Ta.Vinh quang của chúng, chúng đổi lấy ô nhục.</span>
+            <br />
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Chúng có ăn, nhờ dân Ta phạm tội,chúng thích thú, khi dân Ta lỗi lầm.</span>
+            <br />
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Nên tư tế phải chung số phận của dân:Ta sẽ cứ lối sống của nó mà trừng phạt nó,sẽ trả cho nó theo việc nó làm.</span>
+            <br />
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Chúng ăn mà chẳng no, làm điếm mà chẳng sinh sôi nẩy nở,vì chúng đã bỏ không thờ ĐỨC CHÚA.Phụng tự của Ít-ra-en: thờ ngẫu tượng và sống sa đoạ</span>
+            <br />
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Đĩ điếm, rượu chè làm dân Ta mất trí.</span>
+            <br />
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>Chúng thỉnh ý khúc gỗ của mình,và xin cây gậy của mình mặc khải cho;vì thói đĩ điếm làm cho chúng lầm lạc,chúng bỏ Thiên Chúa của mình mà đi làm điếm.</span>
+            <br />
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>Chúng sát tế, chúng dâng hươngtrên các đỉnh núi, trên các ngọn đồi,dưới bóng mát cây sồi, cây hương, cây sến.Thảo nào con gái các ngươi chẳng làm điếm,con dâu các ngươi chẳng ngoại tình.</span>
+            <br />
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>Con gái các ngươi làm điếm, con dâu các ngươi ngoại tình,Ta sẽ không trừng phạt,vì chính các tư tế cũng giao du với kỹ nữvà cùng tế lễ với điếm thần.Đám dân đen chẳng thông, chẳng hiểu sẽ bị diệt vong.</span>
+            <br />
+        
+    
+        
+            <h5>Cảnh cáo Giu-đa và Ít-ra-en</h5>
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>Hỡi Ít-ra-en, nếu ngươi làm điếm,thì đừng để cho Giu-đa mắc tội!Đừng tới Ghin-gan, đừng lên Bết A-ven,đừng thề "nhân danh ĐỨC CHÚA hằng sống."</span>
+            <br />
+        
+    
+        
+            <span id="s16"><sup><a href="#s16">16</a></sup>Quả thật, Ít-ra-en cứng đầu như một con bò cái bất trị,chẳng lẽ bây giờ ĐỨC CHÚA lại để cho chúng tha hồ ăn cỏkhác nào con chiên trong đồng rộng thênh thang?</span>
+            <br />
+        
+    
+        
+            <span id="s17"><sup><a href="#s17">17</a></sup>Ép-ra-im kết thân với ngẫu tượng, thì cứ để mặc nó!</span>
+            <br />
+        
+    
+        
+            <span id="s18"><sup><a href="#s18">18</a></sup>Chè chén say sưa rồi, chúng tha hồ đàng điếm;chúng ham thích Ô nhục mà bỏ Đấng Tối Cao.</span>
+            <br />
+        
+    
+        
+            <span id="s19"><sup><a href="#s19">19</a></sup>Chúng sẽ bị cuốn đi trong cánh gió,sẽ hổ thẹn vì hiến lễ của mình.</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c5"><span class="chapter-title" id="c5">Chương 5</span></a>
+    
+        
+            <h5>Tư tế và vua chúa quan quyền đưa dân tới suy vong</h5>
+        
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Hỡi các tư tế, hãy nghe điều này, hỡi nhà Ít-ra-en, hãy chú ý,hỡi triều đình, hãy lắng tai!Các ngươi có bổn phận bảo vệ luật pháp,thế mà tại Mít-pa, các ngươi lại thành cái bẫy,thành chiếc lưới giăng trên núi Ta-bo.</span>
+            <br />
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Tại Sít-tim, chúng đã đào sâu thêm cái hố.Còn Ta, Ta sẽ trừng phạt chúng hết thảy.</span>
+            <br />
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Ép-ra-im, Ta biết nó, và Ít-ra-en đâu khuất mắt Ta!Chính vì ngươi, hỡi Ép-ra-im, ngươi đã làm điếm,mà Ít-ra-en ra nhơ bẩn.</span>
+            <br />
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Các việc chúng làm không cho chúng trở lạivới Thiên Chúa của chúng.Đã quen thói điếm đàng, chúng chẳng biết ĐỨC CHÚA là ai.</span>
+            <br />
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Ít-ra-en kiêu ngạo, tội của nó sẽ tố cáo nó.Ít-ra-en và Ép-ra-im chao đảo vì tội ác của mình.Cùng với chúng, Giu-đa cũng chao đảo.</span>
+            <br />
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Chúng mang chiên mang bò đến tìm ĐỨC CHÚA,nhưng chúng sẽ không gặp được Người, vì Người đã tránh mặt.</span>
+            <br />
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Chúng phản bội ĐỨC CHÚA, vì đã sinh những đứa con hoang;giờ đây ngày sóc sẽ là ngày chúng bị huỷ diệtcùng với sản nghiệp chúng.</span>
+            <br />
+        
+    
+        
+            <h5>Cảnh huynh đệ tương tàn</h5>
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Tại Ghíp-a, hãy rúc tù và, hãy thổi kèn ở Ra-ma,tại Bết A-ven, hãy lên tiếng báo động.Hỡi Ben-gia-min,quân thù đến sau ngươi rồi đó!</span>
+            <br />
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Trong ngày bị đánh bị phạt, Ép-ra-im sẽ nên hoang tàn:Đây là tin chắc chắn Ta loan báo cho các chi tộc Ít-ra-en.</span>
+            <br />
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Các thủ lãnh Giu-đa khác nào những kẻ lấn đường ranh giới,nên cơn thịnh nộ của Ta, Ta sẽ trút lên chúng như trút nước.</span>
+            <br />
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Ép-ra-im bị áp bức chà đạp do án lệnh của Thiên Chúa,vì nó đã vui thích đi theo điều dơ bẩn.</span>
+            <br />
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>Phần Ta, Ta sẽ như mối mọt gặm nhấm Ép-ra-im,sẽ như bệnh mục xương xâm nhập nhà Giu-đa.</span>
+            <br />
+        
+    
+        
+            <h5>Giao ước với ngoại bang chỉ là hư ảo</h5>
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>Khi Ép-ra-im thấy mình mắc bệnhvà Giu-đa thấy vết thương của mình,thì Ép-ra-im đã đến với Át-sua, và đã sai sứ đến hầu vua cả.Nhưng ông ấy sẽ chẳng chữa được các ngươi,cũng chẳng làm cho vết thương các ngươi được lành.</span>
+            <br />
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>Vì với Ép-ra-im, Ta sẽ như sư tử,Ta cũng sẽ như sư tử với nhà Giu-đa:Ta sẽ vồ lấy, Ta sẽ ra đi, mang mồi theo, không để ai cướp mất.</span>
+            <br />
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>Ta sẽ ra đi, về nơi Ta ngự,cho đến khi chúng đền tội xong và tìm kiếm nhan Ta;chúng sẽ mau mắn tìm Ta trong cơn khốn quẫn.</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c6"><span class="chapter-title" id="c6">Chương 6</span></a>
+    
+        
+            <h5>Trở về với ĐỨC CHÚA, nhưng không thật lòng.</h5>
+        
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>"Nào chúng ta hãy trở về cùng ĐỨC CHÚA.Người đã xé nát thân chúng ta, nhưng rồi lại chữa lành.Người đã đánh đập chúng ta, nhưng rồi lại băng bó vết thương.</span>
+            <br />
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Sau hai ngày, Người sẽ hoàn lại cho chúng ta sự sống;ngày thứ ba, sẽ cho chúng ta trỗi dậy,và chúng ta sẽ được sống trước nhan Người.</span>
+            <br />
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Chúng ta phải biết ĐỨC CHÚA, phải ra sức nhận biết Người;như hừng đông mỗi ngày xuất hiện,chắc chắn thế nào Người cũng đến.Người sẽ đến với chúng ta như mưa rào,như mưa xuân tưới gội đất đai."</span>
+            <br />
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Ta phải làm gì cho ngươi đây, Ép-ra-im hỡi?Ta phải làm gì cho ngươi, hỡi Giu-đa?Tình yêu của các ngươi khác nào mây buổi sáng,mau tan tựa sương mai.</span>
+            <br />
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Vì vậy, Ta dùng ngôn sứ mà đánh phạt chúng,lấy lời miệng Ta mà diệt trừ.Phán quyết của Ta sẽ bừng lên như ánh sáng.</span>
+            <br />
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Vì Ta muốn tình yêu chứ không cần hy lễ,thích được các ngươi nhận biết hơn là được của lễ toàn thiêu.Tội ác của Ít-ra-en xưa và nay</span>
+            <br />
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Nhưng ngay tại A-đam, chúng đã vi phạm giao ước,tại đó, chúng đã phản bội Ta.</span>
+            <br />
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Ga-la-át là thành của những kẻ bất lương, thành đầy vết máu.</span>
+            <br />
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Trên đường về Si-khem, một đoàn tư tế gây chết chóc,khác nào bọn cướp đang rình rập.Việc chúng làm quả thật xấu xa.</span>
+            <br />
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Tại nhà Ít-ra-en, Ta đã thấy một điều ghê tởm,ở đó, Ép-ra-im đã làm điếm, Ít-ra-en đã ra dơ bẩn.</span>
+            <br />
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Cả ngươi nữa, hỡi Giu-đa, Ta ấn định cho ngươi một mùa gặt,khi Ta đổi số phận dân Ta.</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c7"><span class="chapter-title" id="c7">Chương 7</span></a>
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Khi Ta muốn chữa Ít-ra-en cho lành,thì tội lỗi của Ép-ra-im và các sự gian ác của Sa-ma-rilại bị phát giác, bởi vì chúng làm chuyện gian tà:kẻ trộm lẻn vào trong, bọn cướp phá bên ngoài.</span>
+            <br />
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Chúng đâu có tự nhủ: Ta nhớ hết mọi việc gian ác chúng làm.Giờ đây hành động của chúng trói chặt lấy chúng,tất cả rành rành trước mặt Ta.</span>
+            <br />
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Để mua vui cho vua, chúng làm điều gian ác,để vừa lòng thủ lãnh, chúng bày chuyện dối gian,</span>
+            <br />
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>tất cả bọn chúng là một đám ngoại tình, chẳng khác chi hoả lò phừng phực cháykhi người nướng bánh đã ngưng thổi lửađể nhồi bột cho đến lúc dậy men.</span>
+            <br />
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Trong ngày mừng đức vua,các thủ lãnh choáng váng vì hơi rượu;bọn chè chén say sưa cũng được rộng tay đón tiếp.</span>
+            <br />
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Khi chúng bày những âm mưu xảo quyệt,lòng chúng chẳng khác chi hoả lò:suốt đêm cơn giận của chúng ngủ yên,nhưng bừng lên như ngọn hoả hào khi trời sáng;</span>
+            <br />
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>cả đám phừng phực như hoả lòđốt tiêu tan các quan toà của chúng;hết thảy các vua đều gục ngãmà không ai trong chúng kêu cầu Ta.Ít-ra-en điêu tàn vì cầu cứu ngoại bang</span>
+            <br />
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Ép-ra-im chung đụng với chư dân,Ép-ra-im như chiếc bánh nướng cháy một bên.</span>
+            <br />
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Ngoại bang ngốn hết sức lực của nómà nó cũng chẳng hay.Ngay cả khi tóc nó bạc màu, nó nào đâu có biết.</span>
+            <br />
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Ít-ra-en kiêu ngạo, tội nó tố cáo nó. Chúng đâu chịu trở vềvới ĐỨC CHÚA là Thiên Chúa của chúng.Sự thể đã rành rành như vậymà chúng cũng chẳng kiếm tìm Người.</span>
+            <br />
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Ép-ra-im vô tâm vô trí tựa bồ câu khờ dại.Chúng cầu cứu Ai-cập, chạy đến với Át-sua.</span>
+            <br />
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>Chúng lên đường là Ta bủa lưới bắt chúng.Ta sẽ làm cho chúng sa lưới tựa chim trời.Khi hay tin chúng cùng nhau hội họp, Ta liền sửa trị chúng.Ít-ra-en bị trừng phạt vì vô ơn</span>
+            <br />
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>Khốn cho chúng vì chúng đã lìa bỏ Ta.Chúng sẽ bị tiêu diệt, vì đã dám xúc phạm đến Ta.Ta, Ta muốn giải cứu chúng,còn chúng lại nói lời gian dối phạm đến Ta.</span>
+            <br />
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>Chúng kêu lên Ta mà chẳng thật lòng,chỉ than vãn trên giường nằm của chúng.Chúng tự rạch mình, mong có được lúa mì, rượu mới,chúng đã phản bội Ta.</span>
+            <br />
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>Ta vừa uốn nắn, vừa làm cho cánh tay chúng nên mạnh mẽ,nhưng chúng lại mưu đồ chống lại Ta.</span>
+            <br />
+        
+    
+        
+            <span id="s16"><sup><a href="#s16">16</a></sup>Chúng quay về với cái hư không.Chúng chẳng khác nào cánh cung sai chậy.Thủ lãnh chúng ngã gục dưới lưỡi gươm,vì thốt ra những lời giận dữ;trong đất Ai-cập, chúng sẽ nên trò cười.</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c8"><span class="chapter-title" id="c8">Chương 8</span></a>
+    
+        
+            <h5>Báo động</h5>
+        
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Thổi kèn báo động đi!Như phượng hoàng, tai hoạ chụp xuống nhà ĐỨC CHÚA,vì chúng không tuân giữ giao ước của Ta,và vi phạm lề luật Ta truyền dạy.</span>
+            <br />
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Chúng lớn tiếng kêu lên Ta:"Lạy Thiên Chúa chúng con, chúng con là Ít-ra-en,chúng con nhận biết Ngài."</span>
+            <br />
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Thế nhưng, điều tốt lành, Ít-ra-en đã gạt bỏ,nên nó sẽ bị quân thù đuổi bắt.Xã hội hỗn loạn vì dân Chúa thờ ngẫu tượng</span>
+            <br />
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Chúng phong vương người mà Ta không chọn,tôn làm lãnh tụ kẻ Ta không biết,dùng bạc vàng làm ra ngẫu tượng, để rồi bị đập tan.</span>
+            <br />
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Hỡi Sa-ma-ri, hãy gạt bỏ con bê của ngươi- chúng làm Ta nổi giận.Chúng không chịu để cho Ta thanh tẩy mãi cho tới bao giờ? -</span>
+            <br />
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Vì con bê đó là do Ít-ra-en làm ra,do một nghệ nhân sản xuất, nó đâu phải là thần!Chắc chắn con bê của Sa-ma-ri sẽ như thể mùn cưa.</span>
+            <br />
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Chúng gieo gió thì phải gặt bão.Chúng là cây lúa không làm đòng, là hạt lúa lép không có bột,nhưng giả như có bột, thì ngoại bang cũng sẽ nuốt hết.Ít-ra-en bị tiêu diệt vì cầu cứu ngoại bang</span>
+            <br />
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Ít-ra-en đã bị nuốt trửng.Giờ đây chúng ở lẫn với chư dân, như một vật chẳng ai ưa thích.</span>
+            <br />
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Chính chúng đã lên với Át-sua.Con lừa hoang còn thích sống độc lập,nhưng Ép-ra-im lại tặng quà để có tình nhân.</span>
+            <br />
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Dù chúng có đem quà tặng chư dân,thì giờ đây Ta cũng gom chúng lại,và chẳng bao lâu nữa, chúng sẽ phải khốn khổ lao đaodưới gánh nặng của vua các thủ lãnh.Chống nền phụng tự vụ hình thức</span>
+            <br />
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Khi Ép-ra-im đua nhau dựng bàn thờ, thì các bàn thờ ấychỉ làm cho chúng phạm tội thêm.</span>
+            <br />
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>Luật lệ của Ta, Ta có viết cho nó cả ngàn,thì nó cũng coi là xa lạ.</span>
+            <br />
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>Hy lễ dâng Ta thì chúng cứ dâng,chúng cứ ăn thịt đã sát tế,nhưng ĐỨC CHÚA sẽ chẳng đoái hoài.Giờ đây Người sẽ nhớ lại sự gian ác của chúng,chúng đã phạm tội thì chúng sẽ phải đền:chúng sẽ phải trở về Ai-cập.</span>
+            <br />
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>Ít-ra-en đã quên Đấng tác tạo ra nó, và lo xây đền đài;còn Giu-đa thì xây thêm những thành kiên cố.Nhưng Ta sẽ phóng lửa xuống các thành này,và lửa sẽ ngốn hết các dinh thự.</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c9"><span class="chapter-title" id="c9">Chương 9</span></a>
+    
+        
+            <h5>Sầu khổ chốn lưu đày</h5>
+        
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Hỡi Ít-ra-en, chớ vui cười,đừng hớn hở như phường dân ngoại.Ngươi đã bỏ Thiên Chúa ngươi mà làm điếmvà mong được trả công trên mọi sân đập lúa.</span>
+            <br />
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Lúa trong sân, nho trong bồn, chúng sẽ không được hưởng,càng mong rượu mới, chúng càng thất vọng ê chề.</span>
+            <br />
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Không được ở trên đất của ĐỨC CHÚA, Ép-ra-im sẽ phải trở về Ai-cập,và phải dùng thức ăn ô uế tại Át-sua.</span>
+            <br />
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Chúng sẽ không được rót rượu tế dâng ĐỨC CHÚA,các hy lễ của chúng cũng chẳng đẹp lòng Người.Bánh chúng ăn khác nào bánh tại nhà có tang,ai ăn vào cũng trở thành ô uế,vì bánh của chúng chỉ để chúng nuôi thân,chứ không được đưa vào nhà ĐỨC CHÚA.</span>
+            <br />
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Các ngươi sẽ làm gì trong ngày hội, ngày lễ của ĐỨC CHÚA?</span>
+            <br />
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Vì này chúng sẽ phải ra đi sau khi đất nước bị tàn phá.Chúng sẽ bị Ai-cập tập trung, và sẽ bị Mốp chôn vùi.Cỏ dại mọc um tùm trên đồ bạc chúng coi là quý giá,gai góc nằm ngổn ngang ngay trong lều chúng ở.</span>
+            <br />
+        
+    
+        
+            <h5>Ngôn sứ bị khủng bố vì loan báo cuộc trừng phạt</h5>
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Đã đến rồi những ngày trừng phạt,đã đến rồi những ngày báo oán: Ít-ra-en sẽ thấy điều này!- "Ngôn sứ điên rồi! Người được linh hứng nói sảng! "Ngươi nói vậy, vì tội ác của ngươi tầy trời,ngươi lại còn bày đủ trò khủng bố.</span>
+            <br />
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Ngôn sứ là người canh gác Ép-ra-im, vẫn ở cùng Thiên Chúa,thế mà thiên hạ lại giăng bẫy trên khắp mọi nẻo đường ông đi,khủng bố ông ngay trong nhà Thiên Chúa.</span>
+            <br />
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Chúng chìm sâu trong vũng lầy hư hỏng như hồi ở Ghíp-a.Người không quen điều gian ác chúng làm,nhưng sẽ trị tội chúng.Trừng phạt tội ác tại Ba-an Pơ-o</span>
+            <br />
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Ta đã gặp được Ít-ra-en, khác nào chùm nho trong sa mạc,Ta đã xem cha ông các ngươinhư trái đầu mùa trên cây vả mới bói.Nhưng phần chúng, khi đến Ba-an Pơ-o,chúng lại gắn bó với các thần ô nhục,và trở thành ghê tởm như những thần chúng yêu mến.</span>
+            <br />
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Vinh quang của Ép-ra-im như cánh chim vụt bay:không còn thai nghén, chẳng còn sinh nở.</span>
+            <br />
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>Giả như chúng có nuôi con cho khôn lớn,Ta cũng không để cho thành người.Thật khốn nạn cho chúng khi bị Ta từ bỏ.</span>
+            <br />
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>Xưa Ta thấy Ép-ra-im như thành Tia toạ lạc trong đồng cỏ,nhưng nay Ép-ra-imsắp phải nộp con mình cho phường khát máu.</span>
+            <br />
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>Lạy ĐỨC CHÚA, xin Ngài làm cho chúng. ..Ngài sẽ làm gì cho chúng đây?Xin cho chúng không còn sinh nở, hết cho bú mớm.</span>
+            <br />
+        
+    
+        
+            <h5>Trừng phạt tội ác tại Ghin-gan</h5>
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>Mọi tội ác của chúng lộ hết ở Ghin-gan.Tại nơi này Ta chê ghét chúng.Những hành vi gian ác của chúngkhiến Ta xua đuổi chúng khỏi nhà Ta.Ta không còn yêu thương chúng nữa.Hết thảy các thủ lãnh của chúng đều là quân phản bội.</span>
+            <br />
+        
+    
+        
+            <span id="s16"><sup><a href="#s16">16</a></sup>Ép-ra-im đã bị đánh nhừ đòn, gốc rễ của chúng bị héo khô,chúng không mang lại hoa trái gì được.Và giả như chúng có sinh sản, Ta cũng sẽ giết chếtnhững đứa con yêu quý chúng đã cưu mang.</span>
+            <br />
+        
+    
+        
+            <span id="s17"><sup><a href="#s17">17</a></sup>Thiên Chúa của tôi sẽ xua đuổi chúng,vì chúng không chịu nghe lời Người;giữa chư dân, chúng sẽ phải lang thang phiêu bạt.</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c10"><span class="chapter-title" id="c10">Chương 10</span></a>
+    
+        
+            <h5>Ngẫu tượng Ít-ra-en thờ sẽ bị phá huỷ</h5>
+        
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Ít-ra-en vốn là một cây nho sum sê,trái trăng thật dồi dào phong phú.Nhưng trái trăng càng nhiều,chúng càng dựng thêm các bàn thờ ngẫu tượng;đất nước càng giàu sang,chúng càng làm thêm những cột thần lộng lẫy.</span>
+            <br />
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Chúng là thứ người lòng một dạ hai,rồi đây chúng sẽ phải đền tội;bàn thờ của chúng, chính Người sẽ đập tan,cột thờ của chúng, Người cũng sẽ phá đổ.</span>
+            <br />
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Bây giờ chúng lại nói: "Chúng tôi không có vua."Vì ĐỨC CHÚA, chúng còn không kính sợ,thì nếu có vua, liệu ông làm gì được cho chúng?</span>
+            <br />
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Chúng ăn nói ba hoa, thề gian thề dối, thoả hiệp với mọi người,biến luật pháp nên như cây độc hại tươi tốt trên nương đồng.</span>
+            <br />
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Đứng trước con bò của Bết A-ven, dân cư Sa-ma-ri run sợ.Quả thật, dân của nó để tang nó,bọn tư tế bất hợp pháp cũng vậy.Chúng cứ vui mừng vì vinh quang của nó đi,bởi giờ đây vinh quang ấy đã bị đẩy xa rồi.</span>
+            <br />
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Nó cũng bị đưa sang Át-sua làm lễ vật triều cống cho vua cả.Ép-ra-im sẽ chuốc lấy nhuốc nhơ, Ít-ra-en phải hổ thẹn về những điều mình suy tính.</span>
+            <br />
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Thế là Sa-ma-ri tiêu tùng.Vua của nó tựa hồ mảnh ván trôi dạt trên mặt nước.</span>
+            <br />
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Các nơi cao của A-ven sẽ bị phá huỷ, đó là tội của Ít-ra-en.Gai góc sẽ leo lên các bàn thờ của nó.Bấy giờ chúng sẽ nói với núi đồi: "Phủ lấp chúng tôi đi! "và với gò nổng: "Hãy đổ xuống trên chúng tôi! "</span>
+            <br />
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Hỡi Ít-ra-en, từ những ngày ở Ghíp-a, ngươi đã phạm tội.Ngày nay vẫn chứng nào tật ấy, như thể tại Ghíp-a xưachiến tranh đã không đụng tới những kẻ gian ác.</span>
+            <br />
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Ta sẽ đến và sửa trị chúng.Các dân sẽ tập hợp chống lại chúng,khi chúng bị sửa trị về hai tội ác chúng đã phạm.Ít-ra-en đã không đáp ứng điều ĐỨC CHÚA chờ đợi</span>
+            <br />
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Ép-ra-im là con bê thuần thục, ưa đạp lúa,và Ta, Ta sẽ luồn cái ách vào cổ xinh đẹp của nó!Ta sẽ đặt ách cho Ép-ra-im,Giu-đa sẽ kéo cày, Gia-cóp sẽ kéo bừa.</span>
+            <br />
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>Hãy gieo công chính, rồi sẽ gặt được tình thương.Hãy khai khẩn đất hoang;đây là thời kiếm tìm ĐỨC CHÚAcho đến khi Người đến làm mưa công chính trên các ngươi.</span>
+            <br />
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>Các ngươi đã gieo tội ác, gặt sự bất công, ăn hoa quả dối trá.Vì ngươi cậy có chiến xa và nhiều dũng sĩ,</span>
+            <br />
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>thì náo loạn sẽ nổi lên trong dân ngươi.Tất cả các pháo đài của ngươi đều bị phá huỷ,như San-man phá huỷ Bết Ác-vên,trong ngày có giao tranh, khi cả mẹ lẫn con đều bị đập tan xác.</span>
+            <br />
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>Bết Ên đã gây ra cho các ngươi như thế đóvì tội ác nặng nề của các ngươi;ngay từ rạng đông chắc chắn vua Ít-ra-en sẽ bị rồi đời!</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c11"><span class="chapter-title" id="c11">Chương 11</span></a>
+    
+        
+            <h5>ĐỨC CHÚA báo oán cho tình yêu bị khước từ</h5>
+        
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Khi Ít-ra-en còn là đứa trẻ, Ta đã yêu nó,từ Ai-cập Ta đã gọi con Ta về.</span>
+            <br />
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Nhưng Ta càng gọi chúng, chúng càng bỏ đi;chúng dâng hy lễ cho các Ba-an, đốt hương kính ngẫu tượng.</span>
+            <br />
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Ta đã tập đi cho Ép-ra-im, đã đỡ cánh tay nó,nhưng chúng không hiểu là Ta chữa lành chúng.</span>
+            <br />
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Ta lấy dây nhân nghĩa, lấy mối ân tình mà lôi kéo chúng.Ta xử với chúng như người nựng trẻ thơ, nâng lên áp vào má;Ta cúi xuống gần nó mà đút cho nó ăn.</span>
+            <br />
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Nó sẽ không trở về Ai-cập nữa,nhưng Át-sua sẽ lại làm vua nó, vì nó không chịu về với Ta.</span>
+            <br />
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Gươm đao sẽ hoành hành trong các thành của nó,sẽ làm cỏ và ngốn sạch con cái nó, vì chúng có những ý đồ xấu xa.Nhưng ĐỨC CHÚA lại tha thứ</span>
+            <br />
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Dân Ta cứ miệt mài buông theo bội tín,chúng được kêu mời hãy vươn lên,mà chẳng một ai ngóc đầu dậy!</span>
+            <br />
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Hỡi Ép-ra-im, Ta từ chối ngươi sao nổi!Hỡi Ít-ra-en, Ta trao nộp ngươi sao đành!Làm sao Ta xử với ngươi như với Át-ma,để ngươi nên giống như Xơ-vô-gim được?Trái tim Ta thổn thức, ruột gan Ta bồi hồi.</span>
+            <br />
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Ta sẽ không hành động theo cơn nóng giận,sẽ không tiêu diệt Ép-ra-im nữa,vì Ta là Thiên Chúa, chứ không phải người phàm.Ở giữa ngươi, Ta là Đấng Thánh,và Ta sẽ không đến trong cơn thịnh nộ.Trở về từ chốn lưu đày</span>
+            <br />
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Chúng sẽ bước theo ĐỨC CHÚA.Người sẽ rống lên như sư tử.Quả thật, Người sẽ rống lên,và từ phía tây, con cái sẽ vui mừng chạy tới.</span>
+            <br />
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Chúng sẽ chạy tới lẹ như chim từ Ai-cập,như bồ câu từ đất Át-sua,và Ta sẽ cho chúng cư ngụ trong nhà của chúng,- sấm ngôn của ĐỨC CHÚA.</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c12"><span class="chapter-title" id="c12">Chương 12</span></a>
+    
+        
+            <h5>Ít-ra-en lụn bại về tôn giáo và chính trị</h5>
+        
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Ép-ra-im lấy giả dối,và nhà Ít-ra-en dùng lừa đảo mà bao bọc Ta.Giu-đa vẫn đi với Thiên Chúa,vẫn trung thành với Đấng Thánh của mình.</span>
+            <br />
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Ép-ra-im bầu bạn với không khí,ngày nào cũng chạy theo gió đông;nó cứ gia tăng giả dối, bạo tàn,nó lập giao ước với Át-sua, và chở dầu cho Ai-cập.Lên án Gia-cóp và Ép-ra-im</span>
+            <br />
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>ĐỨC CHÚA hạch tội Giu-đa,Người sẽ trừng trị Gia-cóp theo lối sống của nó,sẽ cứ các việc nó làm mà trả công cho nó.</span>
+            <br />
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Còn là thai nhi, nó đã chiếm chỗ của anh mình;trong thời sung sức, nó dám cự lại Thiên Chúa.</span>
+            <br />
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Nó cự lại thiên sứ và đã lấn át người,nhưng nó lại khóc và xin người thương xót.Ở Bết Ên nó gặp người, và ở đó, chính người đã nói với nó:</span>
+            <br />
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>ĐỨC CHÚA là Thiên Chúa các đạo binh:danh hiệu Người là ĐỨC CHÚA.</span>
+            <br />
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Còn ngươi, nhờ Thiên Chúa của ngươi, ngươi sẽ trở về.Ngươi hãy giữ đức tín thành, công chínhvà luôn trông cậy vào Thiên Chúa của ngươi.</span>
+            <br />
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Ca-na-an nắm trong tay những chiếc cân bịp bợm:nó ưa thích đánh lừa.</span>
+            <br />
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Ép-ra-im từng nói: "Ta đã nên giàu có với đủ cơ ngơi rồi";nhưng tất cả những của nó làm ra,nó chẳng còn giữ lại được gì, vì sự gian ác nó đã phạm.Viễn ảnh hoà giải với Thiên Chúa</span>
+            <br />
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Ta là ĐỨC CHÚA, Thiên Chúa của ngươingay từ khi ngươi còn bên Ai-cập.Ta sẽ vẫn cho các ngươi cư ngụ trong lều,như trong những ngày hội ngộ.</span>
+            <br />
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Ta sẽ phán với các ngôn sứ, Ta sẽ tăng thị kiến thêm nhiều,và nhờ các ngôn sứ để nói những dụ ngôn.Những lời đe doạ mới</span>
+            <br />
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>Ga-la-át chỉ có gian tà.Quả thật chúng chỉ là quân giả dối:tại Ghin-gan chúng sát tế bò bê,bàn thờ của chúng chẳng khác gì những đống đátrên các luống đất ngoài đồng.</span>
+            <br />
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>Gia-cóp đã trốn chạy sang cánh đồng A-ram,Ít-ra-en đã phục dịch vì một người phụ nữ,vì một người đàn bà mà ông đã phải giữ chiên.</span>
+            <br />
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>Nhưng nhờ một ngôn sứ,ĐỨC CHÚA đã đưa Ít-ra-en từ Ai-cập lên;cũng nhờ một ngôn sứ, mà Ít-ra-en được canh giữ.</span>
+            <br />
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>Ép-ra-im đã xúc phạm đến Ngườivà làm cho Người phải xót xa cay đắng.Nó đã đổ máu thì phải chịu tội.Những nhục mạ nó đã gây nên, Chúa sẽ bắt nó phải đền bù.</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c13"><span class="chapter-title" id="c13">Chương 13</span></a>
+    
+        
+            <h5>Trừng phạt tội thờ ngẫu tượng</h5>
+        
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Xưa kia hễ Ép-ra-im lên tiếng là nó gây kinh hoàng,nó có một địa vị cao trong Ít-ra-en,nhưng vì mắc tội thờ Ba-an nên nó đã chết.</span>
+            <br />
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Giờ đây chúng phạm thêm tội lỗi:đúc cho mình những tượng bằng kim loại,lấy bạc làm ra những tượng thần như trí mình sáng chế.Tất cả những thứ đó đều là sản phẩm do tay thợ làm ra.Rồi chúng ngỏ lời với những thần đó, còn dâng hy lễ nữa.Chúng là người mà lại hôn kính những con bê.</span>
+            <br />
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Bởi vậy, chúng chỉ như đám mây buổi sáng,như sương mai chóng tan, như vỏ trấu bị cuốn khỏi sân lúa,như làn khói toả từ ống thông hơi.</span>
+            <br />
+        
+    
+        
+            <h5>Trừng phạt tội vô ơn bạc nghĩa</h5>
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Ta là ĐỨC CHÚA, Thiên Chúa của ngươitừ khi ngươi còn ở đất Ai-cập.Ngoài Ta ra, ngươi không được biết thần nào khác,chẳng có vị cứu tinh nào khác ngoại trừ Ta.</span>
+            <br />
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Chính Ta đã biết ngươi khi ngươi còn ở trong sa mạc,trong vùng đất cằn cỗi khô khan.</span>
+            <br />
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Vừa khi ra đồng cỏ, chúng liền được ăn uống thoả thuê.Nhưng khi thoả thuê rồi, chúng đâm ra tự cao tự đại.Chính vì thế mà chúng đã quên Ta.</span>
+            <br />
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Nên đối với chúng, Ta khác nào sư tử,tựa con báo, Ta rình rập bên đường.</span>
+            <br />
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Như gấu mất con, Ta chồm lên chúng,Ta xé chúng cho nát tan lồng ngực;Ta ăn thịt chúng tại chỗ như sư tử cái,chúng sẽ bị mãnh thú ngoài đồng phanh thây.</span>
+            <br />
+        
+    
+        
+            <h5>Vương quyền chấm dứt</h5>
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Ta sắp tiêu diệt ngươi, hỡi Ít-ra-en.Ai sẽ đến cứu ngươi?</span>
+            <br />
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Vua ngươi là người phải cứu ngươidù ngươi ở thành thị nào đi nữa,giờ đây vua ngươi ở đâu rồi?Các thẩm phán của ngươi, những kẻ xưa ngươi tìm đến ngỏ lời:"Tôi muốn có vua, muốn có thủ lãnh, xin ban cho tôi đi! "Giờ đây các thẩm phán đó đâu rồi?</span>
+            <br />
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Ta cho ngươi một ông vua trong cơn thịnh nộ,rồi lấy đi giữa trận lôi đình.Sụp đổ không tránh được</span>
+            <br />
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>Sự gian ác của Ép-ra-im được cuốn lại để dành,tội lỗi của nó được giữ kỹ.</span>
+            <br />
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>Nó sẽ đau quằn quại như sản phụ lâm bồn;nó là đứa con ngu dốt:vì đã đến giờ mà không chịu rời lòng mẹ!</span>
+            <br />
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>Ta lại giải thoát nó khỏi quyền lực âm phủ sao,lại chuộc nó khỏi thần chết ư?Tử khí ngươi đâu rồi, hỡi Thần Chết?Nọc độc của ngươi đâu, hỡi Âm ty?Ta nhắm mắt không còn thương xót nữa.</span>
+            <br />
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>Vì nó có sinh sôi nẩy nở giữa anh em mình,thì một cơn gió nóng như thiêu cũng sẽ đến,gió của ĐỨC CHÚA thổi lên từ sa mạc khiến suối cạn, giếng khô.Cơn gió ấy sẽ cướp đi kho tàng, cuốn hết mọi bảo vật.</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c14"><span class="chapter-title" id="c14">Chương 14</span></a>
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Sa-ma-ri sẽ phải đền tội vì đã phản bội Thiên Chúa của mình.Chúng sẽ gục ngã vì gươm đao,con thơ của chúng sẽ bị tan xác, phụ nữ mang thai bị mổ bụng.</span>
+            <br />
+        
+    
+        
+            <h1>III. ÍT-RA-EN HỐI CẢI VÀ ĐƯỢC CHÚA THƯƠNG</h1>
+        
+    
+        
+            <h5>Ít-ra-en thành tâm trở về với ĐỨC CHÚA</h5>
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Hỡi Ít-ra-en, hãy trở về với ĐỨC CHÚA là Thiên Chúa của ngươi.Chính vì tội ác của ngươi mà ngươi đã vấp ngã.</span>
+            <br />
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Hãy trở về với ĐỨC CHÚA, mang theo lời cầu nguyện.Hãy thưa với Người:"Xin thứ tha mọi gian ác, xin vui nhận lời ngợi khenchúng con dâng lên Ngài làm lễ vật thay thế bò tơ.</span>
+            <br />
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Chúng con sẽ không cầu cứu với Át-sua,sẽ không cậy nhờ vào chiến mã,cũng chẳng gọi là thần những sản phẩm tay chúng con làm ra,vì chỉ ở nơi Ngài kẻ mồ côi mới tìm được lòng thương cảm."</span>
+            <br />
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Ta sẽ chữa chúng khỏi tội bất trung,sẽ yêu thương chúng hết tình,vì cơn giận của Ta sẽ không còn đeo đuổi chúng.</span>
+            <br />
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Với Ít-ra-en Ta sẽ như làn sương mailàm nó vươn lên như bông huệ,cho bén rễ sâu như cây ngàn Li-băng.</span>
+            <br />
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Họ sẽ đâm chồi nẩy lộc, sum sê tựa ô-liu tươi tốt,toả hương thơm ngát như rừng Li-băng.</span>
+            <br />
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Chúng sẽ trở về cư ngụ dưới bóng Ta,sẽ làm cho lúa miến hồi sinh nơi đồng ruộng,tựa vườn nho, chúng sẽ sinh sôi nẩy nở,danh tiếng lẫy lừng như rượu Li-băng.</span>
+            <br />
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Ép-ra-im còn liên hệ gì với các ngẫu tượng?Còn Ta, Ta đã nhậm lời và đoái nhìn đến nó.Ta như một cây trắc bá xanh tươi,chính nhờ Ta mà ngươi trổ sinh hoa trái.Lời căn dặn cuối cùng</span>
+            <br />
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Ai đủ khôn ngoan để hiểu được điều này,đủ thông minh để biết được điều ấy?Quả thật đường lối ĐỨC CHÚA rất mực thẳng ngay.Trên con đường này, người công chính sẽ hiên ngang tiến bước,còn kẻ gian ác sẽ phải té nhào.</span>
+            <br />
+        
+    
+</section>
+
+
+            <footer class="footer">
+            </footer>
+        </div>
+    </article>
+
+    <div class="results" role="status" aria-live="polite">
+        <div class="scrollable">
+            <div class="wrapper">
+                <div class="meta"></div>
+                <div class="list"></div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<script>
+    var base_url = '';
+    var repo_id = '';
+</script>
+
+<script src="https://bible-online.github.io/javascripts/application.js"></script>
+
+<script>
+    var headers = document.getElementsByTagName("h2");
+    var scrollspy = document.getElementById('scrollspy');
+
+    if (scrollspy) {
+        if (headers.length > 0) {
+            for (var i = 0; i < headers.length; i++) {
+                var li = document.createElement("li");
+                li.setAttribute("class", "anchor");
+
+                var a = document.createElement("a");
+                a.setAttribute("href", "#" + headers[i].id);
+                a.setAttribute("title", headers[i].innerHTML);
+                a.innerHTML = headers[i].innerHTML;
+
+                li.appendChild(a);
+                scrollspy.appendChild(li);
+            }
+        } else {
+            scrollspy.parentElement.removeChild(scrollspy);
+        }
+
+        var headers = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
+
+        for (var i = 0; i < headers.length; i++) {
+            var a = document.createElement("a");
+            a.setAttribute("class", "headerlink");
+            a.setAttribute("href", "#" + headers[i].id);
+            a.setAttribute("title", "Permanent link");
+            a.innerHTML = "";
+            headers[i].appendChild(a);
+        }
+    }
+</script>
+
+<script src="//gohugo.io/js/highlight.pack.js"></script>
+<script>
+    hljs.initHighlightingOnLoad();
+</script>
+</body>
+
+</html>

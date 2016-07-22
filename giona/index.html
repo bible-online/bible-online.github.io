@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="no-js ie6"><![endif]-->
+<!--[if IE 7 ]><html class="no-js ie7"><![endif]-->
+<!--[if IE 8 ]><html class="no-js ie8"><![endif]-->
+<!--[if IE 9 ]><html class="no-js ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head >
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
+    <title>Giôna - Bible online</title>
+
+    
+    <link rel="canonical" href=""> 
+
+    <meta property="og:url" content=""> 
+    <meta property="og:title" content="Bible online"> 
+    <meta name="apple-mobile-web-app-title" content="Bible online">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://bible-online.github.io/images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="https://bible-online.github.io/images/favicon.ico">
+
+    <style>
+        @font-face {
+            font-family: 'Icon';
+            src: url('https://bible-online.github.io/fonts/icon.eot?52m981');
+            src: url('https://bible-online.github.io/fonts/icon.eot?#iefix52m981') format('embedded-opentype'),
+            url('https://bible-online.github.io/fonts/icon.woff?52m981') format('woff'),
+            url('https://bible-online.github.io/fonts/icon.ttf?52m981') format('truetype'),
+            url('https://bible-online.github.io/fonts/icon.svg?52m981#icon') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+
+    <link rel="stylesheet" href="https://bible-online.github.io/stylesheets/application.css">
+    <link rel="stylesheet" href="https://bible-online.github.io/stylesheets/temporary.css">
+    <link rel="stylesheet" href="https://bible-online.github.io/stylesheets/palettes.css">
+    <link rel="stylesheet" href="https://bible-online.github.io/stylesheets/highlight/highlight.css">
+
+    <script src="https://bible-online.github.io/javascripts/modernizr.js"></script>
+</head>
+
+<body class=" ">
+
+<div class="backdrop">
+    <div class="backdrop-paper"></div>
+</div>
+
+<input class="toggle" type="checkbox" id="toggle-drawer">
+<input class="toggle" type="checkbox" id="toggle-search">
+<label class="toggle-button overlay" for="toggle-drawer"></label>
+
+<header class="header">
+    <nav aria-label="Header">
+  <div class="bar default">
+    <div class="button button-menu" role="button" aria-label="Menu">
+      <label class="toggle-button icon icon-menu" for="toggle-drawer">
+        <span></span>
+      </label>
+    </div>
+    <div class="stretch">
+      <div class="title">
+        Giôna
+      </div>
+    </div>
+
+    
+
+    
+    
+    <!-- TODO: disabled until Hugo supports the generation of a content index natively 
+    <div class="button button-search" role="button" aria-label="Search">
+      <label class="toggle-button icon icon-search" title="Search" for="toggle-search"></label>
+    </div>
+    -->    
+  </div>
+  <div class="bar search">
+    <div class="button button-close" role="button" aria-label="Close">
+      <label class="toggle-button icon icon-back" for="toggle-search"></label>
+    </div>
+    <div class="stretch">
+      <div class="field">
+        <input class="query" type="text" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck>
+      </div>
+    </div>
+    <div class="button button-reset" role="button" aria-label="Search">
+      <button class="toggle-button icon icon-close" id="reset-search"></button>
+    </div>
+  </div>
+</nav>
+</header>
+
+<main class="main">
+    <div class="drawer">
+        <nav aria-label="Navigation">
+  <!--<a href="https://bible-online.github.io/" class="project">
+    <div class="banner">
+      
+      <div class="name">
+        <strong>Bible online </strong>
+      </div>
+    </div>
+  </a>-->
+
+  <div class="scrollable">
+    <div class="wrapper">
+      <div class="toc">
+        <ul>
+          
+          <li>
+            <a href="https://bible-online.github.io/sang-the-ky">Sáng Thế Ký</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/xuat-hanh">Xuất Hành</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/le-vi">Lê Vi</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/dan-so">Dân Số</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/de-nhi-luat">Đệ Nhị Luật</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/gio-sue">Giô-suê</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-lanh">Thủ Lãnh</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/rut">Rút</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/samuel-i">Samuel I</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/samuel-ii">Samuel II</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/cac-vua-i">Các Vua I</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/cac-vua-ii">Các Vua II</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/su-bien-nien-i">Sử Biên Niên I</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/su-bien-nien-ii">Sử Biên Niên II</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/etra">Étra</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/nokhemia">Nơkhemia</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/tobia">Tôbia</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/giuditha">Giuđitha</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/ette">Étte</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/macabe-i">Macabê I</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/macabe-ii">Macabê II</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/giop">Gióp</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thanh-vinh">Thánh Vịnh</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/cham-ngon">Châm Ngôn</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/giang-vien">Giảng Viên</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/diem-ca">Diễm Ca</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/khon-ngoan">Khôn Ngoan</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/huan-ca">Huấn Ca</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/isaia">Isaia</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/gieremia">Giêrêmia</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/ai-ca">Ai Ca</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/baruc">Baruc</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/edekien">Êdêkien</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/danien">Đanien</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/hose">Hôsê</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/gioen">Giôen</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/amot">Amốt</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/ovadia">Ôvađia</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/giona">Giôna</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/mikha">Mikha</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/nakhum">Nakhum</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/khabacuc">Khabacúc</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/xophonia">Xôphônia</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/khacgai">Khácgai</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/dacaria">Dacaria</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/malakhi">Malakhi</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/mat-theu">Mát-thêu</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/mac-co">Mác-cô</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/luca">Luca</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/gioan">Gioan</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/tong-do-cong-vu">Tông Đồ Công Vụ</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-roma">Thư Rôma</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-corinto-1">Thư Côrintô 1</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-corinto-2">Thư Côrintô 2</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-galat">Thư Galát</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-epheso">Thư Êphêsô</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-philipphe">Thư Philípphê</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-coloxe">Thư Côlôxê</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-thexalonica-1">Thư Thêxalônica 1</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-thexalonica-2">Thư Thêxalônica 2</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-timothe-1">Thư Timôthê 1</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-timothe-2">Thư Timôthê 2</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-tito">Thư Titô</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-philemon">Thư Philêmon</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-do-thai">Thư Do Thái</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-giacobe">Thư Giacôbê</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-phero-1">Thư Phêrô 1</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-phero-2">Thư Phêrô 2</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-gioan-1">Thư Gioan 1</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-gioan-2">Thư Gioan 2</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-gioan-3">Thư Gioan 3</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-giuda">Thư Giuđa</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/khai-huyen">Khải Huyền</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+    </div>
+
+    <article class="article">
+        <div class="wrapper">
+            
+<section>
+    <a href="#c1"><span class="chapter-title" id="c1">Chương 1</span></a>
+    
+        
+            <h5>Ông Giô-na cưỡng lại sứ mạng ĐỨC CHÚA giao</h5>
+        
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Có lời ĐỨC CHÚA phán với ông Giô-na, con ông A-mít-tai, rằng:</span>
+            
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>"Hãy đứng dậy, đi đến Ni-ni-vê, thành phố lớn, và hô cho dân thành biết rằng sự gian ác của chúng đã lên thấu tới Ta."</span>
+            
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Ông Giô-na đứng dậy nhưng là để trốn đi Tác-sít, tránh nhan ĐỨC CHÚA. Ông xuống Gia-phô và tìm được một chiếc tàu sắp đi Tác-sít. Ông trả tiền, xuống tàu để cùng đi Tác-sít với họ, tránh nhan ĐỨC CHÚA.</span>
+            
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Nhưng ĐỨC CHÚA tung ra một cơn gió to trên biển và liền có một trận bão lớn ngoài khơi, khiến tàu tưởng chừng như sắp vỡ tan.</span>
+            
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Thuỷ thủ sợ hãi; họ kêu cứu, mỗi người kêu lên thần của mình và ném hàng hoá trên tàu xuống biển cho nhẹ bớt. Còn ông Giô-na thì đã xuống hầm tàu, nằm đó và ngủ say.</span>
+            
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Viên thuyền trưởng lại gần và nói với ông: "Sao lại ngủ thế này? Dậy! Kêu cầu thần của ông đi! May ra vị thần ấy sẽ nghĩ đến chúng ta và chúng ta khỏi mất mạng."</span>
+            
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Rồi họ bảo nhau: "Nào, chúng ta hãy bắt thăm cho biết tại ai mà chúng ta gặp tai hoạ này." Họ gieo quẻ và quẻ rơi trúng ông Giô-na.</span>
+            
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Họ bảo ông: "Vì ông là người đã đem tai hoạ này đến cho chúng ta, thì xin ông cho chúng tôi biết: Ông làm nghề gì? Ông từ đâu đến, quê ở nước nào, và thuộc dân nào? "</span>
+            
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Ông nói với họ: "Tôi là người Híp-ri, Đấng tôi kính sợ là ĐỨC CHÚA, Thiên Chúa các tầng trời, Đấng đã làm ra biển khơi và đất liền."</span>
+            
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Những người ấy sợ, sợ lắm; họ nói với ông: "Ông đã làm gì thế? " Thật vậy, do ông kể lại mà họ được biết là ông đang trốn đi để tránh nhan ĐỨC CHÚA.</span>
+            
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Họ hỏi ông: "Chúng tôi phải xử với ông thế nào để cho biển lặng đi, không còn đe doạ chúng tôi nữa? " Quả thật, biển càng lúc càng động mạnh.</span>
+            
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>Ông bảo họ: "Hãy đem tôi ném xuống biển thì biển sẽ lặng đi, không còn đe doạ các ông nữa; vì tôi biết là tại tôi mà các ông gặp cơn bão lớn này."</span>
+            
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>Những người ấy cố chèo vào đất liền, nhưng không thể được vì biển mỗi lúc một động thêm, uy hiếp họ.</span>
+            
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>Họ kêu cầu ĐỨC CHÚA và thưa: "Ôi, lạy ĐỨC CHÚA, ước gì chúng con không phải chết vì mạng sống người này, và xin đừng đổ máu vô tội trên đầu chúng con; vì lạy ĐỨC CHÚA, chính Ngài đã hành động tuỳ theo sở thích."</span>
+            
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>Rồi họ đem ông Giô-na ném xuống biển. Biển dừng cơn giận dữ.</span>
+            
+        
+    
+        
+            <span id="s16"><sup><a href="#s16">16</a></sup>Những người ấy sợ ĐỨC CHÚA, sợ lắm; họ dâng hy lễ lên ĐỨC CHÚA và khấn hứa.</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c2"><span class="chapter-title" id="c2">Chương 2</span></a>
+    
+        
+            <h5>Ông Giô-na được cứu thoát</h5>
+        
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>ĐỨC CHÚA khiến một con cá lớn nuốt ông Giô-na. Ông Giô-na ở trong bụng cá ba ngày ba đêm.</span>
+            
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Từ trong bụng cá, ông Giô-na cầu nguyện cùng ĐỨC CHÚA, Thiên Chúa của ông.</span>
+            
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Ông nói:Từ cảnh ngặt nghèo, tôi kêu lên ĐỨC CHÚA,Người đã thương đáp lời.Lạy Chúa, từ lòng âm phủ, con cầu cứu, Ngài đã nghe tiếng con.</span>
+            <br />
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Ngài đã ném con vào vực sâu, giữa lòng biển,làn nước mênh mông vây bọc con,sóng cồn theo nước cuốn, Ngài để cho tràn ngập thân này.</span>
+            <br />
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Con đã nói: "Con bị đuổi đi khuất mắt Chúa rồi!Nhưng con vẫn hướng nhìn về thánh điện của Chúa."</span>
+            <br />
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Nước bủa vây con đến cổ, vực thẳm vây bọc con,trên đầu con, rong rêu quấn chằng chịt.</span>
+            <br />
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Con đã xuống tận nền móng núi non,cửa lòng đất đã cài then nhốt con mãi mãi.Nhưng Ngài đã đưa sự sống của con lên khỏi huyệt,lạy ĐỨC CHÚA là Thiên Chúa của con.</span>
+            <br />
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Khi mạng sống con hầu tàn, con đã nhớ đến ĐỨC CHÚAvà lời cầu nguyện của con đã tới Ngài, tới đền thánh của Ngài.</span>
+            <br />
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Bọn thờ thần hư ảo, chớ gì chúng bỏ điều chúng vẫn tôn sùng.</span>
+            <br />
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Phần con, giữa tiếng hát tạ ơn, con sẽ tiến dâng Ngài hy lễ;con xin giữ trọn điều đã khấn nguyền.ĐỨC CHÚA mới là Đấng ban ơn cứu độ.</span>
+            <br />
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>ĐỨC CHÚA bảo con cá, nó liền mửa ông Giô-na ra trên đất liền.</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c3"><span class="chapter-title" id="c3">Chương 3</span></a>
+    
+        
+            <h5>Thành Ni-ni-vê sám hối và được tha thứ</h5>
+        
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Có lời ĐỨC CHÚA phán với ông Giô-na lần thứ hai rằng:</span>
+            
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>"Hãy đứng dậy, đi đến Ni-ni-vê, thành phố lớn, và hô cho dân thành biết lời tuyên cáo Ta sẽ truyền cho ngươi."</span>
+            
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Ông Giô-na đứng dậy và đi Ni-ni-vê, như lời ĐỨC CHÚA phán. Ni-ni-vê là một thành phố cực kỳ rộng lớn, đi ngang qua phải mất ba ngày đường.</span>
+            
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Ông Giô-na bắt đầu vào thành, đi một ngày đường và công bố: "Còn bốn mươi ngày nữa, Ni-ni-vê sẽ bị phá đổ."</span>
+            
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Dân Ni-ni-vê tin vào Thiên Chúa, họ công bố lệnh ăn chay và mặc áo vải thô, từ người lớn đến trẻ nhỏ.</span>
+            
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Tin báo đến cho vua Ni-ni-vê; vua rời khỏi ngai, cởi áo choàng, khoác áo vải thô, và ngồi trên tro.</span>
+            
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Vua cho rao tại Ni-ni-vê: "Do sắc chỉ của đức vua và các quan đại thần, người và súc vật, bò bê và chiên dê không được nếm bất cứ cái gì, không được ăn cỏ, không được uống nước.</span>
+            
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Người và súc vật phải khoác áo vải thô và hết sức kêu cầu Thiên Chúa. Mỗi người phải trở lại, bỏ đường gian ác và những hành vi bạo lực của mình.</span>
+            
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Biết đâu Thiên Chúa chẳng nghĩ lại, chẳng bỏ ý định giáng phạt, và nguôi cơn thịnh nộ, khiến chúng ta khỏi phải chết."</span>
+            
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Thiên Chúa thấy việc họ làm, thấy họ bỏ đường gian ác mà trở lại, Người hối tiếc về tai hoạ Người đã tuyên bố sẽ giáng trên họ, Người đã không giáng xuống nữa.</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c4"><span class="chapter-title" id="c4">Chương 4</span></a>
+    
+        
+            <h5>Ông Giô-na bực mình. ĐỨC CHÚA trả lời.</h5>
+        
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Ông Giô-na bực mình, bực lắm, và ông nổi giận.</span>
+            
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Ông cầu nguyện với ĐỨC CHÚA và nói: "Ôi, lạy ĐỨC CHÚA, đó chẳng phải là điều con đã nói khi còn ở quê nhà sao? Chính vì thế mà con đã vội vàng trốn đi Tác-sít. Thật vậy, con biết rằng Ngài là Thiên Chúa từ bi nhân hậu, chậm giận và giàu tình thương, và hối tiếc vì đã giáng hoạ.</span>
+            
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Giờ đây, lạy ĐỨC CHÚA, xin Ngài lấy mạng sống con đi, vì thà con chết còn hơn là sống! "</span>
+            
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>ĐỨC CHÚA hỏi ông: "Ngươi nổi giận như thế có lý không? "</span>
+            
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Ông Giô-na ra ngoài thành và ngồi ở phía đông thành. Ở đó, ông làm một cái lều, rồi ngồi bên dưới, trong bóng mát, để xem cái gì sẽ xảy ra trong thành.</span>
+            
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>ĐỨC CHÚA là Thiên Chúa khiến một cây thầu dầu mọc lên ở phía trên ông Giô-na để có bóng mát che đầu ông, hầu làm ông hết buồn bực. Ông Giô-na vui, vui lắm vì cây thầu dầu.</span>
+            
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Nhưng hôm sau, khi hừng đông ló rạng, Thiên Chúa khiến một con sâu cắn cây thầu dầu và cây bị héo.</span>
+            
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Khi mặt trời mọc, Thiên Chúa cho có một cơn gió đông nóng bỏng, và mặt trời giội nắng xuống đầu ông Giô-na; ông ngất xỉu và xin cho mình được chết, ông nói: "Thà tôi chết còn hơn là sống."</span>
+            
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Thiên Chúa hỏi ông Giô-na: "Ngươi nổi giận vì cây thầu dầu, như thế có lý không? " Ông trả lời: "Con có lý để nổi giận đến chết được! "</span>
+            
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>ĐỨC CHÚA phán: "Ngươi, ngươi thương hại cây thầu dầu mà ngươi đã không vất vả vì nó, và không làm cho nó lớn lên; trong một đêm nó đã sinh ra, rồi trong một đêm lại chết đi.</span>
+            
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Còn Ta, chẳng lẽ Ta lại không thương hại Ni-ni-vê, thành phố lớn, trong đó có hơn một trăm hai mươi ngàn người không phân biệt được bên phải với bên trái, và lại có rất nhiều thú vật hay sao? "</span>
+            <br />
+        
+    
+</section>
+
+
+            <footer class="footer">
+            </footer>
+        </div>
+    </article>
+
+    <div class="results" role="status" aria-live="polite">
+        <div class="scrollable">
+            <div class="wrapper">
+                <div class="meta"></div>
+                <div class="list"></div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<script>
+    var base_url = '';
+    var repo_id = '';
+</script>
+
+<script src="https://bible-online.github.io/javascripts/application.js"></script>
+
+<script>
+    var headers = document.getElementsByTagName("h2");
+    var scrollspy = document.getElementById('scrollspy');
+
+    if (scrollspy) {
+        if (headers.length > 0) {
+            for (var i = 0; i < headers.length; i++) {
+                var li = document.createElement("li");
+                li.setAttribute("class", "anchor");
+
+                var a = document.createElement("a");
+                a.setAttribute("href", "#" + headers[i].id);
+                a.setAttribute("title", headers[i].innerHTML);
+                a.innerHTML = headers[i].innerHTML;
+
+                li.appendChild(a);
+                scrollspy.appendChild(li);
+            }
+        } else {
+            scrollspy.parentElement.removeChild(scrollspy);
+        }
+
+        var headers = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
+
+        for (var i = 0; i < headers.length; i++) {
+            var a = document.createElement("a");
+            a.setAttribute("class", "headerlink");
+            a.setAttribute("href", "#" + headers[i].id);
+            a.setAttribute("title", "Permanent link");
+            a.innerHTML = "";
+            headers[i].appendChild(a);
+        }
+    }
+</script>
+
+<script src="//gohugo.io/js/highlight.pack.js"></script>
+<script>
+    hljs.initHighlightingOnLoad();
+</script>
+</body>
+
+</html>

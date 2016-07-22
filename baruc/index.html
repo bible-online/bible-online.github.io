@@ -1,0 +1,1601 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="no-js ie6"><![endif]-->
+<!--[if IE 7 ]><html class="no-js ie7"><![endif]-->
+<!--[if IE 8 ]><html class="no-js ie8"><![endif]-->
+<!--[if IE 9 ]><html class="no-js ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head >
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
+    <title>Baruc - Bible online</title>
+
+    
+    <link rel="canonical" href=""> 
+
+    <meta property="og:url" content=""> 
+    <meta property="og:title" content="Bible online"> 
+    <meta name="apple-mobile-web-app-title" content="Bible online">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://bible-online.github.io/images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="https://bible-online.github.io/images/favicon.ico">
+
+    <style>
+        @font-face {
+            font-family: 'Icon';
+            src: url('https://bible-online.github.io/fonts/icon.eot?52m981');
+            src: url('https://bible-online.github.io/fonts/icon.eot?#iefix52m981') format('embedded-opentype'),
+            url('https://bible-online.github.io/fonts/icon.woff?52m981') format('woff'),
+            url('https://bible-online.github.io/fonts/icon.ttf?52m981') format('truetype'),
+            url('https://bible-online.github.io/fonts/icon.svg?52m981#icon') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+
+    <link rel="stylesheet" href="https://bible-online.github.io/stylesheets/application.css">
+    <link rel="stylesheet" href="https://bible-online.github.io/stylesheets/temporary.css">
+    <link rel="stylesheet" href="https://bible-online.github.io/stylesheets/palettes.css">
+    <link rel="stylesheet" href="https://bible-online.github.io/stylesheets/highlight/highlight.css">
+
+    <script src="https://bible-online.github.io/javascripts/modernizr.js"></script>
+</head>
+
+<body class=" ">
+
+<div class="backdrop">
+    <div class="backdrop-paper"></div>
+</div>
+
+<input class="toggle" type="checkbox" id="toggle-drawer">
+<input class="toggle" type="checkbox" id="toggle-search">
+<label class="toggle-button overlay" for="toggle-drawer"></label>
+
+<header class="header">
+    <nav aria-label="Header">
+  <div class="bar default">
+    <div class="button button-menu" role="button" aria-label="Menu">
+      <label class="toggle-button icon icon-menu" for="toggle-drawer">
+        <span></span>
+      </label>
+    </div>
+    <div class="stretch">
+      <div class="title">
+        Baruc
+      </div>
+    </div>
+
+    
+
+    
+    
+    <!-- TODO: disabled until Hugo supports the generation of a content index natively 
+    <div class="button button-search" role="button" aria-label="Search">
+      <label class="toggle-button icon icon-search" title="Search" for="toggle-search"></label>
+    </div>
+    -->    
+  </div>
+  <div class="bar search">
+    <div class="button button-close" role="button" aria-label="Close">
+      <label class="toggle-button icon icon-back" for="toggle-search"></label>
+    </div>
+    <div class="stretch">
+      <div class="field">
+        <input class="query" type="text" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck>
+      </div>
+    </div>
+    <div class="button button-reset" role="button" aria-label="Search">
+      <button class="toggle-button icon icon-close" id="reset-search"></button>
+    </div>
+  </div>
+</nav>
+</header>
+
+<main class="main">
+    <div class="drawer">
+        <nav aria-label="Navigation">
+  <!--<a href="https://bible-online.github.io/" class="project">
+    <div class="banner">
+      
+      <div class="name">
+        <strong>Bible online </strong>
+      </div>
+    </div>
+  </a>-->
+
+  <div class="scrollable">
+    <div class="wrapper">
+      <div class="toc">
+        <ul>
+          
+          <li>
+            <a href="https://bible-online.github.io/sang-the-ky">Sáng Thế Ký</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/xuat-hanh">Xuất Hành</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/le-vi">Lê Vi</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/dan-so">Dân Số</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/de-nhi-luat">Đệ Nhị Luật</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/gio-sue">Giô-suê</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-lanh">Thủ Lãnh</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/rut">Rút</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/samuel-i">Samuel I</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/samuel-ii">Samuel II</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/cac-vua-i">Các Vua I</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/cac-vua-ii">Các Vua II</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/su-bien-nien-i">Sử Biên Niên I</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/su-bien-nien-ii">Sử Biên Niên II</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/etra">Étra</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/nokhemia">Nơkhemia</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/tobia">Tôbia</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/giuditha">Giuđitha</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/ette">Étte</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/macabe-i">Macabê I</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/macabe-ii">Macabê II</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/giop">Gióp</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thanh-vinh">Thánh Vịnh</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/cham-ngon">Châm Ngôn</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/giang-vien">Giảng Viên</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/diem-ca">Diễm Ca</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/khon-ngoan">Khôn Ngoan</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/huan-ca">Huấn Ca</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/isaia">Isaia</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/gieremia">Giêrêmia</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/ai-ca">Ai Ca</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/baruc">Baruc</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/edekien">Êdêkien</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/danien">Đanien</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/hose">Hôsê</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/gioen">Giôen</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/amot">Amốt</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/ovadia">Ôvađia</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/giona">Giôna</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/mikha">Mikha</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/nakhum">Nakhum</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/khabacuc">Khabacúc</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/xophonia">Xôphônia</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/khacgai">Khácgai</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/dacaria">Dacaria</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/malakhi">Malakhi</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/mat-theu">Mát-thêu</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/mac-co">Mác-cô</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/luca">Luca</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/gioan">Gioan</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/tong-do-cong-vu">Tông Đồ Công Vụ</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-roma">Thư Rôma</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-corinto-1">Thư Côrintô 1</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-corinto-2">Thư Côrintô 2</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-galat">Thư Galát</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-epheso">Thư Êphêsô</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-philipphe">Thư Philípphê</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-coloxe">Thư Côlôxê</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-thexalonica-1">Thư Thêxalônica 1</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-thexalonica-2">Thư Thêxalônica 2</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-timothe-1">Thư Timôthê 1</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-timothe-2">Thư Timôthê 2</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-tito">Thư Titô</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-philemon">Thư Philêmon</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-do-thai">Thư Do Thái</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-giacobe">Thư Giacôbê</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-phero-1">Thư Phêrô 1</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-phero-2">Thư Phêrô 2</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-gioan-1">Thư Gioan 1</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-gioan-2">Thư Gioan 2</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-gioan-3">Thư Gioan 3</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-giuda">Thư Giuđa</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/khai-huyen">Khải Huyền</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+    </div>
+
+    <article class="article">
+        <div class="wrapper">
+            
+<section>
+    <a href="#c1"><span class="chapter-title" id="c1">Chương 1</span></a>
+    
+        
+            <h5>Ông Ba-rúc và cộng đồng Do-thái ở Ba-by-lon</h5>
+        
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Đây là nội dung quyển sách của ông Ba-rúc con ông Nê-ri-gia, cháu ông Ma-a-xa-gia, cháu ba đời ông Xít-ki-gia, cháu bốn đời ông A-xa-đi-a, cháu năm đời ông Khen-ki-gia. Ông Ba-rúc đã viết sách này tại Ba-by-lon.</span>
+            <br />
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Năm thứ năm, ngày thứ bảy trong tháng thứ năm, kể từ khi quân Can-đê đánh chiếm và phóng hoả thành Giê-ru-sa-lem,</span>
+            
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>ông Ba-rúc đã đọc sách này trước mặt vua Giơ-khon-gia, con vua nước Giu-đa là Giô-gia-kim, trước mặt toàn dân đến nghe và</span>
+            
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>trước mặt các bậc vị vọng, hoàng thân và kỳ mục, trước mặt toàn dân, cả trẻ con lẫn người lớn, trước mặt mọi người cư ngụ tại Ba-by-lon bên sông Sút.</span>
+            
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Bấy giờ, trước nhan Đức Chúa, tất cả đều khóc lóc, ăn chay và cầu nguyện;</span>
+            
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>rồi người ta đóng góp tiền bạc, mỗi người theo khả năng của mình,</span>
+            
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>và gửi về Giê-ru-sa-lem cho tư tế Giô-gia-kim con ông Khen-ki-gia, cháu ông Sa-lom, cho các tư tế khác và toàn dân đang ở với ông ấy tại Giê-ru-sa-lem.</span>
+            
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Trước đó, vào ngày mồng mười tháng Siu-van, chính ông Ba-rúc đã đem trả lại xứ Giu-đa các vật dụng thuộc về Nhà Đức Chúa, xưa kia đã bị đưa đi khỏi Đền Thờ. Đó là những bình bằng bạc mà vua Xít-ki-gia-hu, con vua Giu-đa là Giô-si-gia-hu đã làm,</span>
+            
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>sau khi Na-bu-cô-đô-nô-xo, vua Ba-by-lon, bắt vua Giơ-khon-gia rời khỏi Giê-ru-sa-lem, đưa đi đày tại Ba-by-lon, cùng với các thủ lãnh, tù nhân, các bậc vị vọng và toàn dân.</span>
+            <br />
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Họ nói: "Đây là tiền chúng tôi gửi về cho anh em, xin dùng để mua sắm lễ vật toàn thiêu, lễ vật đền tội và hương thơm; hãy chuẩn bị lễ phẩm rồi dâng trên bàn thờ Đức Chúa là Thiên Chúa chúng ta.</span>
+            
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Hãy cầu nguyện cho Na-bu-cô-đô-nô-xo vua Ba-by-lon, cũng như cho thái tử Bên-tát-xa được an khang trường thọ như trời cao đất dày.</span>
+            
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>Xin Chúa ban cho chúng tôi được can đảm và sáng suốt, cho chúng tôi được núp bóng Na-bu-cô-đô-nô-xo vua Ba-by-lon và thái tử Bên-tát-xa, cho chúng tôi được phục vụ các ngài dài lâu và làm đẹp lòng các ngài mãi mãi.</span>
+            
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>Xin anh em cũng cầu nguyện cùng Đức Chúa là Thiên Chúa chúng ta cho chính chúng ta nữa, vì chúng ta đã xúc phạm đến Đức Chúa là Thiên Chúa chúng ta, và cho đến ngày nay, trận lôi đình thịnh nộ của Đức Chúa đối với chúng ta vẫn chưa nguôi.</span>
+            
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>Vậy sách chúng tôi gửi cho anh em đây, hãy đọc mà xưng thú tội lỗi trong Nhà Đức Chúa vào ngày lễ Lều và những ngày thuận tiện.</span>
+            
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>Sau đây là nội dung:</span>
+            <br />
+        
+    
+        
+            <h5>I. LỜI NGUYỆN CỦA NHỮNG NGƯỜI LƯU ĐÀY</h5>
+        
+    
+        
+            <span id="s16"><sup><a href="#s16">16</a></sup>các vua và thủ lãnh, tư tế và ngôn sứ cũng như các bậc cha ông, chúng tôi phải hổ ngươi bẽ mặt như ngày hôm nay thì cũng đáng,</span>
+            
+        
+    
+        
+            <span id="s17"><sup><a href="#s17">17</a></sup>vì tất cả chúng tôi đã phạm tội trước nhan Đức Chúa,</span>
+            
+        
+    
+        
+            <span id="s18"><sup><a href="#s18">18</a></sup>đã bất tuân, không nghe tiếng Đức Chúa là Thiên Chúa chúng tôi, không vâng theo các mệnh lệnh Đức Chúa đã đề ra trước mắt chúng tôi.</span>
+            
+        
+    
+        
+            <span id="s19"><sup><a href="#s19">19</a></sup>Từ ngày Đức Chúa đưa cha ông chúng tôi ra khỏi đất Ai-cập cho tới ngày nay, chúng tôi vẫn bất tuân đối với Đức Chúa là Thiên Chúa chúng tôi, vẫn làm ngơ không chịu nghe tiếng Người.</span>
+            
+        
+    
+        
+            <span id="s20"><sup><a href="#s20">20</a></sup>Cho nên, như sự việc xảy ra hôm nay đây, những bất hạnh và lời nguyền rủa vẫn đeo đuổi chúng tôi, đúng như Đức Chúa đã tuyên bố với ông Mô-sê tôi tớ Người, ngày Người đưa cha ông chúng tôi ra khỏi Ai-cập để ban cho chúng tôi miền đất tràn trề sữa và mật.</span>
+            
+        
+    
+        
+            <span id="s21"><sup><a href="#s21">21</a></sup>Chúng tôi đã không vâng nghe tiếng Đức Chúa là Thiên Chúa chúng tôi, không tuân giữ mọi lời các ngôn sứ Người đã sai đến với chúng tôi.</span>
+            
+        
+    
+        
+            <span id="s22"><sup><a href="#s22">22</a></sup>Mỗi người chúng tôi đã cứ theo lòng dạ xấu xa ngoan cố của mình mà phục dịch các thần khác, và làm điều dữ trước mặt Đức Chúa là Thiên Chúa chúng tôi.</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c2"><span class="chapter-title" id="c2">Chương 2</span></a>
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Vì thế Đức Chúa thi hành lời đã phán liên quan đến chúng tôi, đến các thẩm phán lãnh đạo Ít-ra-en, đến các vua và thủ lãnh của chúng tôi, đến người Ít-ra-en và Giu-đa.</span>
+            
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Dưới cả vòm trời này, chưa hề xảy ra điều gì giống điều Người đã thực hiện tại Giê-ru-sa-lem, như đã chép trong Luật Mô-sê:</span>
+            
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>đến độ trong chúng tôi, kẻ ăn thịt con trai, người ăn thịt con gái của mình.</span>
+            
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Người còn bắt các ngài luỵ phục tất cả các vương quốc chung quanh chúng tôi, khiến các ngài nên trò ô nhục, nên đồ ghê tởm giữa mọi dân chung quanh, nơi Đức Chúa đã phân tán các ngài đến.</span>
+            
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Như thế các ngài là những kẻ bị trị, chứ không phải là những người cai trị, bởi vì chúng tôi đã xúc phạm đến Đức Chúa là Thiên Chúa chúng tôi, không vâng nghe tiếng Người.</span>
+            <br />
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Đức Chúa, Thiên Chúa chúng tôi quả là Đấng công minh, còn chúng tôi cũng như cha ông chúng tôi có phải hổ ngươi bẽ mặt như ngày hôm nay thì cũng đáng.</span>
+            
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Tất cả những tai hoạ Đức Chúa đe sẽ dùng mà trừng phạt chúng tôi, đã xảy đến cho chúng tôi rồi.</span>
+            
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Thế mà chúng tôi chẳng cầu xin tôn nhan Đức Chúa giúp mỗi người từ bỏ những tư tưởng xấu xa trong tâm hồn.</span>
+            
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Cho nên Đức Chúa đã canh chừng và đã giáng những tai hoạ ấy xuống trên chúng tôi; vì trong mọi việc Đức Chúa đã khiến xảy ra cho chúng tôi, Người thật là Đấng công minh.</span>
+            
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Còn chúng tôi, chúng tôi đã không nghe tiếng Người, không vâng theo các mệnh lệnh Đức Chúa đã đề ra trước mặt chúng tôi.</span>
+            <br />
+        
+    
+        
+            <h5>Lời cầu khẩn</h5>
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Giờ đây, lạy Đức Chúa là Thiên Chúa Ít-ra-en, Người đã dang cánh tay mạnh mẽ uy quyền, dùng dấu lạ điềm thiêng, dùng sức mạnh lớn lao mà đưa dân Ngài ra khỏi đất Ai-cập, khiến cho danh Ngài rạng rỡ như hiện nay.</span>
+            
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>Lạy Đức Chúa là Thiên Chúa chúng con, chúng con đã phạm tội, đã làm điều gian ác, đã ăn ở bất chính, ngược với mọi điều Ngài truyền dạy.</span>
+            
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>Xin cho cơn lôi đình của Ngài rời xa chúng con, vì giữa chư dân, nơi Ngài phân tán chúng con, chúng con chỉ còn lại rất ít.</span>
+            
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>Lạy Đức Chúa, xin lắng nghe lời chúng con cầu xin khẩn nguyện: vì danh Ngài, xin giải thoát chúng con và làm cho các kẻ đã đày ải chúng con có thiện cảm với chúng con.</span>
+            
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>Như vậy, toàn cõi đất sẽ biết rằng Ngài là Đức Chúa, Thiên Chúa chúng con, và cũng biết rằng Ít-ra-en cùng dòng dõi ông được mang danh Ngài.</span>
+            
+        
+    
+        
+            <span id="s16"><sup><a href="#s16">16</a></sup>Lạy Đức Chúa, từ thánh điện Ngài, xin đoái nhìn, xin nghĩ đến chúng con; lạy Đức Chúa, xin ghé tai nghe,</span>
+            
+        
+    
+        
+            <span id="s17"><sup><a href="#s17">17</a></sup>lạy Đức Chúa, xin đưa mắt nhìn xem: vì những kẻ sẽ ca ngợi vinh quang và sự công chính của Đức Chúa không phải là những kẻ đã chết, đang ở trong âm phủ, những kẻ đã trút hơi thở cuối cùng,</span>
+            
+        
+    
+        
+            <span id="s18"><sup><a href="#s18">18</a></sup>nhưng là những tâm hồn trăm bề đau khổ, thân xác lom khom rời rã, chân lê bước, mắt lờ đờ, bụng đói lả; lạy Đức Chúa, chính những tâm hồn này mới ca ngợi vinh quang và sự công chính của Ngài.</span>
+            <br />
+        
+    
+        
+            <span id="s19"><sup><a href="#s19">19</a></sup>Vì lạy Đức Chúa là Thiên Chúa chúng con, chúng con không dựa vào công đức của cha ông và vua chúa chúng con mà giãi bày cơ sự trước nhan Ngài.</span>
+            
+        
+    
+        
+            <span id="s20"><sup><a href="#s20">20</a></sup>Ngài đã trút lôi đình thịnh nộ trên chúng con, như Ngài đã dùng các ngôn sứ là các tôi tớ Ngài mà phán:</span>
+            
+        
+    
+        
+            <span id="s21"><sup><a href="#s21">21</a></sup>"Đức Chúa dạy rằng: Hãy khom lưng xuống làm tôi vua Ba-by-lon, rồi các ngươi sẽ được ở lại trên đất Ta đã ban cho cha ông các ngươi.</span>
+            
+        
+    
+        
+            <span id="s22"><sup><a href="#s22">22</a></sup>Còn nếu các ngươi không nghe tiếng Đức Chúa phán dạy mà làm tôi vua Ba-by-lon,</span>
+            
+        
+    
+        
+            <span id="s23"><sup><a href="#s23">23</a></sup>thì Ta sẽ làm cho các thành thị Giu-đa và ngay trong Giê-ru-sa-lem im bặt tiếng hò reo tưng bừng rộn rã, tiếng cô dâu chú rể gọi nhau, cả xứ sẽ trở nên chốn hoang vu không người cư ngụ."</span>
+            
+        
+    
+        
+            <span id="s24"><sup><a href="#s24">24</a></sup>Nhưng chúng con đã không nghe theo tiếng Ngài phán bảo phải làm tôi vua Ba-by-lon, cho nên Ngài đã cứ những lời Ngài đã dùng các ngôn sứ tôi tớ Ngài mà phán, là xương cốt của các vua, cũng như xương cốt của cha ông chúng con sẽ bị lôi ra khỏi mồ.</span>
+            
+        
+    
+        
+            <span id="s25"><sup><a href="#s25">25</a></sup>Các ngài đã chết vì những cực hình ghê gớm: đói khát, gươm đao, ôn dịch; và giờ đây xương cốt bị dầm sương giãi nắng đêm ngày.</span>
+            
+        
+    
+        
+            <span id="s26"><sup><a href="#s26">26</a></sup>Ngôi nhà được dành riêng để cầu khẩn Thánh Danh, Ngài đã làm cho ra nông nỗi này, âu cũng vì tội ác nhà Ít-ra-en và nhà Giu-đa đã phạm.</span>
+            <br />
+        
+    
+        
+            <span id="s27"><sup><a href="#s27">27</a></sup>Dầu vậy, lạy Đức Chúa là Thiên Chúa chúng con, Ngài đã lấy hết lượng khoan dung và lòng từ bi cao cả của Ngài mà xử với chúng con,</span>
+            
+        
+    
+        
+            <span id="s28"><sup><a href="#s28">28</a></sup>như Ngài đã dùng tôi tớ Ngài là ông Mô-sê mà phán, khi truyền cho ông chép Lề Luật của Ngài trước mặt con cái Ít-ra-en, nội dung như sau:</span>
+            
+        
+    
+        
+            <span id="s29"><sup><a href="#s29">29</a></sup>"Nếu các ngươi không nghe Ta, thì giữa chư dân, nơi Ta sẽ phân tán chúng, đám dân vĩ đại và đông đảo này chắc chắn sẽ trở thành nhỏ bé.</span>
+            
+        
+    
+        
+            <span id="s30"><sup><a href="#s30">30</a></sup>Ta vẫn biết rằng chúng sẽ chẳng nghe Ta đâu, vì đó là một dân cứng cổ. Nhưng trên đất lưu đày, chúng sẽ hồi tâm,</span>
+            
+        
+    
+        
+            <span id="s31"><sup><a href="#s31">31</a></sup>và sẽ biết rằng Ta là Đức Chúa, Thiên Chúa của chúng. Ta sẽ ban cho chúng một trái tim và đôi tai biết lắng nghe.</span>
+            
+        
+    
+        
+            <span id="s32"><sup><a href="#s32">32</a></sup>Trên đất lưu đày, chúng sẽ ca ngợi Ta, và sẽ tưởng nhớ danh Ta.</span>
+            
+        
+    
+        
+            <span id="s33"><sup><a href="#s33">33</a></sup>Chúng không còn cứng cổ nữa, cũng sẽ chẳng có những hành động xấu xa, vì chúng sẽ nhớ lại cách ăn nết ở của cha ông chúng, những kẻ đã phạm tội trước nhan Đức Chúa.</span>
+            
+        
+    
+        
+            <span id="s34"><sup><a href="#s34">34</a></sup>Rồi Ta sẽ đưa chúng trở về đất Ta đã thề hứa ban cho tổ tiên chúng là Áp-ra-ham, I-xa-ác và Gia-cóp; chúng sẽ làm chủ đất ấy. Ta sẽ làm cho chúng gia tăng và chúng sẽ không giảm bớt nữa.</span>
+            
+        
+    
+        
+            <span id="s35"><sup><a href="#s35">35</a></sup>Ta sẽ thiết lập với chúng một giao ước muôn đời, theo đó Ta sẽ là Thiên Chúa của chúng, còn chúng sẽ là dân của Ta. Ta sẽ không còn xua đuổi Ít-ra-en dân Ta khỏi đất Ta đã ban cho chúng nữa."</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c3"><span class="chapter-title" id="c3">Chương 3</span></a>
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Lạy Đức Chúa toàn năng là Thiên Chúa Ít-ra-en, kẻ kêu cầu Ngài đây là một tâm hồn sầu muộn và một lòng trí rã rời.</span>
+            
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Lạy Đức Chúa, xin lắng nghe, xin thương xót, vì chúng con đã phạm tội trước nhan Ngài.</span>
+            
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Vì Ngài là Đấng muôn đời hiển trị; còn chúng con thì mãi mãi tiêu vong.</span>
+            
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Vậy, lạy Đức Chúa toàn năng là Thiên Chúa Ít-ra-en, xin nghe lời khẩn nguyện của chúng con là những tử vong Ít-ra-en, là con cháu những người xưa kia đã xúc phạm đến Ngài, đã chẳng nghe tiếng Đức Chúa là Thiên Chúa các vị ấy, để ngày nay những bất hạnh này vẫn bám sát chúng con.</span>
+            
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Xin đừng chấp tội cha ông chúng con, nhưng trong giờ phút này, xin nhớ đến cánh tay và thánh danh Ngài.</span>
+            
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Vâng, Ngài là Đức Chúa, Thiên Chúa chúng con, và lạy Đức Chúa, chúng con sẽ ca tụng Ngài.</span>
+            
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Sở dĩ Ngài đã ban cho chúng con lòng kính sợ Ngài là để chúng con kêu cầu Thánh Danh. Nơi lưu đày, chúng con sẽ ca tụng Ngài, vì chúng con đã loại khỏi tâm hồn chúng con mọi điều gian ác cha ông chúng con đã phạm trước nhan Ngài.</span>
+            
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Hôm nay đây, chúng con đang ở nơi lưu đày, nơi Ngài đã phân tán chúng con, khiến chúng con thành trò ô nhục, thành lời nguyền rủa, thành khoản bồi hoàn cho tất cả những điều gian ác của cha ông chúng con, những người đã từ bỏ Đức Chúa là Thiên Chúa chúng con.</span>
+            <br />
+        
+    
+        
+            <h5>II. ƠN KHÔN NGOAN DÀNH CHO ÍT-RA-EN</h5>
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Nghe đi nào, hỡi Ít-ra-en,những mệnh lệnh tặng ban sự sống,hãy lắng tai hiểu lẽ khôn ngoan.</span>
+            <br />
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Vì đâu, Ít-ra-en hỡi, vì đâungươi phải nương thân trên đất thù địch,phải mòn hao nơi xứ lạ quê người?</span>
+            <br />
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Vì đâu ngươi bị nhiễm uế giữa đám thây ma,phải nằm chung với những người ở trong âm phủ?</span>
+            <br />
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>Âu cũng vì ngươi đã bỏ Nguồn Mạch Khôn Ngoan.</span>
+            <br />
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>Nếu ngươi cứ bước đi theo đường Đức Chúa,hẳn muôn đời ngươi đã được an vui.</span>
+            <br />
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>Hãy học cho biết đâu là khôn ngoan,đâu là sức mạnh, đâu là thông hiểu,đâu là trường thọ và sự sống,đâu là ánh sáng soi con mắt, và đâu là bình an.</span>
+            <br />
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>Nhưng ai tìm thấy nơi cự ngụ,và vào được kho tàng của đức khôn ngoan?</span>
+            <br />
+        
+    
+        
+            <span id="s16"><sup><a href="#s16">16</a></sup>Đâu cả rồi, thủ lãnh các dân tộc,kẻ bá chủ muông thú địa cầu,</span>
+            <br />
+        
+    
+        
+            <span id="s17"><sup><a href="#s17">17</a></sup>kẻ lấy chim trời làm trò tiêu khiển?Đâu cả rồi kẻ chuyên lo tích trữ bạc vàng,là những thứ người đời luôn tin tưởng,có chiếm được bao nhiêu cũng không vừa?</span>
+            <br />
+        
+    
+        
+            <span id="s18"><sup><a href="#s18">18</a></sup>Đâu cả rồi những kẻ làm ra bạc,nhọc lòng mà kết quả vẫn là không?</span>
+            <br />
+        
+    
+        
+            <span id="s19"><sup><a href="#s19">19</a></sup>Tất cả đều khuất bóng, đều đi vào âm phủ,nhường chỗ cho kẻ khác vươn lên.</span>
+            <br />
+        
+    
+        
+            <span id="s20"><sup><a href="#s20">20</a></sup>Một lớp người trẻ hơn đã nhìn thấy ánh sáng,đã cư ngụ trên chốn dương gian:nhưng đường hiểu biết, chúng chẳng am tường,</span>
+            <br />
+        
+    
+        
+            <span id="s21"><sup><a href="#s21">21</a></sup>nẻo khôn ngoan, chúng không thông hiểu.Cả con cái chúng cũng không nắm vững,cứ mãi ở xa đường lối khôn ngoan.</span>
+            <br />
+        
+    
+        
+            <span id="s22"><sup><a href="#s22">22</a></sup>Tại Ca-na-an, không ai nghe nói đến,cũng chẳng ai nhìn thấy tại Tê-man.</span>
+            <br />
+        
+    
+        
+            <span id="s23"><sup><a href="#s23">23</a></sup>Ngay cả đám con cháu Ha-ga,những kẻ trên đời chuyên tìm kiến thức,bọn thương gia Me-ran và Tê-man,những kẻ ưa kể chuyện thần thoại, chuyên tìm kiến thức:trong bọn họ, đường nẻo khôn ngoanchẳng ai am tường, chẳng ai nhớ đến.</span>
+            <br />
+        
+    
+        
+            <span id="s24"><sup><a href="#s24">24</a></sup>Hỡi Ít-ra-en, nhà Thiên Chúa ngự lớn lao biết mấy,lãnh địa của Người bát ngát dường bao,</span>
+            <br />
+        
+    
+        
+            <span id="s25"><sup><a href="#s25">25</a></sup>lớn lao vô hạn, cao cả khôn lường!</span>
+            <br />
+        
+    
+        
+            <span id="s26"><sup><a href="#s26">26</a></sup>Tại đó, từ nguyên thủy đã sinh ranhững kẻ khổng lồ tiếng tăm lừng lẫy,vóc dáng to cao, thạo nghề chinh chiến.</span>
+            <br />
+        
+    
+        
+            <span id="s27"><sup><a href="#s27">27</a></sup>Nhưng những người này, Thiên Chúa không chọn,cũng chẳng dạy cho con đường hiểu biết.</span>
+            <br />
+        
+    
+        
+            <span id="s28"><sup><a href="#s28">28</a></sup>Vì thiếu hiểu biết, họ đã tiêu vong,đã tiêu vong, vì họ điên rồ.</span>
+            <br />
+        
+    
+        
+            <span id="s29"><sup><a href="#s29">29</a></sup>Ai lên trời chiếm được khôn ngoan,rời khỏi tầng mây mà đưa xuống?</span>
+            <br />
+        
+    
+        
+            <span id="s30"><sup><a href="#s30">30</a></sup>Ai vượt trùng dương để mong tìm được,rồi lấy vàng y đổi đem về?</span>
+            <br />
+        
+    
+        
+            <span id="s31"><sup><a href="#s31">31</a></sup>Đường khôn ngoan, nào ai biết được,nẻo khôn ngoan, mấy kẻ quan tâm?</span>
+            <br />
+        
+    
+        
+            <span id="s32"><sup><a href="#s32">32</a></sup>Chỉ mình Đấng Toàn Tri mới biết đức khôn ngoan,chỉ có trí tuệ Người mới thông suốt được.Người đã thiết lập cõi đất cho bền vững muôn đời,đã cho thú vật tràn đầy mặt đất.</span>
+            <br />
+        
+    
+        
+            <span id="s33"><sup><a href="#s33">33</a></sup>Người sai ánh sáng, ánh sáng liền đi;gọi ánh sáng lại, ánh sáng run rẩy vâng lời.</span>
+            <br />
+        
+    
+        
+            <span id="s34"><sup><a href="#s34">34</a></sup>Các tinh tú, mỗi ngôi ở vị trí mình, tưng bừng chiếu sáng.</span>
+            <br />
+        
+    
+        
+            <span id="s35"><sup><a href="#s35">35</a></sup>Người gọi chúng, chúng thưa: Có mặt,và hân hoan chiếu sáng mừng Đấng tạo nên mình.</span>
+            <br />
+        
+    
+        
+            <span id="s36"><sup><a href="#s36">36</a></sup>Chính Người là Thiên Chúa chúng ta,chẳng có ai sánh được như Người.</span>
+            <br />
+        
+    
+        
+            <span id="s37"><sup><a href="#s37">37</a></sup>Mọi nẻo đường đưa tới hiểu biết, Người đều tinh thông,chính Người đã vạch ra cho Gia-cóp, tôi trung của Người,cho Ít-ra-en, kẻ Người yêu quý.</span>
+            <br />
+        
+    
+        
+            <span id="s38"><sup><a href="#s38">38</a></sup>Rồi đức khôn ngoan xuất hiện trên mặt đấtvà đã sống giữa loài người.</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c4"><span class="chapter-title" id="c4">Chương 4</span></a>
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Đức khôn ngoanlà huấn giới của Thiên Chúa ghi trong Sách Luật,Luật tồn tại cho đến muôn đời.Ai gắn bó với Lề Luật thì sẽ được sống;còn ai lìa bỏ ắt sẽ phải chết.</span>
+            <br />
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Hỡi Gia-cóp, hãy quay trở về đón nhận Lề Luật,hãy dõi theo ánh sáng của Lề Luậtmà tiến bước về chốn huy hoàng!</span>
+            <br />
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Vinh quang của ngươi, chớ nhường cho người khác,đặc ân của ngươi, đừng trao cho dân ngoại.</span>
+            <br />
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Hỡi Ít-ra-en, chúng ta có phúc dường nào,vì được biết những gì làm đẹp lòng Thiên Chúa!</span>
+            <br />
+        
+    
+        
+            <h5>III. GIÊ-RU-SA-LEM THAN VAN VÀ HY VỌNG</h5>
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Can đảm lên nào, hỡi dân Ta!Hỡi những kẻ mang danh Ít-ra-en!</span>
+            <br />
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Các ngươi có bị bán cho dân ngoại,không phải là để bị diệt vong.Các ngươi có bị trao cho quân thùâu cũng vì đã chọc giận Thiên Chúa.</span>
+            <br />
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Quả thật, khi tế lễ cho ma quỷ thay vì cho Thiên Chúa,các ngươi đã khiêu khích Đấng tạo dựng nên mình.</span>
+            <br />
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Thiên Chúa vĩnh cửu, Đấng nuôi dưỡng các ngươi,các ngươi đành quên lãng;còn Giê-ru-sa-lem, mẹ sinh thành các ngươi,các ngươi làm cho mẹ phải buồn sầu;</span>
+            <br />
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>buồn vì chứng kiến cơn thịnh nộ của Thiên Chúagiáng xuống trên đoàn con, và mẹ đã than thở:Hãy nghe đây, các thành lân cận của Xi-on,Thiên Chúa đã giáng xuống trên tôi một nỗi buồn thê thảm.</span>
+            <br />
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Vì tôi đã thấy cảnh lưu đàyĐấng Vĩnh Hằng giáng xuống trên con trai con gái của tôi.</span>
+            <br />
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Xưa tôi vui mừng nuôi dưỡng chúng,nay đành phải buồn sầu ứa lệ để cho chúng ra đi.</span>
+            <br />
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>Chớ ai vui mừng vì thấy tôi goá bụa, bị mọi người bỏ rơi;tôi phải sống đơn độc như thế nàychỉ vì con cái tôi phạm tội, lìa bỏ Lề Luật của Thiên Chúa:</span>
+            <br />
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>Chúng không hay không biết huấn lệnh Người,chẳng đi theo đường Người chỉ dạy,chẳng bước theo đường nẻo, chẳng sống theo kỷ cươngphù hợp với sự công chính của Thiên Chúa.</span>
+            <br />
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>Đến đây, hỡi các thành lân cận của Xi-on,và hãy nhớ lại cảnh tù đàyĐấng Vĩnh Hằng giáng xuống trên con trai, con gái của tôi.</span>
+            <br />
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>Nhằm trừng phạt chúng, Đức Chúa gửi đến một dân xa lạ,một dân ngạo ngược, nói tiếng không ai hiểu,già không nể, trẻ không thương.</span>
+            <br />
+        
+    
+        
+            <span id="s16"><sup><a href="#s16">16</a></sup>Những đứa con trai yêu của bà goá đã bị dẫn đi xa,bà chỉ còn trơ trọi một mình, mất luôn cả con gái.</span>
+            <br />
+        
+    
+        
+            <span id="s17"><sup><a href="#s17">17</a></sup>Các con ơi, làm sao mẹ giúp các con bây giờ?</span>
+            <br />
+        
+    
+        
+            <span id="s18"><sup><a href="#s18">18</a></sup>Đấng đã giáng tai hoạ xuống các con,chính Người sẽ cứu các con khỏi tay thù địch.</span>
+            <br />
+        
+    
+        
+            <span id="s19"><sup><a href="#s19">19</a></sup>Đi đi các con, đi đi thôi, mẹ đành phải ở lại một mình!</span>
+            <br />
+        
+    
+        
+            <span id="s20"><sup><a href="#s20">20</a></sup>Mẹ đã cởi áo đẹp của lúc an vui thái bình,khoác áo thô để van xin khẩn nguyện.Suốt chuỗi ngày còn sống,mẹ sẽ gào lên Đấng Vĩnh Hằng.</span>
+            <br />
+        
+    
+        
+            <span id="s21"><sup><a href="#s21">21</a></sup>Can đảm lên nào, hỡi các con,hãy cứ kêu lên cùng Thiên Chúa.Chính Người sẽ giải thoát các conkhỏi quân bạo tàn, khỏi tay thù địch.</span>
+            <br />
+        
+    
+        
+            <span id="s22"><sup><a href="#s22">22</a></sup>Mẹ trông đợi Đấng Vĩnh Hằng,sẽ ban cho chúng con ơn giải thoát,Người là Đấng Thánh đã ban cho mẹ niềm vui;mẹ vui vì nghĩ đến lòng thương xót,Đấng Vĩnh Hằng, Vị Cứu Tinh của chúng consắp đem đến cho chúng con.</span>
+            <br />
+        
+    
+        
+            <span id="s23"><sup><a href="#s23">23</a></sup>Nước mắt rưng rưng, lòng buồn tê tái, mẹ đành để các con ra đi.Nhưng Thiên Chúa sẽ đưa các con về với mẹ,mẹ con mình sẽ mãi mãi vui sướng hân hoan.</span>
+            <br />
+        
+    
+        
+            <span id="s24"><sup><a href="#s24">24</a></sup>Hôm nay đây các thành lân cận của Xi-onnhìn thấy các con đi lưu đày,thì chỉ mai này thôi, cũng chính chúngsẽ thấy các con được Thiên Chúa cứu độ.Trong ánh sáng huy hoàng, trong vinh quang rực rỡ,Đấng Vĩnh Hằng sẽ ban ơn cứu độ cho chúng con.</span>
+            <br />
+        
+    
+        
+            <span id="s25"><sup><a href="#s25">25</a></sup>Các con ơi, hãy kiên tâm chịu đựngcơn thịnh nộ Thiên Chúa đổ xuống các con.- Ngươi đã bị quân thù khủng bố,nhưng ngươi sẽ sớm thấy nó tan hoang,nó sẽ bị ngươi đạp đầu đạp cổ -.</span>
+            <br />
+        
+    
+        
+            <span id="s26"><sup><a href="#s26">26</a></sup>Những đứa con tôi nâng niu chiều chuộngnay bước lê trên đường sỏi đá.Chúng khác chi đàn vậtbị quân thù đánh cướp, bắt đem đi.</span>
+            <br />
+        
+    
+        
+            <span id="s27"><sup><a href="#s27">27</a></sup>Các con ơi, can đảm lên nào!Hãy cứ kêu lên cùng Thiên Chúa,vì Đấng đã giáng hoạ sẽ lại nhớ đến các con.</span>
+            <br />
+        
+    
+        
+            <span id="s28"><sup><a href="#s28">28</a></sup>Xưa các con chỉ nghĩ đến chuyện xa lìa Thiên Chúa,thì một khi trở về,các con phải nỗ lực gấp mười mà tìm kiếm Chúa.</span>
+            <br />
+        
+    
+        
+            <span id="s29"><sup><a href="#s29">29</a></sup>Vì Đấng đã giáng hoạ xuống các con,chính Người sẽ giải thoát mà ban cho các con niềm vui vĩnh cửu.</span>
+            <br />
+        
+    
+        
+            <span id="s30"><sup><a href="#s30">30</a></sup>Giê-ru-sa-lem, can đảm lên nào:Đấng đã đặt tên cho ngươi sẽ mang lại cho ngươi niềm an ủi.</span>
+            <br />
+        
+    
+        
+            <span id="s31"><sup><a href="#s31">31</a></sup>Khốn cho những kẻ hành hạ ngươi,và vui sướng vì ngươi sụp đổ!</span>
+            <br />
+        
+    
+        
+            <span id="s32"><sup><a href="#s32">32</a></sup>Khốn cho các thành phố và đô thịđã bắt con cái ngươi phải làm tôi!Khốn cho thành cướp đoạt con cái ngươi!</span>
+            <br />
+        
+    
+        
+            <span id="s33"><sup><a href="#s33">33</a></sup>Nó đã vui mừng thấy ngươi sụp đổ,đã sung sướng vì ngươi suy vong;cũng vậy, nó sẽ phải buồn phiền đau đớn,khi chính nó trở nên đống hoang tàn.</span>
+            <br />
+        
+    
+        
+            <span id="s34"><sup><a href="#s34">34</a></sup>Ta sẽ cất đi, không cho nó hưởngniềm vui của một đô thị đông dân;nó đã từng kiêu căng ngạo ngược,thì rồi ra phải ủ dột buồn sầu.</span>
+            <br />
+        
+    
+        
+            <span id="s35"><sup><a href="#s35">35</a></sup>Vì lửa của Đấng Vĩnh Hằng trút xuốngsẽ thiêu đốt nó ngày này qua ngày nọ;và năm này qua năm khác,nó sẽ thành sào huyệt của quỷ ma.</span>
+            <br />
+        
+    
+        
+            <span id="s36"><sup><a href="#s36">36</a></sup>Hãy hướng về phía đông, Giê-ru-sa-lem hỡi,và nhận ra niềm vui đang đến,niềm vui Thiên Chúa gửi cho ngươi.</span>
+            <br />
+        
+    
+        
+            <span id="s37"><sup><a href="#s37">37</a></sup>Những đứa con ngươi đã để ra đi, này chúng đang tiến về;từ đông sang tây, chúng tụ họp lại,và tiến về theo lệnh của Đấng Thánh,hân hoan vì được vinh quang Thiên Chúa ở cùng.</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c5"><span class="chapter-title" id="c5">Chương 5</span></a>
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Hỡi Giê-ru-sa-lem, hãy cởi bỏ áo tang khổ nhục,và mặc lấy ánh vinh quang vĩnh cửu Thiên Chúa ban cho ngươi;</span>
+            <br />
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>hãy khoác vào mình áo choàng công chính của Thiên Chúa;và đội lên đầu triều thiên vinh quangĐấng Vĩnh Hằng ban tặng.</span>
+            <br />
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Vì Thiên Chúa sẽ cho khắp cả hoàn cầuthấy hào quang rực rỡ của ngươi.</span>
+            <br />
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Mãi mãi Người sẽ gọi ngươilà "Bình an xây dựng trên công chính",và "Vinh quang phát xuất từ lòng kính sợ Thiên Chúa".</span>
+            <br />
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Vùng lên, Giê-ru-sa-lem hỡi,hãy đứng ở nơi cao, và hướng nhìn về phía đông:Kìa xem con cái ngươi từ đông sang tây tụ họp vềtheo lời Đấng Thánh đã truyền dạy.Được Thiên Chúa nhớ đến, chúng hớn hở mừng vui.</span>
+            <br />
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Xưa chúng bị quân thù áp giải,phải rời ngươi, không xe không ngựa.Nay Thiên Chúa lại đưa chúng trở về với ngươi,chúng được kiệu đi vinh quang rực rỡ, khác chi một ngai vàng.</span>
+            <br />
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Vì Thiên Chúa đã ra lệnh phải bạt thấp núi caovà gò nổng có tự lâu đời,phải lấp đầy thung lũng cho mặt đất phẳng phiu,để Ít-ra-en tiến bước an toàndưới ánh vinh quang của Thiên Chúa.</span>
+            <br />
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Theo lệnh của Thiên Chúa, rừng xanh và đủ loại quế trầmsẽ toả bóng che rợp Ít-ra-en,</span>
+            <br />
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>vì Thiên Chúa sẽ dẫn Ít-ra-en đi trong hoan lạc,dưới ánh sáng vinh quang của Chúa,cùng với lòng từ bi và sự công chính của Người.</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c6"><span class="chapter-title" id="c6">Chương 6</span></a>
+    
+        
+            <h5>IV. THƯ CỦA ÔNG GIÊ-RÊ-MI-A</h5>
+        
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Vì tội lỗi anh em đã phạm trước nhan Thiên Chúa, anh em sẽ bị vua nước Ba-by-lon là Na-bu-cô-đô-nô-xo phát lưu sang nước này.</span>
+            
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Vậy sau khi đến Ba-by-lon, anh em sẽ phải ở lại xứ ấy nhiều năm, trong quãng thời gian dài đến bảy đời. "Nhưng, Thiên Chúa phán, sau thời gian này, Ta sẽ đưa các ngươi ra khỏi đó bình an."</span>
+            
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Rồi đây tại Ba-by-lon, anh em sẽ thấy những tượng thần bằng vàng bạc hay bằng đá. Những tượng này được người ta kiệu trên vai, và đã từng làm cho các dân ngoại kinh hoàng.</span>
+            
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Hãy coi chừng kẻo như các dân ngoại, chính anh em cũng run sợ,</span>
+            
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>khi thấy quần chúng kẻ trước người sau thờ lạy các tượng thần đó. Nhưng anh em hãy nói trong lòng rằng: "Lạy Chúa là Chúa Tể, chỉ mình Ngài là Đấng phải thờ lạy mà thôi! "</span>
+            
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>"Vì, Thiên Chúa phán, thần sứ của Ta luôn ở với các ngươi, chính Người sẽ bảo vệ tính mạng các ngươi."</span>
+            <br />
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Quả thật, các tượng thần này đã được sơn son thiếp vàng, lưỡi chúng được thợ mài nhẵn, chúng chỉ là đồ giả không biết nói.</span>
+            
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Người ta lấy vàng làm triều thiên đội lên đầu các tượng thần của mình như đội cho thiếu nữ ưa làm dáng.</span>
+            
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Đôi khi các tư tế cũng cất giấu vàng bạc đó để dùng vào việc riêng; họ còn lấy đem cho các cô điếm ở trên sân thượng nữa.</span>
+            
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Họ may áo mặc cho các tượng thần bằng vàng bạc hay gỗ đó, y như cho người ta vậy; nhưng các thần ấy không chống lại được rỉ sét và mối mọt.</span>
+            
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Mỗi khi khoác áo đỏ cho chúng, người ta phải lau mặt cho chúng vì bụi bặm trong đền thờ bám đầy.</span>
+            
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>Thần này thì cầm phủ việt tựa như lãnh chúa, nhưng không giết được kẻ phạm đến mình;</span>
+            
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>thần khác thì cầm trong tay phải vừa kiếm vừa rìu, nhưng không bảo vệ được mình cho khỏi địch thù hay trộm cướp.</span>
+            
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>Vì thế, hiển nhiên, chúng không phải là thần, sợ chúng mà làm chi!</span>
+            <br />
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>Như chiếc bình vỡ trở thành vô tích sự, các thần của họ được đặt trong các đền cũng thế.</span>
+            
+        
+    
+        
+            <span id="s16"><sup><a href="#s16">16</a></sup>Mắt chúng đầy bụi bặm do chân những kẻ đi vào tung lên.</span>
+            
+        
+    
+        
+            <span id="s17"><sup><a href="#s17">17</a></sup>Như người ta nhốt kín kẻ phạm tội khi quân, chờ lãnh án tử hình, không để nó trốn thoát, cũng vậy, các tư tế tăng cường bảo vệ các đền thờ của họ bằng cửa đóng then cài để tránh trộm cướp.</span>
+            
+        
+    
+        
+            <span id="s18"><sup><a href="#s18">18</a></sup>Họ thắp đèn cho thần còn nhiều hơn cho chính mình nữa, nhưng dù một ngọn thôi, thần cũng chẳng thấy.</span>
+            
+        
+    
+        
+            <span id="s19"><sup><a href="#s19">19</a></sup>Chúng có khác chi các xà nhà bên trong đã ruỗng hết, như người ta quen nói; mối từ đất xông lên đục khoét chúng cũng như áo chúng mặc, mà chúng không hề biết.</span>
+            
+        
+    
+        
+            <span id="s20"><sup><a href="#s20">20</a></sup>Mặt mũi chúng lọ lem vì khói trong đền bốc lên nghi ngút.</span>
+            
+        
+    
+        
+            <span id="s21"><sup><a href="#s21">21</a></sup>Trên thân mình chúng cũng như trên đầu chúng, người ta thấy bay lượn nào dơi, nào nhạn và các thứ chim khác, lại có cả mèo nữa.</span>
+            
+        
+    
+        
+            <span id="s22"><sup><a href="#s22">22</a></sup>Cứ thế anh em đủ biết chúng chẳng phải là thần: sợ chúng mà làm chi!</span>
+            <br />
+        
+    
+        
+            <span id="s23"><sup><a href="#s23">23</a></sup>Hơn nữa, vàng người ta dùng dát lên các tượng thần cho đẹp, nếu không có ai lau cho hết mờ, thì chúng cũng không làm cho vàng đó sáng lên được, vì ngay cả lúc người ta làm ra chúng, chúng cũng chẳng hay.</span>
+            
+        
+    
+        
+            <span id="s24"><sup><a href="#s24">24</a></sup>Dù được mua với giá cao, các thần ấy vẫn chẳng có hơi thở.</span>
+            
+        
+    
+        
+            <span id="s25"><sup><a href="#s25">25</a></sup>Chúng không có chân, nên người ta phải khiêng chúng trên vai, và như thế ai cũng nhìn thấy sự ô nhục của chúng. Bầy tôi chúng cũng phải xấu hổ, vì nếu chúng đổ xuống đất, thì cũng phải nhờ họ chúng mới đứng lên được.</span>
+            
+        
+    
+        
+            <span id="s26"><sup><a href="#s26">26</a></sup>Cứ đặt chúng đứng yên một chỗ, chúng chẳng tự mình đi lại được đâu. Nếu bị nghiêng, chúng không đứng thẳng lại được. Có dâng lễ vật cho chúng thì cũng như dâng cho người chết vậy thôi.</span>
+            
+        
+    
+        
+            <span id="s27"><sup><a href="#s27">27</a></sup>Của lễ hy sinh dâng cho chúng, các tư tế đem bán kiếm lời; còn phần phải đem chia cho người nghèo đói tật nguyền, thì các bà vợ của họ đem ướp muối. Những của lễ hy sinh ấy, cả đàn bà có kinh nguyệt và người ở cữ cũng cứ động vào.</span>
+            
+        
+    
+        
+            <span id="s28"><sup><a href="#s28">28</a></sup>Những điều này cho anh em biết chúng không phải là thần: sợ chúng mà làm chi!</span>
+            <br />
+        
+    
+        
+            <span id="s29"><sup><a href="#s29">29</a></sup>Làm sao gọi là thần, những pho tượng bằng vàng bạc hay bằng gỗ, vì có cả đàn bà dâng của lễ cho chúng nữa?</span>
+            
+        
+    
+        
+            <span id="s30"><sup><a href="#s30">30</a></sup>Trong đền của chúng, tư tế thì ngồi, lễ phục rách rưới, đầu râu cạo nhẵn, không mũ không nón.</span>
+            
+        
+    
+        
+            <span id="s31"><sup><a href="#s31">31</a></sup>Khi kêu gào trước các thần, họ rống lên như có người vẫn làm khi ăn cỗ nhà tang.</span>
+            
+        
+    
+        
+            <span id="s32"><sup><a href="#s32">32</a></sup>Các tư tế lấy áo của thần cho vợ con mặc.</span>
+            
+        
+    
+        
+            <span id="s33"><sup><a href="#s33">33</a></sup>Bị xử tệ hay được xử tốt, các thần ấy cũng chẳng đáp trả được. Chúng không thể đặt ai lên làm vua hay truất phế,</span>
+            
+        
+    
+        
+            <span id="s34"><sup><a href="#s34">34</a></sup>cũng không thể cho ai của cải hay tiền bạc gì. Ai khấn với chúng rồi mà không giữ, chúng không đòi hỏi gì được.</span>
+            
+        
+    
+        
+            <span id="s35"><sup><a href="#s35">35</a></sup>Chúng không cứu được ai khỏi chết, không giải thoát được người yếu thế khỏi tay kẻ có quyền;</span>
+            
+        
+    
+        
+            <span id="s36"><sup><a href="#s36">36</a></sup>không làm cho người mù được thấy, chẳng cứu được ai khỏi cảnh khốn quẫn,</span>
+            
+        
+    
+        
+            <span id="s37"><sup><a href="#s37">37</a></sup>không cảm thương kẻ goá bụa, chẳng thi ân cho trẻ mồ côi.</span>
+            
+        
+    
+        
+            <span id="s38"><sup><a href="#s38">38</a></sup>Những khúc gỗ bọc vàng bọc bạc ấy cũng giống như những phiến đá đẽo lấy từ núi ra vậy; những kẻ làm tôi chúng sẽ phải xấu hổ thẹn thùng.</span>
+            
+        
+    
+        
+            <span id="s39"><sup><a href="#s39">39</a></sup>Thế thì làm sao có thể nghĩ hoặc nói rằng chúng là thần được?</span>
+            <br />
+        
+    
+        
+            <span id="s40"><sup><a href="#s40">40</a></sup>Ngay cả những người Can-đê cũng khinh dể các thần đó, vì khi thấy một người câm, họ đưa đến cho thần Ben để xin cho nó nói được, làm như thần này có thể hiểu;</span>
+            
+        
+    
+        
+            <span id="s41"><sup><a href="#s41">41</a></sup>thế mà khi nghĩ lại, những người kia cũng không bỏ được các thần ấy: là vì họ không có khả năng nhận thức.</span>
+            
+        
+    
+        
+            <span id="s42"><sup><a href="#s42">42</a></sup>Có những người đàn bà thắt dây thừng ngồi bên vệ đường, đốt cám làm hương;</span>
+            
+        
+    
+        
+            <span id="s43"><sup><a href="#s43">43</a></sup>bà nào được một người khách chiếu cố mà đi lại với mình thì mạt sát bà bên cạnh, cho rằng bà này không xứng đáng bằng mình nên dây thừng mới không được giật đứt.</span>
+            
+        
+    
+        
+            <span id="s44"><sup><a href="#s44">44</a></sup>Tất cả mọi chuyện làm cho các thần ấy đều là dối trá; thế thì sao có thể nghĩ hoặc nói rằng chúng là thần được?</span>
+            <br />
+        
+    
+        
+            <span id="s45"><sup><a href="#s45">45</a></sup>Những người chế tạo ra chúng là các nghệ nhân và thợ kim hoàn, nên họ muốn chúng ra thế nào thì chúng chỉ là thế thôi.</span>
+            
+        
+    
+        
+            <span id="s46"><sup><a href="#s46">46</a></sup>Những người chế tạo ra chúng còn chẳng sống được lâu, thì làm sao sản phẩm của họ lại là thần được?</span>
+            
+        
+    
+        
+            <span id="s47"><sup><a href="#s47">47</a></sup>Cái họ để lại cho hậu thế chỉ là dối trá và ô nhục thôi.</span>
+            
+        
+    
+        
+            <span id="s48"><sup><a href="#s48">48</a></sup>Khi xảy ra tai ương loạn lạc, tư tế liền hỏi nhau xem phải đem thần đi trốn chỗ nào.</span>
+            
+        
+    
+        
+            <span id="s49"><sup><a href="#s49">49</a></sup>Những thứ không thể cứu nổi mình khỏi tai ương loạn lạc, những thứ đó không phải là thần: chuyện này, làm sao không hiểu được?</span>
+            
+        
+    
+        
+            <span id="s50"><sup><a href="#s50">50</a></sup>Sớm muộn gì người ta cũng sẽ nhận ra rằng những khúc gỗ sơn son thiếp vàng kia chỉ là dối trá. Mọi dân tộc và vua chúa đều thấy rõ rằng chúng không phải là thần, mà chỉ là sản phẩm do tay con người làm ra, và nơi chúng không hề có một tác động thần linh nào cả.</span>
+            
+        
+    
+        
+            <span id="s51"><sup><a href="#s51">51</a></sup>Vậy thì ai lại không dễ dàng biết được: chúng không phải là thần?</span>
+            <br />
+        
+    
+        
+            <span id="s52"><sup><a href="#s52">52</a></sup>Chúng không thể đặt ai làm vua trong một nước, chẳng làm được mưa cho người ta,</span>
+            
+        
+    
+        
+            <span id="s53"><sup><a href="#s53">53</a></sup>chẳng giải quyết được vụ tranh chấp nào, cũng chẳng có khả năng cứu người bị áp bức. Chúng khác chi loài quạ bay lượn giữa trời đất.</span>
+            
+        
+    
+        
+            <span id="s54"><sup><a href="#s54">54</a></sup>Khi xảy ra hoả hoạn tại đền của các thần bằng gỗ sơn son thiếp vàng ấy, thì các tư tế của chúng lo chạy thoát thân; còn chúng cứ đứng trơ trơ giữa nhà như kèo cột mà chịu đốt.</span>
+            
+        
+    
+        
+            <span id="s55"><sup><a href="#s55">55</a></sup>Chúng không chống nổi vua, không chống nổi kẻ thù.</span>
+            
+        
+    
+        
+            <span id="s56"><sup><a href="#s56">56</a></sup>Vậy, làm sao chấp nhận hoặc nghĩ rằng chúng là thần được?</span>
+            <br />
+        
+    
+        
+            <span id="s57"><sup><a href="#s57">57</a></sup>Các thần bằng gỗ sơn son thếp vàng đó không thoát khỏi trộm cướp to gan đánh cắp vàng bạc cũng như áo xống của chúng; chúng có tự cứu mình được đâu!</span>
+            
+        
+    
+        
+            <span id="s58"><sup><a href="#s58">58</a></sup>Như vậy, thà làm một ông vua biết diệu võ dương oai, hay làm một vật dụng hữu ích cho chủ nhà sử dụng, còn hơn là làm một ông thần giả tạo như thế. Thà làm một cái cửa trong nhà để giữ gìn đồ đạc, hơn làm một ông thần giả tạo như thế. Thà làm một cây cột gỗ trong hoàng cung, còn hơn làm ông thần giả tạo như thế.</span>
+            
+        
+    
+        
+            <span id="s59"><sup><a href="#s59">59</a></sup>Mặt trời, mặt trăng và các vì tinh tú có nhiệm vụ chiếu sáng và trở nên hữu ích thì đều biết vâng phục;</span>
+            
+        
+    
+        
+            <span id="s60"><sup><a href="#s60">60</a></sup>ánh chớp loé lên trông rất đẹp, gió thổi khắp nơi cũng thế, tất cả đều biết vâng phục;</span>
+            
+        
+    
+        
+            <span id="s61"><sup><a href="#s61">61</a></sup>các đám mây cũng vậy, khi Thiên Chúa truyền cho chúng bay khắp mặt đất, chúng đều thi hành mệnh lệnh của Người; còn lửa, khi được gửi đến từ trời cao để đốt núi rừng, cũng đều thực hiện điều đã truyền dạy.</span>
+            
+        
+    
+        
+            <span id="s62"><sup><a href="#s62">62</a></sup>Thế mà về hình dáng cũng như về khả năng, những thứ thần kia lại chẳng sánh được với các vật này chút nào.</span>
+            
+        
+    
+        
+            <span id="s63"><sup><a href="#s63">63</a></sup>Cho nên không thể nghĩ hoặc nói được rằng những thứ đó lại là thần, vì chúng không có khả năng giải quyết một vụ tranh chấp, chẳng làm ơn làm phúc được cho ai.</span>
+            
+        
+    
+        
+            <span id="s64"><sup><a href="#s64">64</a></sup>Vậy, đã biết chúng không phải là thần thì còn sợ chúng mà làm chi!</span>
+            <br />
+        
+    
+        
+            <span id="s65"><sup><a href="#s65">65</a></sup>Vì chúng chẳng thể giáng hoạ hay giáng phúc cho vua chúa,</span>
+            
+        
+    
+        
+            <span id="s66"><sup><a href="#s66">66</a></sup>cũng chẳng cho chư dân thấy những dấu lạ trên trời; chúng chẳng chói lọi như mặt trời, không chiếu sáng như mặt trăng.</span>
+            
+        
+    
+        
+            <span id="s67"><sup><a href="#s67">67</a></sup>Chúng không bằng dã thú, vì dã thú có thể tìm chỗ kín đáo mà nép mình.</span>
+            
+        
+    
+        
+            <span id="s68"><sup><a href="#s68">68</a></sup>Không có cách nào chứng minh được cho ta rằng đó là những vị thần. Vậy còn sợ chúng mà làm chi!</span>
+            <br />
+        
+    
+        
+            <span id="s69"><sup><a href="#s69">69</a></sup>Vì cũng như thằng bù nhìn trong ruộng dưa chẳng canh giữ được gì, các thần bằng gỗ sơn son thếp vàng của người ta cũng vậy.</span>
+            
+        
+    
+        
+            <span id="s70"><sup><a href="#s70">70</a></sup>Các thần này ví như bụi gai trong vườn, để cho đủ thứ chim đến đậu, hay như xác chết vất trong xó tối.</span>
+            
+        
+    
+        
+            <span id="s71"><sup><a href="#s71">71</a></sup>Cứ nhìn những miếng vải điều, vải gai mục nát trên mình chúng thôi, anh em cũng sẽ biết rằng chúng không phải là thần. Sau cùng chúng sẽ bị sâu bọ đục khoét và sẽ nên mối ô nhục trong cả xứ.</span>
+            
+        
+    
+        
+            <span id="s72"><sup><a href="#s72">72</a></sup>Vậy đối với người công chính, tốt hơn cả là đừng có tượng thần nào hết: có thế mới tránh xa được sự nhuốc nhơ xấu hổ cho mình.</span>
+            <br />
+        
+    
+</section>
+
+
+            <footer class="footer">
+            </footer>
+        </div>
+    </article>
+
+    <div class="results" role="status" aria-live="polite">
+        <div class="scrollable">
+            <div class="wrapper">
+                <div class="meta"></div>
+                <div class="list"></div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<script>
+    var base_url = '';
+    var repo_id = '';
+</script>
+
+<script src="https://bible-online.github.io/javascripts/application.js"></script>
+
+<script>
+    var headers = document.getElementsByTagName("h2");
+    var scrollspy = document.getElementById('scrollspy');
+
+    if (scrollspy) {
+        if (headers.length > 0) {
+            for (var i = 0; i < headers.length; i++) {
+                var li = document.createElement("li");
+                li.setAttribute("class", "anchor");
+
+                var a = document.createElement("a");
+                a.setAttribute("href", "#" + headers[i].id);
+                a.setAttribute("title", headers[i].innerHTML);
+                a.innerHTML = headers[i].innerHTML;
+
+                li.appendChild(a);
+                scrollspy.appendChild(li);
+            }
+        } else {
+            scrollspy.parentElement.removeChild(scrollspy);
+        }
+
+        var headers = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
+
+        for (var i = 0; i < headers.length; i++) {
+            var a = document.createElement("a");
+            a.setAttribute("class", "headerlink");
+            a.setAttribute("href", "#" + headers[i].id);
+            a.setAttribute("title", "Permanent link");
+            a.innerHTML = "";
+            headers[i].appendChild(a);
+        }
+    }
+</script>
+
+<script src="//gohugo.io/js/highlight.pack.js"></script>
+<script>
+    hljs.initHighlightingOnLoad();
+</script>
+</body>
+
+</html>

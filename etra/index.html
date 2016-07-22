@@ -1,0 +1,1982 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="no-js ie6"><![endif]-->
+<!--[if IE 7 ]><html class="no-js ie7"><![endif]-->
+<!--[if IE 8 ]><html class="no-js ie8"><![endif]-->
+<!--[if IE 9 ]><html class="no-js ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head >
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
+    <title>Étra - Bible online</title>
+
+    
+    <link rel="canonical" href=""> 
+
+    <meta property="og:url" content=""> 
+    <meta property="og:title" content="Bible online"> 
+    <meta name="apple-mobile-web-app-title" content="Bible online">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://bible-online.github.io/images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="https://bible-online.github.io/images/favicon.ico">
+
+    <style>
+        @font-face {
+            font-family: 'Icon';
+            src: url('https://bible-online.github.io/fonts/icon.eot?52m981');
+            src: url('https://bible-online.github.io/fonts/icon.eot?#iefix52m981') format('embedded-opentype'),
+            url('https://bible-online.github.io/fonts/icon.woff?52m981') format('woff'),
+            url('https://bible-online.github.io/fonts/icon.ttf?52m981') format('truetype'),
+            url('https://bible-online.github.io/fonts/icon.svg?52m981#icon') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+
+    <link rel="stylesheet" href="https://bible-online.github.io/stylesheets/application.css">
+    <link rel="stylesheet" href="https://bible-online.github.io/stylesheets/temporary.css">
+    <link rel="stylesheet" href="https://bible-online.github.io/stylesheets/palettes.css">
+    <link rel="stylesheet" href="https://bible-online.github.io/stylesheets/highlight/highlight.css">
+
+    <script src="https://bible-online.github.io/javascripts/modernizr.js"></script>
+</head>
+
+<body class=" ">
+
+<div class="backdrop">
+    <div class="backdrop-paper"></div>
+</div>
+
+<input class="toggle" type="checkbox" id="toggle-drawer">
+<input class="toggle" type="checkbox" id="toggle-search">
+<label class="toggle-button overlay" for="toggle-drawer"></label>
+
+<header class="header">
+    <nav aria-label="Header">
+  <div class="bar default">
+    <div class="button button-menu" role="button" aria-label="Menu">
+      <label class="toggle-button icon icon-menu" for="toggle-drawer">
+        <span></span>
+      </label>
+    </div>
+    <div class="stretch">
+      <div class="title">
+        Étra
+      </div>
+    </div>
+
+    
+
+    
+    
+    <!-- TODO: disabled until Hugo supports the generation of a content index natively 
+    <div class="button button-search" role="button" aria-label="Search">
+      <label class="toggle-button icon icon-search" title="Search" for="toggle-search"></label>
+    </div>
+    -->    
+  </div>
+  <div class="bar search">
+    <div class="button button-close" role="button" aria-label="Close">
+      <label class="toggle-button icon icon-back" for="toggle-search"></label>
+    </div>
+    <div class="stretch">
+      <div class="field">
+        <input class="query" type="text" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck>
+      </div>
+    </div>
+    <div class="button button-reset" role="button" aria-label="Search">
+      <button class="toggle-button icon icon-close" id="reset-search"></button>
+    </div>
+  </div>
+</nav>
+</header>
+
+<main class="main">
+    <div class="drawer">
+        <nav aria-label="Navigation">
+  <!--<a href="https://bible-online.github.io/" class="project">
+    <div class="banner">
+      
+      <div class="name">
+        <strong>Bible online </strong>
+      </div>
+    </div>
+  </a>-->
+
+  <div class="scrollable">
+    <div class="wrapper">
+      <div class="toc">
+        <ul>
+          
+          <li>
+            <a href="https://bible-online.github.io/sang-the-ky">Sáng Thế Ký</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/xuat-hanh">Xuất Hành</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/le-vi">Lê Vi</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/dan-so">Dân Số</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/de-nhi-luat">Đệ Nhị Luật</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/gio-sue">Giô-suê</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-lanh">Thủ Lãnh</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/rut">Rút</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/samuel-i">Samuel I</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/samuel-ii">Samuel II</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/cac-vua-i">Các Vua I</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/cac-vua-ii">Các Vua II</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/su-bien-nien-i">Sử Biên Niên I</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/su-bien-nien-ii">Sử Biên Niên II</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/etra">Étra</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/nokhemia">Nơkhemia</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/tobia">Tôbia</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/giuditha">Giuđitha</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/ette">Étte</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/macabe-i">Macabê I</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/macabe-ii">Macabê II</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/giop">Gióp</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thanh-vinh">Thánh Vịnh</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/cham-ngon">Châm Ngôn</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/giang-vien">Giảng Viên</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/diem-ca">Diễm Ca</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/khon-ngoan">Khôn Ngoan</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/huan-ca">Huấn Ca</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/isaia">Isaia</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/gieremia">Giêrêmia</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/ai-ca">Ai Ca</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/baruc">Baruc</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/edekien">Êdêkien</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/danien">Đanien</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/hose">Hôsê</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/gioen">Giôen</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/amot">Amốt</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/ovadia">Ôvađia</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/giona">Giôna</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/mikha">Mikha</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/nakhum">Nakhum</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/khabacuc">Khabacúc</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/xophonia">Xôphônia</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/khacgai">Khácgai</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/dacaria">Dacaria</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/malakhi">Malakhi</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/mat-theu">Mát-thêu</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/mac-co">Mác-cô</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/luca">Luca</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/gioan">Gioan</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/tong-do-cong-vu">Tông Đồ Công Vụ</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-roma">Thư Rôma</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-corinto-1">Thư Côrintô 1</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-corinto-2">Thư Côrintô 2</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-galat">Thư Galát</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-epheso">Thư Êphêsô</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-philipphe">Thư Philípphê</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-coloxe">Thư Côlôxê</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-thexalonica-1">Thư Thêxalônica 1</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-thexalonica-2">Thư Thêxalônica 2</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-timothe-1">Thư Timôthê 1</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-timothe-2">Thư Timôthê 2</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-tito">Thư Titô</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-philemon">Thư Philêmon</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-do-thai">Thư Do Thái</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-giacobe">Thư Giacôbê</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-phero-1">Thư Phêrô 1</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-phero-2">Thư Phêrô 2</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-gioan-1">Thư Gioan 1</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-gioan-2">Thư Gioan 2</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-gioan-3">Thư Gioan 3</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-giuda">Thư Giuđa</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/khai-huyen">Khải Huyền</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+    </div>
+
+    <article class="article">
+        <div class="wrapper">
+            
+<section>
+    <a href="#c1"><span class="chapter-title" id="c1">Chương 1</span></a>
+    
+        
+            <h1>I. HỒI HƯƠNG SAU THỜI LƯU ĐÀY. TÁI THIẾT ĐỀN THỜ.</h1>
+        
+    
+        
+            <h5>Dân Xi-on trở về</h5>
+        
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Năm thứ nhất thời vua Ky-rô trị vì nước Ba-tư, để lời ĐỨC CHÚA phán qua miệng ngôn sứ Giê-rê-mi-a được hoàn toàn ứng nghiệm, ĐỨC CHÚA tác động trên tâm trí Ky-rô, vua Ba-tư. Vua thông báo cho toàn vương quốc và ra sắc chỉ như sau:</span>
+            
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>"Ky-rô, vua Ba-tư, phán thế này: ĐỨC CHÚA, Thiên Chúa trên trời, đã ban cho ta mọi vương quốc dưới đất. Chính Người đã trao cho ta trách nhiệm tái thiết cho Người một ngôi Nhà ở Giê-ru-sa-lem tại Giu-đa.</span>
+            
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Vậy ai trong các ngươi thuộc dân Người, thì xin Thiên Chúa của họ ở với họ, và họ hãy lên Giê-ru-sa-lem tại Giu-đa và xây Nhà ĐỨC CHÚA, Thiên Chúa của Ít-ra-en. Chính Người là Thiên Chúa ngự tại Giê-ru-sa-lem.</span>
+            
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Và mọi người còn lại ở bất cứ nơi nào họ đang trú ngụ, phải được dân địa phương cấp cho bạc vàng, của cải và thú vật, cũng như lễ vật tự nguyện, để dâng cúng cho Nhà Thiên Chúa ở Giê-ru-sa-lem</span>
+            <br />
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Những người đứng đầu các gia tộc của Giu-đa và Ben-gia-min, các tư tế và các thầy Lê-vi, tất cả những người được Thiên Chúa tác động trên tâm trí, trỗi dậy để đi lên xây Nhà ĐỨC CHÚA ở Giê-ru-sa-lem.</span>
+            
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Mọi người hàng xóm láng giềng đều mạnh tay giúp họ: bạc, vàng, của cải, thú vật, những đồ vật có giá, không kể mọi lễ vật tự nguyện.</span>
+            <br />
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Vua Ky-rô cho người đem ra ngoài những đồ vật thuộc Nhà ĐỨC CHÚA, mà vua Na-bu-cô-đô-nô-xo đã cho người đem ra khỏi Giê-ru-sa-lem và đặt trong thần miếu của nhà vua.</span>
+            
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Ky-rô, vua Ba-tư, đã nhờ viên thủ quỹ Mít-rơ-đát đem những đồ vật ấy ra ngoài. Viên thủ quỹ kiểm kê và giao cho ông Sết-bát-xa là thủ lãnh xứ Giu-đa.</span>
+            
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Đây là số các đồ vật: ba mươi chén vàng, một ngàn chén bạc, hai mươi chín con dao,</span>
+            
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>ba mươi tô vàng, bốn trăm mười tô bạc loại thường, một ngàn đồ vật khác.</span>
+            
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Tổng số các đồ vật bằng vàng và bằng bạc là năm ngàn bốn trăm. Ông Sết-bát-xa mang theo tất cả các đồ vật đó, khi ông đưa những người lưu đày từ Ba-by-lon lên Giê-ru-sa-lem.</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c2"><span class="chapter-title" id="c2">Chương 2</span></a>
+    
+        
+            <h5>Danh sách những người Xi-on hồi hương (Nkm 7:4-72)</h5>
+        
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Đây là những người trong miền đã từ chốn lưu đày hồi hương. Họ là những người mà Na-bu-cô-đô-nô-xo, vua Ba-by-lon đã bắt đi đày sang Ba-by-lon. Họ trở về Giê-ru-sa-lem và Giu-đa, ai về thành nấy.</span>
+            
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Họ về cùng với các ông Dơ-rúp-ba-ven, Giê-su-a, Nơ-khe-mi-a, Xơ-ra-gia, Rơ-ê-la-gia, Moóc-đo-khai, Bin-san, Mít-pa, Bích-vai, Rơ-khum, Ba-a-na.</span>
+            <br />
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>con cái ông Pác-ốt: hai ngàn một trăm bảy mươi hai;</span>
+            
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>con cái ông Sơ-phát-gia: ba trăm bảy mươi hai;</span>
+            
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>con cái ông A-rác: bảy trăm bảy mươi lăm;</span>
+            
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>con cái ông Pa-khát Mô-áp, tức là con cái ông Giê-su-a và ông Giô-áp: hai ngàn tám trăm mười hai;</span>
+            
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>con cái ông Ê-lam: một ngàn hai trăm năm mươi bốn;</span>
+            
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>con cái ông Dát-tu: chín trăm bốn mươi lăm;</span>
+            
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>con cái ông Dắc-cai: bảy trăm sáu mươi;</span>
+            
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>con cái ông Ba-ni: sáu trăm bốn mươi hai;</span>
+            
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>con cái ông Bê-vai: sáu trăm hai mươi ba;</span>
+            
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>con cái ông Át-gát: một ngàn hai trăm hai mươi hai;</span>
+            
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>con cái ông A-đô-ni-cam: sáu trăm sáu mươi sáu;</span>
+            
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>con cái ông Bích-vai: hai ngàn không trăm năm mươi sáu;</span>
+            
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>con cái ông A-đin: bốn trăm năm mươi bốn;</span>
+            
+        
+    
+        
+            <span id="s16"><sup><a href="#s16">16</a></sup>con cái ông A-te, tức là con cái ông Giơ-khít-ki-gia: chín mươi tám;</span>
+            
+        
+    
+        
+            <span id="s17"><sup><a href="#s17">17</a></sup>con cái ông Bê-xai: ba trăm hai mươi ba;</span>
+            
+        
+    
+        
+            <span id="s18"><sup><a href="#s18">18</a></sup>con cái ông Giô-ra: một trăm mười hai;</span>
+            
+        
+    
+        
+            <span id="s19"><sup><a href="#s19">19</a></sup>con cái ông Kha-sum: hai trăm hai mươi ba;</span>
+            
+        
+    
+        
+            <span id="s20"><sup><a href="#s20">20</a></sup>con cái ông Ghíp-ba: chín mươi lăm;</span>
+            
+        
+    
+        
+            <span id="s21"><sup><a href="#s21">21</a></sup>con cái ông Bê-lem: một trăm hai mươi ba;</span>
+            
+        
+    
+        
+            <span id="s22"><sup><a href="#s22">22</a></sup>người Nơ-tô-pha: năm mươi sáu;</span>
+            
+        
+    
+        
+            <span id="s23"><sup><a href="#s23">23</a></sup>người A-na-thốt: một trăm hai mươi tám;</span>
+            
+        
+    
+        
+            <span id="s24"><sup><a href="#s24">24</a></sup>con cái ông Át-ma-vét: bốn mươi hai;</span>
+            
+        
+    
+        
+            <span id="s25"><sup><a href="#s25">25</a></sup>con cái ông Kia-giát A-rim: ông Cơ-phi-ra và ông Bơ-ê-rốt: bảy trăm bốn mươi ba;</span>
+            
+        
+    
+        
+            <span id="s26"><sup><a href="#s26">26</a></sup>con cái ông Ra-ma và ông Ghe-va: sáu trăm hai mươi mốt;</span>
+            
+        
+    
+        
+            <span id="s27"><sup><a href="#s27">27</a></sup>người Mích-mát: một trăm hai mươi hai;</span>
+            
+        
+    
+        
+            <span id="s28"><sup><a href="#s28">28</a></sup>người Bết Ên và người Ai: hai trăm hai mươi ba;</span>
+            
+        
+    
+        
+            <span id="s29"><sup><a href="#s29">29</a></sup>con cái ông Nơ-vô: năm mươi hai;</span>
+            
+        
+    
+        
+            <span id="s30"><sup><a href="#s30">30</a></sup>con cái ông Mác-bít: một trăm năm mươi sáu;</span>
+            
+        
+    
+        
+            <span id="s31"><sup><a href="#s31">31</a></sup>con cái ông Ê-lam khác: một ngàn hai trăm năm mươi bốn;</span>
+            
+        
+    
+        
+            <span id="s32"><sup><a href="#s32">32</a></sup>con cái ông Kha-rim: ba-trăm hai mươi;</span>
+            
+        
+    
+        
+            <span id="s33"><sup><a href="#s33">33</a></sup>con cái các ông Lốt, Kha-đích và Ô-nô: bảy trăm hai mươi lăm;</span>
+            
+        
+    
+        
+            <span id="s34"><sup><a href="#s34">34</a></sup>con cái ông Giê-ri-khô: ba trăm bốn mươi lăm;</span>
+            
+        
+    
+        
+            <span id="s35"><sup><a href="#s35">35</a></sup>con cái ông Xơ-na-a: ba ngàn sáu trăm ba mươi.</span>
+            <br />
+        
+    
+        
+            <span id="s36"><sup><a href="#s36">36</a></sup>Các tư tế: con cái ông Giơ-đa-gia thuộc nhà ông Giê-su-a: chín trăm bảy mươi ba;</span>
+            
+        
+    
+        
+            <span id="s37"><sup><a href="#s37">37</a></sup>con cái ông Im-me: một ngàn không trăm năm mươi hai;</span>
+            
+        
+    
+        
+            <span id="s38"><sup><a href="#s38">38</a></sup>con cái ông Pát-khua: một ngàn hai trăm bốn mươi bảy;</span>
+            
+        
+    
+        
+            <span id="s39"><sup><a href="#s39">39</a></sup>con cái ông Kha-rim: một ngàn không trăm mười bảy.</span>
+            <br />
+        
+    
+        
+            <span id="s40"><sup><a href="#s40">40</a></sup>Các thầy Lê-vi: con cái các ông Giê-su-a và Cát-mi-ên, tức là con cái ông Hô-đáp-gia: bảy mươi bốn.</span>
+            <br />
+        
+    
+        
+            <span id="s41"><sup><a href="#s41">41</a></sup>Các ca viên: con cái ông A-xáp: một trăm hai mươi tám.</span>
+            <br />
+        
+    
+        
+            <span id="s42"><sup><a href="#s42">42</a></sup>Con cái những người giữ cửa: con cái ông Sa-lum, con cái ông A-te, con cái ông Tan-môn, con cái ông Ắc-cúp, con cái ông Kha-ti-ta, con cái ông Sô-vai: tất cả là một trăm ba mươi chín.</span>
+            <br />
+        
+    
+        
+            <span id="s43"><sup><a href="#s43">43</a></sup>Những người phục vụ Đền Thờ: con cái Xi-kha, con cái Kha-xu-pha, con cái Táp-ba-ốt,</span>
+            
+        
+    
+        
+            <span id="s44"><sup><a href="#s44">44</a></sup>con cái Kê-rốt, con cái Xi-a, con cái Pa-đôn,</span>
+            
+        
+    
+        
+            <span id="s45"><sup><a href="#s45">45</a></sup>con cái Lơ-va-na, con cái Kha-ga-va, con cái Ắc-cúp,</span>
+            
+        
+    
+        
+            <span id="s46"><sup><a href="#s46">46</a></sup>con cái Kha-gáp, con cái San-mai, con cái Kha-nan,</span>
+            
+        
+    
+        
+            <span id="s47"><sup><a href="#s47">47</a></sup>con cái Ghít-đên, con cái Ga-kha, con cái Rơ-a-gia,</span>
+            
+        
+    
+        
+            <span id="s48"><sup><a href="#s48">48</a></sup>con cái Rơ-xin, con cái Nơ-cô-đa, con cái Gát-dam,</span>
+            
+        
+    
+        
+            <span id="s49"><sup><a href="#s49">49</a></sup>con cái Út-da, con cái Pa-xê-ác, con cái Bê-xai,</span>
+            
+        
+    
+        
+            <span id="s50"><sup><a href="#s50">50</a></sup>con cái Át-na, con cái người Mơ-u-nim, con cái người Nơ-phu-xim,</span>
+            
+        
+    
+        
+            <span id="s51"><sup><a href="#s51">51</a></sup>con cái Bác-búc, con cái Kha-cúp-pha, con cái Khác-khua,</span>
+            
+        
+    
+        
+            <span id="s52"><sup><a href="#s52">52</a></sup>con cái Bát-lút, con cái Mơ-khi-đa, con cái Khác-sa,</span>
+            
+        
+    
+        
+            <span id="s53"><sup><a href="#s53">53</a></sup>con cái Bác-cốt, con cái Xít-ra, con cái Te-mác,</span>
+            
+        
+    
+        
+            <span id="s54"><sup><a href="#s54">54</a></sup>con cái Nơ-xi-ác, con cái Kha-ti-pha.</span>
+            <br />
+        
+    
+        
+            <span id="s55"><sup><a href="#s55">55</a></sup>Con cái những người nô lệ của vua Sa-lô-môn: con cái Xô-tai, con cái Ha Xô-phe-rét, con cái Pơ-ru-đa,</span>
+            
+        
+    
+        
+            <span id="s56"><sup><a href="#s56">56</a></sup>con cái Gia-la, con cái Đác-côn, con cái Ghít-đên,</span>
+            
+        
+    
+        
+            <span id="s57"><sup><a href="#s57">57</a></sup>con cái Sơ-phát-gia, con cái Khát-tin, con cái Pô-khe-rét Ha Xơ-va-gim, con cái A-mi.</span>
+            
+        
+    
+        
+            <span id="s58"><sup><a href="#s58">58</a></sup>Tổng số những người phục vụ Đền Thờ và con cái những người nô lệ của vua Sa-lô-môn là ba trăm chín mươi hai.</span>
+            <br />
+        
+    
+        
+            <span id="s59"><sup><a href="#s59">59</a></sup>Con cái những người trở về từ Ten Me-lác, Ten Khác-sa, Cơ-rúp, Át-đan, Im-me. Họ không thể dựa vào gia tộc và dòng giống của họ để cho biết có thuộc về Ít-ra-en hay không:</span>
+            
+        
+    
+        
+            <span id="s60"><sup><a href="#s60">60</a></sup>con cái Đơ-la-gia, con cái Tô-vi-gia, con cái Nơ-cô-đa: sáu trăm năm mươi hai.</span>
+            
+        
+    
+        
+            <span id="s61"><sup><a href="#s61">61</a></sup>Trong số con cái các tư tế, có: con cái ông Kho-va-gia, con cái ông Hắc-cốt, con cái ông Bác-di-lai là người đã lấy một trong các con gái ông Bác-di-lai, người Ga-la-át, nên đã mang tên ông ấy.</span>
+            
+        
+    
+        
+            <span id="s62"><sup><a href="#s62">62</a></sup>Những người này đã tìm kiếm tên của họ trong cuốn gia phả, nhưng không thấy, nên đã bị loại ra khỏi hàng tư tế, vì bị coi là ô uế.</span>
+            
+        
+    
+        
+            <span id="s63"><sup><a href="#s63">63</a></sup>Quan tổng đốc cấm họ không được ăn của thánh, cho đến khi có một tư tế đứng lên xem thẻ xăm u-rim và tum-mim.</span>
+            <br />
+        
+    
+        
+            <span id="s64"><sup><a href="#s64">64</a></sup>Toàn thể cộng đồng là bốn mươi hai ngàn ba trăm sáu mươi người,</span>
+            
+        
+    
+        
+            <span id="s65"><sup><a href="#s65">65</a></sup>không kể tôi trai tớ gái của họ lên tới bảy ngàn ba trăm ba mươi bảy người. Họ cũng có hai trăm nam nữ ca viên.</span>
+            
+        
+    
+        
+            <span id="s66"><sup><a href="#s66">66</a></sup>Họ có bảy trăm ba mươi sáu con ngựa, hai trăm mười lăm con la,</span>
+            
+        
+    
+        
+            <span id="s67"><sup><a href="#s67">67</a></sup>bốn trăm ba mươi lăm con lạc đà và sáu ngàn bảy trăm hai mươi con lừa.</span>
+            <br />
+        
+    
+        
+            <span id="s68"><sup><a href="#s68">68</a></sup>Khi về đến Nhà ĐỨC CHÚA ở Giê-ru-sa-lem, một số người đứng đầu các gia tộc dâng cúng những lễ vật tự nguyện cho Nhà Thiên Chúa, để tái thiết Nhà đó ở chỗ cũ.</span>
+            
+        
+    
+        
+            <span id="s69"><sup><a href="#s69">69</a></sup>Theo khả năng, họ đã dâng vào quỹ dùng cho công trình đó sáu mươi mốt ngàn quan tiền, hai ngàn năm trăm ký bạc và một trăm bộ phẩm phục tư tế.</span>
+            <br />
+        
+    
+        
+            <span id="s70"><sup><a href="#s70">70</a></sup>Các tư tế, các thầy Lê-vi và một phần dân chúng ở tại Giê-ru-sa-lem; còn các ca viên, những người giữ cửa, những người phục vụ Đền Thờ thì ở trong các thành của họ; mọi người Ít-ra-en khác cũng ở trong các thành của họ.</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c3"><span class="chapter-title" id="c3">Chương 3</span></a>
+    
+        
+            <h5>Tái lập việc phụng tự</h5>
+        
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Đến tháng thứ bảy, lúc con cái Ít-ra-en đang ở trong thành của họ, thì dân họp nhau tại Giê-ru-sa-lem, muôn người như một.</span>
+            
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Ông Giê-su-a con ông Giô-xa-đắc, cùng với các tư tế, anh em của ông, và ông Dơ-rúp-ba-ven, con ông San-ti-ên, cùng với anh em của ông đứng ra xây bàn thờ Thiên Chúa Ít-ra-en, để dâng trên đó các lễ toàn thiêu, như đã chép trong Luật của ông Mô-sê, người của Thiên Chúa.</span>
+            
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Họ dựng lại bàn thờ vào đúng vị trí, vì họ sợ các dân trong xứ. Trên đó, họ dâng lên ĐỨC CHÚA lễ toàn thiêu ban sáng và ban chiều.</span>
+            
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Như lời đã chép, họ cử hành lễ Lều, dâng lễ toàn thiêu ngày này qua ngày khác theo số đã quy định cho mỗi ngày.</span>
+            
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Sau đó, họ dâng lễ toàn thiêu thường tiến, lễ toàn thiêu vào các ngày sóc và mọi đại lễ kính ĐỨC CHÚA, và lễ toàn thiêu của tất cả những người dâng cúng ĐỨC CHÚA lễ vật tự nguyện.</span>
+            
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Từ mồng một tháng bảy, họ bắt đầu dâng lễ toàn thiêu kính ĐỨC CHÚA, mặc dầu chưa đặt nền móng cho Đền Thờ của ĐỨC CHÚA.</span>
+            <br />
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Họ cấp bạc cho thợ đá, thợ mộc, cấp thức ăn thức uống và dầu cho người Xi-đôn và Tia, để họ chở gỗ bá hương từ Li-băng, qua đường biển, về Gia-phô, theo phép Ky-rô, vua Ba-tư, đã ban.</span>
+            
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Vào năm thứ hai, sau khi họ về đến Nhà Thiên Chúa ở Giê-ru-sa-lem, trong tháng thứ hai, ông Dơ-rúp-ba-ven, con ông San-ti-ên, và ông Giê-su-a, con ông Giô-xa-đắc, cùng với các anh em còn lại, các tư tế, các thầy Lê-vi và tất cả những người lưu đày trở về Giê-ru-sa-lem, khởi công và giao phó cho các thầy Lê-vi từ hai mươi tuổi trở lên điều khiển công việc xây Nhà ĐỨC CHÚA.</span>
+            
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Ông Giê-su-a với con cái và anh em ông, ông Cát-mi-ên và con cái, con cái ông Hô-đáp-gia, con cái ông Khê-na-đát, con cái và anh em của họ, các thầy Lê-vi, cùng nhau điều khiển thợ làm việc tại Nhà Thiên Chúa.</span>
+            
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Khi thợ xây nhà đặt nền móng Đền Thờ của ĐỨC CHÚA, thì các tư tế, y phục chỉnh tề, tay cầm kèn, và các thầy Lê-vi, con cái ông A-xáp, tay cầm chũm choẹ, đứng ở đó mà ca tụng ĐỨC CHÚA, theo như vua Đa-vít, vua Ít-ra-en, đã quy định.</span>
+            
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Họ luân phiên xướng đáp mà ca tụng và cảm tạ ĐỨC CHÚA: "Vì Chúa nhân từ, muôn ngàn đời Chúa vẫn trọn tình thương đối với Ít-ra-en! " Toàn dân lớn tiếng reo hò ca tụng ĐỨC CHÚA, vì bấy giờ Nhà ĐỨC CHÚA đã có nền móng.</span>
+            
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>Nhiều tư tế và thầy Lê-vi, nhiều người đứng đầu gia tộc nay lớn tuổi, là những người đã thấy Nhà Thiên Chúa trước kia, khóc to tiếng khi thấy người ta đặt nền móng Nhà mới này trước mắt họ; nhưng cũng có nhiều người khác cất tiếng reo hò vui sướng.</span>
+            
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>Không ai có thể phân biệt được tiếng reo hò vui sướng với tiếng khóc của dân, vì dân lớn tiếng reo hò và tiếng họ vọng đi xa.</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c4"><span class="chapter-title" id="c4">Chương 4</span></a>
+    
+        
+            <h5>Dưới thời vua Ky-rô, người Sa-ma-ri cản trở việc tái thiết.</h5>
+        
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Khi nghe tin là các người lưu đày trở về đang xây một Đền Thờ kính ĐỨC CHÚA, Thiên Chúa của Ít-ra-en,</span>
+            
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>thì những kẻ thù của Giu-đa và Ben-gia-min đến gặp ông Dơ-rúp-ba-ven, và những người đứng đầu các gia tộc, mà nói: "Chúng tôi muốn được cùng xây với các ông, bởi cũng như các ông, chúng tôi tìm kiếm Thiên Chúa của các ông, và dâng lễ tế kính Người, từ ngày Ê-xa-khát-đôn, vua Át-sua, đem chúng tôi lên đây."</span>
+            
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Ông Dơ-rúp-ba-ven, ông Giê-su-a và những người khác, là những người đứng đầu các gia tộc Ít-ra-en, bảo họ: "Việc xây Nhà cho Thiên Chúa chúng tôi không phải là việc chung của các ông và chúng tôi, vì chỉ có chúng tôi sẽ xây cho ĐỨC CHÚA, Thiên Chúa của Ít-ra-en, theo lệnh vua Ky-rô, vua Ba-tư, đã ban cho chúng tôi."</span>
+            
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Khi đó, dân trong xứ bắt đầu làm cho dân Giu-đa bủn rủn tay chân và sợ hãi, để họ không xây cất nữa.</span>
+            
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Chúng mua chuộc các cố vấn, để làm hỏng ý định của dân Giu-đa trong suốt thời vua Ky-rô, vua Ba-tư, mãi cho đến triều vua Đa-ri-ô, vua Ba-tư.</span>
+            <br />
+        
+    
+        
+            <h5>Dưới thời vua Xéc-xét và vua Ác-tắc-sát-ta, người Sa-ma-ri cản trở việc tái thiết</h5>
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Dưới triều vua Xéc-xét, vào thời đầu triều đó, chúng viết một bản cáo tội dân cư Giu-đa và Giê-ru-sa-lem.</span>
+            <br />
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Vào thời vua Ác-tắc-sát-ta, Bít-lam, Mít-rơ-đát, Táp-ên, và các bạn đồng liêu khác đã viết cho vua Ác-tắc-sát-ta, vua Ba-tư. Bản văn ấy được viết bằng tiếng A-ram và được phiên dịch. Nguyên văn tiếng A-ram:</span>
+            
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Rơ-khum, thủ hiến, và Sim-sai, thư ký, gửi lên vua Ác-tắc-sát-ta một bức thư tố cáo Giê-ru-sa-lem, với những lời lẽ như sau:</span>
+            
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>"Rơ-khum, thủ hiến, Sim-sai, thư ký, và các bạn đồng liêu khác, các thẩm phán và khâm sai, những người Tác-pơ-lai, E-réc, By-by-lon và Su-san, nghĩa là những người Ê-lam,</span>
+            
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>và các dân tộc khác mà vua Át-náp-pa vĩ đại và lừng danh đã bắt đi đày và cho định cư tại các thành của Sa-ma-ri và các miền khác thuộc Vùng bên kia sông Êu-phơ-rát, đồng tấu:</span>
+            <br />
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>(Đây là bản sao bức thư họ gửi: )&quot;Tâu vua Ác-tắc-sát-ta, bầy tôi của đức vua, những người ở Vùng bên kia sông Êu-phơ-rát xin thưa:</span>
+            <br />
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>xin trình để đức vua tường: từ nơi đức vua, người Do-thái đã lên chỗ chúng tôi tại Giê-ru-sa-lem, và đang tái thiết cái thành phản loạn và xấu xa ấy; chúng dựng lại tường thành và đặt lại nền móng.</span>
+            
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>Vậy xin trình để đức vua tường: nếu thành ấy được tái thiết, tường thành được dựng lại, thì chúng sẽ không nộp cống vật, thuế má, thuế thông quá; và như vậy, cuối cùng nhà vua sẽ phải thiệt thòi.</span>
+            
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>Vậy, vì được hưởng lộc của triều đình, chúng tôi thấy không được phép ngồi nhìn đức vua bị nhục mạ; cho nên chúng tôi đệ lên đức vua bản tường trình này,</span>
+            
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>để người ta tra cứu sách Sử Biên Niên của tổ tiên đức vua. Trong sách Sử Biên Niên đó, đức vua sẽ tìm ra và nhận thấy rằng thành ấy là một thành phản loạn, làm thiệt hại cho nhà vua và các tỉnh; ở đó, từ thời xa xưa chúng đã làm loạn. Vì thế thành ấy đã bị tàn phá.</span>
+            
+        
+    
+        
+            <span id="s16"><sup><a href="#s16">16</a></sup>Chúng tôi xin trình để đức vua tường: nếu thành ấy được tái thiết, và tường thành được dựng lại, thì điều đó sẽ làm cho đức vua chẳng còn phần đất nào nữa trong Vùng bên kia sông Êu-phơ-rát."</span>
+            <br />
+        
+    
+        
+            <span id="s17"><sup><a href="#s17">17</a></sup>Vua gửi thư trả lời:"Gửi lời vấn an quan thủ hiến Rơ-khum, thư ký Sim-sai và các đồng liêu cư ngụ ở Sa-ma-ri và ở các nơi khác trong Vùng bên kia sông Êu-phơ-rát!</span>
+            <br />
+        
+    
+        
+            <span id="s18"><sup><a href="#s18">18</a></sup>bức thư mà các ngươi đệ lên ta, đã được dịch và đọc trước mặt ta.</span>
+            
+        
+    
+        
+            <span id="s19"><sup><a href="#s19">19</a></sup>Theo lệnh ta, người ta đã tra cứu và tìm ra rằng từ thời xa xưa, thành ấy đã từng nổi dậy chống các vua, và những cuộc phản loạn, những cuộc nổi dậy đã từng diễn ra ở đó.</span>
+            
+        
+    
+        
+            <span id="s20"><sup><a href="#s20">20</a></sup>Ở Giê-ru-sa-lem đã có những vua hùng mạnh làm bá chủ khắp Vùng bên kia sông Êu-phơ-rát. Người ta đã nộp cho họ cống vật, thuế má, thuế thông quá.</span>
+            
+        
+    
+        
+            <span id="s21"><sup><a href="#s21">21</a></sup>Vì thế, các ngươi hãy ra lệnh cấm chúng không được tái thiết thành ấy, cho đến khi có lệnh ta ban.</span>
+            
+        
+    
+        
+            <span id="s22"><sup><a href="#s22">22</a></sup>Các ngươi hãy coi chừng chớ trễ nải công việc này, kẻo gây nhiều thiệt hại cho nhà vua."</span>
+            <br />
+        
+    
+        
+            <span id="s23"><sup><a href="#s23">23</a></sup>Như thế, sau khi bản sao sắc chỉ của vua Ác-tắc-sát-ta được đọc trước mặt quan thủ hiến Rơ-khum, viên thư ký Sim-sai và các đồng liêu, thì những người này vội vàng đi Giê-ru-sa-lem gặp người Do-thái, và dùng võ lực mà ngăn cản họ.</span>
+            <br />
+        
+    
+        
+            <h5>Xây Đền Thờ (520-515)</h5>
+        
+    
+        
+            <span id="s24"><sup><a href="#s24">24</a></sup>Khi đó, công việc xây Nhà Thiên Chúa ở Giê-ru-sa-lem phải ngưng lại và ngưng lại mãi cho đến năm thứ hai triều vua Đa-ri-ô, vua Ba-tư.</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c5"><span class="chapter-title" id="c5">Chương 5</span></a>
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Ngôn sứ Khác-gai và ngôn sứ Da-ca-ri-a, con ông Ít-đô, phát ngôn về người Do-thái ở Giu-đa và ở Giê-ru-sa-lem, nhân danh Thiên Chúa của Ít-ra-en, là Đấng ngự trên họ.</span>
+            
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Bấy giờ, ông Dơ-rúp-ba-ven, con ông San-ti-ên, và ông Giê-su-a, con ông Giô-xa-đắc, đứng ra khởi sự xây Nhà Thiên Chúa ở Giê-ru-sa-lem, và có các ngôn sứ của Thiên Chúa trợ giúp các ông.</span>
+            
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Vào chính thời ấy, ông Tát-nai, trưởng Vùng bên kia sông Êu-phơ-rát, ông Sơ-tha Bốt-nai và các đồng liêu đến gặp họ và nói với họ như sau: "Ai cho phép các ông tái thiết Nhà này, tu bổ ngôi nhà gỗ này? "</span>
+            
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Bấy giờ những người ấy còn hỏi họ: "Tên của những người xây ngôi nhà này là gì? " Nhưng Thiên Chúa của người Do-thái để mắt nhìn đến các kỳ mục của họ, nên người ta đã không đình chỉ công việc của họ, cho đến khi một bản báo cáo được đệ lên vua Đa-ri-ô, và sau đó có sắc chỉ phúc đáp về vụ này.</span>
+            <br />
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Đây là bản sao bức thư của ông Tát-nai, trưởng Vùng bên kia sông Êu-phơ-rát, ông Sơ-tha Bốt-nai và các bạn đồng liêu, các khâm sai Vùng bên kia sông Êu-phơ-rát, đã đệ lên vua Đa-ri-ô.</span>
+            
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Họ đã đệ lên vua một bản tường trình viết như sau: Tâu vua Đa-ri-ô, kính chúc đức vua vạn an!</span>
+            
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Xin trình để đức vua tường: chúng tôi đã đi tới tỉnh Giu-đa, tới Nhà của Thiên Chúa cao cả. Nhà đó được xây bằng đá đẽo, có xà gỗ gác vào tường. Công trình ấy được thực hiện cách chu đáo và tiến triển tốt đẹp nhờ tay họ.</span>
+            
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Bấy giờ chúng tôi đã hỏi các kỳ mục đó, chúng tôi đã nói với họ thế này: &quot;Ai cho phép các ông tái thiết Nhà này, tu bổ nhà gỗ này? Chúng tôi cũng hỏi tên của họ để đức vua tường, và đã ghi tên những người làm đầu họ.</span>
+            <br />
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Đây là câu họ trả lời chúng tôi: &quot;Chúng tôi là những tôi trung của Thiên Chúa, Chúa trời đất. Chúng tôi tái thiết ngôi Nhà đã được xây dựng xưa kia, cách đây lâu lắm rồi, một đại vương của Ít-ra-en đã xây lên và đã hoàn thành.</span>
+            
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>Nhưng vì cha ông chúng tôi làm cho Thiên Chúa, Chúa các tầng trời, phải nổi cơn thịnh nộ, nên Người đã trao họ vào tay vua Na-bu-cô-đô-nô-xo, người Can-đê, vua Ba-by-lon. Vua đã phá huỷ Nhà này và đày dân sang Ba-by-lon.</span>
+            
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>Tuy thế, năm thứ nhất đời vua Ky-rô, vua Ba-by-lon, vua Ky-rô ra lệnh tái thiết Nhà này của Thiên Chúa.</span>
+            
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>Và hơn nữa, vua Ky-rô lấy ra khỏi đền thờ Ba-by-lon những đồ vàng đồ bạc thuộc Nhà Thiên Chúa, mà vua Na-bu-cô-đô-nô-xo đã lấy ra khỏi Đền Thờ Giê-ru-sa-lem và đưa về đền thờ Ba-by-lon. Rồi vua Ky-rô trao những đồ vật ấy cho một người tên là Sết-bát-xa mà vua đã đặt làm tổng trấn.</span>
+            
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>Vua nói với ông: &quot;Ông hãy lấy những đồ vật ấy, mang đi và đặt lại ở Đền Thờ Giê-ru-sa-lem. Nhà Thiên Chúa phải được tái thiết ở chỗ cũ.</span>
+            
+        
+    
+        
+            <span id="s16"><sup><a href="#s16">16</a></sup>Bấy giờ, ông Sết-bát-xa đến đặt nền Nhà Thiên Chúa ở Giê-ru-sa-lem. Từ đó đến nay, Nhà ấy vẫn được tái thiết, nhưng chưa hoàn thành.</span>
+            <br />
+        
+    
+        
+            <span id="s17"><sup><a href="#s17">17</a></sup>Vậy bây giờ, nếu đức vua đồng ý, xin đức vua cho người tìm kiếm trong kho tàng của đức vua, ở bên đó, tại Ba-by-lon, để xem vua Ky-rô có thực sự ban lệnh tái thiết Nhà Thiên Chúa ở Giê-ru-sa-lem hay không? Xin đức vua gửi cho chúng tôi quyết định của ngài về vấn đề này."</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c6"><span class="chapter-title" id="c6">Chương 6</span></a>
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Bấy giờ, vua Đa-ri-ô ra lệnh cho tìm kiếm trong kho tàng, nơi trữ các văn thư ở Ba-by-lon.</span>
+            
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Người ta đã tìm thấy ở Ác-mơ-tha, thành trì nằm trong tỉnh Mê-đi, một cuộn da trên đó có viết:"Bản ghi nhớ.</span>
+            <br />
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Năm thứ nhất đời vua Ky-rô, vua Ky-rô ra lệnh:</span>
+            <br />
+        
+    
+        
+            <h5>Về vấn đề Nhà Thiên Chúa ở Giê-ru-sa-lem.</h5>
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Sẽ có ba lớp đá đẽo và một lớp gỗ. Nhà vua sẽ lấy quỹ của triều đình đài thọ các chi phí.</span>
+            
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Hơn nữa, những đồ vàng đồ bạc thuộc Nhà Thiên Chúa, mà vua Na-bu-cô-đô-nô-xo đã lấy ra khỏi Đền Thờ Giê-ru-sa-lem và đưa về Ba-by-lon, sẽ được trả lại, để các đồ vật ấy trở về chỗ cũ trong Đền Thờ Giê-ru-sa-lem và được đặt trong Nhà Thiên Chúa."</span>
+            <br />
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>"Vậy bây giờ, Tát-nai, trưởng Vùng bên kia sông Êu-phơ-rát, Sơ-tha Bốt-nai và các đồng liêu, các khâm sai Vùng bên kia sông Êu-phơ-rát, các ngươi hãy rời xa nơi đó.</span>
+            
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Hãy để cho tổng trấn của người Do-thái và các kỳ mục Do-thái lo việc xây cất Nhà Thiên Chúa, họ phải tái thiết Nhà Thiên Chúa ở chỗ cũ.</span>
+            
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Đây là lệnh ta ban cho các ngươi về cách đối xử với hàng kỳ mục Do-thái trong việc tái thiết Nhà Thiên Chúa: phải lấy tiền bạc của nhà vua trích từ thuế thu được ở Vùng bên kia sông Êu-phơ-rát, mà cung cấp đầy đủ các chi phí cho những người đó, không được gián đoạn.</span>
+            
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Theo lời chỉ dẫn của các tư tế Giê-ru-sa-lem, những gì cần cho lễ toàn thiêu kính Thiên Chúa, Chúa các tầng trời: bò tơ, chiên cừu, lúa miến, muối, rượu và dầu, ngày ngày sẽ được cung cấp cho họ, không được chểnh mảng,</span>
+            
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>để họ dâng lên Thiên Chúa, Chúa các tầng trời, các hy lễ làm đẹp lòng Người, và cầu cho nhà vua và các hoàng tử được trường thọ.</span>
+            
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Ta còn ra lệnh: Bất kỳ ai vi phạm sắc chỉ này, thì phải dỡ xà gỗ nhà nó, làm cột đóng xuyên qua người nó mà dựng lên; và vì lý do ấy, hãy biến nhà nó thành đống phân dơ.</span>
+            
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>Chớ gì Thiên Chúa, Đấng đã đặt Danh Người ngự tại đó, lật đổ bất cứ vua hay dân nào dám vi phạm sắc chỉ này mà tra tay phá huỷ Nhà Thiên Chúa ở Giê-ru-sa-lem. Chính ta, Đa-ri-ô, đã ban lệnh này. Sắc chỉ phải được thi hành chu đáo! "</span>
+            <br />
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>Bấy giờ, ông Tát-nai, trưởng Vùng bên kia sông Êu-phơ-rát, ông Sơ-tha Bốt-nai và các đồng liêu thi hành chu đáo các chỉ thị vua Đa-ri-ô gửi đến.</span>
+            
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>Hàng kỳ mục Do-thái tiếp tục xây cất và thành công trong việc đó, theo lời sấm của ngôn sứ Khác-gai và của ông Da-ca-ri-a con ông Ít-đô. Họ hoàn thành công việc xây cất đúng theo lệnh của Thiên Chúa Ít-ra-en và lệnh của vua Ky-rô, vua Đa-ri-ô, và vua Ác-tắc-sát-ta vua Ba-tư.</span>
+            
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>Nhà đó được xây xong ngày mồng ba tháng A-đa, năm thứ sáu triều vua Đa-ri-ô.</span>
+            
+        
+    
+        
+            <span id="s16"><sup><a href="#s16">16</a></sup>Con cái Ít-ra-en, các tư tế, các thầy Lê-vi và những người lưu đày trở về, hân hoan cử hành lễ khánh thành Nhà Thiên Chúa.</span>
+            
+        
+    
+        
+            <span id="s17"><sup><a href="#s17">17</a></sup>Để khánh thành Nhà Thiên Chúa, họ đã dâng một trăm con bò, hai trăm con cừu đực, bốn trăm con chiên, và bắt mười hai con dê đực, theo số các chi tộc Ít-ra-en, làm lễ tạ tội cho toàn thể Ít-ra-en.</span>
+            
+        
+    
+        
+            <span id="s18"><sup><a href="#s18">18</a></sup>Họ thiết lập hàng tư tế theo các phẩm trật của họ, và các thầy Lê-vi theo các cấp bậc của họ, để phục vụ Thiên Chúa tại Giê-ru-sa-lem, như đã chép trong sách Mô-sê.</span>
+            <br />
+        
+    
+        
+            <h5>Lễ Vượt Qua năm 515</h5>
+        
+    
+        
+            <span id="s19"><sup><a href="#s19">19</a></sup>Những người đi đày trở về cử hành lễ Vượt Qua ngày mười bốn tháng thứ nhất.</span>
+            
+        
+    
+        
+            <span id="s20"><sup><a href="#s20">20</a></sup>Các thầy Lê-vi, trăm người như một, đã thanh tẩy mình: tất cả đều thanh sạch, nên họ đã sát tế chiên Vượt Qua cho những người đi đày trở về, cho anh em của họ là các tư tế, và cho chính họ.</span>
+            
+        
+    
+        
+            <span id="s21"><sup><a href="#s21">21</a></sup>Con cái Ít-ra-en đi đày trở về đã ăn mừng lễ Vượt Qua, cùng với những người đã dứt bỏ những điều ô uế của các dân trong xứ, để hợp với họ tìm kiếm ĐỨC CHÚA, Thiên Chúa của Ít-ra-en.</span>
+            
+        
+    
+        
+            <span id="s22"><sup><a href="#s22">22</a></sup>Họ hân hoan cử hành lễ Bánh Không Men trong bảy ngày, vì ĐỨC CHÚA làm cho họ được hân hoan khi làm cho lòng vua Át-sua nghiêng về phía họ, để họ vững tay xây Nhà Thiên Chúa, Thiên Chúa của Ít-ra-en.</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c7"><span class="chapter-title" id="c7">Chương 7</span></a>
+    
+        
+            <h1>II. CÁC ÔNG ÉT-RA VÀ NƠ-KHE-MI-A TỔ CHỨC CỘNG ĐOÀN</h1>
+        
+    
+        
+            <h5>Thân thế và sứ mạng ông Ét-ra</h5>
+        
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Sau những biến cố đó, dưới triều Ác-tắc-sát-ta, vua Ba-tư, có ông Ét-ra, con cháu của Xơ-ra-gia, con của A-dác-gia, con của Khin-ki-gia,</span>
+            
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>con của Sa-lum, con của Xa-đốc, con của A-khi-túp,</span>
+            
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>con của A-mác-gia, con của A-dác-gia, con của Mơ-ra-giốt,</span>
+            
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>con của Dơ-rác-gia, con của Út-di, con của Búc-ki,</span>
+            
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>con của A-vi-su-a, con của Pin-khát, con của E-la-da, con của thượng tế A-ha-ron;</span>
+            
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Chính ông Ét-ra này đã từ Ba-by-lon lên. Ông là một kinh sư thông Luật Mô-sê, mà ĐỨC CHÚA, Thiên Chúa của Ít-ra-en đã ban. Vì bàn tay ĐỨC CHÚA, Thiên Chúa của ông, che chở ông, nên tất cả những gì ông xin vua đều ban cho.</span>
+            
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Con cái Ít-ra-en, các tư tế, các thầy Lê-vi, các ca viên, những người giữ cửa, những người phục vụ Đền Thờ, lên Giê-ru-sa-lem vào năm thứ bảy đời vua Ác-tắc-sát-ta.</span>
+            
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Ông tới Giê-ru-sa-lem vào tháng thứ năm, năm thứ bảy của triều vua.</span>
+            
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Quả thế, ông đã ấn định ngày rời Ba-by-lon để đi lên đó vào mồng một tháng thứ nhất, và tới Giê-ru-sa-lem vào ngày mồng một tháng thứ năm: có bàn tay nhân lành Thiên Chúa của ông che chở ông.</span>
+            
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Quả thật, ông Ét-ra đã chú tâm tìm hiểu kỹ càng Lề Luật của ĐỨC CHÚA, thực hành Luật đó và dạy cho dân Ít-ra-en biết những thánh chỉ và quyết định.</span>
+            <br />
+        
+    
+        
+            <h5>Sắc chỉ của vua Ác-tắc-sát-ta</h5>
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Đây là bản sao sắc chỉ của vua Ác-tắc-sát-ta đã trao cho ông Ét-ra, tư tế kinh sư, kinh sư chuyên về các lời diễn tả mệnh lệnh và các thánh chỉ của ĐỨC CHÚA liên quan đến Ít-ra-en.</span>
+            <br />
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>"Ác-tắc-sát-ta, vua các vua, gửi cho tư tế Ét-ra, kinh sư chuyên về Lề Luật của Thiên Chúa, Chúa các tầng trời. Chúc ông vạn an!</span>
+            <br />
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>ta ra lệnh cho bất cứ ai thuộc dân Ít-ra-en, cho các tư tế và các thầy Lê-vi sống trong vương quốc của ta muốn tình nguyện đi Giê-ru-sa-lem, thì đều được phép đi cùng với ông,</span>
+            
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>bởi vì ông được vua và bảy vị cố vấn của vua cử đi để thị sát Giu-đa và Giê-ru-sa-lem, chiếu theo Lề Luật của Thiên Chúa của ông, Lề Luật mà ông có trong tay;</span>
+            
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>ông cũng được cử đi để mang vàng bạc, mà vua và các vị cố vấn của vua đã tự nguyện dâng cúng Thiên Chúa của Ít-ra-en ngự tại cung điện Người ở Giê-ru-sa-lem,</span>
+            
+        
+    
+        
+            <span id="s16"><sup><a href="#s16">16</a></sup>cũng như mang tất cả vàng bạc ông sẽ tìm ra trong khắp tỉnh Ba-by-lon, cùng với những lễ vật mà dân và các tư tế sẽ tự nguyện dâng cúng cho Nhà Thiên Chúa của họ tại Giê-ru-sa-lem.</span>
+            
+        
+    
+        
+            <span id="s17"><sup><a href="#s17">17</a></sup>Vì thế, ông hãy cẩn thận dùng tiền bạc đó mà mua bò, chiên, cừu, cũng như các lễ phẩm và rượu tế; ông sẽ tiến dâng các lễ vật đó trên bàn thờ của Nhà Thiên Chúa của các ông ở Giê-ru-sa-lem.</span>
+            
+        
+    
+        
+            <span id="s18"><sup><a href="#s18">18</a></sup>Với số vàng bạc còn dư, các ông sẽ làm những gì ông và anh em ông cho là tốt, và làm theo ý muốn của Thiên Chúa các ông thờ.</span>
+            
+        
+    
+        
+            <span id="s19"><sup><a href="#s19">19</a></sup>Còn những đồ vật đã được trao cho ông để dùng vào việc thờ phượng trong Nhà Thiên Chúa của ông, thì ông hãy đặt trước nhan Thiên Chúa ngự tại Giê-ru-sa-lem.</span>
+            
+        
+    
+        
+            <span id="s20"><sup><a href="#s20">20</a></sup>Còn những đồ vật cần thiết khác cho Nhà Thiên Chúa của ông, đồ vật ông có nhiệm vụ phải cung cấp, thì ông sẽ lĩnh ở kho tàng của vua mà cung cấp.</span>
+            
+        
+    
+        
+            <span id="s21"><sup><a href="#s21">21</a></sup>Chính ta, vua Ác-tắc-sát-ta, ra lệnh cho mọi thủ quỹ Vùng bên kia sông Êu-phơ-rát: tất cả những gì tư tế Ét-ra, kinh sư chuyên về Lề Luật của Thiên Chúa, Chúa các tầng trời, sẽ xin các ngươi, thì các ngươi phải thực hiện cho chu đáo.</span>
+            
+        
+    
+        
+            <span id="s22"><sup><a href="#s22">22</a></sup>Các ngươi có thể cấp cho tới ba ngàn ký bạc, một ngàn giạ lúa miến, hai trăm thùng rượu, hai trăm thùng dầu, còn muối thì không có hạn.</span>
+            
+        
+    
+        
+            <span id="s23"><sup><a href="#s23">23</a></sup>Tất cả những gì là lệnh của Thiên Chúa, Chúa các tầng trời, phải được nghiêm chỉnh thi hành cho Nhà Thiên Chúa, Chúa các tầng trời, để cơn thịnh nộ của Người khỏi giáng xuống vương quốc của vua và của các hoàng tử.</span>
+            
+        
+    
+        
+            <span id="s24"><sup><a href="#s24">24</a></sup>Ta cũng còn cho các ngươi biết là không được phép thu cống vật, thuế má, thuế thông quá của bất cứ tư tế hay thầy Lê-vi, ca viên hay người giữ cửa và những người phục vụ Đền Thờ, nói tóm lại, của bất cứ người nào phục vụ Nhà Thiên Chúa.</span>
+            <br />
+        
+    
+        
+            <span id="s25"><sup><a href="#s25">25</a></sup>"Phần ông, ông Ét-ra, với sự khôn ngoan của Thiên Chúa của ông, sự khôn ngoan mà ông nắm trong tay, ông hãy đặt các thẩm phán, các quan toà để xử kiện cho toàn dân Vùng bên kia sông Êu-phơ-rát, cho tất cả những người biết Lề Luật của Thiên Chúa của ông. Còn kẻ không biết Lề Luật đó, các ông sẽ giúp cho họ biết.</span>
+            
+        
+    
+        
+            <span id="s26"><sup><a href="#s26">26</a></sup>Ai không giữ Lề Luật của Thiên Chúa của ông và luật của vua, thì phải trừng trị thích đáng: như xử tử, hoặc trục xuất, hoặc phạt tiền, hay bỏ tù."</span>
+            <br />
+        
+    
+        
+            <h5>Cuộc hành trình của ông Ét-ra từ Ba-by-lon đến Pa-lét-tin</h5>
+        
+    
+        
+            <span id="s27"><sup><a href="#s27">27</a></sup>Chúc tụng ĐỨC CHÚA, Thiên Chúa của tổ tiên chúng ta, Đấng đã ban cho đức vua lòng ước muốn tôn trọng Nhà của ĐỨC CHÚA ở Giê-ru-sa-lem,</span>
+            
+        
+    
+        
+            <span id="s28"><sup><a href="#s28">28</a></sup>và đã làm cho đức vua, các cố vấn và mọi quan chức quyền thế nhất của đức vua tỏ lòng thương yêu tôi. Còn tôi thì lên tinh thần, vì bàn tay ĐỨC CHÚA, Thiên Chúa của tôi, che chở tôi. Tôi tập họp một số thủ lãnh Ít-ra-en lại, để họ cùng đi lên với tôi.</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c8"><span class="chapter-title" id="c8">Chương 8</span></a>
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Đây là những người làm đầu các gia tộc với gia phả của họ, những người đã rời Ba-by-lon mà đi lên với tôi, dưới triều vua Ác-tắc-sát-ta:</span>
+            <br />
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Dòng dõi Pin-khát: có Ghéc-sôm; dòng dõi I-tha-ma: có Đa-ni-en; dòng dõi ông Đa-vít: có Khát-tút,</span>
+            
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>con của Sơ-khan-gia; dòng dõi Pác-ốt: có Dơ-khác-gia, và cùng với ông có một trăm năm mươi đàn ông con trai được ghi vào sổ gia phả;</span>
+            
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>dòng dõi Pa-khát Mô-áp: có En-giơ-hô-ê-nai, con của Dơ-rác-gia, và cùng với ông có hai trăm đàn ông con trai;</span>
+            
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>dòng dõi Dát-tu: có Sơ-khan-gia, con của Gia-kha-di-ên, và cùng với ông có ba trăm đàn ông con trai;</span>
+            
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>dòng dõi A-đin: có E-vét, con của Giô-na-than, và cùng với ông có năm mươi đàn ông con trai;</span>
+            
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>dòng dõi Ê-lam: có Giơ-sa-gia, con của A-than-gia, và cùng với ông có bảy mươi đàn ông con trai;</span>
+            
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>dòng dõi Sơ-phát-gia: có Dơ-vát-gia, con của Mi-kha-ên, và cùng với ông có tám mươi đàn ông con trai;</span>
+            
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>dòng dõi Giô-áp: có Ô-vát-gia, con của Giơ-khi-ên, và cùng với ông có hai trăm mười tám đàn ông con trai;</span>
+            
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>dòng dõi Ba-ni: có Sơ-lô-mít, con của Giô-xíp-gia, và cùng với ông có một trăm sáu mươi đàn ông con trai;</span>
+            
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>dòng dõi Bê-vai: có Dơ-khác-gia, con của Bê-vai, và cùng với ông có hai mươi tám đàn ông con trai;</span>
+            
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>dòng dõi Át-gát: có Giô-kha-nan, con của Ha-ca-tan, và cùng với ông có một trăm mười đàn ông con trai;</span>
+            
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>dòng dõi A-đô-ni-cam: những người cuối cùng; đây là tên của họ: Ê-li-phe-lét, Giơ-y-ên và Sơ-ma-gia, và cùng với họ có sáu mươi đàn ông con trai;</span>
+            
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>dòng dõi Bích-vai: có U-thai và Dáp-bút, và cùng với họ có bảy mươi đàn ông con trai.</span>
+            <br />
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>Tôi đã tập họp họ lại bên sông chảy về A-ha-va, và chúng tôi đóng trại ở đó ba ngày. Tôi để ý thì thấy có dân và các tư tế, nhưng ở đó tôi không tìm được một thầy Lê-vi nào.</span>
+            
+        
+    
+        
+            <span id="s16"><sup><a href="#s16">16</a></sup>Bấy giờ tôi phái những người này đi: các ông: Ê-li-e-de, A-ri-ên, Sơ-ma-gia, En-na-than, Gia-ríp, En-na-than, Na-than, Dơ-khác-gia, và Mơ-su-lam, là những người thủ lãnh, cùng với các ông Giô-gia-ríp và En-na-than, là những người giải thích Lề Luật.</span>
+            
+        
+    
+        
+            <span id="s17"><sup><a href="#s17">17</a></sup>Tôi đã cho họ những chỉ thị liên quan đến ông Ít-đô là người làm đầu ở Kha-xíp-gia, và nhờ họ chuyển đến ông Ít-đô và các anh em ông, những người phục vụ Đền Thờ tại Kha-xíp-gia, những lời miệng tôi muốn nói với các ông ấy, để xin đem đến cho chúng tôi những người giúp việc Nhà Thiên Chúa.</span>
+            
+        
+    
+        
+            <span id="s18"><sup><a href="#s18">18</a></sup>Vì có bàn tay nhân lành của Thiên Chúa che chở chúng tôi, họ đem đến cho chúng tôi một người khôn ngoan, thuộc dòng dõi ông Mác-li, con ông Lê-vi, con ông Ít-ra-en, đó là ông Sê-rếp-gia, cùng với các con và anh em của ông, tất cả mười tám người,</span>
+            
+        
+    
+        
+            <span id="s19"><sup><a href="#s19">19</a></sup>thêm vào đó còn có ông Kha-sáp-gia với em ông là ông Giơ-sa-gia, thuộc dòng dõi ông Mơ-ra-ri, cũng như các con của họ, tất cả hai mươi người.</span>
+            
+        
+    
+        
+            <span id="s20"><sup><a href="#s20">20</a></sup>Ngoài ra, trong số những người phục vụ Đền Thờ mà vua Đa-vít và các thủ lãnh đã cho để phục vụ các thầy Lê-vi, có hai trăm hai mươi người phục vụ Đền Thờ: tất cả những người này được chỉ định đích danh.</span>
+            <br />
+        
+    
+        
+            <span id="s21"><sup><a href="#s21">21</a></sup>Ở đó, gần bờ sông A-ha-va, tôi công bố lệnh ăn chay để hạ mình trước nhan Thiên Chúa chúng tôi, hầu nài xin Người cho chúng tôi đi đường bằng an cùng với con cái chúng tôi và mọi tài sản của chúng tôi.</span>
+            
+        
+    
+        
+            <span id="s22"><sup><a href="#s22">22</a></sup>Vì tôi sẽ hổ thẹn, nếu phải xin vua cấp cho một đội quân và những người kỵ mã, để bảo vệ chúng tôi khỏi tay kẻ thù trong lúc đi đường; quả vậy, chúng tôi có thưa với đức vua: "Bàn tay của Thiên Chúa chúng tôi che chở tất cả những ai tìm kiếm Người và giáng phúc cho họ, nhưng sức mạnh và cơn thịnh nộ của Người đè nặng trên mọi kẻ lìa bỏ Người."</span>
+            
+        
+    
+        
+            <span id="s23"><sup><a href="#s23">23</a></sup>Để được như vậy, chúng tôi đã giữ chay, đã nài xin Thiên Chúa chúng tôi, và Người đã nhậm lời chúng tôi.</span>
+            <br />
+        
+    
+        
+            <span id="s24"><sup><a href="#s24">24</a></sup>Tôi chọn hai người làm đầu các tư tế, cũng như ông Sê-rếp-gia, ông Kha-sáp-gia và mười người anh em của họ.</span>
+            
+        
+    
+        
+            <span id="s25"><sup><a href="#s25">25</a></sup>Và tôi cân cho họ bạc vàng và những đồ vật dâng cúng vào Nhà của Thiên Chúa chúng tôi; đó là những gì đức vua, các vị cố vấn, các thủ lãnh và mọi người Ít-ra-en có mặt ở đó đã dâng cúng.</span>
+            
+        
+    
+        
+            <span id="s26"><sup><a href="#s26">26</a></sup>Tôi cân, rồi trao vào tay họ mười chín ngàn năm trăm ký bạc, những đồ bằng bạc trị giá ba ngàn ký, ba ngàn ký vàng,</span>
+            
+        
+    
+        
+            <span id="s27"><sup><a href="#s27">27</a></sup>hai mươi tô bằng vàng trị giá một ngàn đồng Đa-ri-ô, và hai bình bằng đồng đẹp, bóng loáng, cũng quý như vàng.</span>
+            
+        
+    
+        
+            <span id="s28"><sup><a href="#s28">28</a></sup>Tôi nói với họ: "Các ông được thánh hiến cho ĐỨC CHÚA; các đồ vật này là của thánh; bạc này, vàng này là lễ vật tự nguyện dâng ĐỨC CHÚA, Thiên Chúa của tổ tiên các ông.</span>
+            
+        
+    
+        
+            <span id="s29"><sup><a href="#s29">29</a></sup>Các ông hãy gìn giữ cẩn thận những thứ này, cho đến khi cân trước mặt những người làm đầu các tư tế và các thầy Lê-vi, trước mặt những người làm đầu các gia tộc Ít-ra-en ở Giê-ru-sa-lem, trong các phòng của Nhà ĐỨC CHÚA."</span>
+            
+        
+    
+        
+            <span id="s30"><sup><a href="#s30">30</a></sup>Các tư tế và các thầy Lê-vi lãnh nhận bạc vàng và các đồ vật đã cân, để mang đi Giê-ru-sa-lem, đưa vào Nhà của Thiên Chúa chúng ta.</span>
+            <br />
+        
+    
+        
+            <span id="s31"><sup><a href="#s31">31</a></sup>Chúng tôi đã khởi hành từ sông A-ha-va ngày mười hai tháng thứ nhất, để đi Giê-ru-sa-lem. Bàn tay của Thiên Chúa chúng ta đã che chở chúng tôi, và cho chúng tôi thoát khỏi tay kẻ thù và những cạm bẫy trên đường đi.</span>
+            
+        
+    
+        
+            <span id="s32"><sup><a href="#s32">32</a></sup>Chúng tôi đến Giê-ru-sa-lem và nghỉ tại đó ba ngày.</span>
+            
+        
+    
+        
+            <span id="s33"><sup><a href="#s33">33</a></sup>Ngày thứ tư, bạc, vàng và các đồ vật được cân trong Nhà của Thiên Chúa chúng ta, và trao vào tay tư tế Mơ-rê-mốt, con ông U-ri-gia, cùng với ông còn có ông E-la-da, con ông Pin-khát; ngoài các nhân vật ấy, cũng có các thầy Lê-vi: Giô-da-vát, con ông Giê-su-a, và Nô-át-gia, con ông Bin-nui.</span>
+            
+        
+    
+        
+            <span id="s34"><sup><a href="#s34">34</a></sup>Số và lượng đều đúng cả. Tổng cộng số lượng được ghi vào sổ.</span>
+            <br />
+        
+    
+        
+            <span id="s35"><sup><a href="#s35">35</a></sup>những người từ chốn lưu đày trở về, những người đã bị lưu đày, dâng những lễ toàn thiêu lên Thiên Chúa của Ít-ra-en: mười hai con bò cho toàn thể Ít-ra-en, chín mươi sáu con cừu, bảy mươi hai con chiên, mười hai con dê làm lễ vật tạ tội: tất cả trở thành lễ vật toàn thiêu dâng ĐỨC CHÚA.</span>
+            <br />
+        
+    
+        
+            <span id="s36"><sup><a href="#s36">36</a></sup>Rồi họ trao các sắc chỉ nhà vua cho các thủ hiến của vua và cho các trưởng Vùng bên kia sông Êu-phơ-rát. Các vị này đã giúp đỡ dân và giúp vào việc xây Nhà ĐỨC CHÚA.</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c9"><span class="chapter-title" id="c9">Chương 9</span></a>
+    
+        
+            <h5>Huỷ bỏ hôn nhân với người ngoại</h5>
+        
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Giải quyết những việc ấy xong, các người lãnh đạo đến với tôi và nói: "Dân Ít-ra-en, các tư tế và các thầy Lê-vi không dứt mọi liên hệ với những thói tục ghê tởm của các dân trong xứ, của người Ca-na-an, Khết, Pơ-rít-di, Giơ-vút, Am-mon, Mô-áp, Ai-cập và E-mô-ri.</span>
+            
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Họ và con cái họ đã lấy con gái của chúng; nòi giống thánh đã trà trộn với các dân trong những xứ ấy. Các người lãnh đạo, các quan chức là những người mau tay làm chuyện phản bội đó nhất! "</span>
+            
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Nghe tin ấy, tôi xé áo dài trong và áo choàng ngoài, tôi bứt tóc bứt râu, rồi ngồi xuống sững sờ kinh ngạc.</span>
+            
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Tất cả những ai run sợ khi nghe lời của Thiên Chúa Ít-ra-en thì quy tụ chung quanh tôi, trước sự phản bội của những người lưu đày trở về. Còn tôi thì cứ ngồi đó, sững sờ kinh ngạc, cho đến giờ dâng lễ phẩm ban chiều.</span>
+            
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Vào giờ đó, tôi mới ra khỏi cơn sầu khổ, trỗi dậy; áo dài trong, áo choàng ngoài xé rách, tôi quỳ gối, giơ tay lên ĐỨC CHÚA, Thiên Chúa của tôi</span>
+            
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>và thưa:"Lạy Thiên Chúa của con, con thật xấu hổ thẹn thùng khi ngẩng mặt lên Ngài, lạy Thiên Chúa của con, vì tội chúng con quá nhiều, đến nỗi ngập đầu ngập cổ, lỗi chúng con cứ chồng chất lên mãi tới trời.</span>
+            <br />
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Từ thời tổ tiên chúng con cho đến ngày nay, vì chúng con đã mắc lỗi nặng và phạm tội, nên các vua và các tư tế của chúng con đã bị nộp vào tay vua chúa các nước ngoại bang; chúng con đã bị nộp cho gươm giáo, phải đi đày, bị cướp bóc và bẽ mặt hổ ngươi như ngày hôm nay.</span>
+            
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Và bây giờ, chỉ mới đây, ĐỨC CHÚA, Thiên Chúa chúng con, ban cho chúng con ân huệ này là để lại cho chúng con một số người sống sót, và cho chúng con được một chỗ ở vững chắc trong nơi thánh của Ngài; như thế, Thiên Chúa chúng con đã toả ánh sáng làm cho đôi mắt chúng con được rạng ngời, và làm cho chúng con được hồi sinh đôi chút trong cảnh nô lệ.</span>
+            
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Tuy chúng con là những kẻ nô lệ, Thiên Chúa chúng con đã không bỏ rơi chúng con trong cảnh nô lệ đó. Ngài đã làm cho các vua Ba-tư tỏ lòng thương yêu chúng con, khiến chúng con được hồi sinh mà dựng lại Nhà Thiên Chúa chúng con, tái thiết ngôi Nhà đã hoang tàn, và xây lại tường thành tại Giê-ru-sa-lem ở Giu-đa.</span>
+            
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Và giờ đây, lạy Thiên Chúa chúng con, chúng con biết nói gì sau cớ sự này? Vì chúng con đã không tuân giữ các mệnh lệnh của Ngài.</span>
+            
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Ngài đã dùng các tôi trung của Ngài là các ngôn sứ mà truyền dạy rằng: &quot;Đất mà các ngươi sắp vào chiếm hữu, là đất đã ra nhơ nhớp, vì những sự nhơ nhớp của các dân trong những xứ ấy, vì những thói tục ghê tởm họ đã làm cho tràn lan khắp nơi khắp chốn bằng sự ô uế của họ.</span>
+            
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>Và giờ đây, các ngươi đừng gả con gái các ngươi cho con trai chúng, và đừng cưới con gái chúng cho con trai các ngươi. Các ngươi đừng bao giờ mưu cầu bình an và hạnh phúc cho chúng. Như thế, các ngươi sẽ được mạnh sức, được hưởng dùng của cải trong xứ và trối lại cho con cái các ngươi làm gia tài mãi mãi.</span>
+            <br />
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>Sau khi mọi điều ấy xảy ra cho chúng con vì các việc xấu và lỗi nặng của chúng con, mặc dầu Ngài, lạy Thiên Chúa chúng con, Ngài đã giảm nhẹ tội ác của chúng con, và đã để lại cho chúng con số người sống sót này,</span>
+            
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>lẽ nào chúng con lại còn vi phạm mệnh lệnh của Ngài, và kết nghĩa thông gia với các dân làm những điều ghê tởm như thế? Chẳng lẽ Ngài lại không nổi cơn thịnh nộ với chúng con và huỷ diệt chúng con, không để một người sống sót hay thoát nạn sao?</span>
+            
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>Lạy ĐỨC CHÚA, Thiên Chúa Ít-ra-en, Ngài là Đấng công chính, nên chúng con mới được thoát nạn và sống sót, như ngày hôm nay. Này chúng con đang ở trước nhan Ngài, mang trong mình lỗi lầm của chúng con, mặc dầu trong tình trạng đó, không ai có thể đứng vững trước nhan Ngài! "</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c10"><span class="chapter-title" id="c10">Chương 10</span></a>
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Trong khi ông Ét-ra khóc lóc và phủ phục trước Nhà Thiên Chúa, mà cầu nguyện và thú nhận tội lỗi, thì một cộng đoàn đông đảo người Ít-ra-en, đàn ông, đàn bà và trẻ con, tụ họp lại chung quanh ông. Dân chúng khóc lóc thảm thiết.</span>
+            
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Ông Sơ-khan-gia, con ông Giơ-khi-ên, thuộc dòng dõi Ê-lam, nói với ông Ét-ra: "Chúng tôi đã phản bội Thiên Chúa chúng tôi, khi cưới vợ người ngoại thuộc các dân trong xứ. Nhưng giờ đây, mặc dầu thế, vẫn còn hy vọng cho Ít-ra-en.</span>
+            
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Vậy giờ đây, chúng ta hãy cam kết với Thiên Chúa chúng ta là sẽ đuổi tất cả những người vợ ấy với con cái họ, theo lời khuyên của ngài và của những ai có lòng kính sợ mệnh lệnh của Thiên Chúa chúng ta. Cứ theo Lề Luật mà làm!</span>
+            
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Xin ông trỗi dậy, vì đây là việc của ông, nhưng chúng tôi sẽ ở bên ông. Ông cứ can đảm và hành động đi! "</span>
+            
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Bấy giờ, ông Ét-ra trỗi dậy và bắt các thủ lãnh của hàng tư tế và của các thầy Lê-vi, cũng như toàn thể Ít-ra-en phải thề là sẽ làm như đã nói. Và họ đã thề.</span>
+            
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Ông Ét-ra trỗi dậy, rồi từ phía trước Nhà Thiên Chúa đi tới phòng ông Giơ-hô-kha-nan, con ông En-gia-síp. Ông Ét-ra đi tới đó, không ăn bánh, cũng chẳng uống nước, vì ông quá buồn phiền về tội phản bội của những người lưu đày trở về.</span>
+            <br />
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Người ta ra thông cáo này tại Giê-ru-sa-lem ở Giu-đa: mọi người lưu đày trở về phải tập họp ở Giê-ru-sa-lem.</span>
+            
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Nội trong ba ngày, ai không đến, thì chiếu theo quyết định của các thủ lãnh và kỳ mục, tất cả tài sản sẽ bị biệt hiến và bản thân sẽ bị trục xuất khỏi cộng đồng những người lưu đày trở về.</span>
+            
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Mọi người Giu-đa và Ben-gia-min đều tập họp ở Giê-ru-sa-lem vào ngày thứ ba, đó là ngày hai mươi tháng chín. Toàn dân ngồi ở quảng trường Nhà Thiên Chúa, run sợ vì sự việc đã xảy ra và vì trời mưa tầm tã.</span>
+            
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Bấy giờ tư tế Ét-ra đứng dậy và nói với họ: "Anh em đã phản bội khi cưới vợ người ngoại, và như thế làm tăng thêm tội lỗi của Ít-ra-en.</span>
+            
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Nhưng bây giờ anh em hãy suy tôn ĐỨC CHÚA, Thiên Chúa của cha ông anh em, và hãy thi hành ý muốn của Người: hãy dứt mọi liên hệ với dân trong xứ và các người vợ ngoại."</span>
+            
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>Toàn thể đại hội lớn tiếng đáp: "Vâng! Chúng tôi phải làm như ông đã nói.</span>
+            
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>Nhưng dân thì đông, lại đang mùa mưa, nên không thể đứng ngoài trời. Và việc này không phải là chuyện ngày một ngày hai, vì trong vụ này rất đông người chúng tôi đã phạm tội.</span>
+            
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>Vậy xin hàng thủ lãnh chúng tôi ở lại thay cho đại hội; trong các thành của chúng tôi, tất cả những ai đã cưới vợ người ngoại thì sẽ đến vào thời đã quy định, cùng với các kỳ mục và thẩm phán của mỗi thành, cho đến khi Thiên Chúa rút lại cơn thịnh nộ Người giáng xuống chúng tôi vì vụ này."</span>
+            <br />
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>Chỉ có ông Giô-na-than, con ông A-xa-hên, và ông Giác-dơ-gia, con ông Tích-va, chống lại giải pháp đó, và được ông Mơ-su-lam cùng thầy Lê-vi Sáp-thai ủng hộ.</span>
+            
+        
+    
+        
+            <span id="s16"><sup><a href="#s16">16</a></sup>Nhưng các người lưu đày trở về cứ làm như đã đề nghị. Tư tế Ét-ra chọn những người làm đầu các gia tộc, tuỳ theo số các gia tộc, tất cả đều được chỉ định đích danh. Ngày mồng một tháng mười họ ngồi lại để cứu xét vấn đề.</span>
+            
+        
+    
+        
+            <span id="s17"><sup><a href="#s17">17</a></sup>Tới ngày mồng một tháng thứ nhất, họ mới giải quyết xong vấn đề của tất cả những người đã lấy vợ người ngoại.</span>
+            <br />
+        
+    
+        
+            <h5>Danh sách những người phạm lỗi</h5>
+        
+    
+        
+            <span id="s18"><sup><a href="#s18">18</a></sup>Người ta tìm thấy trong hàng tư tế những người sau đây đã lấy vợ người ngoại: trong số con cái ông Giê-su-a, con của Giô-xa-đắc, và trong số anh em của ông, có Ma-a-xê-gia, Ê-li-e-de, Gia-ríp và Gơ-đan-gia.</span>
+            
+        
+    
+        
+            <span id="s19"><sup><a href="#s19">19</a></sup>Họ cam đoan sẽ rẫy vợ và dâng một con cừu đực để làm lễ đền tội;</span>
+            <br />
+        
+    
+        
+            <span id="s20"><sup><a href="#s20">20</a></sup>trong số con cái ông Im-me, có Kha-na-ni và Dơ-vát-gia;</span>
+            <br />
+        
+    
+        
+            <span id="s21"><sup><a href="#s21">21</a></sup>trong số con cái ông Kha-rim, có Ma-a-xê-gia, Ê-li-gia, Sơ-ma-gia, Giơ-khi-ên và Út-di-gia;</span>
+            <br />
+        
+    
+        
+            <span id="s22"><sup><a href="#s22">22</a></sup>trong số con cái ông Pát-khua, có En-giô-ê-nai, Ma-a-xê-gia, Gít-ma-ên, Nơ-than-ên, Giô-da-vát và En-a-xa.</span>
+            <br />
+        
+    
+        
+            <span id="s23"><sup><a href="#s23">23</a></sup>Trong số các thầy Lê-vi, có Giô-da-vát, Sim-y, Kê-la-gia tức là Cơ-li-ta, Pơ-thác-gia, Giơ-hu-đa và Ê-li-e-de.</span>
+            <br />
+        
+    
+        
+            <span id="s24"><sup><a href="#s24">24</a></sup>Trong số các ca viên, có En-gia-síp.Trong số những người giữ cửa, có Sa-lum, Te-lem và U-ri.</span>
+            <br />
+        
+    
+        
+            <span id="s25"><sup><a href="#s25">25</a></sup>Giữa những người Ít-ra-en:trong số con cái ông Pác-ốt, có Ram-gia, Gít-di-gia, Man-ki-gia, Mi-gia-min, E-la-da, Man-ki-gia và Bơ-na-gia;</span>
+            <br />
+        
+    
+        
+            <span id="s26"><sup><a href="#s26">26</a></sup>trong số con cái ông Ê-lam, có Mát-tan-gia, Dơ-khác-gia, Giơ-khi-ên, Áp-đi, Giơ-rê-mốt và Ê-li-gia;</span>
+            <br />
+        
+    
+        
+            <span id="s27"><sup><a href="#s27">27</a></sup>trong số con cái ông Dát-tu, có En-giô-ê-nai, En-gia-síp, Mát-tan-gia, Giơ-rê-mốt, Da-vát và A-di-da;</span>
+            <br />
+        
+    
+        
+            <span id="s28"><sup><a href="#s28">28</a></sup>trong số con cái ông Bê-vai, có Giơ-hô-kha-nan, Kha-nan-gia, Dáp-bai và Át-lai;</span>
+            <br />
+        
+    
+        
+            <span id="s29"><sup><a href="#s29">29</a></sup>trong số con cái ông Ba-ni, có Mơ-su-lam, Ma-lúc, A-đa-gia, Gia-súp, Sơ-an và Giơ-ra-mốt;</span>
+            <br />
+        
+    
+        
+            <span id="s30"><sup><a href="#s30">30</a></sup>trong số con cái ông Pa-khát Mô-áp, có Át-na, Cơ-lan, Bơ-na-gia, Ma-a-xê-gia, Mát-tan-gia, Bơ-xan-ên, Bin-nui và Mơ-na-se;</span>
+            <br />
+        
+    
+        
+            <span id="s31"><sup><a href="#s31">31</a></sup>trong số con cái ông Kha-rim, có Ê-li-e-de, Gít-si-gia, Man-ki-gia, Sơ-ma-gia, Si-mê-ôn,</span>
+            
+        
+    
+        
+            <span id="s32"><sup><a href="#s32">32</a></sup>Ben-gia-min, Ma-lúc, Sơ-mác-gia;</span>
+            <br />
+        
+    
+        
+            <span id="s33"><sup><a href="#s33">33</a></sup>trong số con cái ông Kha-sum, có Mát-tơ-nai, Mát-tát-ta, Da-vát, Ê-li-phe-lét, Giơ-rê-mai, Mơ-na-se, Sim-y;</span>
+            <br />
+        
+    
+        
+            <span id="s34"><sup><a href="#s34">34</a></sup>trong số con cái ông Ba-ni, có Ma-a-đai, Am-ram, U-ên,</span>
+            
+        
+    
+        
+            <span id="s35"><sup><a href="#s35">35</a></sup>Bơ-na-gia, Bết-gia, Cơ-lu-hi,</span>
+            
+        
+    
+        
+            <span id="s36"><sup><a href="#s36">36</a></sup>Van-gia, Mơ-rê-mốt, En-gia-síp,</span>
+            
+        
+    
+        
+            <span id="s37"><sup><a href="#s37">37</a></sup>Mát-tan-gia, Mát-tơ-nai, Gia-a-xai;</span>
+            <br />
+        
+    
+        
+            <span id="s38"><sup><a href="#s38">38</a></sup>trong số con cái ông Bin-nui, có Sim-y,</span>
+            
+        
+    
+        
+            <span id="s39"><sup><a href="#s39">39</a></sup>Se-lem-gia, Na-than, A-đa-gia;</span>
+            <br />
+        
+    
+        
+            <span id="s40"><sup><a href="#s40">40</a></sup>trong số con cái ông Dắc-cai, có Sa-sai, Sa-rai,</span>
+            
+        
+    
+        
+            <span id="s41"><sup><a href="#s41">41</a></sup>A-dác-ên, Se-lem-gia-hu, Sơ-mác-gia,</span>
+            
+        
+    
+        
+            <span id="s42"><sup><a href="#s42">42</a></sup>Sa-lum, A-mác-gia, Giô-xếp;</span>
+            <br />
+        
+    
+        
+            <span id="s43"><sup><a href="#s43">43</a></sup>trong số con cái ông Nơ-vô, có Giơ-y-ên, Mát-tít-gia, Da-vát, Dơ-vi-na, Giát-đai, Giô-en và Bơ-na-gia.</span>
+            <br />
+        
+    
+        
+            <span id="s44"><sup><a href="#s44">44</a></sup>Tất cả những người này đã lấy vợ người ngoại; họ đã rẫy vợ và từ con.</span>
+            <br />
+        
+    
+</section>
+
+
+            <footer class="footer">
+            </footer>
+        </div>
+    </article>
+
+    <div class="results" role="status" aria-live="polite">
+        <div class="scrollable">
+            <div class="wrapper">
+                <div class="meta"></div>
+                <div class="list"></div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<script>
+    var base_url = '';
+    var repo_id = '';
+</script>
+
+<script src="https://bible-online.github.io/javascripts/application.js"></script>
+
+<script>
+    var headers = document.getElementsByTagName("h2");
+    var scrollspy = document.getElementById('scrollspy');
+
+    if (scrollspy) {
+        if (headers.length > 0) {
+            for (var i = 0; i < headers.length; i++) {
+                var li = document.createElement("li");
+                li.setAttribute("class", "anchor");
+
+                var a = document.createElement("a");
+                a.setAttribute("href", "#" + headers[i].id);
+                a.setAttribute("title", headers[i].innerHTML);
+                a.innerHTML = headers[i].innerHTML;
+
+                li.appendChild(a);
+                scrollspy.appendChild(li);
+            }
+        } else {
+            scrollspy.parentElement.removeChild(scrollspy);
+        }
+
+        var headers = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
+
+        for (var i = 0; i < headers.length; i++) {
+            var a = document.createElement("a");
+            a.setAttribute("class", "headerlink");
+            a.setAttribute("href", "#" + headers[i].id);
+            a.setAttribute("title", "Permanent link");
+            a.innerHTML = "";
+            headers[i].appendChild(a);
+        }
+    }
+</script>
+
+<script src="//gohugo.io/js/highlight.pack.js"></script>
+<script>
+    hljs.initHighlightingOnLoad();
+</script>
+</body>
+
+</html>

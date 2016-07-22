@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="no-js ie6"><![endif]-->
+<!--[if IE 7 ]><html class="no-js ie7"><![endif]-->
+<!--[if IE 8 ]><html class="no-js ie8"><![endif]-->
+<!--[if IE 9 ]><html class="no-js ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head >
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
+    <title>Ôvađia - Bible online</title>
+
+    
+    <link rel="canonical" href=""> 
+
+    <meta property="og:url" content=""> 
+    <meta property="og:title" content="Bible online"> 
+    <meta name="apple-mobile-web-app-title" content="Bible online">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://bible-online.github.io/images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="https://bible-online.github.io/images/favicon.ico">
+
+    <style>
+        @font-face {
+            font-family: 'Icon';
+            src: url('https://bible-online.github.io/fonts/icon.eot?52m981');
+            src: url('https://bible-online.github.io/fonts/icon.eot?#iefix52m981') format('embedded-opentype'),
+            url('https://bible-online.github.io/fonts/icon.woff?52m981') format('woff'),
+            url('https://bible-online.github.io/fonts/icon.ttf?52m981') format('truetype'),
+            url('https://bible-online.github.io/fonts/icon.svg?52m981#icon') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+
+    <link rel="stylesheet" href="https://bible-online.github.io/stylesheets/application.css">
+    <link rel="stylesheet" href="https://bible-online.github.io/stylesheets/temporary.css">
+    <link rel="stylesheet" href="https://bible-online.github.io/stylesheets/palettes.css">
+    <link rel="stylesheet" href="https://bible-online.github.io/stylesheets/highlight/highlight.css">
+
+    <script src="https://bible-online.github.io/javascripts/modernizr.js"></script>
+</head>
+
+<body class=" ">
+
+<div class="backdrop">
+    <div class="backdrop-paper"></div>
+</div>
+
+<input class="toggle" type="checkbox" id="toggle-drawer">
+<input class="toggle" type="checkbox" id="toggle-search">
+<label class="toggle-button overlay" for="toggle-drawer"></label>
+
+<header class="header">
+    <nav aria-label="Header">
+  <div class="bar default">
+    <div class="button button-menu" role="button" aria-label="Menu">
+      <label class="toggle-button icon icon-menu" for="toggle-drawer">
+        <span></span>
+      </label>
+    </div>
+    <div class="stretch">
+      <div class="title">
+        Ôvađia
+      </div>
+    </div>
+
+    
+
+    
+    
+    <!-- TODO: disabled until Hugo supports the generation of a content index natively 
+    <div class="button button-search" role="button" aria-label="Search">
+      <label class="toggle-button icon icon-search" title="Search" for="toggle-search"></label>
+    </div>
+    -->    
+  </div>
+  <div class="bar search">
+    <div class="button button-close" role="button" aria-label="Close">
+      <label class="toggle-button icon icon-back" for="toggle-search"></label>
+    </div>
+    <div class="stretch">
+      <div class="field">
+        <input class="query" type="text" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck>
+      </div>
+    </div>
+    <div class="button button-reset" role="button" aria-label="Search">
+      <button class="toggle-button icon icon-close" id="reset-search"></button>
+    </div>
+  </div>
+</nav>
+</header>
+
+<main class="main">
+    <div class="drawer">
+        <nav aria-label="Navigation">
+  <!--<a href="https://bible-online.github.io/" class="project">
+    <div class="banner">
+      
+      <div class="name">
+        <strong>Bible online </strong>
+      </div>
+    </div>
+  </a>-->
+
+  <div class="scrollable">
+    <div class="wrapper">
+      <div class="toc">
+        <ul>
+          
+          <li>
+            <a href="https://bible-online.github.io/sang-the-ky">Sáng Thế Ký</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/xuat-hanh">Xuất Hành</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/le-vi">Lê Vi</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/dan-so">Dân Số</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/de-nhi-luat">Đệ Nhị Luật</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/gio-sue">Giô-suê</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-lanh">Thủ Lãnh</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/rut">Rút</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/samuel-i">Samuel I</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/samuel-ii">Samuel II</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/cac-vua-i">Các Vua I</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/cac-vua-ii">Các Vua II</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/su-bien-nien-i">Sử Biên Niên I</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/su-bien-nien-ii">Sử Biên Niên II</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/etra">Étra</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/nokhemia">Nơkhemia</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/tobia">Tôbia</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/giuditha">Giuđitha</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/ette">Étte</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/macabe-i">Macabê I</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/macabe-ii">Macabê II</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/giop">Gióp</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thanh-vinh">Thánh Vịnh</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/cham-ngon">Châm Ngôn</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/giang-vien">Giảng Viên</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/diem-ca">Diễm Ca</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/khon-ngoan">Khôn Ngoan</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/huan-ca">Huấn Ca</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/isaia">Isaia</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/gieremia">Giêrêmia</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/ai-ca">Ai Ca</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/baruc">Baruc</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/edekien">Êdêkien</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/danien">Đanien</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/hose">Hôsê</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/gioen">Giôen</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/amot">Amốt</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/ovadia">Ôvađia</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/giona">Giôna</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/mikha">Mikha</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/nakhum">Nakhum</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/khabacuc">Khabacúc</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/xophonia">Xôphônia</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/khacgai">Khácgai</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/dacaria">Dacaria</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/malakhi">Malakhi</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/mat-theu">Mát-thêu</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/mac-co">Mác-cô</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/luca">Luca</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/gioan">Gioan</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/tong-do-cong-vu">Tông Đồ Công Vụ</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-roma">Thư Rôma</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-corinto-1">Thư Côrintô 1</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-corinto-2">Thư Côrintô 2</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-galat">Thư Galát</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-epheso">Thư Êphêsô</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-philipphe">Thư Philípphê</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-coloxe">Thư Côlôxê</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-thexalonica-1">Thư Thêxalônica 1</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-thexalonica-2">Thư Thêxalônica 2</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-timothe-1">Thư Timôthê 1</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-timothe-2">Thư Timôthê 2</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-tito">Thư Titô</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-philemon">Thư Philêmon</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-do-thai">Thư Do Thái</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-giacobe">Thư Giacôbê</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-phero-1">Thư Phêrô 1</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-phero-2">Thư Phêrô 2</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-gioan-1">Thư Gioan 1</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-gioan-2">Thư Gioan 2</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-gioan-3">Thư Gioan 3</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-giuda">Thư Giuđa</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/khai-huyen">Khải Huyền</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+    </div>
+
+    <article class="article">
+        <div class="wrapper">
+            
+<section>
+    <a href="#c1"><span class="chapter-title" id="c1">Chương 1</span></a>
+    
+        
+            <h5>Lời tựa</h5>
+        
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Thị kiến của ông Ô-va-đi-a.</span>
+            <br />
+        
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>c) Chúng tôi đã nghe lời ĐỨC CHÚA truyền đạt.Một sứ giả được sai đến giữa chư dân:"Đứng lên, nào chúng ta xông đánh Ê-đôm! "</span>
+            <br />
+        
+    
+        
+            <h5>Bản án cho Ê-đôm</h5>
+        
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>b) ĐỨC CHÚA là Chúa Thượng phán về Ê-đôm như sau:</span>
+            <br />
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Này, Ta khiến ngươi ra nhược tiểu giữa chư dân,ngươi bị khinh dể quá đỗi.</span>
+            <br />
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Lòng kiêu ngạo của ngươi đã đánh lừa ngươi;ngươi ở trong khe đá, cư ngụ trên chỗ cao.Ngươi tự nhủ trong lòng: "Nào ai đẩy được ta xuống đất? "</span>
+            <br />
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Nếu ngươi cất mình lên như chim phượngvà làm tổ trên các vì sao,Ta sẽ đẩy ngươi xuống khỏi đó, - sấm ngôn của ĐỨC CHÚA.</span>
+            <br />
+        
+    
+        
+            <h5>Tận diệt Ê-đôm</h5>
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Nếu lũ trộm và bọn cướp đêm đến nhà ngươi,liệu ngươi có được yên ổn chăng?Nào chúng lại chẳng tha hồ vơ vét?Nếu những kẻ hái nho đến nhà ngươi,chúng có chừa lại gì, ngoài phần để cho mót không?</span>
+            <br />
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Ê-xau bị lục soát gắt gao biết mấy!Các kho tàng nó chôn giấu đều bị khui ra.</span>
+            <br />
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Chúng xua đuổi ngươi ra biên giới.Mọi kẻ liên minh với ngươi đều đánh lừa ngươi;những kẻ thân tín với ngươi lấn lướt ngươi;những kẻ được ngươi cho ăn bánhlại gài bẫy hại ngươi và nói: "Nó đã quẫn trí rồi! "</span>
+            <br />
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Há chẳng phải trong ngày đó, - sấm ngôn của ĐỨC CHÚA -Ta sẽ tiêu diệt hạng khôn ngoan khỏi Ê-đôm,đuổi người tài trí ra khỏi núi Ê-xau?</span>
+            <br />
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Hỡi Tê-man, các dũng sĩ của ngươi sẽ hoảng sợ,khiến mọi người bị diệt trừ khỏi núi Ê-xau.</span>
+            <br />
+        
+    
+        
+            <h5>Tội lỗi của Ê-đôm</h5>
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Vì ngươi đã tàn sát và áp bức anh em ngươi là Gia-cóp,nên ngươi sẽ phải ê chề nhục nhã và bị tiêu diệt đến muôn đời.</span>
+            <br />
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Vào ngày ngươi án binh bất động,vào ngày kẻ ngoại bang đem hết của cải nó đivà quân man di xâm nhập cổng thành,cùng bốc thăm chia phần Giê-ru-sa-lem,cả ngươi nữa, ngươi cũng vào hùa với chúng.</span>
+            <br />
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>Đừng khoái chí nhìn ngày anh em ngươi mắc hoạ.Đừng hoan hỷ trong ngày con cái Giu-đa bị diệt trừ;đừng to mồm vào ngày nó lâm cơn khốn quẫn.</span>
+            <br />
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>Đừng xâm nhập cổng thành của dân Ta vào ngày nó lâm nạn;ngươi cũng đừng khoái chí nhìn tai hoạ của nóvào ngày nó lâm nguy;đừng vơ vét tài sản của nó vào ngày nó lâm nạn.</span>
+            <br />
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>Đừng đứng ở ngã tư đường mà tiêu diệt những người trốn chạy;đừng trao nộp những kẻ sống sótvào ngày chúng gặp cơn khốn quẫn.</span>
+            <br />
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>Quả thật, ngày của ĐỨC CHÚA đã gần kề,ngày Người đánh phạt mọi dân tộc.Ngươi đã làm thế nào,thì người ta cũng sẽ làm cho ngươi như vậy:nợ ân oán sẽ đổ xuống đầu ngươi.</span>
+            <br />
+        
+    
+        
+            <h5>Vào ngày của ĐỨC CHÚA, Ít-ra-en báo thù Ê-đôm</h5>
+        
+    
+        
+            <span id="s16"><sup><a href="#s16">16</a></sup>Quả thật, cũng như các ngươi đã uống trên núi thánh của Ta,thì mọi dân tộc cũng sẽ không ngừng uống như vậy.Chúng sẽ uống, sẽ nốc vào, rồi hoá ra như chưa bao giờ hiện hữu.</span>
+            <br />
+        
+    
+        
+            <span id="s17"><sup><a href="#s17">17</a></sup>Nhưng trên núi Xi-on sẽ có những kẻ chạy thoát được,- đó sẽ là một nơi thánh - và nhà Gia-cóp sẽ tước đoạtnhững kẻ đã tước đoạt nó.</span>
+            <br />
+        
+    
+        
+            <span id="s18"><sup><a href="#s18">18</a></sup>Nhà Gia-cóp sẽ là lửa, nhà Giu-se sẽ là ngọn lửa;còn nhà Ê-xau sẽ là rơm. Chúng sẽ bén vào và thiêu rụi nó.Nhà Ê-xau sẽ không còn kẻ sống sót nào.Quả thế, ĐỨC CHÚA đã phán như vậy.</span>
+            <br />
+        
+    
+        
+            <h5>Ít-ra-en mới</h5>
+        
+    
+        
+            <span id="s19"><sup><a href="#s19">19</a></sup>Chúng sẽ chiếm Ne-ghép là núi của Ê-xau,sẽ chiếm miền Sơ-phê-la là đất của Phi-li-tinh;chúng sẽ chiếm cánh đồng Ép-ra-im và cánh đồng Sa-ma-ri;và Ben-gia-min sẽ chiếm Ga-la-át.</span>
+            <br />
+        
+    
+        
+            <span id="s20"><sup><a href="#s20">20</a></sup>Những kẻ bị lưu đày trong đoàn lũ con cái Ít-ra-ensẽ chiếm đất Ca-na-an cho đến Xa-rép-ta.Dân Giê-ru-sa-lem đang bị lưu đày ở Xơ-pha-rátsẽ chiếm hữu các thành của Ne-ghép.</span>
+            <br />
+        
+    
+        
+            <span id="s21"><sup><a href="#s21">21</a></sup>Những người đến cứu thoát sẽ lên núi Xi-on để xét xử núi Ê-xau.Và ĐỨC CHÚA sẽ nắm trọn vương quyền.</span>
+            <br />
+        
+    
+</section>
+
+
+            <footer class="footer">
+            </footer>
+        </div>
+    </article>
+
+    <div class="results" role="status" aria-live="polite">
+        <div class="scrollable">
+            <div class="wrapper">
+                <div class="meta"></div>
+                <div class="list"></div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<script>
+    var base_url = '';
+    var repo_id = '';
+</script>
+
+<script src="https://bible-online.github.io/javascripts/application.js"></script>
+
+<script>
+    var headers = document.getElementsByTagName("h2");
+    var scrollspy = document.getElementById('scrollspy');
+
+    if (scrollspy) {
+        if (headers.length > 0) {
+            for (var i = 0; i < headers.length; i++) {
+                var li = document.createElement("li");
+                li.setAttribute("class", "anchor");
+
+                var a = document.createElement("a");
+                a.setAttribute("href", "#" + headers[i].id);
+                a.setAttribute("title", headers[i].innerHTML);
+                a.innerHTML = headers[i].innerHTML;
+
+                li.appendChild(a);
+                scrollspy.appendChild(li);
+            }
+        } else {
+            scrollspy.parentElement.removeChild(scrollspy);
+        }
+
+        var headers = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
+
+        for (var i = 0; i < headers.length; i++) {
+            var a = document.createElement("a");
+            a.setAttribute("class", "headerlink");
+            a.setAttribute("href", "#" + headers[i].id);
+            a.setAttribute("title", "Permanent link");
+            a.innerHTML = "";
+            headers[i].appendChild(a);
+        }
+    }
+</script>
+
+<script src="//gohugo.io/js/highlight.pack.js"></script>
+<script>
+    hljs.initHighlightingOnLoad();
+</script>
+</body>
+
+</html>

@@ -1,0 +1,5304 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="no-js ie6"><![endif]-->
+<!--[if IE 7 ]><html class="no-js ie7"><![endif]-->
+<!--[if IE 8 ]><html class="no-js ie8"><![endif]-->
+<!--[if IE 9 ]><html class="no-js ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head >
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
+    <title>Châm Ngôn - Bible online</title>
+
+    
+    <link rel="canonical" href=""> 
+
+    <meta property="og:url" content=""> 
+    <meta property="og:title" content="Bible online"> 
+    <meta name="apple-mobile-web-app-title" content="Bible online">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://bible-online.github.io/images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="https://bible-online.github.io/images/favicon.ico">
+
+    <style>
+        @font-face {
+            font-family: 'Icon';
+            src: url('https://bible-online.github.io/fonts/icon.eot?52m981');
+            src: url('https://bible-online.github.io/fonts/icon.eot?#iefix52m981') format('embedded-opentype'),
+            url('https://bible-online.github.io/fonts/icon.woff?52m981') format('woff'),
+            url('https://bible-online.github.io/fonts/icon.ttf?52m981') format('truetype'),
+            url('https://bible-online.github.io/fonts/icon.svg?52m981#icon') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+
+    <link rel="stylesheet" href="https://bible-online.github.io/stylesheets/application.css">
+    <link rel="stylesheet" href="https://bible-online.github.io/stylesheets/temporary.css">
+    <link rel="stylesheet" href="https://bible-online.github.io/stylesheets/palettes.css">
+    <link rel="stylesheet" href="https://bible-online.github.io/stylesheets/highlight/highlight.css">
+
+    <script src="https://bible-online.github.io/javascripts/modernizr.js"></script>
+</head>
+
+<body class=" ">
+
+<div class="backdrop">
+    <div class="backdrop-paper"></div>
+</div>
+
+<input class="toggle" type="checkbox" id="toggle-drawer">
+<input class="toggle" type="checkbox" id="toggle-search">
+<label class="toggle-button overlay" for="toggle-drawer"></label>
+
+<header class="header">
+    <nav aria-label="Header">
+  <div class="bar default">
+    <div class="button button-menu" role="button" aria-label="Menu">
+      <label class="toggle-button icon icon-menu" for="toggle-drawer">
+        <span></span>
+      </label>
+    </div>
+    <div class="stretch">
+      <div class="title">
+        Châm Ngôn
+      </div>
+    </div>
+
+    
+
+    
+    
+    <!-- TODO: disabled until Hugo supports the generation of a content index natively 
+    <div class="button button-search" role="button" aria-label="Search">
+      <label class="toggle-button icon icon-search" title="Search" for="toggle-search"></label>
+    </div>
+    -->    
+  </div>
+  <div class="bar search">
+    <div class="button button-close" role="button" aria-label="Close">
+      <label class="toggle-button icon icon-back" for="toggle-search"></label>
+    </div>
+    <div class="stretch">
+      <div class="field">
+        <input class="query" type="text" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck>
+      </div>
+    </div>
+    <div class="button button-reset" role="button" aria-label="Search">
+      <button class="toggle-button icon icon-close" id="reset-search"></button>
+    </div>
+  </div>
+</nav>
+</header>
+
+<main class="main">
+    <div class="drawer">
+        <nav aria-label="Navigation">
+  <!--<a href="https://bible-online.github.io/" class="project">
+    <div class="banner">
+      
+      <div class="name">
+        <strong>Bible online </strong>
+      </div>
+    </div>
+  </a>-->
+
+  <div class="scrollable">
+    <div class="wrapper">
+      <div class="toc">
+        <ul>
+          
+          <li>
+            <a href="https://bible-online.github.io/sang-the-ky">Sáng Thế Ký</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/xuat-hanh">Xuất Hành</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/le-vi">Lê Vi</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/dan-so">Dân Số</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/de-nhi-luat">Đệ Nhị Luật</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/gio-sue">Giô-suê</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-lanh">Thủ Lãnh</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/rut">Rút</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/samuel-i">Samuel I</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/samuel-ii">Samuel II</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/cac-vua-i">Các Vua I</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/cac-vua-ii">Các Vua II</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/su-bien-nien-i">Sử Biên Niên I</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/su-bien-nien-ii">Sử Biên Niên II</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/etra">Étra</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/nokhemia">Nơkhemia</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/tobia">Tôbia</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/giuditha">Giuđitha</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/ette">Étte</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/macabe-i">Macabê I</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/macabe-ii">Macabê II</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/giop">Gióp</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thanh-vinh">Thánh Vịnh</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/cham-ngon">Châm Ngôn</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/giang-vien">Giảng Viên</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/diem-ca">Diễm Ca</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/khon-ngoan">Khôn Ngoan</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/huan-ca">Huấn Ca</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/isaia">Isaia</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/gieremia">Giêrêmia</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/ai-ca">Ai Ca</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/baruc">Baruc</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/edekien">Êdêkien</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/danien">Đanien</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/hose">Hôsê</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/gioen">Giôen</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/amot">Amốt</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/ovadia">Ôvađia</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/giona">Giôna</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/mikha">Mikha</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/nakhum">Nakhum</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/khabacuc">Khabacúc</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/xophonia">Xôphônia</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/khacgai">Khácgai</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/dacaria">Dacaria</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/malakhi">Malakhi</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/mat-theu">Mát-thêu</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/mac-co">Mác-cô</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/luca">Luca</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/gioan">Gioan</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/tong-do-cong-vu">Tông Đồ Công Vụ</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-roma">Thư Rôma</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-corinto-1">Thư Côrintô 1</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-corinto-2">Thư Côrintô 2</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-galat">Thư Galát</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-epheso">Thư Êphêsô</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-philipphe">Thư Philípphê</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-coloxe">Thư Côlôxê</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-thexalonica-1">Thư Thêxalônica 1</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-thexalonica-2">Thư Thêxalônica 2</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-timothe-1">Thư Timôthê 1</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-timothe-2">Thư Timôthê 2</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-tito">Thư Titô</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-philemon">Thư Philêmon</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-do-thai">Thư Do Thái</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-giacobe">Thư Giacôbê</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-phero-1">Thư Phêrô 1</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-phero-2">Thư Phêrô 2</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-gioan-1">Thư Gioan 1</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-gioan-2">Thư Gioan 2</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-gioan-3">Thư Gioan 3</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/thu-giuda">Thư Giuđa</a>
+          </li>
+          
+          <li>
+            <a href="https://bible-online.github.io/khai-huyen">Khải Huyền</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+    </div>
+
+    <article class="article">
+        <div class="wrapper">
+            
+<section>
+    <a href="#c1"><span class="chapter-title" id="c1">Chương 1</span></a>
+    
+        
+            <h5>ĐỀ TỰA TỔNG QUÁT</h5>
+        
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Đây là những châm ngôn của Sa-lô-môn, ông là con vua Đa-vít và là vua Ít-ra-en.;</span>
+            <br />
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Các châm ngôn này nhằm giúp con ngườibiết lẽ khôn ngoan và nhận lời nghiêm huấn,hiểu được những lời lẽ thâm thuý cao sâu,</span>
+            <br />
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>đón nhận lời nghiêm huấn để biết cách xử sự khôn ngoan :biết sống công bình, công minh và chính trực.</span>
+            <br />
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Các châm ngôn nàycũng nhằm giúp cho kẻ ngây thơ nên sáng suốt,cho giới trẻ thêm hiểu biết và thận trọng.</span>
+            <br />
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Các châm ngôn này còn nhằm giúp ta hiểunhững châm ngôn và những lời bóng bẩy,những ngôn từ và câu đố của các bậc hiền nhân.</span>
+            <br />
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Người khôn ngoan hãy nghe để được thêm kiến thức ;người hiểu biết hãy nghe, và sẽ tìm được lời hướng dẫn.</span>
+            <br />
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Kính sợ ĐỨC CHÚA là bước đầu của tri thức.Kẻ ngu si khinh thường khôn ngoan và lời nghiêm huấn.</span>
+            <br />
+        
+    
+        
+            <h5>I. PHẦN MỞ ĐẦU NHỮNG LỜI HUẤN DỤ CỦA KHÔN NGOAN</h5>
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Người khôn tránh bạn xấuNày con, giáo huấn của cha, con hãy nghe,lời dạy của mẹ, con đừng gạt bỏ.</span>
+            <br />
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Vì những lời ấy sẽ là vòng hoa xinh con đội lên đầu,là vòng kiềng con đeo vào cổ.</span>
+            <br />
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Này con, nếu bọn người tội lỗi có rủ rê con,con chớ bao giờ ưng thuận.</span>
+            <br />
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Có thể chúng sẽ nói : "Lại đây với bọn tao.Ta hãy nằm chờ để ra tay hạ sát,rình cả đứa vô tội chẳng hề làm gì ta.</span>
+            <br />
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>Như tử thần, ta hãy nuốt sống ăn tươi bọn chúng,cho chúng phải sa vào âm phủngay lúc còn khoẻ mạnh an lành.</span>
+            <br />
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>Mọi của cải quý giá, ta sẽ chiếm hữu ;của cướp được, ta sẽ chất đầy nhà.</span>
+            <br />
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>Hãy cùng bọn tao đồng thuyền đồng hội,rồi ta sẽ ăn đủ chia đều."</span>
+            <br />
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>Này con, nếu chúng nói như vậy,con cũng đừng đi một đường với chúng,cố giữ chân con xa khỏi lối chúng đi.</span>
+            <br />
+        
+    
+        
+            <span id="s16"><sup><a href="#s16">16</a></sup>Chúng nhanh chân chạy theo điều dữ,lại vội vàng đổ máu người ta.</span>
+            <br />
+        
+    
+        
+            <span id="s17"><sup><a href="#s17">17</a></sup>Thật hoàn toàn vô íchkhi chim nhìn thấy lưới người giăng.</span>
+            <br />
+        
+    
+        
+            <span id="s18"><sup><a href="#s18">18</a></sup>Chúng có ngờ đâuchính chúng đang nằm chờ bị người ta sát hại,đang rình gây tai hại cho chính mình.</span>
+            <br />
+        
+    
+        
+            <span id="s19"><sup><a href="#s19">19</a></sup>Ai manh tâm trục lợi, số phận là thế đó.Của phi nghĩa cướp đi sinh mạng người chiếm đoạt.Đức Khôn Ngoan kêu gọi người khờ dại</span>
+            <br />
+        
+    
+        
+            <span id="s20"><sup><a href="#s20">20</a></sup>Đức Khôn Ngoan kêu to ngoài đường phố,cất tiếng nơi quảng trường,</span>
+            <br />
+        
+    
+        
+            <span id="s21"><sup><a href="#s21">21</a></sup>kêu gọi chỗ ồn ào náo nhiệt,tuyên bố nơi cổng thành :</span>
+            <br />
+        
+    
+        
+            <span id="s22"><sup><a href="#s22">22</a></sup>"Hỡi những kẻ ngây thơ khờ dại,các ngươi còn chuộng sự ngu dốt đến bao giờ ?Đến bao giờ kẻ nhạo báng còn ưa chế giễu,đứa ngu si còn khinh sự hiểu biết ?</span>
+            <br />
+        
+    
+        
+            <span id="s23"><sup><a href="#s23">23</a></sup>Hãy quay về nghe lời ta sửa dạy.Này ta tuôn đổ thần khí ta trên các ngươi,khiến các ngươi hiểu rõ lời ta dạy bảo.</span>
+            <br />
+        
+    
+        
+            <span id="s24"><sup><a href="#s24">24</a></sup>Vì khi ta gọi, các ngươi đã khước từ ;ta đưa tay ra, chẳng ai buồn để ý.</span>
+            <br />
+        
+    
+        
+            <span id="s25"><sup><a href="#s25">25</a></sup>Các ngươi đã coi thường mọi lời ta khuyên nhủ,đã không chấp nhận lời sửa dạy của ta.</span>
+            <br />
+        
+    
+        
+            <span id="s26"><sup><a href="#s26">26</a></sup>Còn ta, ta sẽ nhạo cười ngày ngươi gặp hoạ,sẽ chế giễu khi kinh hoàng ập xuống trên ngươi,</span>
+            <br />
+        
+    
+        
+            <span id="s27"><sup><a href="#s27">27</a></sup>khi kinh hoàng ập xuống như cơn bãovà tai hoạ đến tựa cuồng phong,khi cùng quẫn với đau thươngcứ trên ngươi mà giáng xuống.</span>
+            <br />
+        
+    
+        
+            <span id="s28"><sup><a href="#s28">28</a></sup>Lúc ấy thiên hạ sẽ kêu đến ta, nhưng ta chẳng đáp lời,sẽ kiếm tìm ta, nhưng không sao gặp được.</span>
+            <br />
+        
+    
+        
+            <span id="s29"><sup><a href="#s29">29</a></sup>Vì hiểu biết Đức Chúa, chúng chẳng ưa,kính sợ ĐỨC CHÚA, chúng không chọn,</span>
+            <br />
+        
+    
+        
+            <span id="s30"><sup><a href="#s30">30</a></sup>vì chúng không chấp nhận lời ta khuyên răn,và khinh nhờn điều ta sửa dạy,</span>
+            <br />
+        
+    
+        
+            <span id="s31"><sup><a href="#s31">31</a></sup>nên chúng phải gánh hậu quả việc chúng làm,chuốc vào thân hết mọi điều chúng toan tính.</span>
+            <br />
+        
+    
+        
+            <span id="s32"><sup><a href="#s32">32</a></sup>Ngây thơ mà bướng bỉnh, ắt sẽ phải thiệt thân ;ngu đần mà vô tâm, tránh sao khỏi tự diệt.</span>
+            <br />
+        
+    
+        
+            <span id="s33"><sup><a href="#s33">33</a></sup>Ai nghe ta sẽ sống an toàn,được yên ổn, chẳng sợ chi tai hoạ."</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c2"><span class="chapter-title" id="c2">Chương 2</span></a>
+    
+        
+            <h5>Những phúc lành do khôn ngoan ban tặng</h5>
+        
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Này con, nếu lời thầy, con luôn nhận lấy,và huấn lệnh thầy, con hằng ấp ủ,</span>
+            <br />
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>nếu con lắng tai nghe lẽ khôn ngoan,và hướng lòng theo sự hiểu biết,</span>
+            <br />
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>phải, nếu con cầu xin trí thông minh, van nài ơn hiểu biết,</span>
+            <br />
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>nếu con tìm khôn ngoan như tìm bạc,và lùng kiếm như thể kho tàng,</span>
+            <br />
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>thì lúc đó con sẽ hiểu thế nào là kính sợ ĐỨC CHÚA,và sẽ khám phá ra hiểu biết Thiên Chúa có nghĩa là gì.</span>
+            <br />
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Vì chính ĐỨC CHÚA ban tặng khôn ngoan ;tri thức và hiểu biết là nhờ Người mà có.</span>
+            <br />
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Ai ngay chính được Người trợ lực,Người thành khiên thuẫn cho kẻ sống thanh liêm,</span>
+            <br />
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>giữ gìn đường nẻo người chính trực,bảo vệ lối đi kẻ tín trung.</span>
+            <br />
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Bấy giờ con sẽ hiểu thế nào là công bình,thế nào là chính trực công minh :đó là đường đưa tới hạnh phúc.</span>
+            <br />
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Vì khôn ngoan sẽ vào tận lòng con,và tri thức khiến hồn con vui thú,</span>
+            <br />
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>óc thận trọng sẽ giữ gìn con,trí hiểu biết sẽ như người bảo vệ,</span>
+            <br />
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>để giải thoát con khỏi lối sống xấu xa,cứu con khỏi người nói những lời xằng bậy,</span>
+            <br />
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>khỏi những kẻ bỏ đường ngay chính, đi vào nẻo tối tăm ;</span>
+            <br />
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>chúng hả hê khi phạm điều ác,thích thú khi làm điều tồi tệ xấu xa.</span>
+            <br />
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>Đường chúng đầy uẩn khúc, lối chúng thật quanh co.</span>
+            <br />
+        
+    
+        
+            <span id="s16"><sup><a href="#s16">16</a></sup>Nhờ thế, con sẽ thoát khỏi người đàn bà trắc nết,khỏi người phụ nữ không quen cứ nói ngon nói ngọt.</span>
+            <br />
+        
+    
+        
+            <span id="s17"><sup><a href="#s17">17</a></sup>Người bạn đường thời son trẻ, ả đã bỏ rơi,giao ước của Thiên Chúa, ả hằng quên lãng.</span>
+            <br />
+        
+    
+        
+            <span id="s18"><sup><a href="#s18">18</a></sup>Nhà nó ở nghiêng về cõi chết,lối nó đi, dẫn tới các âm hồn.</span>
+            <br />
+        
+    
+        
+            <span id="s19"><sup><a href="#s19">19</a></sup>Kẻ theo nó rồi, không hề trở lại,chẳng ai tìm được đường về cõi sống.</span>
+            <br />
+        
+    
+        
+            <span id="s20"><sup><a href="#s20">20</a></sup>Như thế con sẽ bước đi trên đường người lương thiện,và dõi theo lối của chính nhân.</span>
+            <br />
+        
+    
+        
+            <span id="s21"><sup><a href="#s21">21</a></sup>Vì người ngay thẳng sẽ được an cư trong đất nước,người hoàn thiện sẽ lưu lại nơi đây.</span>
+            <br />
+        
+    
+        
+            <span id="s22"><sup><a href="#s22">22</a></sup>Còn ác nhân sẽ phải xa lìa quê cha đất tổ,phường bất trung sẽ bị trục xuất khỏi quê hương.</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c3"><span class="chapter-title" id="c3">Chương 3</span></a>
+    
+        
+            <h5>Thái độ đối với ĐỨC CHÚA</h5>
+        
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Này con, đừng quên lãng giáo huấn của thầy,huấn lệnh của thầy, lòng con lo giữ trọn.</span>
+            <br />
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Vì nhờ đó, con sẽ được sống lâu trăm tuổi,và đầy tràn phúc lộc bình an.</span>
+            <br />
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Ước chi ân tình và tín nghĩa chẳng hề lìa xa con,nhưng nên như vòng con đeo vào cổ,và được con ghi khắc tận đáy lòng.</span>
+            <br />
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Như vậy, con sẽ được cả Thiên Chúa lẫn phàm nhânyêu thương và quý chuộng.</span>
+            <br />
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Hãy hết lòng tin tưởng vào ĐỨC CHÚA,chớ hề cậy dựa vào hiểu biết của con.</span>
+            <br />
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Hãy nhận biết Người trong mọi đường đi nước bước,Người sẽ san bằng đường nẻo con đi.</span>
+            <br />
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Đừng tự coi mình là khôn ngoan,hãy kính sợ ĐỨC CHÚA và tránh xa sự dữ.</span>
+            <br />
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Như thế, da thịt con sẽ được chữa lành,xương cốt con sẽ nên cứng cáp.</span>
+            <br />
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Của cải làm ra, con hãy dùng mà tôn vinh ĐỨC CHÚA,và hãy dâng lên Người phần hoa lợi đầu mùa của con.</span>
+            <br />
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Nhờ thế, kho chứa của con sẽ đầy ắp lúa thơmvà bồn ép sẽ tràn trề rượu mới.</span>
+            <br />
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Này con, chớ khinh thường khi ĐỨC CHÚA sửa dạy con,đừng chán ngán khi Người khiển trách.</span>
+            <br />
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>Vì ĐỨC CHÚA khiển trách kẻ Người thương,như người cha xử với con yêu quý.Niềm vui của người khôn ngoan</span>
+            <br />
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>Hạnh phúc thay người được trí khôn ngoan,cũng như kẻ được tài phán đoán.</span>
+            <br />
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>Vì được khôn ngoan thì hơn được bạc,được hưởng lợi ích của khôn ngoan thì hơn được vàng.</span>
+            <br />
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>Khôn ngoan quý hơn cả trân châu,không bảo vật nào của con so sánh nổi.</span>
+            <br />
+        
+    
+        
+            <span id="s16"><sup><a href="#s16">16</a></sup>Bên hữu khôn ngoan là trường thọ,bên tả là danh giá giàu sang.</span>
+            <br />
+        
+    
+        
+            <span id="s17"><sup><a href="#s17">17</a></sup>Đường khôn ngoan là đường thú vị,nẻo khôn ngoan là nẻo bình an.</span>
+            <br />
+        
+    
+        
+            <span id="s18"><sup><a href="#s18">18</a></sup>Khôn ngoan chính là cây sự sốngđối với người nào nắm được khôn ngoan.Giữ được khôn ngoan quả là hạnh phúc.</span>
+            <br />
+        
+    
+        
+            <span id="s19"><sup><a href="#s19">19</a></sup>ĐỨC CHÚA dùng khôn ngoan đặt nền cho trái đất,dùng hiểu biết thiết lập các tầng trời.</span>
+            <br />
+        
+    
+        
+            <span id="s20"><sup><a href="#s20">20</a></sup>Nhờ tri thức của Người,vực sâu được khai mở và mây trời đổ mưa.</span>
+            <br />
+        
+    
+        
+            <span id="s21"><sup><a href="#s21">21</a></sup>Này con, đừng xao lãng,nhưng hãy cố gắng sống khôn ngoan và thận trọng :</span>
+            <br />
+        
+    
+        
+            <span id="s22"><sup><a href="#s22">22</a></sup>đó sẽ là sức sống cho tâm hồn, là đồ trang sức đeo nơi cổ.</span>
+            <br />
+        
+    
+        
+            <span id="s23"><sup><a href="#s23">23</a></sup>Rồi bước đường con đi sẽ an toàn,và chân con sẽ chẳng bao giờ vấp.</span>
+            <br />
+        
+    
+        
+            <span id="s24"><sup><a href="#s24">24</a></sup>Khi ngả lưng, con không khiếp sợ.Nằm xuống rồi là an giấc thảnh thơi.</span>
+            <br />
+        
+    
+        
+            <span id="s25"><sup><a href="#s25">25</a></sup>Đừng sợ chi khi kinh hãi bất thần ập xuống,hay kẻ ác xông vào tấn công.</span>
+            <br />
+        
+    
+        
+            <span id="s26"><sup><a href="#s26">26</a></sup>Vì ĐỨC CHÚA sẽ ở bên con,giữ chân con khỏi sa vào cạm bẫy.</span>
+            <br />
+        
+    
+        
+            <span id="s27"><sup><a href="#s27">27</a></sup>Khi có thể, con đừng từ chối làm điều lànhcho ai đáng được hưởng.</span>
+            <br />
+        
+    
+        
+            <span id="s28"><sup><a href="#s28">28</a></sup>Khi có thể cho ngay, thì con đừng có nói :"Đi đi, mai trở lại, rồi tôi sẽ cho anh."</span>
+            <br />
+        
+    
+        
+            <span id="s29"><sup><a href="#s29">29</a></sup>Đừng mưu hại tha nhân,hại người đang cùng con sống yên ổn.</span>
+            <br />
+        
+    
+        
+            <span id="s30"><sup><a href="#s30">30</a></sup>Đừng cãi cọ với ai vô cớ,khi họ chẳng làm gì để hại con.</span>
+            <br />
+        
+    
+        
+            <span id="s31"><sup><a href="#s31">31</a></sup>Chớ phân bì với ai tàn bạo,đừng chọn bất cứ con đường nào nó đã đi.</span>
+            <br />
+        
+    
+        
+            <span id="s32"><sup><a href="#s32">32</a></sup>Vì đối với ĐỨC CHÚA, kẻ gian tà là đồ ghê tởm ;còn những ai chính trực, thì Người nhận làm bạn tâm giao.</span>
+            <br />
+        
+    
+        
+            <span id="s33"><sup><a href="#s33">33</a></sup>ĐỨC CHÚA giáng lời chúc dữ xuống nhà kẻ gian ác,nhưng tuôn đổ phúc lànhtrên nơi ở của những người chính trực công minh.</span>
+            <br />
+        
+    
+        
+            <span id="s34"><sup><a href="#s34">34</a></sup>Chúa chế giễu đứa hay nhạo báng,nhưng thi ân cho kẻ khiêm nhường.</span>
+            <br />
+        
+    
+        
+            <span id="s35"><sup><a href="#s35">35</a></sup>Người khôn ngoan được hưởng phần vinh dự,kẻ khờ dại phải nhục nhã ê chề.</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c4"><span class="chapter-title" id="c4">Chương 4</span></a>
+    
+        
+            <h5>Để cho Đức Khôn Ngoan hướng dẫn</h5>
+        
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Hỡi các con,hãy lắng nghe lời nghiêm huấn của bậc cha anh,và chú ý để hiểu cho tường.</span>
+            <br />
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Thật vậy, thầy ban cho các con lời khuyên quý báu ;đừng sao nhãng giáo huấn của thầy.</span>
+            <br />
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Thuở xưa, khi thầy còn nhỏ dại trước mặt phụ thânvà được mẫu thân yêu dấu như con một,</span>
+            <br />
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>phụ thân vẫn thường dạy thầy rằng :"Hãy để tâm nắm chắc lời cha,tuân giữ lệnh cha truyền, và con sẽ được sống.</span>
+            <br />
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Hiểu biết và khôn ngoan, con hãy mua hãy sắm.Đừng bao giờ quên lãng và cũng chớ lìa xalời miệng cha dạy dỗ.</span>
+            <br />
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Con chớ bao giờ lìa bỏ khôn ngoan,thì khôn ngoan sẽ giữ gìn con mãi.Hãy yêu mến khôn ngoan,khôn ngoan sẽ chở che bảo vệ.</span>
+            <br />
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Đây là bước đầu của khôn ngoan :con hãy mua lấy khôn ngoan ;và dùng tất cả những gì con sở hữumà sắm lấy hiểu biết.</span>
+            <br />
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Hãy kính trọng khôn ngoan,con sẽ được khôn ngoan tán dương ca tụng ;nếu con cùng khôn ngoan gắn bó,khôn ngoan sẽ đem vinh dự lại cho con.</span>
+            <br />
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Khôn ngoan sẽ đội lên đầu con vòng hoa lộng lẫy,sẽ tặng cho con ngọc miện huy hoàng."</span>
+            <br />
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Này con, hãy lắng nghe và đón nhận lời thầy dạy bảo,để năm tháng đời con được thêm nhiều.</span>
+            <br />
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Thầy dạy cho con biết lối khôn ngoan,dẫn con đi trên đường ngay nẻo chính.</span>
+            <br />
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>Khi con đi, bước chân sẽ thênh thang,con có chạy cũng không hề vấp ngã.</span>
+            <br />
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>Hãy bám chắc vào lời nghiêm huấn,con chớ có lìa xa, nhưng gắng mà tuân giữ,vì đó là sự sống của con.</span>
+            <br />
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>Nẻo ác nhân, con chớ đi vào,đường kẻ xấu, con đừng bước tới.</span>
+            <br />
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>Hãy tránh xa, đừng ngang qua lối ấy,quay lưng lại, tìm lối khác mà đi.</span>
+            <br />
+        
+    
+        
+            <span id="s16"><sup><a href="#s16">16</a></sup>Vì khi chưa làm được điều dữ, ác nhân không tài nào chợp mắt,khi chưa làm cho ai vấp ngã, chúng không thể ngủ yên.</span>
+            <br />
+        
+    
+        
+            <span id="s17"><sup><a href="#s17">17</a></sup>Vì gian ác là bánh chúng ănvà bạo hành là rượu chúng uống.</span>
+            <br />
+        
+    
+        
+            <span id="s18"><sup><a href="#s18">18</a></sup>Đường người công chính tựa ánh bình minh,rực rỡ thêm cho đến hồi chính ngọ.</span>
+            <br />
+        
+    
+        
+            <span id="s19"><sup><a href="#s19">19</a></sup>Còn đường ác nhân khác nào ngõ tối,chúng không biết mình sẽ vấp vào đâu.</span>
+            <br />
+        
+    
+        
+            <span id="s20"><sup><a href="#s20">20</a></sup>Này con, lời thầy nói, con chú tâm để ý,lời thầy dạy, con hãy lắng tai nghe :</span>
+            <br />
+        
+    
+        
+            <span id="s21"><sup><a href="#s21">21</a></sup>đừng để mắt rời xa lời thầy,nhưng hãy luôn gìn giữ ở tận đáy lòng con.</span>
+            <br />
+        
+    
+        
+            <span id="s22"><sup><a href="#s22">22</a></sup>Vì lời thầy là sức sống cho ai tìm thấylàm cho toàn thân được mạnh khoẻ an lành.</span>
+            <br />
+        
+    
+        
+            <span id="s23"><sup><a href="#s23">23</a></sup>Hãy gìn giữ tim con cho thật kỹ,vì từ đó mà sự sống phát sinh.</span>
+            <br />
+        
+    
+        
+            <span id="s24"><sup><a href="#s24">24</a></sup>Miệng lọc lừa, con đẩy cho xa,môi thâm độc, con xua cho khuất.</span>
+            <br />
+        
+    
+        
+            <span id="s25"><sup><a href="#s25">25</a></sup>Đôi mắt con, hãy nhìn ngay phía trước,ánh mắt con, hướng thẳng trước mặt con.</span>
+            <br />
+        
+    
+        
+            <span id="s26"><sup><a href="#s26">26</a></sup>Đường con đi, hãy san cho phẳng,ước chi mọi nẻo con bước được an toàn.</span>
+            <br />
+        
+    
+        
+            <span id="s27"><sup><a href="#s27">27</a></sup>Đừng quanh bên phải, chớ quẹo bên trái,cố giữ chân con khỏi điều xấu xa.</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c5"><span class="chapter-title" id="c5">Chương 5</span></a>
+    
+        
+            <h5>Xa lánh người đàn bà trắc nết - Sống chung thuỷ</h5>
+        
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Này con, khôn ngoan của thầy, con hãy chú tâm học hỏi,hiểu biết của thầy, con hãy lắng tai nghe,</span>
+            <br />
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>để con cân nhắc thận trọngvà nói năng như người hiểu biết.</span>
+            <br />
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Quả thật, môi người đàn bà trắc nết tiết ra mật ngọt,miệng của nó trơn tru hơn dầu.</span>
+            <br />
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Nhưng cuối cùng, nó vẫn đắng như khổ ngải,bén như gươm hai lưỡi.</span>
+            <br />
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Đôi chân nó đi vào cõi chết,nó thẳng đường bước tới âm ty.</span>
+            <br />
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Đường dẫn vào sự sống, nó không theo,nó lạc lối, mà không hay biết.</span>
+            <br />
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Vậy giờ đây, hỡi các con, hãy nghe thầy,đừng bỏ đi khi thầy lên tiếng nói.</span>
+            <br />
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Trên đường đời, con hãy xa lánh nó,lối vào nhà nó, con chớ lại gần,</span>
+            <br />
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>kẻo danh dự con bị trao vào tay người khác,và năm tháng đời con bị nộp cho đứa bạo tàn,</span>
+            <br />
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>kẻo tài sản của con, người ngoài tha hồ hưởng,và mồ hôi nước mắt của con lại giúp cho thiên hạ làm giàu,</span>
+            <br />
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>để cuối cùng, khi thân tàn ma dại,con đành phải trách phận than thân,</span>
+            <br />
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>và phải kêu lên rằng : "Than ôi, tôi đã ghét bỏ lời nghiêm huấn,và lời sửa dạy, lòng tôi đã coi khinh !</span>
+            <br />
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>Tôi chẳng vâng theo các bậc thầy.Không để tai nghe những người dạy dỗ.</span>
+            <br />
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>Tôi suýt chịu bao nỗi khốn cùngở ngay giữa cộng đoàn và hội nghị !"</span>
+            <br />
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>Con hãy uống từ bồn nước của con,từ giếng của con, hãy uống nước tuôn trào.</span>
+            <br />
+        
+    
+        
+            <span id="s16"><sup><a href="#s16">16</a></sup>Các suối nước của con, đừng để chảy ra ngoài,các dòng nước của con, đừng để chảy ở nơi đường phố.</span>
+            <br />
+        
+    
+        
+            <span id="s17"><sup><a href="#s17">17</a></sup>Con cứ giữ lấy làm của riêng mình,đừng để cho người khác dùng chung.</span>
+            <br />
+        
+    
+        
+            <span id="s18"><sup><a href="#s18">18</a></sup>Ước gì nguồn nước của con được Chúa chúc lành.Hãy hưởng thú vui bên người vợ thời son trẻ.</span>
+            <br />
+        
+    
+        
+            <span id="s19"><sup><a href="#s19">19</a></sup>Nàng là nai vàng đáng yêu, là sơn dương kiều diễm.Ước chi tấm thân nàng luôn làm con vui sướng thoả thuê,và tình yêu của nàng mãi làm con say sưa ngây ngất.</span>
+            <br />
+        
+    
+        
+            <span id="s20"><sup><a href="#s20">20</a></sup>Hỡi con, sao con lại mê say người đàn bà xa lạ,ôm ấp người phụ nữ không quen ?</span>
+            <br />
+        
+    
+        
+            <span id="s21"><sup><a href="#s21">21</a></sup>Vì ĐỨC CHÚA thấy rõ đường nẻo của mỗi người,hết mọi lối đi, Người đều biết cả.</span>
+            <br />
+        
+    
+        
+            <span id="s22"><sup><a href="#s22">22</a></sup>Ác nhân vướng mắc trong tội ác của mình,nó sa vào bẫy tội lỗi nó giăng ra.</span>
+            <br />
+        
+    
+        
+            <span id="s23"><sup><a href="#s23">23</a></sup>Nó sẽ chết vì thiếu lời nghiêm huấn,vì ngu si quá đỗi, nó sẽ phải lạc đường.</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c6"><span class="chapter-title" id="c6">Chương 6</span></a>
+    
+        
+            <h5>Sự bảo lãnh thiếu khôn ngoan</h5>
+        
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Hỡi con, nếu con đã bảo lãnh cho một người bạn của mình,hay đã bắt tay giao kèo với một người xa lạ,</span>
+            <br />
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>nếu con bị trói buộc vì những điều con đã hứahay vướng mắc vì những lời con đã nói ra,</span>
+            <br />
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>thì con ơi, khi đã trót rơi vào tay người bạn,muốn thoát thân, con phải làm điều nàylà hãy đi lạy lục van xin nó.</span>
+            <br />
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Đừng chớp mắt khép mi, chớ nghỉ ngơi yên giấc.</span>
+            <br />
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Hãy tìm cách thoát thân như linh dương thoát bẫy,như chim thoát khỏi tay người tìm bắt chim.</span>
+            <br />
+        
+    
+        
+            <h5>Người biếng nhác và con kiến</h5>
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Hỡi người biếng nhác, hãy đến xem loài kiến sống thế nàovà nhờ đó mà trở nên khôn.</span>
+            <br />
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Nó chẳng có thủ trưởng,chẳng có giám sát, chẳng có lãnh đạo.</span>
+            <br />
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Nhưng mùa khô đến, chúng biết tích trữ thức ăn,tới mùa gặt, chúng thu gom lương thực.</span>
+            <br />
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Hỡi người biếng nhác, ngươi còn nằm đó tới bao giờ ?Chừng nào ngươi mới ngủ dậy ?</span>
+            <br />
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Ngủ một chút, chợp mắt một chút, khoanh tay nằm một chút,</span>
+            <br />
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>là cái nghèo sẽ đến như tên du thủ du thực,cảnh bần cùng sẽ đột nhập như người có vũ trang.</span>
+            <br />
+        
+    
+        
+            <h5>Người xảo trá</h5>
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>Đây tên gian ác, đây đứa xấu xa,nó tới lui, miệng buông lời dối trá,</span>
+            <br />
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>nó nháy mắt, khều chân, dùng ngón tay ra hiệu.</span>
+            <br />
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>Nó toan tính trong lòng mọi chước độc mưu thâm,lúc nào cũng gieo bất hoà, xung khắc.</span>
+            <br />
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>Thế nên tai hoạ sẽ giáng xuống nó thình lình,bất ngờ nó bị suy sụp, vô phương cứu chữa.Bảy điều Thiên Chúa ghê tởm</span>
+            <br />
+        
+    
+        
+            <span id="s16"><sup><a href="#s16">16</a></sup>Có sáu điều làm ĐỨC CHÚA gớm ghét,có bảy điều khiến Người ghê tởm :</span>
+            <br />
+        
+    
+        
+            <span id="s17"><sup><a href="#s17">17</a></sup>mắt kiêu kỳ, lưỡi điêu ngoa, tay đổ máu người vô tội,</span>
+            <br />
+        
+    
+        
+            <span id="s18"><sup><a href="#s18">18</a></sup>lòng mưu tính những chuyện xấu xa,chân mau mắn chạy đi làm điều dữ,</span>
+            <br />
+        
+    
+        
+            <span id="s19"><sup><a href="#s19">19</a></sup>kẻ làm chứng gian thốt ra lời dối trá,người gieo xung khắc giữa anh em.</span>
+            <br />
+        
+    
+        
+            <h5>Cha tiếp tục nhắn nhủ con</h5>
+        
+    
+        
+            <span id="s20"><sup><a href="#s20">20</a></sup>Hỡi con, lệnh cha con truyền, hãy lo tuân giữ,lời mẹ con dạy, chớ bỏ ngoài tai.</span>
+            <br />
+        
+    
+        
+            <span id="s21"><sup><a href="#s21">21</a></sup>Những lời truyền dạy đó,con hãy khắc trong tim, con hãy đeo vào cổ,để ghi nhớ đêm ngày.</span>
+            <br />
+        
+    
+        
+            <span id="s22"><sup><a href="#s22">22</a></sup>Những lời đó sẽ hướng dẫn con lúc con tới lui,sẽ giữ gìn con khi con nằm xuống,sẽ cùng con chuyện trò khi con thức dậy.</span>
+            <br />
+        
+    
+        
+            <span id="s23"><sup><a href="#s23">23</a></sup>Vì huấn lệnh là ngọn đèn, lời dạy dỗ là ánh sáng,và lời quở trách bảo ban là đường dẫn tới sự sống,</span>
+            <br />
+        
+    
+        
+            <span id="s24"><sup><a href="#s24">24</a></sup>nhờ đó con sẽ được giữ gìnkhỏi tay người đàn bà trắc nết,khỏi lời đường mật của người phụ nữ đã có chồng.</span>
+            <br />
+        
+    
+        
+            <span id="s25"><sup><a href="#s25">25</a></sup>Đừng để sắc đẹp nó quyến rũ lòng con,đừng để ánh mắt nó làm con mê mẩn.</span>
+            <br />
+        
+    
+        
+            <span id="s26"><sup><a href="#s26">26</a></sup>Vì gái điếm chỉ đòi một ổ bánh thôi,còn người phụ nữ đã có chồnglàm hỏng cả một cuộc đời cao quý.</span>
+            <br />
+        
+    
+        
+            <span id="s27"><sup><a href="#s27">27</a></sup>Có ai dấu lửa trong người mà không bị cháy áo ?</span>
+            <br />
+        
+    
+        
+            <span id="s28"><sup><a href="#s28">28</a></sup>Có ai đi trên than hồng mà không bị bỏng chân ?</span>
+            <br />
+        
+    
+        
+            <span id="s29"><sup><a href="#s29">29</a></sup>Người giao du với vợ bạn mình cũng thế,gần gũi nàng ắt bị trừng phạt thôi.</span>
+            <br />
+        
+    
+        
+            <span id="s30"><sup><a href="#s30">30</a></sup>Chẳng ai khinh đứa đi ăn trộm chỉ vì đói mà muốn có ăn.</span>
+            <br />
+        
+    
+        
+            <span id="s31"><sup><a href="#s31">31</a></sup>Tuy nhiên nếu bị bắt,nó phải đền gấp bảy, phải giao mọi của cải trong nhà.</span>
+            <br />
+        
+    
+        
+            <span id="s32"><sup><a href="#s32">32</a></sup>Đàn ông ngoại tình thì mất hết lý trí,người phạm tội ấy tự huỷ hoại đời mình.</span>
+            <br />
+        
+    
+        
+            <span id="s33"><sup><a href="#s33">33</a></sup>Nó phải ăn đòn và mang tiếng xấu,nỗi ô nhục của nó, không làm sao gột rửa.</span>
+            <br />
+        
+    
+        
+            <span id="s34"><sup><a href="#s34">34</a></sup>Vì người chồng sẽ nổi cơn ghen,lúc trả thù, anh ta sẽ không mảy may thương xót.</span>
+            <br />
+        
+    
+        
+            <span id="s35"><sup><a href="#s35">35</a></sup>Mọi đền bù, anh ta sẽ không thèm nhận,có đưa bao quà cáp, cũng một mực chối từ.</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c7"><span class="chapter-title" id="c7">Chương 7</span></a>
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Hỡi con, lời thầy, con hãy giữ,huấn lệnh của thầy, hãy ấp ủ trong tim.</span>
+            <br />
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Hãy tuân giữ huấn lệnh của thầy, để cho con được sống,hãy giữ lời thầy dạy như con ngươi mắt con.</span>
+            <br />
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Lời giáo huấn của thầy, hãy đeo vào ngón tay,ghi khắc trong tâm khảm.</span>
+            <br />
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Hãy gọi khôn ngoan là bà chị,xem hiểu biết như thể người thân.</span>
+            <br />
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Nhờ thế, con sẽ được bảo vệkhỏi người phụ nữ đã có chồng,khỏi người đàn bà trắc nết nói lời đường mật.</span>
+            <br />
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Khi thầy ngồi trong nhà, bên cửa sổ, nhìn qua lưới mắt cáo,</span>
+            <br />
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>thầy đã trông thấy một chàng giữa đám người ngây thơ ;trong đám thanh niên, thầy đã nhận ra một anh ngu ngốc.</span>
+            <br />
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Chàng ta đang đi giữa phố hẹp,gần góc đường có nhà người phụ nữ kia ;chàng bước trên đường dẫn đến nhà cô ấy,</span>
+            <br />
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>khi hoàng hôn, lúc chiều tà, hoặc giữa đêm tăm tối.</span>
+            <br />
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Kìa người phụ nữ ấy ra đón chàng,ăn mặc như gái điếm, lòng ẩn chứa mưu gian.</span>
+            <br />
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Đó là một con người ồn ào, thích bay nhảy,chứ không chịu chôn chân ở nhà.</span>
+            <br />
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>Lúc ở công trường, khi ngoài đường phố,góc nào cũng thấy cô ta rình chờ.</span>
+            <br />
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>Cô ả ôm ghì lấy chàng ta mà hôn,giơ bộ mặt trơ trẽn, ả nói :</span>
+            <br />
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>"Em đã khấn dâng hy lễ tạ ơn,hôm nay em chu toàn lời khấn ấy,</span>
+            <br />
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>vì thế em ra đây để đón anh,em tìm kiếm anh hoài và em đã gặp.</span>
+            <br />
+        
+    
+        
+            <span id="s16"><sup><a href="#s16">16</a></sup>Giường em, em đã trải nệm êm,trải hàng thêu nhiều màu và vải Ai-cập.</span>
+            <br />
+        
+    
+        
+            <span id="s17"><sup><a href="#s17">17</a></sup>Chỗ em nằm, em rảy dầu thơmchế từ mộc dược, lô hội và nhục quế.</span>
+            <br />
+        
+    
+        
+            <span id="s18"><sup><a href="#s18">18</a></sup>Hãy đến anh ơi ! Ta hãy say ngất men tình cho đến sáng,cùng nhau ta tận hưởng khoái lạc của yêu đương.</span>
+            <br />
+        
+    
+        
+            <span id="s19"><sup><a href="#s19">19</a></sup>Vì chồng em vắng nhà, anh ấy đã lên đường đi xa,</span>
+            <br />
+        
+    
+        
+            <span id="s20"><sup><a href="#s20">20</a></sup>mang theo mình túi bạc ;đến ngày rằm anh ấy mới trở về."</span>
+            <br />
+        
+    
+        
+            <span id="s21"><sup><a href="#s21">21</a></sup>Ả hết lời cám dỗ làm chàng ta xiêu lòng,dùng lời đường mật mà quyến rũ ;</span>
+            <br />
+        
+    
+        
+            <span id="s22"><sup><a href="#s22">22</a></sup>thế là chàng ta đi theo tức khắc,như con bò đi vào lò sát sinh,như con nai sa vào tròng vào bẫy,</span>
+            <br />
+        
+    
+        
+            <span id="s23"><sup><a href="#s23">23</a></sup>cho đến khi một mũi tên đâm thủng ruột gan ;hoặc như chim vội bay vào lưới,đâu biết mình sẽ mất mạng như chơi.</span>
+            <br />
+        
+    
+        
+            <span id="s24"><sup><a href="#s24">24</a></sup>Vậy giờ đây, các con ơi, hãy lắng nghe thầy,và lưu tâm đến lời thầy nói.</span>
+            <br />
+        
+    
+        
+            <span id="s25"><sup><a href="#s25">25</a></sup>Đừng để lòng con ngả theo nàng,chớ lạc vào những lối nàng đi.</span>
+            <br />
+        
+    
+        
+            <span id="s26"><sup><a href="#s26">26</a></sup>Vì cô ta đã làm nhiều người ngã gục,ngay cả những người rắn rỏi nhấtcũng đều bị cô ta sát hại.</span>
+            <br />
+        
+    
+        
+            <span id="s27"><sup><a href="#s27">27</a></sup>Nhà cô ở là đường dẫn tới âm ty,xuống ngục sâu thăm thẳm của tử thần.</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c8"><span class="chapter-title" id="c8">Chương 8</span></a>
+    
+        
+            <h5>Đức Khôn Ngoan tiếp tục kêu gọi</h5>
+        
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Hỏi rằng Đức Khôn Ngoan đã không mời gọi,và Hiểu Biết đã chẳng lên tiếng đó sao ?</span>
+            <br />
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Trên đỉnh cao bên đường phố,tại các giao lộ, Đức Khôn Ngoan đứng đó ;</span>
+            <br />
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>bên cổng dẫn vào thành,nơi lối đi tới cửa thành, Đức Khôn Ngoan kêu to :</span>
+            <br />
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>"Phàm nhân hỡi, ta mời gọi các ngươi đó,ta ngỏ lời với các ngươi, hỡi con cái loài người.</span>
+            <br />
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Hỡi những kẻ ngây thơ, hãy học cho biết điều khôn khéo ;hỡi những người ngu xuẩn, hãy học cho biết lẽ phải chăng.</span>
+            <br />
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Nghe đây, ta sẽ công bố những lời cao quý,môi ta sẽ thốt lên những điều ngay thẳng.</span>
+            <br />
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Miệng ta nói sự thật, môi ta ghê tởm chuyện gian tà.</span>
+            <br />
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Mọi lời ta nói ra đều ngay chính,không có chi sai lạc, chẳng có gì quanh co.</span>
+            <br />
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Đối với ai am hiểu, mọi lời của ta đều đứng đắn ;đối với người có được tri thức, mọi lời của ta đều ngay thẳng.</span>
+            <br />
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Hãy đón nhận lời nghiêm huấn của ta quý hơn cả bạc,hãy đón nhận tri thức quý hơn vàng ròng.</span>
+            <br />
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Khôn ngoan đáng quý hơn cả trân châu,không báu vật nào so sánh nổi."</span>
+            <br />
+        
+    
+        
+            <h5>Đức Khôn Ngoan tự ca ngợi</h5>
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>"Ta là Khôn Ngoan, ta làm bạn cùng mưu trí,ta biết đường suy tính đắn đo.</span>
+            <br />
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>(Kính sợ ĐỨC CHÚA là gớm ghét điều dữ).Thói kiêu căng ngạo mạn, và lối sống bất lươngcũng như những lời gian manh, tráo trở,đó là những điều ta chê ghét.</span>
+            <br />
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>Ta nắm mưu lược và thành công, ta có hiểu biết và sức mạnh.</span>
+            <br />
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>Chính nhờ ta, mà vua chúa biết cầm quyền trị nước,các thủ lãnh có những phán quyết công bình.</span>
+            <br />
+        
+    
+        
+            <span id="s16"><sup><a href="#s16">16</a></sup>Cũng nhờ ta, hàng lãnh đạo biết cách điều khiển,giới cầm quyền biết xét xử công minh.</span>
+            <br />
+        
+    
+        
+            <span id="s17"><sup><a href="#s17">17</a></sup>Kẻ yêu ta sẽ được ta yêu lại, người tìm ta ắt sẽ gặp ta.</span>
+            <br />
+        
+    
+        
+            <span id="s18"><sup><a href="#s18">18</a></sup>Bên cạnh ta là giàu sang, danh giá,là phú quý bền lâu và thịnh vượng.</span>
+            <br />
+        
+    
+        
+            <span id="s19"><sup><a href="#s19">19</a></sup>Trái trăng ta cho hưởng quý hơn cả vàng ròng,hoa lợi ta tặng ban tốt hơn bạc nguyên chất.</span>
+            <br />
+        
+    
+        
+            <span id="s20"><sup><a href="#s20">20</a></sup>Ta bước đi trên lối công bình,đi giữa nẻo công minh chính trực,</span>
+            <br />
+        
+    
+        
+            <span id="s21"><sup><a href="#s21">21</a></sup>để làm giàu cho những kẻ yêu ta,khiến kho tàng của họ thêm phong phú.Đức Khôn Ngoan trong công trình sáng tạo</span>
+            <br />
+        
+    
+        
+            <span id="s22"><sup><a href="#s22">22</a></sup>"ĐỨC CHÚA đã dựng nên ta như tác phẩm đầu tay của Người,trước mọi công trình của Người từ thời xa xưa nhất.</span>
+            <br />
+        
+    
+        
+            <span id="s23"><sup><a href="#s23">23</a></sup>Ta đã được tấn phong từ đời đời,từ nguyên thuỷ, trước khi có mặt đất.</span>
+            <br />
+        
+    
+        
+            <span id="s24"><sup><a href="#s24">24</a></sup>Khi chưa có các vực thẳm,khi chưa có mạch nước tràn đầy, ta đã được sinh ra.</span>
+            <br />
+        
+    
+        
+            <span id="s25"><sup><a href="#s25">25</a></sup>Trước khi núi non được đặt nền vững chắc,trước khi có gò nổng, ta đã được sinh ra,</span>
+            <br />
+        
+    
+        
+            <span id="s26"><sup><a href="#s26">26</a></sup>khi ĐỨC CHÚA chưa làm ra mặt đất với khoảng không,và những hạt bụi đầu tiên tạo nên vũ trụ.</span>
+            <br />
+        
+    
+        
+            <span id="s27"><sup><a href="#s27">27</a></sup>Đã có ta hiện diện khi Người thiết lập cõi trời,khi Người vạch một vòng tròn trên mặt vực thẳm,</span>
+            <br />
+        
+    
+        
+            <span id="s28"><sup><a href="#s28">28</a></sup>khi Người làm cho mây tụ lại ở trên caovà cho các mạch nước vọt lên từ vực thẳm,</span>
+            <br />
+        
+    
+        
+            <span id="s29"><sup><a href="#s29">29</a></sup>khi Người định ranh giới cho biển, để nước khỏi tràn bờ,khi Người đặt nền móng cho đất.</span>
+            <br />
+        
+    
+        
+            <span id="s30"><sup><a href="#s30">30</a></sup>Ta hiện diện bên Người như tay thợ cả.Ngày ngày ta là niềm vui của Người,trước mặt Người, ta không ngớt vui chơi,</span>
+            <br />
+        
+    
+        
+            <span id="s31"><sup><a href="#s31">31</a></sup>vui chơi trên mặt đất, ta đùa vui với con cái loài người.</span>
+            <br />
+        
+    
+        
+            <h5>Lời kêu gọi khẩn thiết</h5>
+        
+    
+        
+            <span id="s32"><sup><a href="#s32">32</a></sup>"Giờ đây, hỡi các con, hãy nghe ta.Phúc thay người bước theo đường lối ta chỉ bảo.</span>
+            <br />
+        
+    
+        
+            <span id="s33"><sup><a href="#s33">33</a></sup>Muốn nên khôn, phải nghe lời nghiêm huấn,đừng bao giờ gạt bỏ.</span>
+            <br />
+        
+    
+        
+            <span id="s34"><sup><a href="#s34">34</a></sup>Phúc thay người lắng nghe ta dạy,ngày ngày canh thức trước cửa nhà ta,túc trực ở ngay lối ra vào.</span>
+            <br />
+        
+    
+        
+            <span id="s35"><sup><a href="#s35">35</a></sup>Vì gặp được ta là gặp sự sống,và hưởng ân lộc ĐỨC CHÚA ban cho.</span>
+            <br />
+        
+    
+        
+            <span id="s36"><sup><a href="#s36">36</a></sup>Còn ai phạm đến ta là làm hại chính mình,mọi kẻ ghét ta là yêu cái chết."</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c9"><span class="chapter-title" id="c9">Chương 9</span></a>
+    
+        
+            <h5>Đức Khôn Ngoan mở tiệc đãi khách</h5>
+        
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Đức Khôn Ngoan đã xây cất nhà mình,dựng lên bảy cây cột,</span>
+            <br />
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>hạ thú vật, pha chế rượu, dọn bàn ăn</span>
+            <br />
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>và sai các nữ tỳ ra đi.Đức Khôn Ngoan còn lên các nơi cao trong thành phốvà kêu gọi :</span>
+            <br />
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>"Hỡi người ngây thơ, hãy lại đây !"Với người ngu si, Đức Khôn Ngoan bảo :</span>
+            <br />
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>"Hãy đến mà ăn bánh của ta và uống rượu do ta pha chế !</span>
+            <br />
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Đừng ngây thơ khờ dại nữa, và các con sẽ được sống ;hãy bước đi trên con đường hiểu biết."Chống hạng người ngoan cố</span>
+            <br />
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Ai sửa dạy đứa ngoan cố là chuốc lấy khinh dể vào thân.Ai khiển trách tên gian ác sẽ bị nó chửi rủa.</span>
+            <br />
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Đừng khiển trách đứa ngoan cố kẻo nó thù ghét con.Hãy khiển trách người khôn ngoan, con sẽ được họ thương mến.</span>
+            <br />
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Hãy giáo huấn người khôn, họ sẽ khôn hơn nữa.Hãy dạy bảo người công chính, họ sẽ hiểu biết thêm.</span>
+            <br />
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Kính sợ ĐỨC CHÚA là bước đầu của khôn ngoan ;biết Đấng Chí Thánh mới là hiểu biết thật.</span>
+            <br />
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Vì nhờ ta, con sẽ được sống lâu, và tăng thêm tuổi thọ.</span>
+            <br />
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>Nếu con khôn thì chính con được hưởng,còn con ngoan cố thì gánh chịu một mình.</span>
+            <br />
+        
+    
+        
+            <h5>Mụ Khờ Dại cũng lên tiếng mời mọc</h5>
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>Mụ Khờ Dại là một mụ đàn bà ầm ĩ,đần độn, chẳng hiểu biết chi.</span>
+            <br />
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>Mụ ngồi bên cửa nhà,trên ngai, hay tại những nơi cao trong thành phố,</span>
+            <br />
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>để mời mọc kẻ qua người lại, mời những ai đi đường :</span>
+            <br />
+        
+    
+        
+            <span id="s16"><sup><a href="#s16">16</a></sup>"Hỡi người ngây thơ, hãy lại đây !"Với người ngu si, mụ bảo :</span>
+            <br />
+        
+    
+        
+            <span id="s17"><sup><a href="#s17">17</a></sup>"Nước uống lén mới ngọt, bánh ăn vụng mới ngon."</span>
+            <br />
+        
+    
+        
+            <span id="s18"><sup><a href="#s18">18</a></sup>Nhưng nào ai biết được bóng âm hồn lảng vảng nơi đây,và thực khách mụ mời lại phải ở trong chốn âm ty sâu thẳm.</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c10"><span class="chapter-title" id="c10">Chương 10</span></a>
+    
+        
+            <h1>II. BỘ SƯU TẬP THỨ NHẤT CÁC CHÂM NGÔN CỦA VUA SA-LÔ-MÔN</h1>
+        
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Châm ngôn của vua Sa-lô-môn.Con khôn làm cha vui sướng,con dại làm mẹ buồn phiền.</span>
+            <br />
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Của phi nghĩa nào lợi ích chi,sống công chính mới cứu ta khỏi chết.</span>
+            <br />
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>ĐỨC CHÚA không để kẻ công chính phải đói bao giờ ;Người gạt bỏ tham vọng phường gian ác.</span>
+            <br />
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Kẻ biếng nhác phải chịu cảnh nghèo hèn,người siêng năng được giàu sang phú quý.</span>
+            <br />
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Mùa hè thu hoạch là khôn,mùa gặt ngủ vùi là nhục.</span>
+            <br />
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Đầu người công chính được Chúa chúc lành,miệng kẻ gian ác chất chứa lời độc địa.</span>
+            <br />
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Người ngay chính được tưởng nhớ và ngợi khen,còn tên tuổi kẻ gian tà sẽ mai một.</span>
+            <br />
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Người có trí khôn ngoan đón nhận các lệnh truyền,kẻ môi miệng dại khờ sẽ bị tiêu vong.</span>
+            <br />
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Ai sống liêm chính sẽ được an toàn,kẻ đi đường quanh co ắt sẽ bị phát hiện.</span>
+            <br />
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Kẻ nháy mắt sẽ gây ra đau khổ,người thẳng thắn rầy la sẽ đem lại an hoà.</span>
+            <br />
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Miệng người ngay là suối nguồn sự sống,miệng kẻ ác ẩn giấu bạo hành.</span>
+            <br />
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>Ghét ghen sinh cãi vã,tình yêu khoả lấp mọi lỗi lầm.</span>
+            <br />
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>Khôn ngoan ở trên môi người sáng suốt,roi vọt đập xuống lưng kẻ ngu si.</span>
+            <br />
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>Người khôn giữ kỹ điều mình biết,kẻ ngu mở miệng là tai hoạ đến gần.</span>
+            <br />
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>Của cải người giàu là thành trì kiên vững,cảnh nghèo khiến kẻ yếu thế phải tiêu vong.</span>
+            <br />
+        
+    
+        
+            <span id="s16"><sup><a href="#s16">16</a></sup>Lương bổng của người ngay dẫn đến sự sống,huê lợi của kẻ ác đưa đến tội khiên.</span>
+            <br />
+        
+    
+        
+            <span id="s17"><sup><a href="#s17">17</a></sup>Người giữ lời nghiêm huấn thì đi trong sinh lộ,kẻ khinh lời sửa dạy ắt sẽ bị lạc đường.</span>
+            <br />
+        
+    
+        
+            <span id="s18"><sup><a href="#s18">18</a></sup>Môi lọc lừa che giấu lòng thù ghét,kẻ buông lời vu cáo là đứa ngu si.</span>
+            <br />
+        
+    
+        
+            <span id="s19"><sup><a href="#s19">19</a></sup>Người năng nói năng lỗi,ai dè giữ lời nói mới là người khôn.</span>
+            <br />
+        
+    
+        
+            <span id="s20"><sup><a href="#s20">20</a></sup>Lưỡi người ngay là bạc ròng hảo hạng,tâm kẻ dữ chẳng đáng giá bao nhiêu.</span>
+            <br />
+        
+    
+        
+            <span id="s21"><sup><a href="#s21">21</a></sup>Môi kẻ ngay nuôi sống nhiều người,còn đứa dại chết vì dốt nát.</span>
+            <br />
+        
+    
+        
+            <span id="s22"><sup><a href="#s22">22</a></sup>Chính phúc lành của ĐỨC CHÚA cho ta được giàu sang,vất vả nhọc nhằn chẳng thêm chi vào đó.</span>
+            <br />
+        
+    
+        
+            <span id="s23"><sup><a href="#s23">23</a></sup>Gây tội ác là trò tiêu khiển của người ngu,còn khôn ngoan là thú vui cho người hiểu biết.</span>
+            <br />
+        
+    
+        
+            <span id="s24"><sup><a href="#s24">24</a></sup>Ác nhân khiếp sợ chi là gặp ngay điều đó,chính nhân mong ước gì, ắt sẽ được ban cho.</span>
+            <br />
+        
+    
+        
+            <span id="s25"><sup><a href="#s25">25</a></sup>Cuồng phong thổi qua, ác nhân đâu còn nữa,nhưng người ngay chính vẫn bền vững ngàn năm.</span>
+            <br />
+        
+    
+        
+            <span id="s26"><sup><a href="#s26">26</a></sup>Giấm làm ghê răng, khói làm cay mắt,đứa lười làm bực bội người sai nó đi.</span>
+            <br />
+        
+    
+        
+            <span id="s27"><sup><a href="#s27">27</a></sup>Ai kính sợ ĐỨC CHÚA sẽ được trường thọ,còn tuổi đời đứa ác bị rút ngắn đi.</span>
+            <br />
+        
+    
+        
+            <span id="s28"><sup><a href="#s28">28</a></sup>Mong ước của người ngay dẫn đến vui mừng,hy vọng của ác nhân sẽ tan thành mây khói.</span>
+            <br />
+        
+    
+        
+            <span id="s29"><sup><a href="#s29">29</a></sup>Đường lối của ĐỨC CHÚA là thành luỹ chở che người liêm chính,nhưng lại khiến kẻ làm điều ác phải tiêu vong.</span>
+            <br />
+        
+    
+        
+            <span id="s30"><sup><a href="#s30">30</a></sup>Muôn đời người ngay không nao núng,còn ác nhân sẽ chẳng được sống ở quê hương.</span>
+            <br />
+        
+    
+        
+            <span id="s31"><sup><a href="#s31">31</a></sup>Miệng người công chính nói điều khôn ngoan,lưỡi đứa gian tà sẽ bị xẻo đi mất.</span>
+            <br />
+        
+    
+        
+            <span id="s32"><sup><a href="#s32">32</a></sup>Môi người ngay làm kẻ nghe hả dạ,miệng đứa ác nói toàn chuyện dối gian.</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c11"><span class="chapter-title" id="c11">Chương 11</span></a>
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>ĐỨC CHÚA ghê tởm bàn cân gian,nhưng ưa thích quả cân chính xác.</span>
+            <br />
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Kiêu hãnh đi liền với ô nhục,khôn ngoan ở với kẻ khiêm nhường.</span>
+            <br />
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Đức liêm khiết của người chính trực sẽ dẫn lối họ đi,còn mưu mô của kẻ lọc lừa khiến chúng bị tiêu diệt.</span>
+            <br />
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Trong ngày thịnh nộ, của cải ích lợi chi,chỉ đức công chính mới cứu khỏi tử thần.</span>
+            <br />
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Đức công chính của người sống vẹn toànsẽ giúp họ thẳng đường tiến bước,còn ác nhân lại sa vào chính mưu độc của nó.</span>
+            <br />
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Đức công chính của người ngay thẳng sẽ cứu họ,còn kẻ lừa đảo lại mắc bẫy vì tham lam.</span>
+            <br />
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Khi ác nhân nằm xuống, mối hy vọng của nó tiêu tan,và niềm cậy trông vào của cải cũng tan thành mây khói.</span>
+            <br />
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Người công chính được thoát cảnh hiểm nghèo,đứa gian tà lại rơi vào thế chỗ.</span>
+            <br />
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Quân vô đạo dùng miệng lưỡi làm hại tha nhân,bậc chính nhân nhờ tri thức mà được cứu thoát.</span>
+            <br />
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Chính nhân thịnh đạt, cả thành mừng rỡ,kẻ ác tiêu vong, ai cũng reo hò.</span>
+            <br />
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Người ngay chúc phúc, cả thành được thịnh vượng,ác nhân mở miệng, cả thành phải tiêu vong.</span>
+            <br />
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>Kẻ thiếu lương tri mới khinh khi người khác,người giàu hiểu biết thì ngậm miệng làm thinh.</span>
+            <br />
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>Đứa ngồi lê đôi mách sẽ tiết lộ điều bí mật,còn người tín cẩn giữ kín chuyện riêng tư.</span>
+            <br />
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>Thiếu lãnh đạo, dân tộc bị sụp đổ,nhiều cố vấn, đất nước được an ninh.</span>
+            <br />
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>Ai bảo lãnh người lạ sẽ chuốc hoạ vào thân,kẻ ghét chuyện giao kèo được bình yên vô sự.</span>
+            <br />
+        
+    
+        
+            <span id="s16"><sup><a href="#s16">16</a></sup>Đàn bà có duyên được tiếng tăm,đàn ông gan dạ được giàu có.</span>
+            <br />
+        
+    
+        
+            <span id="s17"><sup><a href="#s17">17</a></sup>Người nhân hậu làm ích cho bản thân,kẻ tàn nhẫn lại làm hại chính mình.</span>
+            <br />
+        
+    
+        
+            <span id="s18"><sup><a href="#s18">18</a></sup>Kẻ làm điều ác lãnh đồng lương hư ảo,người gieo công chính được phần thưởng vững bền.</span>
+            <br />
+        
+    
+        
+            <span id="s19"><sup><a href="#s19">19</a></sup>Người thực thi công chính được đi vào cõi sống,kẻ theo đuổi gian tà phải đến chốn tử vong.</span>
+            <br />
+        
+    
+        
+            <span id="s20"><sup><a href="#s20">20</a></sup>ĐỨC CHÚA ghê tởm tâm địa quanh co,nhưng lối ưa thích sống vẹn toàn.</span>
+            <br />
+        
+    
+        
+            <span id="s21"><sup><a href="#s21">21</a></sup>Hẳn ác nhân không thoát khỏi hình phạt,nhưng giống nòi người công chính sẽ được cứu nguy.</span>
+            <br />
+        
+    
+        
+            <span id="s22"><sup><a href="#s22">22</a></sup>Phụ nữ đẹp người mà không đẹp nếtkhác chi khuyên vàng đem xỏ mũi heo.</span>
+            <br />
+        
+    
+        
+            <span id="s23"><sup><a href="#s23">23</a></sup>Khát vọng của chính nhân ắt sẽ được thành tựu,hy vọng của kẻ ác đáng chịu thịnh nộ thôi.</span>
+            <br />
+        
+    
+        
+            <span id="s24"><sup><a href="#s24">24</a></sup>Người hào phóng lại được thêm giàu có,kẻ hà tiện lại lâm cảnh túng nghèo.</span>
+            <br />
+        
+    
+        
+            <span id="s25"><sup><a href="#s25">25</a></sup>Người rộng lượng được phương phi béo tốt,chính kẻ cho uống lại được uống thoả thuê.</span>
+            <br />
+        
+    
+        
+            <span id="s26"><sup><a href="#s26">26</a></sup>Dân chúng nguyền rủa kẻ đầu cơ lúa gạo,nhưng chúc phúc cho người đem bán ra.</span>
+            <br />
+        
+    
+        
+            <span id="s27"><sup><a href="#s27">27</a></sup>Người tìm kiếm điều thiện thì gặp được ân phúc,kẻ chạy theo điều ác, điều ác đến bên mình.</span>
+            <br />
+        
+    
+        
+            <span id="s28"><sup><a href="#s28">28</a></sup>Ai cậy trông vào của cải, người ấy sẽ quỵ ngã,còn chính nhân sẽ vươn lên như cành lá xanh tươi.</span>
+            <br />
+        
+    
+        
+            <span id="s29"><sup><a href="#s29">29</a></sup>Ai gây bất thuận trong nhà sẽ chẳng có chi làm di sản,kẻ ngu si đần độn phải làm đầy tớ cho người khôn.</span>
+            <br />
+        
+    
+        
+            <span id="s30"><sup><a href="#s30">30</a></sup>Người công chính được thừa hưởng cây sự sống,kẻ khôn ngoan chinh phục được lòng người.</span>
+            <br />
+        
+    
+        
+            <span id="s31"><sup><a href="#s31">31</a></sup>Người công chính còn lãnh thưởng phạt nơi trần thế,huống chi là kẻ tội lỗi, đứa ác tâm.</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c12"><span class="chapter-title" id="c12">Chương 12</span></a>
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Yêu lời nghiêm huấn là yêu tri thức,ghét lời sửa dạy là dại dột ngu si.</span>
+            <br />
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>ĐỨC CHÚA quý chuộng người lương thiện,nhưng Người kết án kẻ mưu mô.</span>
+            <br />
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Kẻ làm ác đâu đứng vững được hoài,nền móng của chính nhân chẳng bao giờ lay chuyển.</span>
+            <br />
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Có vợ đảm đang như được mang ngọc miện,có vợ hư hỏng như bị bệnh mục xương.</span>
+            <br />
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Người ngay chính chỉ nghĩ chuyện công minh,kẻ gian tà luôn bày mưu lường gạt.</span>
+            <br />
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Lời kẻ ác giương bẫy giết người,miệng chính nhân thì lo cứu sống.</span>
+            <br />
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Ác nhân đã bị lật nhào là không còn nữa,còn nhà người công chính vẫn đứng nguyên.</span>
+            <br />
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Người biết điều phải trái sẽ được khen ngợi,kẻ phán đoán lệch lạc sẽ bị khinh chê.</span>
+            <br />
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Thà làm dân thường mà cómột đầy tớcòn hơn ra bộ ông lớn mà chẳng đủ cơm ăn.</span>
+            <br />
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Người công chính chăm lo cho sự sống đàn vật,còn ác nhân thì thâm độc tận đáy lòng.</span>
+            <br />
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Người canh tác đất đai được no đầy cơm bánh,kẻ chạy theo chuyện phù phiếm là đứa ngu si.</span>
+            <br />
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>Lưới dò của kẻ xấu lôi cuốn ác nhân,cội rễ của người công chính thì bền vững.</span>
+            <br />
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>Vì tội lỗi của đôi môi mà ác nhân sa bẫy,còn người công chính được thoát cảnh khốn cùng.</span>
+            <br />
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>Người ăn nói tử tế sẽ được bao điều tốt đẹp,mỗi người sẽ lãnh hậu quả việc mình làm.</span>
+            <br />
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>Kẻ ngu cứ tưởng mình đi đường ngay chính,ai nghe lời khuyên nhủ mới là người khôn.</span>
+            <br />
+        
+    
+        
+            <span id="s16"><sup><a href="#s16">16</a></sup>Kẻ ngu si không kìm được giận dữ,người khôn khéo biết nén nhục nuốt sầu.</span>
+            <br />
+        
+    
+        
+            <span id="s17"><sup><a href="#s17">17</a></sup>Ai trình bày sự thật thì nói lên công lý,kẻ làm chứng gian toàn bịa chuyện lọc lừa.</span>
+            <br />
+        
+    
+        
+            <span id="s18"><sup><a href="#s18">18</a></sup>Lời nói bừa bãi khác nào mũi gươm đâm,miệng lưỡi khôn ngoan lại chữa trị cho lành.</span>
+            <br />
+        
+    
+        
+            <span id="s19"><sup><a href="#s19">19</a></sup>Lời ngay thật lưu tồn mãi mãi,lưỡi dối gian chỉ có một thời.</span>
+            <br />
+        
+    
+        
+            <span id="s20"><sup><a href="#s20">20</a></sup>Lòng kẻ mưu điều ác chất đầy chuyện lừa đảo,người cổ vũ hoà bình được chan chứa niềm vui.</span>
+            <br />
+        
+    
+        
+            <span id="s21"><sup><a href="#s21">21</a></sup>Người công chính không khi nào gặp nạn,còn ác nhân, tai hoạ cứ dập dồn.</span>
+            <br />
+        
+    
+        
+            <span id="s22"><sup><a href="#s22">22</a></sup>Đôi môi gian tà bị ĐỨC CHÚA ghê tởm,kẻ thực thi chân lý thì được Người mến thương.</span>
+            <br />
+        
+    
+        
+            <span id="s23"><sup><a href="#s23">23</a></sup>Người khôn khéo chẳng khoe điều mình biết,kẻ dại khờ để lộ chuyện ngu si.</span>
+            <br />
+        
+    
+        
+            <span id="s24"><sup><a href="#s24">24</a></sup>Người cần mẫn sẽ nắm quyền thống trị,kẻ biếng lười thì bị bắt làm phu.</span>
+            <br />
+        
+    
+        
+            <span id="s25"><sup><a href="#s25">25</a></sup>Mối lo lắng trong lòng khiến con người suy sụp,nhưng những lời tử tế làm cho họ hân hoan.</span>
+            <br />
+        
+    
+        
+            <span id="s26"><sup><a href="#s26">26</a></sup>Người công chính dẫn lối cho bạn bè,nhưng đường ác nhân đikhiến chúng bị lạc.</span>
+            <br />
+        
+    
+        
+            <span id="s27"><sup><a href="#s27">27</a></sup>Kẻ lười biếng có thịt săn cũng không chịu nấu,nhưng siêng năng là vốn quý của con người.</span>
+            <br />
+        
+    
+        
+            <span id="s28"><sup><a href="#s28">28</a></sup>Đường công minh đưa tới sự sống,lối gian tà dẫn đến tử vong.</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c13"><span class="chapter-title" id="c13">Chương 13</span></a>
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Con khôn giữ lời cha nghiêm huấn,kẻ nhạo báng chẳng nghe lời sửa dạy.</span>
+            <br />
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Người nói điều lành thì được hưởng điều lành,còn quân phản trắc chỉ thích gây bạo động.</span>
+            <br />
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Giữ mồm giữ miệng là bảo toàn mạng sống,khua môi múa mép ắt sẽ phải thiệt thân.</span>
+            <br />
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Kẻ lười biếng thèm muốn mà chẳng được gì,người chuyên cần muốn chi cũng được thoả mãn.</span>
+            <br />
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Người chính trực ghét lời dối trá lọc lừa,kẻ gian ác làm điều xấu xa ô nhục.</span>
+            <br />
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Đức công chính giữ gìn người sống thanh liêm,còn tội lỗi đưa ác nhân đến chỗ tiêu diệt.</span>
+            <br />
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Người chẳng có chi thì khoe mình giàu có,kẻ nhiều của cải lại làm bộ túng nghèo.</span>
+            <br />
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Của cải có sức chuộc mạng người,còn kẻ nghèo chẳng nghe ai trách móc.</span>
+            <br />
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Ánh sáng người chính trực đem lại niềm vui,ngọn đèn của ác nhân sẽ bị dập tắt.</span>
+            <br />
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Tự mãn tự kiêu chỉ gây ra cãi cọ,nghe lời khuyên nhủ thì sẽ được khôn ngoan.</span>
+            <br />
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Của cải mau tăng sẽ mau giảm,ai từ từ thu góp sẽ giàu lên.</span>
+            <br />
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>Giấc mộng chưa thành làm trái tim khắc khoải,ước mơ toại nguyện là cây ban sự sống.</span>
+            <br />
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>Coi khinh lời dạy sẽ bị tiêu vong,tôn trọng lệnh truyền sẽ được ân thưởng.</span>
+            <br />
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>Giáo huấn của hiền nhân là suối nguồn sự sốnggiúp chúng ta tránh cạm bẫy tử thần.</span>
+            <br />
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>Biết xử sự thì người đời mộ mến,theo đường bất tín sẽ chẳng tới đâu.</span>
+            <br />
+        
+    
+        
+            <span id="s16"><sup><a href="#s16">16</a></sup>Người khôn ý thức việc mình làm,kẻ ngu để lộ điều dại dột.</span>
+            <br />
+        
+    
+        
+            <span id="s17"><sup><a href="#s17">17</a></sup>Sứ giả gian manh chỉ gây nên tai hoạ,sứ giả trung tín là phương thuốc chữa lành.</span>
+            <br />
+        
+    
+        
+            <span id="s18"><sup><a href="#s18">18</a></sup>Coi khinh lời nghiêm huấn ắt phải nghèo phải nhục,tuân giữ lời sửa dạy hẳn sẽ được hiển vinh.</span>
+            <br />
+        
+    
+        
+            <span id="s19"><sup><a href="#s19">19</a></sup>Ước mơ thành tựu khiến tâm hồn vui thú,từ bỏ gian tà là điều đứa ngu ghê tởm.</span>
+            <br />
+        
+    
+        
+            <span id="s20"><sup><a href="#s20">20</a></sup>Đi với người khôn, ắt sẽ nên khôn,chơi cùng kẻ dại, sẽ mang lấy hoạ.</span>
+            <br />
+        
+    
+        
+            <span id="s21"><sup><a href="#s21">21</a></sup>Điều bất hạnh bám sát người tội lỗi,chuyện may lành là phần thưởng của chính nhân.</span>
+            <br />
+        
+    
+        
+            <span id="s22"><sup><a href="#s22">22</a></sup>Người đức độ để gia sản tới đời con đời cháu,của cải đứa tội lỗi lại dành cho chính nhân.</span>
+            <br />
+        
+    
+        
+            <span id="s23"><sup><a href="#s23">23</a></sup>Đất người nghèo vỡ hoang thì dồi dào lương thực,nhưng nhiều kẻ mất mạng vì bất công.</span>
+            <br />
+        
+    
+        
+            <span id="s24"><sup><a href="#s24">24</a></sup>Kẻ ghét con mới không dùng roi vọt,người thương con sẽ lo sửa phạt con.</span>
+            <br />
+        
+    
+        
+            <span id="s25"><sup><a href="#s25">25</a></sup>Chính nhân được ăn no, kẻ ác phải đói bụng.</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c14"><span class="chapter-title" id="c14">Chương 14</span></a>
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Phụ nữ khôn ngoan xây dựng cửa nhà,phụ nữ dại dột tự tay phá đổ.</span>
+            <br />
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Người sống đời ngay thẳng thì kính sợ ĐỨC CHÚA,kẻ lạc xa chính lộ lại khinh dể Người.</span>
+            <br />
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Miệng kẻ dại có mầm kiêu ngạo,môi người khôn bảo vệ người khôn.</span>
+            <br />
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Không có bò, máng ăn trống rỗng,nhờ sức trâu, nguồn lợi dồi dào.</span>
+            <br />
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Chứng nhân ngay thật thì không hề gian dối,chứng nhân xảo trá toàn nói chuyện dối gian.</span>
+            <br />
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Đứa nhạo báng tìm khôn ngoan chẳng thấy,người hiểu biết gặp tri thức dễ dàng.</span>
+            <br />
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Bạn hãy tránh xa đứa ngu si dại dột,vì biết rằng hắn chẳng có lời lẽ khôn ngoan.</span>
+            <br />
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Cái khôn của kẻ sáng suốt là biết rõ đường mình đi,cái dại của kẻ ngu si là đi lường gạt.</span>
+            <br />
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Kẻ ngu nhạo báng hy lễ đền tội,và ơn Chúa ở với những người ngay.</span>
+            <br />
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Nỗi đắng cay chỉ riêng lòng mình biết,niềm hân hoan đâu chia sẻ được với người ngoài.</span>
+            <br />
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Nhà của ác nhân sẽ bị tàn phá,lều của người ngay ngày càng phát đạt.</span>
+            <br />
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>Có con đường xem ra ngay thẳng,nhưng rốt cuộc lại đưa đến tử vong.</span>
+            <br />
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>Cả khi cười, lòng vẫn vương sầu muộn,sau niềm vui lại đến nỗi buồn phiền.</span>
+            <br />
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>Kẻ bất trung lãnh hậu quả do cách mình sống,người tử tế hưởng hoa trái của việc mình làm.</span>
+            <br />
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>Kẻ khờ khạo ai nói gì cũng tin,người khôn ngoan thì đắn đo từng bước.</span>
+            <br />
+        
+    
+        
+            <span id="s16"><sup><a href="#s16">16</a></sup>Người khôn sợ điều dữ và tìm cách tránh xa,kẻ dại thì hung hăng và tự tin quá đáng.</span>
+            <br />
+        
+    
+        
+            <span id="s17"><sup><a href="#s17">17</a></sup>Người nóng tính làm những điều dại dột,đứa mưu mô bị kẻ ghét người khinh.</span>
+            <br />
+        
+    
+        
+            <span id="s18"><sup><a href="#s18">18</a></sup>Kỷ phần của kẻ ngây thơ là dại dột,tri thức là triều thiên trên đầu người khôn.</span>
+            <br />
+        
+    
+        
+            <span id="s19"><sup><a href="#s19">19</a></sup>Kẻ xấu phải cúi mình trước mặt người lành,kẻ ác chầu chực nơi cửa nhà người công chính.</span>
+            <br />
+        
+    
+        
+            <span id="s20"><sup><a href="#s20">20</a></sup>Kẻ nghèo khó, láng giềng cũng ghét bỏ,người giàu sang có vô số bạn bè.</span>
+            <br />
+        
+    
+        
+            <span id="s21"><sup><a href="#s21">21</a></sup>Khinh rẻ tha nhân thì mắc tội,nhưng xót thương kẻ nghèo là có phúc.</span>
+            <br />
+        
+    
+        
+            <span id="s22"><sup><a href="#s22">22</a></sup>Kẻ mưu toan điều ác lại chẳng lầm lạc sao ?Người toan làm điều thiện sẽ gặp được nhân nghĩa tín thành.</span>
+            <br />
+        
+    
+        
+            <span id="s23"><sup><a href="#s23">23</a></sup>Chịu cực là có ăn,nói suông thì chỉ tổ đói nghèo.</span>
+            <br />
+        
+    
+        
+            <span id="s24"><sup><a href="#s24">24</a></sup>Phú quý là triều thiên của người khôn,còn kẻ ngu thì dại vẫn hoàn dại.</span>
+            <br />
+        
+    
+        
+            <span id="s25"><sup><a href="#s25">25</a></sup>Chứng nhân ngay thật cứu được bao mạng người,chứng nhân dối trá chỉ làm trò bịp bợm.</span>
+            <br />
+        
+    
+        
+            <span id="s26"><sup><a href="#s26">26</a></sup>Kính sợ ĐỨC CHÚA sẽ được an toàn kiên vững,Người là nơi ẩn náu cho con cái Người.</span>
+            <br />
+        
+    
+        
+            <span id="s27"><sup><a href="#s27">27</a></sup>Kính sợ ĐỨC CHÚA là nguồn sự sống,giúp ta tránh được cạm bẫy tử thần.</span>
+            <br />
+        
+    
+        
+            <span id="s28"><sup><a href="#s28">28</a></sup>Đông dân, nhà vua được mạnh thế,thiếu dân, lãnh tụ sẽ đổ nhào.</span>
+            <br />
+        
+    
+        
+            <span id="s29"><sup><a href="#s29">29</a></sup>Người chậm giận thì đầy sáng suốt,kẻ nóng tính để lộ cái dại khờ.</span>
+            <br />
+        
+    
+        
+            <span id="s30"><sup><a href="#s30">30</a></sup>Tâm hồn bình an là nguồn sống cho thể xác,nhưng lòng ghen ghét tựa chứng bệnh mục xương.</span>
+            <br />
+        
+    
+        
+            <span id="s31"><sup><a href="#s31">31</a></sup>Áp bức người yếu thếlà sỉ nhục Đấng tạo thành nên họ,thương xót kẻ khó nghèolà tôn kính Đấng dựng nên người đó.</span>
+            <br />
+        
+    
+        
+            <span id="s32"><sup><a href="#s32">32</a></sup>Ác nhân té nhào vì điều ác nó gây ra,chính nhân vững dạ vì đã sống vẹn toàn.</span>
+            <br />
+        
+    
+        
+            <span id="s33"><sup><a href="#s33">33</a></sup>Khôn ngoan ngự trị trong lòng người hiểu biết,nhưng chẳng ai thấy nó trong dạ đứa ngu si.</span>
+            <br />
+        
+    
+        
+            <span id="s34"><sup><a href="#s34">34</a></sup>Đức công chính đem cường thịnh cho nước,còn tội lỗi gây nhục nhằn cho dân.</span>
+            <br />
+        
+    
+        
+            <span id="s35"><sup><a href="#s35">35</a></sup>Bầy tôi mưu trí được hưởng ơn vua,bầy tôi bất tài làm vua thịnh nộ.</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c15"><span class="chapter-title" id="c15">Chương 15</span></a>
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Câu đáp dịu dàng khiến cơn giận tiêu tan,lời nói khiêu khích làm nổi cơn thịnh nộ.</span>
+            <br />
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Lưỡi người khôn tiết ra tri thức,miệng kẻ dại tuôn chuyện ngu si.</span>
+            <br />
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Mắt ĐỨC CHÚA ở mọi nơi mọi chỗhằng dõi theo kẻ dữ người lành.</span>
+            <br />
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Lời xoa dịu tựa cây ban sự sống,lời nham hiểm làm tan nát tâm can.</span>
+            <br />
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Kẻ ngu khinh lời cha nghiêm huấn,ai giữ lời sửa dạy sẽ nên khôn.</span>
+            <br />
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Nhà người ngay dư đầy của cải,nhưng huê lợi của kẻ ác gây bối rối âu lo.</span>
+            <br />
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Môi người khôn truyền bá kiến thức,lòng kẻ dại chẳng được thế đâu.</span>
+            <br />
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>ĐỨC CHÚA ghê tởm hy lễ của đứa ác,nhưng ưa thích lời cầu của kẻ ngay.</span>
+            <br />
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>ĐỨC CHÚA ghê tởm lối sống của ác nhân,nhưng mến thương người theo đuổi sự công chính.</span>
+            <br />
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Kẻ rời xa đường ngay chính sẽ bị nghiêm trị,ai khinh thường lời sửa dạy sẽ phải mạng vong.</span>
+            <br />
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Âm phủ, âm ty còn phơi bày trước nhan ĐỨC CHÚA,huống chi là lòng dạ con người !</span>
+            <br />
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>Kẻ nhạo báng không thích bị khiển trách,cũng chẳng chịu đến với người khôn.</span>
+            <br />
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>Lòng mừng vui làm hân hoan nét mặt,lòng sầu muộn khiến tâm trí rã rời.</span>
+            <br />
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>Trí người minh mẫn kiếm tìm tri thức,miệng kẻ ngu si ham thích chuyện điên rồ.</span>
+            <br />
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>Kẻ cùng khốn thấy ngày nào cũng xấu,đời người vui là yến tiệc kéo dài.</span>
+            <br />
+        
+    
+        
+            <span id="s16"><sup><a href="#s16">16</a></sup>Ít của ít tiền mà biết kính sợ ĐỨC CHÚAhơn có cả kho tàng mà cứ phải âu lo.</span>
+            <br />
+        
+    
+        
+            <span id="s17"><sup><a href="#s17">17</a></sup>Thà bữa rau bữa cháo mà yêu thương nhaucòn hơn mâm cao cỗ đầy mà bất hoà bất thuận.</span>
+            <br />
+        
+    
+        
+            <span id="s18"><sup><a href="#s18">18</a></sup>Kẻ nóng tính gây ra cãi vã,người chậm giận làm dịu cuộc đôi co.</span>
+            <br />
+        
+    
+        
+            <span id="s19"><sup><a href="#s19">19</a></sup>Đường kẻ lười bị rào gai cản trở,lối người ngay được bồi đắp thênh thang.</span>
+            <br />
+        
+    
+        
+            <span id="s20"><sup><a href="#s20">20</a></sup>Con khôn làm hài lòng cha,đứa dại không nể mặt mẹ.</span>
+            <br />
+        
+    
+        
+            <span id="s21"><sup><a href="#s21">21</a></sup>Kẻ ngu si lấy điều dại làm vui,người hiểu biết cứ thẳng đường mà tiến.</span>
+            <br />
+        
+    
+        
+            <span id="s22"><sup><a href="#s22">22</a></sup>Thiếu bàn bạc, chương trình đổ vỡ,nhiều cố vấn, ắt sẽ thành công.</span>
+            <br />
+        
+    
+        
+            <span id="s23"><sup><a href="#s23">23</a></sup>Biết đối đáp khiến con người vui thú,nói đúng lúc, thật tốt đẹp dường bao !</span>
+            <br />
+        
+    
+        
+            <span id="s24"><sup><a href="#s24">24</a></sup>Người khôn theo con đường đưa lên sự sống,tránh con đường dẫn xuống âm ty.</span>
+            <br />
+        
+    
+        
+            <span id="s25"><sup><a href="#s25">25</a></sup>Nhà đứa kiêu căng, ĐỨC CHÚA giật cho sập,đất kẻ goá bụa, Người giữ vững đường ranh.</span>
+            <br />
+        
+    
+        
+            <span id="s26"><sup><a href="#s26">26</a></sup>ĐỨC CHÚA ghê tởm những mưu đồ xấu xa,còn lời lẽ nhân hậu thì thuần khiết.</span>
+            <br />
+        
+    
+        
+            <span id="s27"><sup><a href="#s27">27</a></sup>Kẻ hám lợi làm tan hoang nhà cửa,người khinh chê quà hối lộ sẽ được sống lâu.</span>
+            <br />
+        
+    
+        
+            <span id="s28"><sup><a href="#s28">28</a></sup>Người công chính nghĩ suy rồi mới đáp,miệng kẻ ác tuôn trào chuyện xấu xa.</span>
+            <br />
+        
+    
+        
+            <span id="s29"><sup><a href="#s29">29</a></sup>ĐỨC CHÚA ở xa phường gian ác,nhưng nghe lời nguyện của chính nhân.</span>
+            <br />
+        
+    
+        
+            <span id="s30"><sup><a href="#s30">30</a></sup>Cái nhìn ngời sáng làm tâm hồn vui sướng,tin tức may lành khiến xương cốt vững vàng.</span>
+            <br />
+        
+    
+        
+            <span id="s31"><sup><a href="#s31">31</a></sup>Kẻ lắng nghe lời sửa dạy, lời ban sự sống,sẽ được cư ngụ với những bậc khôn ngoan.</span>
+            <br />
+        
+    
+        
+            <span id="s32"><sup><a href="#s32">32</a></sup>Bỏ lời nghiêm huấn là coi rẻ chính mình,nghe lời sửa dạy là sắm lấy hiểu biết.</span>
+            <br />
+        
+    
+        
+            <span id="s33"><sup><a href="#s33">33</a></sup>Lòng kính sợ ĐỨC CHÚA là trường dạy khôn ngoan,khiêm nhu là đường dẫn đến vinh dự.</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c16"><span class="chapter-title" id="c16">Chương 16</span></a>
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Suy nghĩ lo toan là việc của con người,còn nói câu trả lời là do ĐỨC CHÚA.</span>
+            <br />
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Con người cho lối sống của mình là trong sáng,nhưng ĐỨC CHÚA thấu suốt mọi tâm can.</span>
+            <br />
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Hãy ký thác việc bạn làm cho ĐỨC CHÚA,dự tính của bạn ắt sẽ thành công.</span>
+            <br />
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Mọi việc ĐỨC CHÚA làm đều có cùng đích riêng,người ác được dựng nên là cho ngày tai hoạ.</span>
+            <br />
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Đứa kiêu căng làm ĐỨC CHÚA ghê tởm,hẳn nó không thoát khỏi án phạt đâu.</span>
+            <br />
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Nhờ nhân nghĩa tín thành mà tội được xoá bỏ,nhờ kính sợ ĐỨC CHÚA mà tránh được sự dữ.</span>
+            <br />
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Khi ĐỨC CHÚA hài lòng về lối sống của aiNgười khiến cả quân thù cũng làm hoà với kẻ ấy.</span>
+            <br />
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Thà ít của cải mà sống công chínhhơn nhiều huê lợi mà thiếu công minh.</span>
+            <br />
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Tâm trí con người nghĩ ra đường lối,còn ĐỨC CHÚA hướng dẫn từng bước đi.</span>
+            <br />
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Lời vua là lời sấm,mở miệng ra phân xử, vua sẽ chẳng sai lầm.</span>
+            <br />
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Cán cân và bàn cân chính xác là của ĐỨC CHÚA,mọi quả cân trong túi là sản phẩm của Người.</span>
+            <br />
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>Làm điều dữ là chuyện vua ghê tởm,vì nhờ sống công chính mà ngai báu vững bền.</span>
+            <br />
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>Lời lẽ chân thành khiến vua quý chuộng,vua yêu thương kẻ ăn nói thẳng ngay.</span>
+            <br />
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>Cơn giận của vua báo tin thần chết đến,biết làm vua nguôi giận ấy mới là người khôn.</span>
+            <br />
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>Long nhan rạng rỡ là bầy tôi được sống,ơn vua ban xuống như mây đổ mưa xuân.</span>
+            <br />
+        
+    
+        
+            <span id="s16"><sup><a href="#s16">16</a></sup>Được khôn ngoan tốt hơn được vàng,được hiểu biết quý hơn được bạc.</span>
+            <br />
+        
+    
+        
+            <span id="s17"><sup><a href="#s17">17</a></sup>Nẻo đường người chính trực tránh xa điều ác ;ai để mắt nhìn lối mình đi thì sinh mạng an toàn.</span>
+            <br />
+        
+    
+        
+            <span id="s18"><sup><a href="#s18">18</a></sup>Kiêu căng đưa đến sụp đổ,ngạo mạn dẫn đến té nhào.</span>
+            <br />
+        
+    
+        
+            <span id="s19"><sup><a href="#s19">19</a></sup>Thà sống tự hạ với kẻ khiêm nhuhơn chia chiến lợi phẩm với phường kiêu hãnh.</span>
+            <br />
+        
+    
+        
+            <span id="s20"><sup><a href="#s20">20</a></sup>Kẻ chú tâm vào lời Chúa dạy sẽ gặp chuyện tốt lành,người đặt niềm tin vào ĐỨC CHÚA thật hạnh phúc dường bao.</span>
+            <br />
+        
+    
+        
+            <span id="s21"><sup><a href="#s21">21</a></sup>Người có trí khôn ngoan được coi là sáng suốt,lời ngọt ngào làm cho sức thuyết phục gia tăng.</span>
+            <br />
+        
+    
+        
+            <span id="s22"><sup><a href="#s22">22</a></sup>Kẻ có lương tri là có nguồn sự sống,sự dại khờ là hình phạt kẻ ngu si.</span>
+            <br />
+        
+    
+        
+            <span id="s23"><sup><a href="#s23">23</a></sup>Trí khôn ngoan làm miệng nên khéo léovà thêm sức thuyết phục cho đôi môi.</span>
+            <br />
+        
+    
+        
+            <span id="s24"><sup><a href="#s24">24</a></sup>Lời tử tế là tảng mật onglàm cổ họng ngọt ngào, khiến xương cốt lành mạnh.</span>
+            <br />
+        
+    
+        
+            <span id="s25"><sup><a href="#s25">25</a></sup>Có con đường xem ra ngay thẳng,nhưng rốt cuộc lại đưa đến tử vong.</span>
+            <br />
+        
+    
+        
+            <span id="s26"><sup><a href="#s26">26</a></sup>Miệng muốn ăn khiến con người vất vả,vì bụng đói nên đầu gối phải bò.</span>
+            <br />
+        
+    
+        
+            <span id="s27"><sup><a href="#s27">27</a></sup>Quân vô lại đào hố gây tai ương,đôi môi nó như lửa hồng cháy bỏng.</span>
+            <br />
+        
+    
+        
+            <span id="s28"><sup><a href="#s28">28</a></sup>Kẻ dối gian gây bất hoà tranh chấp,tên mách lẻo chuyên chia rẽ bạn bè.</span>
+            <br />
+        
+    
+        
+            <span id="s29"><sup><a href="#s29">29</a></sup>Người thô bạo phỉnh phờ bằng hữu,dẫn họ vào đường nẻo xấu xa.</span>
+            <br />
+        
+    
+        
+            <span id="s30"><sup><a href="#s30">30</a></sup>Nháy mắt mím môi, nghĩ ra điều dối trálà làm sự ác rồi.</span>
+            <br />
+        
+    
+        
+            <span id="s31"><sup><a href="#s31">31</a></sup>Mái đầu bạc là triều thiên vinh hiểnđược tặng ban cho kẻ sống công chính.</span>
+            <br />
+        
+    
+        
+            <span id="s32"><sup><a href="#s32">32</a></sup>Người chậm giận thì hơn trang hào kiệt,người tự chủ hơn kẻ chiếm được thành.</span>
+            <br />
+        
+    
+        
+            <span id="s33"><sup><a href="#s33">33</a></sup>Người ta gieo quẻ trong vạt áo,nhưng mọi quyết định của phàm nhânđều bắt nguồn từ ĐỨC CHÚA.</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c17"><span class="chapter-title" id="c17">Chương 17</span></a>
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Thà ăn mẩu bánh khô mà được êm ấmcòn hơn đầy yến tiệc mà nhà cửa bất hoà.</span>
+            <br />
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Đầy tớ tài giỏi thì hơn cả đứa con hư đốn,lại được chia gia sản với anh em trong nhà.</span>
+            <br />
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Lò thử vàng, nồi thử bạc,còn ĐỨC CHÚA thử lòng dạ con người.</span>
+            <br />
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Phường gian ác để tâm đến những lời bất chính,quân lừa đảo lắng tai nghe những chuyện hại người.</span>
+            <br />
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Chế giễu kẻ lâm cảnh túng nghèolà sỉ nhục Đấng tạo thành nên họ.Vui mừng khi người gặp tai ươngthì sẽ không thoát khỏi án phạt.</span>
+            <br />
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Triều thiên của người già là đàn con cháu,vinh dự của con cái là chính người cha.</span>
+            <br />
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Lời tao nhã đâu có hợp với kẻ ngu dốt,lời dối gian càng không hợp với người thanh cao.</span>
+            <br />
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Quà hối lộ là bùa mê dưới mắt người đem biếu,người đó làm gì cũng thành công.</span>
+            <br />
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Ai muốn có bạn bè thì quên đi lầm lỗi,nhắc hoài chuyện cũ làm cho bạn xa mình.</span>
+            <br />
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Trăm roi đánh người dạikhông bằng một lời mắng người khôn.</span>
+            <br />
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Ác nhân chỉ mưu tìm nổi loạn,nhưng một sứ giả dữ dằn sẽ được sai đến trừng trị nó.</span>
+            <br />
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>Gặp gấu mẹ mất concòn hơn gặp người ngu lên cơn rồ dại.</span>
+            <br />
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>Bất hạnh sẽ không chịu rời bỏ,nhà kẻ nào lấy oan đền ơn.</span>
+            <br />
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>Bắt đầu cãi cọ là như để cho nước vỡ bờ,hãy tránh xa trước khi cuộc tranh cãi bùng nổ.</span>
+            <br />
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>Bênh vực đứa ác, kết tội chính nhân,hai việc này đều làm ĐỨC CHÚA ghê tởm.</span>
+            <br />
+        
+    
+        
+            <span id="s16"><sup><a href="#s16">16</a></sup>Để sắm được khôn ngoan, tiền bạc trong tay đứa ngu ích lợi gì,bởi vì nó quá ư đần độn ?</span>
+            <br />
+        
+    
+        
+            <span id="s17"><sup><a href="#s17">17</a></sup>Bè bạn thương nhau mọi thời mọi lúc,vào ngày hoạn nạn chỉ có anh em.</span>
+            <br />
+        
+    
+        
+            <span id="s18"><sup><a href="#s18">18</a></sup>Đứa ngu mới ký giao kèo,mới đứng ra bảo lãnh cho bè bạn.</span>
+            <br />
+        
+    
+        
+            <span id="s19"><sup><a href="#s19">19</a></sup>Ưa cãi nhau là ưa phạm tội,tự cao tự đại là chuốc lấy suy vong.</span>
+            <br />
+        
+    
+        
+            <span id="s20"><sup><a href="#s20">20</a></sup>Tâm địa quanh co sao gặp được hạnh phúc,miệng lưỡi dối trá ắt phải chịu tai ương.</span>
+            <br />
+        
+    
+        
+            <span id="s21"><sup><a href="#s21">21</a></sup>Sinh ra đứa ngu là chuốc lấy phiền muộn,làm cha kẻ dại nào vui sướng gì đâu !</span>
+            <br />
+        
+    
+        
+            <span id="s22"><sup><a href="#s22">22</a></sup>Tâm trí hân hoan làm thân xác lành mạnh,tinh thần suy sụp khiến xương cốt rã rời.</span>
+            <br />
+        
+    
+        
+            <span id="s23"><sup><a href="#s23">23</a></sup>Ác nhân nhận quà được giấu trong ngực áo,khiến cán cân công lý bị bẻ cong.</span>
+            <br />
+        
+    
+        
+            <span id="s24"><sup><a href="#s24">24</a></sup>Người hiểu biết chỉ nhắm đến khôn ngoan,còn người ngu để mắt khắp cùng trời cuối đất.</span>
+            <br />
+        
+    
+        
+            <span id="s25"><sup><a href="#s25">25</a></sup>Con ngu khiến cha buồn giận,con dại làm mẹ đắng cay.</span>
+            <br />
+        
+    
+        
+            <span id="s26"><sup><a href="#s26">26</a></sup>Phạt vạ chính nhân thì không phải lẽ,đánh người khả kính là ngược với công bằng.</span>
+            <br />
+        
+    
+        
+            <span id="s27"><sup><a href="#s27">27</a></sup>Người nói năng dè dặt là người hiểu biết,kẻ giữ được điềm tĩnh là kẻ khôn ngoan.</span>
+            <br />
+        
+    
+        
+            <span id="s28"><sup><a href="#s28">28</a></sup>Nếu biết giữ thinh lặng,kẻ ngu cũng được kể là người khôn ngoan ;nếu biết ngậm môi,kẻ đó được coi là người thông hiểu.</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c18"><span class="chapter-title" id="c18">Chương 18</span></a>
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Kẻ ích kỷ chạy theo dục vọng,và nổi giận trước mọi lời khuyên.</span>
+            <br />
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Người ngu không ưa chuyện hiểu biết,nhưng thích phô bày cảm nghĩ riêng.</span>
+            <br />
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Đâu có kẻ ác, đấy có khinh khi,đâu có nhục nhã, đấy có lăng mạ.</span>
+            <br />
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Lời miệng con người là nước sâu thăm thẳm,là dòng suối tràn trề, là nguồn mạch khôn ngoan.</span>
+            <br />
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Bênh vực kẻ gian ác, đè nén người vô tội,xét xử như thế chẳng tốt đẹp gì.</span>
+            <br />
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Môi người ngu gây ra tranh cãi,miệng của nó khiến nó chịu đòn.</span>
+            <br />
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Miệng kẻ ngu làm cho nó tàn tạ,môi của nó là cạm bẫy cho mình.</span>
+            <br />
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Lời kẻ mách lẻo như của ngon vật lạtrôi xuống tận ruột gan.</span>
+            <br />
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Người biếng nhác việc bổn phận mìnhlà anh em với quân phá hoại.</span>
+            <br />
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Danh ĐỨC CHÚA là tháp canh kiên vững,chính nhân chạy đến là được an toàn.</span>
+            <br />
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Người giàu coi của cải là thành trì kiên cố,họ cho đó là tường cao luỹ dầy.</span>
+            <br />
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>Lòng tự cao dẫn đến suy sụp,đức khiêm tốn đem lại vinh quang.</span>
+            <br />
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>Kẻ chưa nghe đã vội cãi,sẽ chịu tiếng nhục nhã, ngu si.</span>
+            <br />
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>Người đau yếu được tinh thần nâng đỡ,nhưng tinh thần suy sụp thì lấy ai vực lên ?</span>
+            <br />
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>Trí người minh mẫn tiếp thu hiểu biết,tri thức là điều tai kẻ khôn kiếm tìm.</span>
+            <br />
+        
+    
+        
+            <span id="s16"><sup><a href="#s16">16</a></sup>Ai có quà biếu sẽ rộng đường lui tới,sẽ gặp được người chức trọng quyền cao.</span>
+            <br />
+        
+    
+        
+            <span id="s17"><sup><a href="#s17">17</a></sup>Kẻ nói trước cứ biện hộ cho mình là đúng,nhưng đối phương đến, sẽ lột mặt nạ y.</span>
+            <br />
+        
+    
+        
+            <span id="s18"><sup><a href="#s18">18</a></sup>Quẻ gieo chấm dứt các vụ tương tranhvà phân định quyền lợi giữa những người quyền thế.</span>
+            <br />
+        
+    
+        
+            <span id="s19"><sup><a href="#s19">19</a></sup>Một người anh em bị xúc phạmthì còn hơn một thành trì vững chắc.Các cuộc cãi vã tựa như then cài cửa luỹ đồn.</span>
+            <br />
+        
+    
+        
+            <span id="s20"><sup><a href="#s20">20</a></sup>Con người phải chịu hậu quả lời mình nóivà được hưởng những gì môi miệng họ thốt ra.</span>
+            <br />
+        
+    
+        
+            <span id="s21"><sup><a href="#s21">21</a></sup>Sống hay chết đều do cái lưỡi,ai yêu chuộng nó, sẽ lãnh nhận hậu quả.</span>
+            <br />
+        
+    
+        
+            <span id="s22"><sup><a href="#s22">22</a></sup>Tìm được vợ hiền là tìm thấy hạnh phúc,và nhận được ơn ĐỨC CHÚA ban cho.</span>
+            <br />
+        
+    
+        
+            <span id="s23"><sup><a href="#s23">23</a></sup>Người nghèo khẩn khoản nài xin,người giàu trả lời hống hách.</span>
+            <br />
+        
+    
+        
+            <span id="s24"><sup><a href="#s24">24</a></sup>Có thứ bạn bè gây ra tai hoạ,có người thân hữu gắn bó hơn cả anh em.</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c19"><span class="chapter-title" id="c19">Chương 19</span></a>
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Thà nghèo túng mà sống vẹn toàn,còn hơn điêu ngoa mà ngu ngốc.</span>
+            <br />
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Nhiệt tình mà thiếu suy xét nào có ích chi,bước vội vàng ắt có khi lầm lỡ.</span>
+            <br />
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Kẻ ngu dại làm hại đời mình,nhưng lòng nó lại căm ĐỨC CHÚA.</span>
+            <br />
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Người lắm của được thêm nhiều bạn,còn kẻ nghèo bị bạn hữu lánh xa.</span>
+            <br />
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Kẻ làm chứng gian không thoát khỏi hình phạt,người nói năng dối trá sẽ chẳng được yên hàn.</span>
+            <br />
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Lắm kẻ tâng bốc người hào phóng,ai cũng làm bạn với kẻ cho quà.</span>
+            <br />
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Kẻ nghèo túng bị mọi anh em khinh rẻ,bạn hữu lại càng lánh xa !Mong được đôi lời, cũng chẳng có.</span>
+            <br />
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Ai có óc hiểu biết thì yêu bản thân mình,ai giữ được sáng suốt thì tìm ra hạnh phúc.</span>
+            <br />
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Kẻ làm chứng gian không thoát khỏi hình phạt,người nói năng dối trá sẽ phải mạng vong.</span>
+            <br />
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Người ngu không hợp với nếp sống phong lưu,người nô lệ càng không thể điều khiển hàng thủ lãnh.</span>
+            <br />
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Hiểu biết làm con người chậm giận,bỏ qua lời xúc phạm khiến con người được tôn vinh.</span>
+            <br />
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>Cơn giận của vua như tiếng gầm sư tử,ân lộc vua ban tựa mưa móc trên cỏ xanh.</span>
+            <br />
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>Con ngu là mối hoạ cho cha,vợ lắm điều như mái nhà dột.</span>
+            <br />
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>Cửa nhà, tài sản là gia nghiệp của cha ông,còn người vợ khôn ngoan là do ĐỨC CHÚA.</span>
+            <br />
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>Thói lười biếng làm con người ngủ mê,kẻ biếng nhác sẽ phải nhịn đói.</span>
+            <br />
+        
+    
+        
+            <span id="s16"><sup><a href="#s16">16</a></sup>Tuân giữ lệnh truyền là giữ được mạng sống,khinh thường đường lối Chúa ắt phải mạng vong.</span>
+            <br />
+        
+    
+        
+            <span id="s17"><sup><a href="#s17">17</a></sup>Thương xót kẻ khó nghèo là cho ĐỨC CHÚA vay mượn,Người sẽ đáp trả xứng việc đã làm.</span>
+            <br />
+        
+    
+        
+            <span id="s18"><sup><a href="#s18">18</a></sup>Hãy sửa phạt con cái bao lâu còn hy vọng,nhưng đừng nóng nảy khiến nó phải chết.</span>
+            <br />
+        
+    
+        
+            <span id="s19"><sup><a href="#s19">19</a></sup>Người giận dữ hung hăng sẽ phải nộp phạt,nếu cứu nó, bạn chỉ làm tăng sự ác mà thôi.</span>
+            <br />
+        
+    
+        
+            <span id="s20"><sup><a href="#s20">20</a></sup>Hãy lắng nghe lời khuyên, đón nhận lời nghiêm huấn,để sau này bạn được nên khôn.</span>
+            <br />
+        
+    
+        
+            <span id="s21"><sup><a href="#s21">21</a></sup>Lòng con người ấp ủ bao dự tính,duy kế hoạch của ĐỨC CHÚA mới trường tồn.</span>
+            <br />
+        
+    
+        
+            <span id="s22"><sup><a href="#s22">22</a></sup>Con người ao ước lòng nhân nghĩa,thà là kẻ nghèo khó còn hơn là đứa dối gian.</span>
+            <br />
+        
+    
+        
+            <span id="s23"><sup><a href="#s23">23</a></sup>Lòng kính sợ ĐỨC CHÚA đem lại sự sống,cho người ta ăn no ngủ kỹ, thoát khỏi mọi tai ương.</span>
+            <br />
+        
+    
+        
+            <span id="s24"><sup><a href="#s24">24</a></sup>Đứa lười biếng thò tay vào đĩa,nhưng chẳng buồn đưa thức ăn lên miệng.</span>
+            <br />
+        
+    
+        
+            <span id="s25"><sup><a href="#s25">25</a></sup>Hãy đánh người ưa chế giễu,ắt kẻ ngây thơ sẽ nên lanh lợi ;hãy quở mắng người khôn,người ấy sẽ thêm hiểu biết.</span>
+            <br />
+        
+    
+        
+            <span id="s26"><sup><a href="#s26">26</a></sup>Kẻ bạc đãi cha và xua đuổi mẹ,là đứa con đốn mạt, nhuốc nhơ.</span>
+            <br />
+        
+    
+        
+            <span id="s27"><sup><a href="#s27">27</a></sup>Này con, nếu thôi không nghe lời nghiêm huấn,con sẽ lạc xa những lời lẽ khôn ngoan.</span>
+            <br />
+        
+    
+        
+            <span id="s28"><sup><a href="#s28">28</a></sup>Kẻ làm chứng gian nhạo cười công lý,miệng ác nhân ngốn ngấu chuyện gian tà.</span>
+            <br />
+        
+    
+        
+            <span id="s29"><sup><a href="#s29">29</a></sup>Án phạt dành sẵn cho kẻ ưa chế giễu,và đòn vọt kề lưng đứa ngu si.</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c20"><span class="chapter-title" id="c20">Chương 20</span></a>
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Rượu nồng sinh nhạo báng, men say tạo ồn ào,kẻ nào vướng vào đó, đâu còn là người khôn.</span>
+            <br />
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Cơn thịnh nộ của vua như tiếng gầm sư tử,kẻ làm vua nổi giận là làm hại chính mình.</span>
+            <br />
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Tránh đôi co đem lại vinh dự cho con người,mọi kẻ ngu đều hay sinh sự.</span>
+            <br />
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Đầu mùa đông, kẻ lười không lo cày cấy,đến mùa gặt, nó tìm kiếm cũng uổng công.</span>
+            <br />
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Ý định lòng người tựa nước sâu thăm thẳm,người hiểu biết mới kín múc được.</span>
+            <br />
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Lắm kẻ tự hào mình nhân nghĩa,nhưng người thành tín, nào ai kiếm cho ra ?</span>
+            <br />
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Người công chính ăn ở đức độ,phúc cho đàn con nối dõi tông đường !</span>
+            <br />
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Đức vua ngự trên ngai xét xử,đưa mắt sàng lọc mọi xấu xa.</span>
+            <br />
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Ai dám nói : "Tôi đã giữ lòng mình thanh khiết,và tôi đã sạch tội rồi !"</span>
+            <br />
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Cân non cân già, đấu gian đấu dối,ĐỨC CHÚA ghê tởm cả hai.</span>
+            <br />
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Qua việc làm, mà người ta biết đượctính hạnh đứa trẻ có trong sáng thẳng ngay.</span>
+            <br />
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>Tai để nghe, mắt để thấy,ĐỨC CHÚA làm nên cả hai.</span>
+            <br />
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>Đừng mê ngủ kẻo ra nghèo túng,chong mắt thức, bạn sẽ được cơm bánh no nê.</span>
+            <br />
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>Khi mua thì chê "Đồ ôi, đồ dở !"lúc đi khỏi, lại tự khen mua được giá hời !</span>
+            <br />
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>Vàng bạc trân châu : nhiều vô kể,miệng lưỡi thông thái : thật hiếm hoi !</span>
+            <br />
+        
+    
+        
+            <span id="s16"><sup><a href="#s16">16</a></sup>Người nào dám bảo lãnh cho kẻ không quen,phải giữ lấy áo của người đó ;người nào muốn bảo đảm cho phụ nữ xa lạ,phải đòi người đó vật thế chân.</span>
+            <br />
+        
+    
+        
+            <span id="s17"><sup><a href="#s17">17</a></sup>Bánh phi nghĩa, con người lấy làm ngon,nhưng sau đó, miệng nó đầy đá sỏi.</span>
+            <br />
+        
+    
+        
+            <span id="s18"><sup><a href="#s18">18</a></sup>Lên kế hoạch, hãy dựa vào lời khuyên,lúc giao tranh, hãy nghe lời cố vấn.</span>
+            <br />
+        
+    
+        
+            <span id="s19"><sup><a href="#s19">19</a></sup>Đứa ngồi lê đôi mách tiết lộ điều bí mật,vậy đừng giao du với kẻ lắm lời.</span>
+            <br />
+        
+    
+        
+            <span id="s20"><sup><a href="#s20">20</a></sup>Kẻ nào nguyền rủa mẹ cha,ngay giữa đêm khuya, đèn nó bị tắt ngúm.</span>
+            <br />
+        
+    
+        
+            <span id="s21"><sup><a href="#s21">21</a></sup>Của cải kiếm vội được lúc đầu,thì về sau sẽ không được chúc phúc.</span>
+            <br />
+        
+    
+        
+            <span id="s22"><sup><a href="#s22">22</a></sup>Bạn đừng nói : "Tôi sẽ báo thù !"Hãy cậy trông ĐỨC CHÚA, Người sẽ cứu bạn.</span>
+            <br />
+        
+    
+        
+            <span id="s23"><sup><a href="#s23">23</a></sup>Cân non cân già làm ĐỨC CHÚA ghê tởm,bàn cân gian dối, nào tốt đẹp chi !</span>
+            <br />
+        
+    
+        
+            <span id="s24"><sup><a href="#s24">24</a></sup>ĐỨC CHÚA dẫn dắt từng bước chân con người,nẻo đời mình, phàm nhân sao hiểu hết.</span>
+            <br />
+        
+    
+        
+            <span id="s25"><sup><a href="#s25">25</a></sup>Nguy hiểm thay, khi vội vàng khấn dâng của cải,rồi sau đó lại tiếc nuối nghĩ suy.</span>
+            <br />
+        
+    
+        
+            <span id="s26"><sup><a href="#s26">26</a></sup>Vị minh quân sàng lọc lũ gian tà,cho bánh xe cán lên bọn chúng.</span>
+            <br />
+        
+    
+        
+            <span id="s27"><sup><a href="#s27">27</a></sup>Tinh thần là đèn sáng ĐỨC CHÚA ban cho con người,dò xét mọi ngõ ngách tâm can.</span>
+            <br />
+        
+    
+        
+            <span id="s28"><sup><a href="#s28">28</a></sup>Nhân nghĩa và tín thành gìn giữ đức vua,nhờ nhân ái, ngai vàng người bền vững.</span>
+            <br />
+        
+    
+        
+            <span id="s29"><sup><a href="#s29">29</a></sup>Sức mạnh là niềm tự hào của giới thanh niên,mái đầu bạc là vinh dự của hàng bô lão.</span>
+            <br />
+        
+    
+        
+            <span id="s30"><sup><a href="#s30">30</a></sup>Vết thương nhức nhối tẩy sạch điều gian ác,và roi vọt thấu đến tận cõi lòng.</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c21"><span class="chapter-title" id="c21">Chương 21</span></a>
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Trong tay ĐỨC CHÚA, lòng vua tựa dòng nước chảy,Người lèo lái đi đâu tuỳ ý Người.</span>
+            <br />
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Con người cho lối sống của mình là ngay thẳng,nhưng ĐỨC CHÚA thấu suốt mọi tâm can.</span>
+            <br />
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Thực thi điều công minh chính trựcthì đẹp lòng ĐỨC CHÚA hơn là dâng hy lễ.</span>
+            <br />
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Mắt kiêu hãnh, lòng tự cao,vẻ hào nhoáng của ác nhân : thảy đều là tội lỗi.</span>
+            <br />
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Kế hoạch người siêng năng hẳn tạo ra lợi nhuận,ai vội vàng hấp tấp, ắt phải chịu đói nghèo.</span>
+            <br />
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Kho tàng thu tích nhờ môi miệng điêu ngoalà hơi thở thoáng qua, là bẫy làm thiệt mạng.</span>
+            <br />
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Bạo hành của kẻ ác sẽ cuốn phăng kẻ ác,vì chúng không chịu thực thi công bình.</span>
+            <br />
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Đường lối của kẻ gian ác thì quanh co,hành động của người trong sạch thì ngay thẳng.</span>
+            <br />
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Thà ở một góc trên mái nhà,còn hơn chung sống với một bà hay gây.</span>
+            <br />
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Lòng ác nhân ước ao sự dữ,ngay bạn bè, nó chẳng để mắt thương.</span>
+            <br />
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Phạt đứa ưa chế giễu, kẻ khờ dại nên khôn,dạy bảo người khôn, người khôn càng hiểu biết.</span>
+            <br />
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>Đấng Công Chính xem xét nhà của ác nhân,bắt ác nhân lâm vòng tai hoạ.</span>
+            <br />
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>Kẻ bịt tai trước tiếng kêu của người cô thế,đến lúc nó kêu, sẽ chẳng được đáp lời.</span>
+            <br />
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>Tặng phẩm kín đáo làm tiêu tan cơn giận,quà giấu trong áo làm dịu trận lôi đình.</span>
+            <br />
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>Thực thi công lý là niềm vui cho người công chính,nhưng là nỗi kinh hoàng cho kẻ bất lương.</span>
+            <br />
+        
+    
+        
+            <span id="s16"><sup><a href="#s16">16</a></sup>Kẻ lạc xa con đường hiểu biết,sẽ phải sống chung với đám âm hồn.</span>
+            <br />
+        
+    
+        
+            <span id="s17"><sup><a href="#s17">17</a></sup>Kẻ ham vui sẽ bần cùng đói khổ,người mê rượu chè sẽ chẳng giàu đâu !</span>
+            <br />
+        
+    
+        
+            <span id="s18"><sup><a href="#s18">18</a></sup>Kẻ ác thành giá chuộc cho người công chính,tên phản bội bị phạt thay cho kẻ ngay lành.</span>
+            <br />
+        
+    
+        
+            <span id="s19"><sup><a href="#s19">19</a></sup>Thà sống nơi đìu hiu cô quạnh,còn hơn bên người vợ hay gây gổ nổi xung.</span>
+            <br />
+        
+    
+        
+            <span id="s20"><sup><a href="#s20">20</a></sup>Nhà người khôn có kho báu và dầu,còn người ngu có gì nuốt hết.</span>
+            <br />
+        
+    
+        
+            <span id="s21"><sup><a href="#s21">21</a></sup>Người theo đuổi công chính và nhân nghĩa,sẽ được sống lâu và vinh dự.</span>
+            <br />
+        
+    
+        
+            <span id="s22"><sup><a href="#s22">22</a></sup>Người khôn tấn công thành của quân thiện chiến,và lật nhào đồn luỹ chúng cậy trông.</span>
+            <br />
+        
+    
+        
+            <span id="s23"><sup><a href="#s23">23</a></sup>Kẻ giữ mồm giữ miệng,thì giữ mình khỏi những hiểm nguy.</span>
+            <br />
+        
+    
+        
+            <span id="s24"><sup><a href="#s24">24</a></sup>Đứa kiêu căng xấc xược được gọi là quân nhạo báng,nó cư xử ngạo ngược kiêu căng.</span>
+            <br />
+        
+    
+        
+            <span id="s25"><sup><a href="#s25">25</a></sup>Vì ham muốn, đứa lười mất mạng,bởi nó không chịu ra tay làm.</span>
+            <br />
+        
+    
+        
+            <span id="s26"><sup><a href="#s26">26</a></sup>Suốt ngày nó những ham cùng muốn,còn chính nhân cho hết, chẳng giữ lại gì.</span>
+            <br />
+        
+    
+        
+            <span id="s27"><sup><a href="#s27">27</a></sup>Hy lễ của ác nhân là điều ghê tởm,nhất là khi dâng với ý gian tà.</span>
+            <br />
+        
+    
+        
+            <span id="s28"><sup><a href="#s28">28</a></sup>Kẻ làm chứng gian sẽ phải tiêu vong,còn người biết nghe có thể nói hoài.</span>
+            <br />
+        
+    
+        
+            <span id="s29"><sup><a href="#s29">29</a></sup>Kẻ gian ác mang bộ mặt trơ trẽn,còn người ngay cứ vững bước trên đường.</span>
+            <br />
+        
+    
+        
+            <span id="s30"><sup><a href="#s30">30</a></sup>Khôn ngoan, hiểu biết, nhủ khuyên,tất cả chẳng là gì sánh với ĐỨC CHÚA.</span>
+            <br />
+        
+    
+        
+            <span id="s31"><sup><a href="#s31">31</a></sup>Chiến mã được chuẩn bị cho ngày giao tranh,nhưng thắng bại thuộc quyền ĐỨC CHÚA.</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c22"><span class="chapter-title" id="c22">Chương 22</span></a>
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Lắm của cải đâu quý bằng danh thơm tiếng tốt,vàng với bạc nào trọng bằng được mến được thương.</span>
+            <br />
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Kẻ giàu người nghèo gặp nhau ở điểm này :cả hai đều được ĐỨC CHÚA tạo dựng.</span>
+            <br />
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Gặp nguy hiểm, người khôn ẩn mình,đứa khờ dại lao tới và bị thiệt thân.</span>
+            <br />
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Giàu sang, vinh dự và sự sống là phần thưởngĐỨC CHÚA dành cho kẻ khiêm nhu và kính sợ Người.</span>
+            <br />
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Đường kẻ quanh co thì có gai, có bẫy,ai biết giữ mình ắt sẽ tránh xa.</span>
+            <br />
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Hãy dạy đứa trẻ đi con đường nó phải đi,để đến tuổi già, nó vẫn không lìa bỏ.</span>
+            <br />
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Người giàu thì thống trị kẻ nghèo,người đi vay làm tôi cho chủ nợ.</span>
+            <br />
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Kẻ gieo tai ác sẽ gặt tai ương,nó đã tàn phá, ắt sẽ tàn lụi.</span>
+            <br />
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Người tử tế sẽ được chúc phúc,vì đã đem cơm bánh cho người nghèo.</span>
+            <br />
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Đuổi quân nhạo báng đi là hết chuyện đôi co,cũng chẳng còn tranh chấp với lăng mạ.</span>
+            <br />
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Ai chuộng lòng thanh khiết và ăn nói dễ thươngsẽ được vua nhận làm bạn hữu.</span>
+            <br />
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>ĐỨC CHÚA để mắt trông nom người hiểu biết,và phi bác lời lẽ kẻ bất trung.</span>
+            <br />
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>Đứa lười nói : "Có con sư tử ở ngoài kia ;nếu tôi ra đường, chắc sẽ bị ăn thịt."</span>
+            <br />
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>Miệng người phụ nữ trắc nết ví tựa hố sâu,kẻ bị ĐỨC CHÚA ruồng bỏ sẽ sa vào đó.</span>
+            <br />
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>Tâm trí trẻ con vốn dại khờ,lấy roi sửa phạt là giúp nó nên khôn.</span>
+            <br />
+        
+    
+        
+            <span id="s16"><sup><a href="#s16">16</a></sup>Bóc lột người nghèo là làm giàu cho họ,tặng cho kẻ giàu là khiến mình nghèo đi.</span>
+            <br />
+        
+    
+        
+            <h5>III. SƯU TẬP NHỮNG LỜI CỦA BẬC KHÔN NGOAN</h5>
+        
+    
+        
+            <span id="s17"><sup><a href="#s17">17</a></sup>Con hãy lắng tai nghe lời bậc khôn ngoan,và chú tâm vào những hiểu biết của thầy.</span>
+            <br />
+        
+    
+        
+            <span id="s18"><sup><a href="#s18">18</a></sup>Vì khi con giữ những lời ấy trong tâm khảmvà sẵn sàng nói hết ra ngoài miệngthì thật là vui thú dường bao !</span>
+            <br />
+        
+    
+        
+            <span id="s19"><sup><a href="#s19">19</a></sup>Hôm nay thầy muốn dạy con, cả con nữa,để con một niềm tin tưởng vào ĐỨC CHÚA.</span>
+            <br />
+        
+    
+        
+            <span id="s20"><sup><a href="#s20">20</a></sup>Há thầy đã chẳng viết cho con ba mươi huấn dụgồm những lời khuyên răn và hiểu biết đó sao ?</span>
+            <br />
+        
+    
+        
+            <span id="s21"><sup><a href="#s21">21</a></sup>Mục đích là để giúp con am tườngnhững lời chân thậtvà trình bày lại cho người đã sai consao cho thật trung thành.</span>
+            <br />
+        
+    
+        
+            <span id="s22"><sup><a href="#s22">22</a></sup>Đừng bóc lột người nghèo, vì họ đã nghèo sẵn ;cũng đừng chà đạp người yếu thế nơi cửa công,</span>
+            <br />
+        
+    
+        
+            <span id="s23"><sup><a href="#s23">23</a></sup>vì ĐỨC CHÚA sẽ biện hộ cho họ,và những ai tước đoạt họ, Người sẽ tước mạng sống.</span>
+            <br />
+        
+    
+        
+            <span id="s24"><sup><a href="#s24">24</a></sup>Đừng bè bạn với người hay nóng giận,chớ giao du với kẻ dễ nổi xung,</span>
+            <br />
+        
+    
+        
+            <span id="s25"><sup><a href="#s25">25</a></sup>kẻo con lại học đòi lối sống của chúng,khiến thân con mắc phải bẫy dò.</span>
+            <br />
+        
+    
+        
+            <span id="s26"><sup><a href="#s26">26</a></sup>Đừng thuộc hạng người bắt tay giao kèo,hay hạng người bảo lãnh cho kẻ khác vay mượn,</span>
+            <br />
+        
+    
+        
+            <span id="s27"><sup><a href="#s27">27</a></sup>vì nếu con không có gì để trả,giường con đang nằm, người ta cũng lấy đi.</span>
+            <br />
+        
+    
+        
+            <span id="s28"><sup><a href="#s28">28</a></sup>Đường ranh cha ông đã ấn định từ trước,con đừng có chuyển dời.</span>
+            <br />
+        
+    
+        
+            <span id="s29"><sup><a href="#s29">29</a></sup>Con có thấy người giỏi giang khéo léo ?Người ấy sẽ được vào phục vụ các vua,chứ không phục vụ hạng tầm thường.</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c23"><span class="chapter-title" id="c23">Chương 23</span></a>
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Khi con ngồi ăn với kẻ có chức quyền,hãy để ý kỹ người đối diện.</span>
+            <br />
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Nếu con vốn tham ăn, hãy đặt dao kề cổ.</span>
+            <br />
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Đừng thèm thuồng cao lương mỹ vị của hắn,vì đó là thứ đồ ăn phỉnh gạt.</span>
+            <br />
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Chớ nhọc công thu tích của cải,và cũng đừng bận tâm đến nó ;</span>
+            <br />
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>mắt con vừa thấy, nó đã chẳng còn,vì nó mọc cánh bay đi mất,tựa đại bàng bay tới trời cao.</span>
+            <br />
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Chớ ăn bánh của quân xấu bụng,đừng thèm thuồng cao lương mỹ vị của hắn.</span>
+            <br />
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Vì lòng hắn nghĩ sao, con người hắn như vậy.Hắn mời con : "Ăn uống đi nào !"Nhưng đâu phải hắn có lòng với con.</span>
+            <br />
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Mẩu bánh vừa nuốt vào, con đã phải thổ ra.Mất công toi bao nhiêu lời tốt đẹp,</span>
+            <br />
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>con đừng nói vào tai đứa dốt,vì nó sẽ khinh dể lời lẽ khôn ngoan của con.</span>
+            <br />
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Con chớ chuyển dời đường ranh cũ,cũng đừng xâm phạm cánh đồng của trẻ mồ côi,</span>
+            <br />
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>vì Đấng cứu chuộc chúng là Đấng hùng mạnh,chính Người sẽ biện hộ cho chúng chống lại con.</span>
+            <br />
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>Con hãy để tâm đón lấy lời huấn dụ,và lắng tai nghe điều hiểu biết.</span>
+            <br />
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>Đừng ngại gì khi phải phạt trẻ con,nếu con đánh nó bằng roi, nó đâu có chết.</span>
+            <br />
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>Lấy roi đánh nó là cứu nó khỏi âm ty.</span>
+            <br />
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>Hỡi con, tâm trí con khôn ngoanthì lòng dạ thầy cũng vui sướng.</span>
+            <br />
+        
+    
+        
+            <span id="s16"><sup><a href="#s16">16</a></sup>Môi miệng con nói những lời chính trựcthì tâm hồn thầy sẽ mừng rỡ hân hoan.</span>
+            <br />
+        
+    
+        
+            <span id="s17"><sup><a href="#s17">17</a></sup>Đừng để lòng con phân bì với quân tội lỗi,nhưng hãy luôn kính sợ ĐỨC CHÚA,</span>
+            <br />
+        
+    
+        
+            <span id="s18"><sup><a href="#s18">18</a></sup>vì chắc chắn con có một tương laivà niềm hy vọng của con sẽ không thành mây khói.</span>
+            <br />
+        
+    
+        
+            <span id="s19"><sup><a href="#s19">19</a></sup>Hỡi con, hãy nghe thầy và con sẽ nên khôn,hãy hướng lòng con theo chính đạo.</span>
+            <br />
+        
+    
+        
+            <span id="s20"><sup><a href="#s20">20</a></sup>Đừng nhập bọn với quân chè chén say sưa,với những kẻ chỉ mê ăn mê nhậu.</span>
+            <br />
+        
+    
+        
+            <span id="s21"><sup><a href="#s21">21</a></sup>Bởi vì kẻ say sưa ăn nhậu ắt sẽ phải túng nghèo ;kẻ mơ màng buồn ngủ sẽ khố rách áo ôm.</span>
+            <br />
+        
+    
+        
+            <span id="s22"><sup><a href="#s22">22</a></sup>Hãy lắng nghe cha con, đấng sinh thành ra con,đừng khinh dể mẹ con khi người già yếu.</span>
+            <br />
+        
+    
+        
+            <span id="s23"><sup><a href="#s23">23</a></sup>Chân lý và khôn ngoan, nghiêm huấn và hiểu biết,con hãy mua lấy chứ đừng bán đi.</span>
+            <br />
+        
+    
+        
+            <span id="s24"><sup><a href="#s24">24</a></sup>Thân phụ người công chính sẽ mừng vui,đấng sinh thành người khôn sẽ hoan hỷ.</span>
+            <br />
+        
+    
+        
+            <span id="s25"><sup><a href="#s25">25</a></sup>Ước gì cha mẹ con được hỷ hoanvà người sinh ra con được mừng rỡ.</span>
+            <br />
+        
+    
+        
+            <span id="s26"><sup><a href="#s26">26</a></sup>Hỡi con, hãy hết lòng tin tưởng vào thầyvà hãy để mắt noi gương thầy.</span>
+            <br />
+        
+    
+        
+            <span id="s27"><sup><a href="#s27">27</a></sup>Vì gái điếm là hố sâuvà phụ nữ ngoại tình là giếng hẹp.</span>
+            <br />
+        
+    
+        
+            <span id="s28"><sup><a href="#s28">28</a></sup>Nó khác nào kẻ cướp rình chờhòng tăng số những kẻ bất trung trong nhân loại.</span>
+            <br />
+        
+    
+        
+            <span id="s29"><sup><a href="#s29">29</a></sup>Ai kêu : "Than ôi !" ? Ai kêu : "Khổ quá !" ?Ai cứ gây gổ ? Ai phải thở than ?Ai chịu những vết thương vô lý ?Ai có đôi mắt đỏ ngầu ?</span>
+            <br />
+        
+    
+        
+            <span id="s30"><sup><a href="#s30">30</a></sup>Đó là kẻ nấn ná mãi bên ly rượu,là người đã nếm đủ thứ rượu ngon.</span>
+            <br />
+        
+    
+        
+            <span id="s31"><sup><a href="#s31">31</a></sup>Nhìn rượu làm chi : rượu màu đỏ hồng,óng ánh trong ly, rồi trôi xuống cổ.</span>
+            <br />
+        
+    
+        
+            <span id="s32"><sup><a href="#s32">32</a></sup>Nhưng rốt cuộc, rượu như rắn cắn,như nọc độc hổ mang.</span>
+            <br />
+        
+    
+        
+            <span id="s33"><sup><a href="#s33">33</a></sup>Mắt con sẽ thấy những điều kỳ dị,lòng con tuôn ra bao chuyện nhảm nhí.</span>
+            <br />
+        
+    
+        
+            <span id="s34"><sup><a href="#s34">34</a></sup>Con như người bồng bềnh giữa biển khơi,lắc lư trên cột buồm.</span>
+            <br />
+        
+    
+        
+            <span id="s35"><sup><a href="#s35">35</a></sup>"Bị người đánh, tôi chẳng biết đau,bị người đập, tôi đâu cảm thấy.Đến bao giờ mới tỉnh rượu đâyđể tôi lại kiếm thêm ly nữa ?"</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c24"><span class="chapter-title" id="c24">Chương 24</span></a>
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Chớ phân bì với quân tội lỗi,cũng đừng ham bè bạn với chúng,</span>
+            <br />
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>vì lòng chúng chỉ nghĩ đến bạo hànhvà môi chúng toàn nói lời độc ác.</span>
+            <br />
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Có khôn ngoan mới dựng được nhà,có sáng suốt mới biết xây cho vững.</span>
+            <br />
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Nhờ hiểu biết, phòng ốc mới đầy dưmọi của cải sang trọng và quý giá.</span>
+            <br />
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Người khôn ngoan được nên mạnh mẽ,kẻ hiểu biết làm sức mạnh gia tăng.</span>
+            <br />
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Khi giao chiến, cần lời chỉ đạo,muốn thắng trận, cần nhiều cố vấn.</span>
+            <br />
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Đối với kẻ ngu, đức khôn ngoan cao vời vợi,nơi cổng thành, nó chẳng dám hé môi.</span>
+            <br />
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Kẻ mưu tính những chuyện gian tàsẽ bị gọi là vua bịp bợm.</span>
+            <br />
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Kẻ ngu si chỉ mưu toan tội lỗi,quân chế nhạo bị kẻ ghét người khinh.</span>
+            <br />
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Ngày khốn quẫn mà để mất tinh thần,sức lực con ắt sẽ bị suy giảm.</span>
+            <br />
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Hãy giải thoát những người bị đem đi giết,cứu những ai lảo đảo bước đến pháp trường.</span>
+            <br />
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>Giả như con bảo : "Tôi đâu biết chuyện ấy,"thì Đấng đo lòng người lại không hiểu hết sao ?Đấng canh giữ lòng con thấu suốt cả,Người sẽ thưởng phạt ai nấy theo việc họ làm.</span>
+            <br />
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>Hỡi con, cứ ăn đi, mật ong ngon lắm,mật ong nguyên chất ngọt ngào trong miệng con.</span>
+            <br />
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>Con nên nhớ : đức khôn ngoan đối với con cũng vậy.Nếu con gặp được, hẳn sẽ có tương lai,và niềm hy vọng của con sẽ không tan vỡ.</span>
+            <br />
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>Này kẻ gian, chớ rình rập nhà người công chính,cũng đừng phá phách nơi họ ở.</span>
+            <br />
+        
+    
+        
+            <span id="s16"><sup><a href="#s16">16</a></sup>Vì chính nhân có ngã bảy lần cũng đứng lên được,còn kẻ ác cứ lảo đảo hoài trong cảnh tai ương.</span>
+            <br />
+        
+    
+        
+            <span id="s17"><sup><a href="#s17">17</a></sup>Khi quân thù gục ngã, con đừng lấy làm vui,lúc nó bị lảo đảo, lòng con chớ reo mừng,</span>
+            <br />
+        
+    
+        
+            <span id="s18"><sup><a href="#s18">18</a></sup>kẻo ĐỨC CHÚA trông thấy mà gai mắtvà không nổi giận với nó nữa đâu.</span>
+            <br />
+        
+    
+        
+            <span id="s19"><sup><a href="#s19">19</a></sup>Đừng ganh ghét với bọn bất lương,chớ ghen tương cùng phường gian ác.</span>
+            <br />
+        
+    
+        
+            <span id="s20"><sup><a href="#s20">20</a></sup>Vì bọn bất lương chẳng có tương lai,và ngọn đèn của phường gian ác sẽ tàn lụi.</span>
+            <br />
+        
+    
+        
+            <span id="s21"><sup><a href="#s21">21</a></sup>Hỡi con, hãy kính sợ ĐỨC CHÚA và nhà vua,đừng giao du với những quân nổi loạn.</span>
+            <br />
+        
+    
+        
+            <span id="s22"><sup><a href="#s22">22</a></sup>Vì tai hoạ sẽ giáng xuống bất ngờ,cả hai sẽ tiêu diệt chúng ra sao, nào có ai lường được ?</span>
+            <br />
+        
+    
+        
+            <h5>IV. SƯU TẬP NHỮNG LỜI KHÁC CỦA BẬC KHÔN NGOAN</h5>
+        
+    
+        
+            <span id="s23"><sup><a href="#s23">23</a></sup>Những câu sau đây cũng là của bậc khôn ngoan :Xét xử thiên vị là điều không tốt.</span>
+            <br />
+        
+    
+        
+            <span id="s24"><sup><a href="#s24">24</a></sup>Ai bảo kẻ gian ác rằng : "Anh vô tội !"thì sẽ bị các dân nguyền rủa, các nước cười chê.</span>
+            <br />
+        
+    
+        
+            <span id="s25"><sup><a href="#s25">25</a></sup>Còn ai răn đe nó, ắt sẽ được mừng vuivà phúc lành sẽ đến trên người đó.</span>
+            <br />
+        
+    
+        
+            <span id="s26"><sup><a href="#s26">26</a></sup>Ai trả lời thẳng thắn mới là người bạn thật.</span>
+            <br />
+        
+    
+        
+            <span id="s27"><sup><a href="#s27">27</a></sup>Hãy ổn định mọi chuyện bên ngoàivà thu xếp công việc đồng áng,rồi sau đó mới lo dựng nhà.</span>
+            <br />
+        
+    
+        
+            <span id="s28"><sup><a href="#s28">28</a></sup>Đừng vô cớ làm chứng hại bạn bè,cũng đừng nói ngọt nói ngon mà lừa đảo họ.</span>
+            <br />
+        
+    
+        
+            <span id="s29"><sup><a href="#s29">29</a></sup>Con đừng nói : "Hắn đối xử với tôi ra sao, tôi xử lại với hắn như vậy.Tôi trả báo từng người theo việc họ làm."</span>
+            <br />
+        
+    
+        
+            <span id="s30"><sup><a href="#s30">30</a></sup>Tôi đi ngang cánh đồng của người biếng nhác,qua vườn nho của kẻ ngu si.</span>
+            <br />
+        
+    
+        
+            <span id="s31"><sup><a href="#s31">31</a></sup>Và này : chỗ nào cũng um tùm gai góc,khắp mặt đất phủ đầy cỏ dại,tường đá bị sụp đổ hoang tàn.</span>
+            <br />
+        
+    
+        
+            <span id="s32"><sup><a href="#s32">32</a></sup>Tôi đã nhìn và để tâm suy nghĩ,tôi đã thấy và rút ra bài học này :</span>
+            <br />
+        
+    
+        
+            <span id="s33"><sup><a href="#s33">33</a></sup>Ngủ một chút, chợp mắt một chút,khoanh tay nằm một chút,</span>
+            <br />
+        
+    
+        
+            <span id="s34"><sup><a href="#s34">34</a></sup>là cái nghèo sẽ đến với bạn như tên du thủ du thực,cảnh bần cùng sẽ đột nhập như người có vũ trang.</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c25"><span class="chapter-title" id="c25">Chương 25</span></a>
+    
+        
+            <h5>V. BỘ SƯU TẬP THỨ HAI CÁC CHÂM NGÔN CỦA VUA SA-LÔ-MÔN</h5>
+        
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Đây cũng là những châm ngôn của vua Sa-lô-mônđược quần thần của Khít-ki-gia, vua nước Giu-đa, ghi chép lại.</span>
+            <br />
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Thiên Chúa vinh quang khi giấu kín việc Người làm,đức vua vinh quang khi thấu hiểu việc nước.</span>
+            <br />
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Như trời cao đất dày,tâm trí bậc đế vương thật vô phương dò thấu.</span>
+            <br />
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Lọc hết cặn bẩn ra khỏi bạc,thợ bạc sẽ có một cái bình.</span>
+            <br />
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Loại người gian ác khỏi long nhan,ngai vàng sẽ kiên vững trên nền công chính.</span>
+            <br />
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Trước long nhan, đừng lên mặt kiêu kỳ,chớ đứng vào chỗ của hàng vị vọng.</span>
+            <br />
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Thà được người ta bảo : "Xin mời ông lên trên !"còn hơn bị hạ xuống trước mặt người quyền cao chức trọng.Điều mắt con nhìn thấy,</span>
+            <br />
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>con đừng vội đem ra trước toà,vì nếu đối phương làm cho con phải xấu hổ,thì rốt cuộc con sẽ ăn nói ra sao ?</span>
+            <br />
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Cứ tranh cãi với đối phương,nhưng đừng tiết lộ chuyện riêng của người khác,</span>
+            <br />
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>kẻo có ai nghe được, họ sẽ phỉ báng con,và con không rút lại được những lời nói xấu.</span>
+            <br />
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Lời nói ra đúng lúc đúng thờikhác chi táo vàng trên đĩa bạc chạm trổ.</span>
+            <br />
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>Đối với kẻ biết nghe, lời trách cứ của người khôntựa nhẫn vàng hay kiềng vàng hảo hạng.</span>
+            <br />
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>Sứ giả trung tín với kẻ sai mình đithì đáng quý như tuyết mát ngày mùa :người đó làm vững lòng ông chủ.</span>
+            <br />
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>Kẻ to miệng hứa tặng quà mà không giữ lời hứachẳng khác nào có mây, có gió mà chẳng có mưa.</span>
+            <br />
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>Cứ kiên nhẫn, thủ lãnh sẽ xiêu lòng,lời mềm mỏng làm nát tan xương cốt.</span>
+            <br />
+        
+    
+        
+            <span id="s16"><sup><a href="#s16">16</a></sup>Kiếm được mật, con chỉ ăn vừa đủ,ăn quá nhiều, ắt sẽ mửa ra thôi.</span>
+            <br />
+        
+    
+        
+            <span id="s17"><sup><a href="#s17">17</a></sup>Đừng năng lui tới với bạn bè,kẻo nó chán ngấy con mà đem lòng ghét bỏ.</span>
+            <br />
+        
+    
+        
+            <span id="s18"><sup><a href="#s18">18</a></sup>Kẻ làm chứng gian hại bạn bèchẳng khác nào chuỳ, gươm và tên nhọn.</span>
+            <br />
+        
+    
+        
+            <span id="s19"><sup><a href="#s19">19</a></sup>Trong ngày khốn quẫn,lòng tin tưởng vào đứa bất trungsẽ như răng lung lay, như chân lảo đảo.</span>
+            <br />
+        
+    
+        
+            <span id="s20"><sup><a href="#s20">20</a></sup>Ca hát khi người khác khổ đauthì như lột áo lúc trời lạnhhay đổ thêm giấm vào nước chanh.</span>
+            <br />
+        
+    
+        
+            <span id="s21"><sup><a href="#s21">21</a></sup>Kẻ thù con có đói, hãy cho nó bánh ăn,nó có khát, hãy cho nước uống.</span>
+            <br />
+        
+    
+        
+            <span id="s22"><sup><a href="#s22">22</a></sup>Như vậy là chất than hồng lên đầu nó,và ĐỨC CHÚA sẽ thưởng cho con.</span>
+            <br />
+        
+    
+        
+            <span id="s23"><sup><a href="#s23">23</a></sup>Như gió bấc khiến trời đổ mưa,lời nói lén làm người ta nổi giận.</span>
+            <br />
+        
+    
+        
+            <span id="s24"><sup><a href="#s24">24</a></sup>Thà ở một góc trên mái nhà,còn hơn chung sống với một bà hay gây.</span>
+            <br />
+        
+    
+        
+            <span id="s25"><sup><a href="#s25">25</a></sup>Tin vui từ phương xa đếntựa nước mát khi cổ họng ráo khô.</span>
+            <br />
+        
+    
+        
+            <span id="s26"><sup><a href="#s26">26</a></sup>Nước bị đục, suối bị dơ,chính nhân bị kẻ gian ác làm nghiêng ngửa.</span>
+            <br />
+        
+    
+        
+            <span id="s27"><sup><a href="#s27">27</a></sup>Mật ong, ăn quá nhiều không tốt,những lời ca ngợi, con chớ mải kiếm tìm.</span>
+            <br />
+        
+    
+        
+            <span id="s28"><sup><a href="#s28">28</a></sup>Người không biết tự chủví như thành bỏ ngỏ, không tường luỹ chở che.</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c26"><span class="chapter-title" id="c26">Chương 26</span></a>
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Tuyết đâu rơi mùa hè, trời đâu mưa mùa gặt,quyền cao chức trọng đâu hợp với kẻ ngu si.</span>
+            <br />
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Như chim sẻ bay, như chim én lượn,lời nguyền rủa vô cớ cũng chẳng đi tới đâu.</span>
+            <br />
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Roi dành cho ngựa, hàm thiếc cho lừa,đòn vọt dành cho lưng đứa ngu xuẩn.</span>
+            <br />
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Đừng đáp lại đứa ngu theo cái ngu của nó,kẻo chính con cũng lại giống nó thôi.</span>
+            <br />
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Hãy đáp lại đứa ngu theo cái ngu của nó,kẻo nó cứ tưởng là nó khôn.</span>
+            <br />
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Nhờ đứa ngu chuyển giùm sứ điệpchẳng khác chi tự chặt chân mìnhvà gánh lấy biết bao tai hoạ.</span>
+            <br />
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Đứa dốt mở miệng nói khôn nói ngoanthì cũng như anh què đi khập khiễng.</span>
+            <br />
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Bày tỏ lòng kính trọng đứa nguchẳng khác chi cột sỏi vào ná bắn.</span>
+            <br />
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Đứa dốt mở miệng nói khôn nói ngoanchẳng khác gì kẻ say vung cành gai mà múa.</span>
+            <br />
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Ai mướn kẻ ngu hay người saythì cũng ví tựa kẻ bắn cunggây thương tích cho mọi người qua lại.</span>
+            <br />
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Con chó quay lại chỗ nó mửa,đứa ngu lặp lại chuyện ngu đần.</span>
+            <br />
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>Nếu con gặp một kẻ tự cho mình là khôn,thì thà hy vọng vào đứa ngu còn hơn.</span>
+            <br />
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>Tên lười nói : "Ngoài đường có sư tử,nơi quảng trường có chúa sơn lâm."</span>
+            <br />
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>Cánh cửa xoay trên trục,đứa lười lăn trên giường.</span>
+            <br />
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>Kẻ lười biếng thò tay vào đĩa,nhưng chẳng buồn đưa thức ăn lên miệng.</span>
+            <br />
+        
+    
+        
+            <span id="s16"><sup><a href="#s16">16</a></sup>Kẻ lười biếng tự hàomình khôn hơn bảy người có tài đối đáp.</span>
+            <br />
+        
+    
+        
+            <span id="s17"><sup><a href="#s17">17</a></sup>Xen vô chuyện của ngườikhác nào kéo tai chó chạy rông.</span>
+            <br />
+        
+    
+        
+            <span id="s19"><sup><a href="#s19">19</a></sup>Kẻ lừa đảo bạn bè, rồi bảo : "Đùa đấy thôi !"</span>
+            <br />
+        
+    
+        
+            <span id="s18"><sup><a href="#s18">18</a></sup>thì cũng như người giả vờ điênphóng lửa, bắn tên gây chết chóc.</span>
+            <br />
+        
+    
+        
+            <span id="s20"><sup><a href="#s20">20</a></sup>Củi tàn thì lửa tắt,hết kẻ mách lẻo thì cũng bớt đôi co.</span>
+            <br />
+        
+    
+        
+            <span id="s21"><sup><a href="#s21">21</a></sup>Than nuôi bếp hồng, củi nuôi lửa đỏ,kẻ hay gây gổ khiến cãi cọ bùng lên.</span>
+            <br />
+        
+    
+        
+            <span id="s22"><sup><a href="#s22">22</a></sup>Lời đứa mách lẻo như của ngon vật lạtrôi xuống tận ruột gan.</span>
+            <br />
+        
+    
+        
+            <span id="s23"><sup><a href="#s23">23</a></sup>Lời lẽ mặn nồng mà lòng dạ xấu xachẳng khác nào bạc cặn dát trên đồ gốm.</span>
+            <br />
+        
+    
+        
+            <span id="s24"><sup><a href="#s24">24</a></sup>Kẻ ghét ghen, môi miệng khéo vờ vĩnh,nhưng thâm tâm vẫn đặt chuyện lọc lừa.</span>
+            <br />
+        
+    
+        
+            <span id="s25"><sup><a href="#s25">25</a></sup>Nó dùng lời quyến rũ, con đừng có tin,vì lòng nó chứa đầy chuyện ghê tởm.</span>
+            <br />
+        
+    
+        
+            <span id="s26"><sup><a href="#s26">26</a></sup>Nó mưu mô che đậy lòng ghen ghét,nhưng ác tâm của nó bị đại hội vạch trần.</span>
+            <br />
+        
+    
+        
+            <span id="s27"><sup><a href="#s27">27</a></sup>Kẻ đào hố bị sa xuống hố,người lăn đá lại bị đá đè.</span>
+            <br />
+        
+    
+        
+            <span id="s28"><sup><a href="#s28">28</a></sup>Lưỡi dối gian ghét người nó làm hại,miệng ngọt xớt gây đổ vỡ nát tan.</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c27"><span class="chapter-title" id="c27">Chương 27</span></a>
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Chớ huênh hoang tự đắc về ngày mai,vì hôm nay sẽ xảy ra chuyện gì, con đâu biết được.</span>
+            <br />
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Hãy để kẻ xa người lạ ngợi khen con,đừng có hé môi khen ngợi chính mình.</span>
+            <br />
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Đá nặng, cát cũng nặng,đứa ngu nổi giận còn nặng nề hơn.</span>
+            <br />
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Đứa nóng giận thì độc ác, kẻ thịnh nộ thì bạo tàn,nhưng trước người nổi cơn ghen, ai nào đứng vững ?</span>
+            <br />
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Thà chỉ trích công khaicòn hơn yêu thương mà không bày tỏ.</span>
+            <br />
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Bạn bè làm thương tổn, bạn bè vẫn chân thành,kẻ thù có ôm hôn, kẻ thù cũng giả dối.</span>
+            <br />
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Người no, tảng mật cũng coi thường,kẻ đói thấy đắng cay cũng ngọt.</span>
+            <br />
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Người xa quê như chim xa tổ.</span>
+            <br />
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Dầu và hương thơm làm phấn khởi lòng người,tình bạn ngọt ngào giúp tinh thần thêm vững mạnh.</span>
+            <br />
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Bạn của con hay bạn của cha con, đừng nỡ bỏ rơi họ.Gặp ngày khốn quẫn, đừng đến nhà anh em con,vì anh em xa không bằng láng giềng gần.</span>
+            <br />
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Này con, hãy khôn ngoan cho thầy được thoả dạvà có thể đối đáp với ai sỉ nhục thầy.</span>
+            <br />
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>Gặp nguy hiểm, người khôn ẩn mình,đứa khờ dại lao tới và bị thiệt thân.</span>
+            <br />
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>Người nào dám bảo lãnh cho kẻ không quen,phải giữ lấy áo của người đó ;người nào muốn bảo đảmcho phụ nữ xa lạ,phải đòi người đó vật thế chân.</span>
+            <br />
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>Lớn tiếng chúc lành cho bạn hữu ngay từ sáng sớmthì chẳng khác nào nguyền rủa họ.</span>
+            <br />
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>Đàn bà lắm điều như nhà dột ngày mưa.</span>
+            <br />
+        
+    
+        
+            <span id="s16"><sup><a href="#s16">16</a></sup>Giữ được đàn bà như giữ được gió,hay nắm được dầu trong tay.</span>
+            <br />
+        
+    
+        
+            <span id="s17"><sup><a href="#s17">17</a></sup>Sắt bén nhờ sắt,con người nên sắc bén nhờ bạn bè.</span>
+            <br />
+        
+    
+        
+            <span id="s18"><sup><a href="#s18">18</a></sup>Giữ cây vả thì được ăn trái vả,bảo vệ thầy ắt sẽ được kính yêu.</span>
+            <br />
+        
+    
+        
+            <span id="s19"><sup><a href="#s19">19</a></sup>Nước phản chiếu khuôn mặt,tâm tư phản ánh con người.</span>
+            <br />
+        
+    
+        
+            <span id="s20"><sup><a href="#s20">20</a></sup>Âm ty, âm phủ không bao giờ đầy,cặp mắt con người chẳng bao giờ thoả.</span>
+            <br />
+        
+    
+        
+            <span id="s21"><sup><a href="#s21">21</a></sup>Lò thử vàng, nồi thử bạc,tiếng khen cho thấy giá trị con người.</span>
+            <br />
+        
+    
+        
+            <span id="s22"><sup><a href="#s22">22</a></sup>Giã đứa ngu trong cối như lấy chày giã gạo,con cũng chẳng lột được cái ngu của nó.</span>
+            <br />
+        
+    
+        
+            <span id="s23"><sup><a href="#s23">23</a></sup>Hãy biết rõ tình trạng bầy gia súcvà lưu tâm đến đàn vật của con,</span>
+            <br />
+        
+    
+        
+            <span id="s24"><sup><a href="#s24">24</a></sup>vì của cải không bền lâu muôn thuởvà danh vọng chẳng lưu truyền muôn kiếp.</span>
+            <br />
+        
+    
+        
+            <span id="s25"><sup><a href="#s25">25</a></sup>Khi cỏ khô đã cắt và cỏ non lại mọc,khi cỏ xanh trên đồi núi cũng được gom về</span>
+            <br />
+        
+    
+        
+            <span id="s26"><sup><a href="#s26">26</a></sup>thì chiên sẽ cho con có áo che thân,dê sẽ giúp con có tiền tậu ruộng,</span>
+            <br />
+        
+    
+        
+            <span id="s27"><sup><a href="#s27">27</a></sup>và sẽ có đủ sữa dê để nuôi bản thân con,nuôi cả nhà và các tỳ nữ.</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c28"><span class="chapter-title" id="c28">Chương 28</span></a>
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Ác nhân trốn chạy dù không ai đuổi bắt,còn chính nhân đứng vững tựa sư tử con.</span>
+            <br />
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Khi đất nước loạn lạcthì lắm kẻ xưng hùng xưng bá,còn đất nước được ổn địnhlà nhờ một người hiểu biết khôn ngoan.</span>
+            <br />
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Ác nhân bóc lột người thiếu thốn,khác nào cơn mưa lũ gây nên cảnh đói ăn.</span>
+            <br />
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Kẻ bỏ lề luật thì ca ngợi ác nhân,người giữ lề luật thì chống lại bọn chúng.</span>
+            <br />
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Phường gian ác đâu hiểu lẽ công bình,nhưng ai kiếm tìm ĐỨC CHÚA thì am tường mọi sự.</span>
+            <br />
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Thà nghèo mà ăn ở vẹn toàncòn hơn giàu mà sống quanh co.</span>
+            <br />
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Người giữ lề luật là đứa con khôn,kẻ bè bạn với phường bê tha làm cho cha tủi nhục.</span>
+            <br />
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Cho vay nặng lãi để được thêm giàu cólà gom của vào tay kẻ biết thương người nghèo.</span>
+            <br />
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Ai bưng tai chẳng muốn nghe lề luật,cả lời nó nguyện cầu cũng đáng ghê tởm.</span>
+            <br />
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Kẻ quyến rũ người ngay thẳng theo đường xấuthì chính nó lại sa vào hố nó đào,nhưng người sống vẹn toàn sẽ thừa hưởng hạnh phúc.</span>
+            <br />
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Kẻ giàu có cứ tưởng mình khôn,nhưng người nghèo mà sáng suốt thì biết rõ kẻ ấy.</span>
+            <br />
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>Khi chính nhân thắng trậnthì vinh quang chiếu toả nơi nơi,khi kẻ ác đứng lên, ai cũng phải ẩn mình.</span>
+            <br />
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>Kẻ giấu tội mình sẽ không thành đạt,nhưng ai xưng thú và chừa tội sẽ được xót thương.</span>
+            <br />
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>Phúc cho người luôn luôn biết sợ,còn kẻ cứng lòng sẽ gặp phải tai ương.</span>
+            <br />
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>Như sư tử rống, như gấu xông vào mồi,kẻ bất lương thống trị đám dân đen cũng vậy.</span>
+            <br />
+        
+    
+        
+            <span id="s16"><sup><a href="#s16">16</a></sup>Kẻ cầm quyền ngu dốt lo chiếm đoạt cho nhiều,còn ai khinh chê lợi lộc bất chính, sẽ được trường thọ.</span>
+            <br />
+        
+    
+        
+            <span id="s17"><sup><a href="#s17">17</a></sup>Kẻ bị giày vò vì tội sát nhân sẽ phải trốn chạy cho đến chếtchẳng cần bắt nó làm chi !</span>
+            <br />
+        
+    
+        
+            <span id="s18"><sup><a href="#s18">18</a></sup>Người sống thanh liêm sẽ được cứu thoát,kẻ ăn ở quanh co sẽ sa vào hố bẫy.</span>
+            <br />
+        
+    
+        
+            <span id="s19"><sup><a href="#s19">19</a></sup>Người canh tác đất đai được no đầy cơm bánh,kẻ chạy theo chuyện phù phiếm sẽ phải chịu bần cùng.</span>
+            <br />
+        
+    
+        
+            <span id="s20"><sup><a href="#s20">20</a></sup>Người trung tín được đầy dư phúc lành,kẻ muốn mau giàu sẽ không thoát khỏi hình phạt.</span>
+            <br />
+        
+    
+        
+            <span id="s21"><sup><a href="#s21">21</a></sup>Thiên vị thì chẳng tốt đẹp gì,người ta có thể phạm tội chỉ vì một mẩu bánh.</span>
+            <br />
+        
+    
+        
+            <span id="s22"><sup><a href="#s22">22</a></sup>Người xấu bụng chạy theo tiền của,đâu biết rằng cảnh nghèo sắp ập đến bên mình.</span>
+            <br />
+        
+    
+        
+            <span id="s23"><sup><a href="#s23">23</a></sup>Kẻ dám khiển trách ngườicuối cùng lại được người quý yêuhơn kẻ chỉ buông lời xu nịnh.</span>
+            <br />
+        
+    
+        
+            <span id="s24"><sup><a href="#s24">24</a></sup>Kẻ bóc lột mẹ cha, rồi bảo : "Đâu có tội vạ gì !",chính hắn là bạn của quân ăn cướp.</span>
+            <br />
+        
+    
+        
+            <span id="s25"><sup><a href="#s25">25</a></sup>Kẻ lắm tham vọng thì gây ra cãi vã,còn ai cậy vào ĐỨC CHÚA sẽ được thịnh đạt.</span>
+            <br />
+        
+    
+        
+            <span id="s26"><sup><a href="#s26">26</a></sup>Kẻ cậy mình tài trí, ấy là kẻ ngu si.Người theo lẽ khôn ngoan, ắt sẽ được cứu thoát.</span>
+            <br />
+        
+    
+        
+            <span id="s27"><sup><a href="#s27">27</a></sup>Ai bố thí cho người nghèosẽ chẳng hề túng thiếu.Còn ai cứ nhắm mắt làm ngơsẽ phải chịu bao lời nguyền rủa.</span>
+            <br />
+        
+    
+        
+            <span id="s28"><sup><a href="#s28">28</a></sup>Kẻ ác đứng lên, người người đều lẩn trốn.Kẻ ác sụp đổ, chính nhân lại thêm đông.</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c29"><span class="chapter-title" id="c29">Chương 29</span></a>
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Người được sửa dạy mà cứng đầu cứng cổsẽ suy sụp bất ngờ, vô phương cứu chữa.</span>
+            <br />
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Chính nhân cầm quyền, dân mừng rỡ.Ác nhân cai trị, dân oán than.</span>
+            <br />
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Người mến chuộng sự khôn ngoanlàm cho cha vui thoả.Kẻ giao du với bọn đàng điếmkhiến sản nghiệp tiêu tan.</span>
+            <br />
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Vua công minh khiến đất nước ổn định.Vua đòi thuế nặng làm đất nước suy vong.</span>
+            <br />
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Nịnh hót ailà giăng lưới dưới chân kẻ ấy.</span>
+            <br />
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Ác nhân phạm tội là rơi vào cạm bẫy,còn chính nhân được vui sướng hò reo.</span>
+            <br />
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Người công chính quan tâm đến quyền lợi kẻ nghèo,điều đó, ác nhân sao hiểu nổi !</span>
+            <br />
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Quân chống đối làm cả thành sôi sục,người khôn ngoan khiến cơn giận nguôi ngoai.</span>
+            <br />
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Tranh tụng với kẻ dốt,người khôn có giận hay cười, chẳng lúc nào yên.</span>
+            <br />
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Người lương thiện bị quân khát máu căm thù,nhưng lại được người chính trực tìm kiếm.</span>
+            <br />
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Kẻ ngu để cơn giận tự do bộc phát,còn người khôn biết dằn xuống cho êm.</span>
+            <br />
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>Lãnh đạo mà để tâm nghe lời gian tráthì thuộc hạ sẽ thành một lũ xấu xa.</span>
+            <br />
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>Kẻ nghèo hèn và đứa bóc lộtgiống nhau ở điểm này :cả hai đều được ĐỨC CHÚA cho nhìn thấy ánh sáng.</span>
+            <br />
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>Vua theo sự thật mà xét xử người nghèothì ngai vàng sẽ bền vững thiên thu.</span>
+            <br />
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>Có chịu đòn chịu mắng mới nên khôn,trẻ con thả lỏng gây tủi buồn cho mẹ.</span>
+            <br />
+        
+    
+        
+            <span id="s16"><sup><a href="#s16">16</a></sup>Ác nhân cầm quyền thì tội ác gia tăng,nhưng chính nhân sẽ thấy chúng suy tàn.</span>
+            <br />
+        
+    
+        
+            <span id="s17"><sup><a href="#s17">17</a></sup>Hãy sửa phạt con, nó sẽ cho bạn được thảnh thơivà khiến lòng bạn vui sướng.</span>
+            <br />
+        
+    
+        
+            <span id="s18"><sup><a href="#s18">18</a></sup>Khi không còn thị kiến, dân sẽ sống buông thả,nhưng ai còn giữ luật, quả là người có phúc.</span>
+            <br />
+        
+    
+        
+            <span id="s19"><sup><a href="#s19">19</a></sup>Đừng sửa dạy tôi tớ bằng lời nói suông,nó hiểu cũng chẳng tuân chẳng giữ.</span>
+            <br />
+        
+    
+        
+            <span id="s20"><sup><a href="#s20">20</a></sup>Gặp phải người nói năng bộp chộp,thà trông cậy đứa dốt còn hơn.</span>
+            <br />
+        
+    
+        
+            <span id="s21"><sup><a href="#s21">21</a></sup>Nuông chiều tôi tớ khi nó còn nhỏ dạithế nào cũng biến nó thành tên cứng đầu.</span>
+            <br />
+        
+    
+        
+            <span id="s22"><sup><a href="#s22">22</a></sup>Người hay giận thường gây tranh cãi,kẻ nóng tính phạm bao lỗi lầm.</span>
+            <br />
+        
+    
+        
+            <span id="s23"><sup><a href="#s23">23</a></sup>Tính tự cao hạ đứa tự cao xuống,người tự hạ sẽ được tôn vinh.</span>
+            <br />
+        
+    
+        
+            <span id="s24"><sup><a href="#s24">24</a></sup>Kẻ đồng loã với tên trộm cắplà làm hại chính bản thân mình.Nó nghe thấy lời nguyền rủamà vẫn không chịu tiết lộ chi.</span>
+            <br />
+        
+    
+        
+            <span id="s25"><sup><a href="#s25">25</a></sup>Nỗi sợ sệt khiến con người sa bẫy,nhưng ai cậy trông ĐỨC CHÚA thì được an toàn.</span>
+            <br />
+        
+    
+        
+            <span id="s26"><sup><a href="#s26">26</a></sup>Lắm kẻ đến cầu cạnh người quyền thế,nhưng ĐỨC CHÚA mới đem lại công lý cho mỗi người.</span>
+            <br />
+        
+    
+        
+            <span id="s27"><sup><a href="#s27">27</a></sup>Chính nhân kinh tởm kẻ sống bất công,ác nhân kinh tởm người theo đường chính trực.</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c30"><span class="chapter-title" id="c30">Chương 30</span></a>
+    
+        
+            <h5>VI. LỜI CỦA ÔNG A-GUA</h5>
+        
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Lời của ông A-gua là con ông Gia-ke, người Ma-xa. Ông A-gua tuyên sấm như sau với ông I-thi-ên, với ông I-thi-ên và ông U-khan :</span>
+            <br />
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Quả tôi ngu dốt hơn mọi người,không có chút thông minh của con người.</span>
+            <br />
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Tôi đã không được học hỏi về sự khôn ngoan,không hiểu biết chi về Đấng Thánh.</span>
+            <br />
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Ai đã lên trời rồi lại xuống ?Ai đã gom gió vào lòng bàn tay ?Ai đã dồn nước vào áo choàng ?Ai đã ấn định biên cương cho cõi đất ?Danh Đấng ấy là chi ? Và con Đấng ấy tên là gì ?Hẳn con đã biết.</span>
+            <br />
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>Mọi lời Thiên Chúa phán đều được chứng nghiệm.Người là khiên thuẫn cho ai tìm ẩn náu nơi Người.</span>
+            <br />
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Đừng thêm thắt chi vào lời Người phán dạykẻo bị Người quở trách, và con thành kẻ nói dối nói gian.</span>
+            <br />
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>Con chỉ xin hai điều,Ngài đừng nỡ chối từ trước khi con nhắm mắt :</span>
+            <br />
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Xin đẩy xa con lời dối trá và chuyện lọc lừa.Xin đừng để con túng nghèo,cũng đừng cho con giàu có ;chỉ xin cho con cơm bánh cần dùng,</span>
+            <br />
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>kẻo được quá đầy dư, con sẽ khước từ Ngài mà nói :"ĐỨC CHÚA là ai vậy ?"hay nếu phải túng nghèo, con sinh ra trộm cắp,làm ô danh Thiên Chúa của con.</span>
+            <br />
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Chớ đặt điều nói xấu nô lệ với chủ nó,kẻo nó nguyền rủa con và con phải chịu tội.</span>
+            <br />
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Có hạng người nguyền rủa chavà không cầu phúc cho mẹ.</span>
+            <br />
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>Có hạng người cứ cho mình là trong sạchdù chưa được gột rửa khỏi vết nhơ.</span>
+            <br />
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>Có hạng người giương cặp mắt kiêu kỳ,đưa cái nhìn ngạo mạn.</span>
+            <br />
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>Có hạng người răng như kiếm, hàm như dao,ăn sống nuốt tươi kẻ nghèo hèn khốn khổ,gạt họ ra khỏi đất nước, khỏi loài người.</span>
+            <br />
+        
+    
+        
+            <h5>VII. CHÂM NGÔN CÓ SỐ</h5>
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>Đỉa có hai đứa con gái là : "Cho nữa đi ! Cho nữa đi !"Có ba điều không bao giờ thoả mãn,và bốn chuyện không bao giờ nói : "Đủ rồi !"</span>
+            <br />
+        
+    
+        
+            <span id="s16"><sup><a href="#s16">16</a></sup>Đó là : cõi âm ty, lòng dạ son sẻ,đất chẳng bao giờ no nước,và lửa không bao giờ nói : "Đủ rồi !"</span>
+            <br />
+        
+    
+        
+            <span id="s17"><sup><a href="#s17">17</a></sup>Kẻ nào giương mắt chế giễu cha,và coi thường chuyện vâng lời mẹ,sẽ bị quạ ở lũng sâu móc mắt, và bị loài diều hâu rỉa thịt.</span>
+            <br />
+        
+    
+        
+            <span id="s18"><sup><a href="#s18">18</a></sup>Có ba điều quá kỳ diệu đối với tôi,và bốn chuyện tôi không sao hiểu nổi,</span>
+            <br />
+        
+    
+        
+            <span id="s19"><sup><a href="#s19">19</a></sup>đó là đường diều hâu bay lượn trên trời,đường rắn bò trên đá,đường thuyền bè đi lại giữa biển khơi,và đường của chàng thanh niên tìm đến cô thiếu nữ.</span>
+            <br />
+        
+    
+        
+            <span id="s20"><sup><a href="#s20">20</a></sup>Đường của người phụ nữ ngoại tình cũng vậy :cô ả ăn xong, chùi miệng và nói : "Em có làm điều gì xấu đâu !"</span>
+            <br />
+        
+    
+        
+            <span id="s21"><sup><a href="#s21">21</a></sup>Có ba điều khiến đất chuyển rung,và bốn chuyện nó không sao chịu nổi :</span>
+            <br />
+        
+    
+        
+            <span id="s22"><sup><a href="#s22">22</a></sup>Đầy tớ lên ngôi vua,kẻ ngu được dư thừa cơm bánh,</span>
+            <br />
+        
+    
+        
+            <span id="s23"><sup><a href="#s23">23</a></sup>người đàn bà dễ ghét kiếm được tấm chồng,đứa nữ tỳ hưởng sản nghiệp bà chủ.</span>
+            <br />
+        
+    
+        
+            <span id="s24"><sup><a href="#s24">24</a></sup>Trên mặt đất có bốn loài bé nhỏ,nhưng rất mực khôn ngoan :</span>
+            <br />
+        
+    
+        
+            <span id="s25"><sup><a href="#s25">25</a></sup>Loài kiến là đám dân yếu ớt,nhưng mới mùa hè đã biết chuẩn bị thức ăn.</span>
+            <br />
+        
+    
+        
+            <span id="s26"><sup><a href="#s26">26</a></sup>Loài ngân thử là đám dân nhược tiểu,nhưng lại biết làm nhà nơi hốc đá.</span>
+            <br />
+        
+    
+        
+            <span id="s27"><sup><a href="#s27">27</a></sup>Châu chấu nào có vua đâu,thế mà vẫn di chuyển theo hàng ngũ.</span>
+            <br />
+        
+    
+        
+            <span id="s28"><sup><a href="#s28">28</a></sup>Thằn lằn, ta bắt được bằng tay,nhưng nó sống cả nơi đền đài vua chúa.</span>
+            <br />
+        
+    
+        
+            <span id="s29"><sup><a href="#s29">29</a></sup>Ba loài có bước đi lẫm liệt,và bốn loài có dáng dấp oai phong :</span>
+            <br />
+        
+    
+        
+            <span id="s30"><sup><a href="#s30">30</a></sup>Sư tử, dũng mãnh hơn mọi loài thúvà không chịu lùi bước trước bất cứ loài nào,</span>
+            <br />
+        
+    
+        
+            <span id="s31"><sup><a href="#s31">31</a></sup>gà trống nghênh ngang hay dê đực,và ông vua điều khiển quân binh.</span>
+            <br />
+        
+    
+        
+            <span id="s32"><sup><a href="#s32">32</a></sup>Nếu con đã dại dột tự đề cao,khi nghĩ lại, con hãy đặt tay lên miệng.</span>
+            <br />
+        
+    
+        
+            <span id="s33"><sup><a href="#s33">33</a></sup>Vì đánh sữa sẽ được bơ, bóp mũi sẽ bật máu,và chọc giận sẽ sinh chuyện đôi co.</span>
+            <br />
+        
+    
+</section>
+
+<section>
+    <a href="#c31"><span class="chapter-title" id="c31">Chương 31</span></a>
+    
+        
+            <h5>VIII. LỜI CỦA LƠ-MU-ÊN</h5>
+        
+    
+        
+            <span id="s1"><sup><a href="#s1">1</a></sup>Lời của Lơ-mu-ên, vua Ma-xa,những lời thái hậu đã dạy người.</span>
+            <br />
+        
+    
+        
+            <span id="s2"><sup><a href="#s2">2</a></sup>Hỡi con trai ta, đứa con lòng dạ ta đã cưu mang,đứa con ta đã cầu khẩn được.</span>
+            <br />
+        
+    
+        
+            <span id="s3"><sup><a href="#s3">3</a></sup>Đừng hiến sinh lực của con cho phụ nữ,đừng trao cuộc đời cho những ả làm hư hỏng các vua.</span>
+            <br />
+        
+    
+        
+            <span id="s4"><sup><a href="#s4">4</a></sup>Hỡi Lơ-mu-ên,đã làm vua thì đừng nên uống rượu,làm người lãnh đạo thì đừng thích chất men,</span>
+            <br />
+        
+    
+        
+            <span id="s5"><sup><a href="#s5">5</a></sup>kẻo uống vào rồi thì quên cả luật pháp,và coi thường quyền lợi của mọi kẻ khốn cùng.</span>
+            <br />
+        
+    
+        
+            <span id="s6"><sup><a href="#s6">6</a></sup>Hãy đem chất men cho kẻ đang hấp hối,và đem rượu cho người chịu đắng cay,</span>
+            <br />
+        
+    
+        
+            <span id="s7"><sup><a href="#s7">7</a></sup>để họ uống mà quên đi cảnh nghèo,khỏi nhớ đến nỗi khổ đau phiền muộn nữa.</span>
+            <br />
+        
+    
+        
+            <span id="s8"><sup><a href="#s8">8</a></sup>Con hãy mở miệng nói thay cho người câm,và biện hộ cho mọi người bất hạnh.</span>
+            <br />
+        
+    
+        
+            <span id="s9"><sup><a href="#s9">9</a></sup>Hãy mở miệng xét xử thật công minh,biện hộ cho những kẻ nghèo nàn khốn khổ.</span>
+            <br />
+        
+    
+        
+            <h5>IX. NGƯỜI VỢ ĐẢM ĐANG</h5>
+        
+    
+        
+            <span id="s10"><sup><a href="#s10">10</a></sup>Tìm đâu ra một người vợ đảm đang ?Nàng quý giá vượt xa châu ngọc.</span>
+            <br />
+        
+    
+        
+            <span id="s11"><sup><a href="#s11">11</a></sup>Chồng nàng hết dạ tin tưởng nàng,chàng sẽ chẳng thiếu chi lợi lộc.</span>
+            <br />
+        
+    
+        
+            <span id="s12"><sup><a href="#s12">12</a></sup>Suốt đời, nàng đem lại hạnh phúcchứ không gây tai hoạ cho chồng.</span>
+            <br />
+        
+    
+        
+            <span id="s13"><sup><a href="#s13">13</a></sup>Nàng tìm kiếm len và vải gai,rồi vui vẻ ra tay làm việc.</span>
+            <br />
+        
+    
+        
+            <span id="s14"><sup><a href="#s14">14</a></sup>Giống như những thương thuyền,nàng đem lương thực về từ tận phương xa.</span>
+            <br />
+        
+    
+        
+            <span id="s15"><sup><a href="#s15">15</a></sup>Nàng thức dậy khi trời còn tối,cung cấp phần ăn cho cả nhà, và sai bảo con ăn đứa ở.</span>
+            <br />
+        
+    
+        
+            <span id="s16"><sup><a href="#s16">16</a></sup>Nàng để mắt đến một thửa ruộng và tậu lấy ;nàng dùng huê lợi đôi tay mình làm ramà canh tác một vườn nho.</span>
+            <br />
+        
+    
+        
+            <span id="s17"><sup><a href="#s17">17</a></sup>Nàng thắt lưng cho chặt,luyện cánh tay cho mạnh mẽ dẻo dai.</span>
+            <br />
+        
+    
+        
+            <span id="s18"><sup><a href="#s18">18</a></sup>Nàng thấy công việc sinh nhiều lợi nhuận,đèn trong nhà thắp sáng thâu đêm.</span>
+            <br />
+        
+    
+        
+            <span id="s19"><sup><a href="#s19">19</a></sup>Nàng tra tay vào guồng kéo sợi,và cầm chắc suốt chỉ trong tay.</span>
+            <br />
+        
+    
+        
+            <span id="s20"><sup><a href="#s20">20</a></sup>Nàng rộng tay giúp người nghèo khổvà đưa tay cứu kẻ khốn cùng.</span>
+            <br />
+        
+    
+        
+            <span id="s21"><sup><a href="#s21">21</a></sup>Nàng không sợ người nhà bị lạnh vì tuyết sương,bởi cả nhà đều được mặc hai áo.</span>
+            <br />
+        
+    
+        
+            <span id="s22"><sup><a href="#s22">22</a></sup>Nàng tự tay làm lấy chăn mền,nàng mặc toàn vải gai, vải tía.</span>
+            <br />
+        
+    
+        
+            <span id="s23"><sup><a href="#s23">23</a></sup>Chồng nàng được tiếng thơm nơi cổng thànhkhi ngồi chung với hàng kỳ mục trong dân.</span>
+            <br />
+        
+    
+        
+            <span id="s24"><sup><a href="#s24">24</a></sup>Nàng dệt vải đem bán,cung cấp dây lưng cho nhà buôn.</span>
+            <br />
+        
+    
+        
+            <span id="s25"><sup><a href="#s25">25</a></sup>Trang phục của nàng là quyền uy danh giá,nàng mỉm cười khi nghĩ đến tương lai.</span>
+            <br />
+        
+    
+        
+            <span id="s26"><sup><a href="#s26">26</a></sup>Nàng khôn ngoan trong lời ăn tiếng nóivà dịu hiền khi dạy dỗ bảo ban.</span>
+            <br />
+        
+    
+        
+            <span id="s27"><sup><a href="#s27">27</a></sup>Nàng để mắt trông nom mọi việc trong nhà,bánh nàng ăn là do mồ hôi nước mắt nàng làm ra,</span>
+            <br />
+        
+    
+        
+            <span id="s28"><sup><a href="#s28">28</a></sup>con nàng đứng lên ca tụng nàng có phúc,chồng nàng cũng tấm tắc ngợi khen :</span>
+            <br />
+        
+    
+        
+            <span id="s29"><sup><a href="#s29">29</a></sup>"Có nhiều cô đảm đang,nhưng em còn trổi trang gấp bội."</span>
+            <br />
+        
+    
+        
+            <span id="s30"><sup><a href="#s30">30</a></sup>Duyên dáng là giả trá, sắc đẹp là phù vân.Người phụ nữ kính sợ ĐỨC CHÚAmới đáng cho người đời ca tụng.</span>
+            <br />
+        
+    
+        
+            <span id="s31"><sup><a href="#s31">31</a></sup>Hãy để cho nàng hưởng những thành quả tay nàng làm ra.Ước chi nơi cổng thành nàng luôn được tán dương ca tụngdo những việc nàng làm.</span>
+            <br />
+        
+    
+</section>
+
+
+            <footer class="footer">
+            </footer>
+        </div>
+    </article>
+
+    <div class="results" role="status" aria-live="polite">
+        <div class="scrollable">
+            <div class="wrapper">
+                <div class="meta"></div>
+                <div class="list"></div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<script>
+    var base_url = '';
+    var repo_id = '';
+</script>
+
+<script src="https://bible-online.github.io/javascripts/application.js"></script>
+
+<script>
+    var headers = document.getElementsByTagName("h2");
+    var scrollspy = document.getElementById('scrollspy');
+
+    if (scrollspy) {
+        if (headers.length > 0) {
+            for (var i = 0; i < headers.length; i++) {
+                var li = document.createElement("li");
+                li.setAttribute("class", "anchor");
+
+                var a = document.createElement("a");
+                a.setAttribute("href", "#" + headers[i].id);
+                a.setAttribute("title", headers[i].innerHTML);
+                a.innerHTML = headers[i].innerHTML;
+
+                li.appendChild(a);
+                scrollspy.appendChild(li);
+            }
+        } else {
+            scrollspy.parentElement.removeChild(scrollspy);
+        }
+
+        var headers = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
+
+        for (var i = 0; i < headers.length; i++) {
+            var a = document.createElement("a");
+            a.setAttribute("class", "headerlink");
+            a.setAttribute("href", "#" + headers[i].id);
+            a.setAttribute("title", "Permanent link");
+            a.innerHTML = "";
+            headers[i].appendChild(a);
+        }
+    }
+</script>
+
+<script src="//gohugo.io/js/highlight.pack.js"></script>
+<script>
+    hljs.initHighlightingOnLoad();
+</script>
+</body>
+
+</html>
